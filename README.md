@@ -2,6 +2,11 @@
 
 Integrated RNA-seq and ChIP-seq re-analysis of **GSE85246**, focused on persistent kinase-associated transcriptional states after LPS exposure, β-glucan rescue/restimulation, and accompanying H3K27ac/H3K4me1 chromatin patterns.
 
+## Live Analysis Report
+
+[Open the complete interactive HTML report](https://mehwish-nasir.github.io/GSE85246_innate_memory_analysis/)
+
+
 ## Main result
 
 The analysis produced the following evidence hierarchy:
