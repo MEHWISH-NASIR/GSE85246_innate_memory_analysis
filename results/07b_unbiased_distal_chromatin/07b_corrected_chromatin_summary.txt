@@ -1,0 +1,22 @@
+GSE85246 — Step 07b Corrected Distal Chromatin
+
+RNA memory kinases: 24
+RNA HIGH-priority kinases: 10
+
+Promoter any-mark support: 15
+Promoter dual-mark support: 6
+
+Fixed distal any-mark support: 14
+Fixed distal dual-mark support: 3
+
+Any corrected chromatin support: 18
+Any corrected dual-mark support: 7
+
+RNA HIGH with any corrected chromatin support: 8
+RNA HIGH with corrected dual-mark support: 3
+
+TOP RNA-HIGH + dual-chromatin candidates: 3
+MAP3K8, BMPR1A, JAK3
+
+IMPORTANT: The distal locus was selected using condition-blind total chromatin signal before testing Day1/Day6/BG direction.
+This removes the previous best-window directional selection bias.

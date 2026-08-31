@@ -1,0 +1,55 @@
+data/raw/
+data/processed/
+*.tar
+*.gz
+*.fastq
+*.fastq.gz
+*.bam
+*.bai
+*.bw
+*.bigWig
+.RData
+.Rhistory
+.Rproj.user/
+
+# Large ChIP-seq tracks
+data/chip/
+
+# Runtime logs
+logs/
+
+# Historical/development files
+archive/
+archive_old_pipeline/
+
+# Large serialized R objects
+*.rds
+*.RDS
+
+# Temporary R workspace files
+.RDataTmp*
+
+# Intermediate / QC figures not included in public repository
+figures/01_setup/
+figures/02_initial_LPS/
+figures/03_memory_kinases/
+figures/04_BG_rescue_restimulation/
+figures/07_epigenetic_persistence/
+figures/07b_unbiased_distal_chromatin/
+figures/RNA_QC/
+figures/mmseq_restim_QC/
+
+# Intermediate analysis results
+results/01_setup/
+results/02_initial_LPS/
+results/04_BG_rescue_restimulation/
+results/06_final_kinase_figure/
+results/07_epigenetic_persistence/
+results/RNA_QC/
+results/RNA_state/
+results/mmseq_restim/
+results/mmseq_restim_QC/
+
+# Extra Step-03 intermediate tables
+results/03_memory_kinases/*
+!results/03_memory_kinases/03_memory_kinases_FDR05.csv

@@ -1,0 +1,7 @@
+"SYMBOL","locus_type","genome","chr","start","end","IGV_search"
+"MAP3K8","promoter","hg19","chr10",30720950,30724949,"chr10:30720950-30724949"
+"BMPR1A","promoter","hg19","chr10",88513543,88517542,"chr10:88513543-88517542"
+"JAK3","promoter","hg19","chr19",17956881,17960880,"chr19:17956881-17960880"
+"MAP3K8","fixed_distal","hg19","chr10",30781951,30782950,"chr10:30781951-30782950"
+"BMPR1A","fixed_distal","hg19","chr10",88471543,88472542,"chr10:88471543-88472542"
+"JAK3","fixed_distal","hg19","chr19",17960881,17961880,"chr19:17960881-17961880"

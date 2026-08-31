@@ -1,0 +1,24 @@
+GSE85246 — Step 05 Integrated Kinase Trajectory
+
+Primary Day-6 memory kinases: 24
+
+Day-1 / Day-6 relationship:
+Acute-supported same direction: 9
+Acute nominal opposite direction: 0
+Memory-emergent small Day-1 effect: 4
+Same direction without nominal Day-1 support: 6
+Opposite direction without nominal Day-1 support: 5
+
+Blunted same-direction restimulation response: 16
+Nominal interaction P < 0.05: 2
+Genome-wide interaction FDR < 0.05: 0
+
+BG baseline reversal supported: 24
+BG response restoration supported: 17
+
+HIGH RNA/chromatin priority: 10
+INTERMEDIATE RNA/chromatin priority: 13
+EXPLORATORY RNA/chromatin priority: 1
+
+IMPORTANT: RNA_chromatin_priority is an evidence-integration category, not an FDR significance category.
+Beta-glucan rescue evidence is directional/descriptive because only two rescue pairs are available.

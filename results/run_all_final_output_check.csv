@@ -1,0 +1,7 @@
+"file","exists"
+"results/05_integrated_trajectory/05_integrated_kinase_trajectory.csv",TRUE
+"figures/06_final_kinase/06D_FINAL_integrated_kinase_summary.png",TRUE
+"results/07b_unbiased_distal_chromatin/07b_corrected_gene_level_chromatin_summary.csv",TRUE
+"results/08_final_chromatin/08_TOP_integrated_candidates.csv",TRUE
+"figures/08_final_chromatin/08D_FINAL_RNA_chromatin_integration.png",TRUE
+"results/08_final_chromatin/08_TOP_candidate_IGV_loci_hg19.csv",TRUE

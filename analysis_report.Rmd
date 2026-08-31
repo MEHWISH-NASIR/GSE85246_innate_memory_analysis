@@ -1,0 +1,503 @@
+---
+title: "Persistent Kinase and Chromatin Memory in LPS-Tolerized Human Monocytes"
+subtitle: "Integrated RNA-seq and ChIP-seq re-analysis of GSE85246"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: hide
+    df_print: paged
+    self_contained: true
+    theme: cosmo
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE,
+  fig.align = "center",
+  out.width = "95%"
+)
+
+options(stringsAsFactors = FALSE)
+
+safe_read <- function(path) {
+  if (!file.exists(path)) {
+    stop(paste("Required file not found:", path))
+  }
+  read.csv(path, stringsAsFactors = FALSE, check.names = FALSE)
+}
+
+safe_include <- function(path, width = "95%") {
+  if (file.exists(path)) {
+    knitr::include_graphics(path)
+  } else {
+    cat(paste0("**Figure not found:** `", path, "`"))
+  }
+}
+
+fmt_num <- function(x, digits = 2) {
+  ifelse(is.na(x), NA, formatC(x, digits = digits, format = "f"))
+}
+
+# Core result tables
+day6 <- safe_read(
+  "results/03_memory_kinases/03_memory_kinases_FDR05.csv"
+)
+
+integrated <- safe_read(
+  "results/05_integrated_trajectory/05_integrated_kinase_trajectory.csv"
+)
+
+chromatin <- safe_read(
+  "results/07b_unbiased_distal_chromatin/07b_corrected_gene_level_chromatin_summary.csv"
+)
+
+top <- safe_read(
+  "results/08_final_chromatin/08_TOP_integrated_candidates.csv"
+)
+
+# Reproducibility status is optional for the narrative, but useful if present.
+status_file <- "results/run_all_status.csv"
+status <- if (file.exists(status_file)) {
+  read.csv(status_file, stringsAsFactors = FALSE, check.names = FALSE)
+} else {
+  NULL
+}
+
+# Known final counts are derived directly from output tables wherever possible.
+n_memory <- nrow(integrated)
+
+n_high <- if ("RNA_chromatin_priority" %in% names(integrated)) {
+  sum(integrated$RNA_chromatin_priority == "HIGH", na.rm = TRUE)
+} else {
+  NA_integer_
+}
+
+n_chr_any <- if ("Any_corrected_chromatin_support" %in% names(chromatin)) {
+  sum(chromatin$Any_corrected_chromatin_support, na.rm = TRUE)
+} else {
+  NA_integer_
+}
+
+n_chr_dual <- if ("Any_corrected_dual_mark_support" %in% names(chromatin)) {
+  sum(chromatin$Any_corrected_dual_mark_support, na.rm = TRUE)
+} else {
+  NA_integer_
+}
+
+high_chr <- chromatin[
+  chromatin$RNA_chromatin_priority == "HIGH",
+  ,
+  drop = FALSE
+]
+
+n_high_chr_any <- if ("Any_corrected_chromatin_support" %in% names(high_chr)) {
+  sum(high_chr$Any_corrected_chromatin_support, na.rm = TRUE)
+} else {
+  NA_integer_
+}
+
+n_high_chr_dual <- if ("Any_corrected_dual_mark_support" %in% names(high_chr)) {
+  sum(high_chr$Any_corrected_dual_mark_support, na.rm = TRUE)
+} else {
+  NA_integer_
+}
+```
+
+# Executive Summary
+
+This report presents a downstream computational re-analysis of the human monocyte innate-memory dataset **GSE85246**, integrating RNA-seq state, β-glucan rescue/restimulation behavior, and chromatin signal from **H3K27ac** and **H3K4me1** tracks.
+
+The analysis identified `r n_memory` Day-6 memory-associated kinase candidates. Integrated RNA evidence prioritized `r n_high` kinases as HIGH-priority candidates. After correcting the distal chromatin analysis to avoid post-hoc best-window selection, `r n_chr_any` of 24 memory kinases showed directional chromatin support and `r n_chr_dual` showed corrected dual-mark support. Among the 10 HIGH RNA-priority kinases, `r n_high_chr_any` showed corrected chromatin support and `r n_high_chr_dual` showed corrected dual-mark support.
+
+The final integrated candidates were:
+
+```{r top-symbols, results='asis'}
+cat(
+  paste0(
+    "**",
+    paste(top$SYMBOL, collapse = ", "),
+    "**"
+  )
+)
+```
+
+These candidates combine persistent Day-6 RNA-state evidence, rescue/restimulation support, and corrected chromatin evidence. The chromatin component is interpreted as **directional and descriptive** rather than proof of causal epigenetic inheritance.
+
+# 1. Biological Question
+
+The biological question was whether transient LPS exposure leaves a persistent kinase-associated molecular state after washout, whether β-glucan treatment can reverse or remodel that state, and whether persistent transcriptional changes are accompanied by persistent regulatory chromatin changes.
+
+The analysis therefore followed the sequence:
+
+**acute response → post-washout memory → kinase prioritization → rescue/restimulation → integrated RNA trajectory → chromatin persistence → final RNA/chromatin integration**
+
+This ordering was chosen to distinguish initial LPS responsiveness from the later persistent memory state.
+
+# 2. Dataset and Experimental Structure
+
+The project analyzes data from **GSE85246**, including RNA-seq and ChIP-seq components associated with LPS tolerance and β-glucan-mediated reprogramming in primary human monocytes/macrophages.
+
+The main analytical comparisons were:
+
+- **Day 1:** LPS versus RPMI, representing the initial response.
+- **Day 6:** LPS-history versus RPMI-history after washout, representing the persistent state.
+- **Restimulation:** comparison of restimulation responses between LPS-history and RPMI-history cells.
+- **β-glucan rescue:** directional assessment of whether rescue moved expression or chromatin signal back toward the RPMI state.
+- **Chromatin:** H3K27ac and H3K4me1 at predefined promoters and condition-blind selected non-promoter loci.
+
+# 3. Analytical Workflow
+
+The canonical reproducible pipeline is:
+
+```text
+01_setup_and_data.R
+        ↓
+02_initial_LPS_response.R
+        ↓
+03_persistent_kinase_memory.R
+        ↓
+04_BG_rescue_and_restimulation.R
+        ↓
+05_integrated_kinase_trajectory.R
+        ↓
+06_make_final_kinase_figure.R
+        ↓
+07_epigenetic_persistence.R
+        ↓
+07b_unbiased_distal_chromatin.R
+        ↓
+08_make_final_chromatin_figures.R
+```
+
+The complete pipeline can be rerun from the project root using:
+
+```bash
+Rscript --vanilla run_all.R
+```
+
+Each analysis step is executed in a separate clean R process.
+
+# 4. Day-1 Initial LPS Response
+
+Day-1 LPS-versus-RPMI analysis was used to characterize the acute response rather than define the final memory-kinase candidate set.
+
+Because only two matched Day-1 pairs were available, the acute analysis had limited multiple-testing power. Day-1 effects were therefore used later as supporting trajectory information rather than as a mandatory filter for memory-candidate selection.
+
+```{r fig-day1-day6}
+safe_include(
+  "figures/06_final_kinase/06C_Day1_vs_Day6_kinase_effects.png"
+)
+```
+
+This design allows a kinase to be retained as a genuine Day-6 memory candidate even when its Day-1 signal is weak, thereby avoiding the assumption that every persistent state must first show a strong acute transcriptional response.
+
+# 5. Day-6 Persistent Kinase Memory
+
+The primary kinase-memory set was defined directly from the Day-6 LPS-history versus RPMI-history comparison using the predefined canonical kinase family.
+
+The final Day-6 memory set contained **24 kinases**.
+
+```{r day6-table}
+show_cols <- intersect(
+  c(
+    "SYMBOL",
+    "log2FC",
+    "P.Value",
+    "adj.P.Val",
+    "kinase_FDR"
+  ),
+  names(day6)
+)
+
+if (length(show_cols) >= 2) {
+  knitr::kable(
+    day6[, show_cols, drop = FALSE],
+    caption = "Day-6 memory-associated kinase candidates"
+  )
+} else {
+  knitr::kable(
+    day6,
+    caption = "Day-6 memory-associated kinase candidates"
+  )
+}
+```
+
+```{r fig-day6}
+safe_include(
+  "figures/06_final_kinase/06B_Day6_memory_kinase_effects.png"
+)
+```
+
+The candidate-family FDR is interpreted conditionally within the predefined kinase family, while genome-wide evidence is retained separately for transparency.
+
+# 6. β-Glucan Rescue and Restimulation
+
+Restimulation analysis tested whether the response to a new LPS challenge differed according to previous LPS exposure.
+
+The formal matched response model compared:
+
+\[
+(LPS_{restim} - LPS_{baseline}) -
+(RPMI_{restim} - RPMI_{baseline})
+\]
+
+No memory kinase reached genome-wide significance for the history-by-restimulation interaction after multiple-testing correction. Consequently, interaction results were not treated as independent statistical confirmation.
+
+Instead, rescue/restimulation evidence was integrated directionally:
+
+- whether β-glucan baseline expression moved toward RPMI;
+- whether the restimulation response was blunted or altered;
+- whether β-glucan rescue moved the restimulation response toward the naive/RPMI-like response.
+
+Because the rescue arm had only two samples, rescue conclusions are descriptive and directional.
+
+# 7. Integrated RNA Trajectory
+
+The RNA-level integration retained all 24 formal Day-6 memory kinases while assigning an evidence-based follow-up priority.
+
+```{r fig-rna-integrated}
+safe_include(
+  "figures/06_final_kinase/06D_FINAL_integrated_kinase_summary.png"
+)
+```
+
+The HIGH-priority RNA set contained **10 kinases**:
+
+```{r high-rna-list, results='asis'}
+high_symbols <- integrated$SYMBOL[
+  integrated$RNA_chromatin_priority == "HIGH"
+]
+
+cat(paste(high_symbols, collapse = ", "))
+```
+
+Priority is an integrated directional-evidence label and **not a new significance test**.
+
+# 8. Chromatin Persistence Analysis
+
+Chromatin analysis used normalized BigWig signal for:
+
+- H3K27ac
+- H3K4me1
+
+The analysis examined both:
+
+- a predefined promoter window around each gene TSS;
+- a non-promoter window selected without using the LPS/RPMI/BG direction.
+
+For a mark to count as directional persistent/reversible support, it had to satisfy:
+
+1. Day-1 LPS−RPMI and Day-6 LPS−RPMI had the same direction;
+2. the Day-6 rescue shift opposed the Day-6 LPS−RPMI direction;
+3. rescue was closer to RPMI than the Day-6 LPS state.
+
+# 9. Correction of Distal-Window Selection Bias
+
+The first exploratory distal implementation scanned many 1-kb windows around each candidate gene and then selected the most favorable window. This produced an implausibly high rate of dual-mark support and created a post-hoc selection problem.
+
+The corrected analysis therefore selected **one fixed non-promoter window per gene using condition-blind chromatin abundance**, before testing any Day-1, Day-6, or rescue direction.
+
+This corrected analysis produced:
+
+- **15/24** promoter any-mark support;
+- **6/24** promoter dual-mark support;
+- **14/24** fixed non-promoter any-mark support;
+- **3/24** fixed non-promoter dual-mark support;
+- **18/24** any corrected chromatin support;
+- **7/24** any corrected dual-mark support.
+
+Among the 10 HIGH RNA candidates:
+
+- **8/10** showed corrected chromatin support;
+- **3/10** showed corrected dual-mark support.
+
+```{r fig-chromatin-all}
+safe_include(
+  "figures/08_final_chromatin/08A_corrected_chromatin_support_all24.png"
+)
+```
+
+# 10. Final RNA + Chromatin Integration
+
+```{r fig-final-integration}
+safe_include(
+  "figures/08_final_chromatin/08D_FINAL_RNA_chromatin_integration.png"
+)
+```
+
+The final three leading integrated candidates are:
+
+```{r top-table}
+top_cols <- intersect(
+  c(
+    "SYMBOL",
+    "Day6_memory_log2FC",
+    "Day6_memory_FDR_kinase",
+    "Directional_support_score",
+    "Promoter_mark_support_count",
+    "Distal_mark_support_count",
+    "Corrected_RNA_plus_chromatin_class"
+  ),
+  names(top)
+)
+
+knitr::kable(
+  top[, top_cols, drop = FALSE],
+  caption = "Final integrated candidates"
+)
+```
+
+# 11. MAP3K8
+
+MAP3K8 emerged as a HIGH-priority RNA candidate with positive Day-6 memory expression and integrated rescue/restimulation support.
+
+Its corrected chromatin pattern was strongest at the promoter:
+
+- promoter H3K27ac: supported;
+- promoter H3K4me1: supported;
+- fixed non-promoter H3K27ac: supported;
+- fixed non-promoter H3K4me1: not supported.
+
+IGV inspection showed real chromatin structure at the locus and a pattern broadly compatible with the computational result. The most defensible interpretation is that MAP3K8 has **strong promoter-centered dual-mark chromatin support**, with additional H3K27ac support at the fixed non-promoter locus.
+
+# 12. BMPR1A
+
+BMPR1A showed a negative Day-6 RNA memory effect and strong integrated directional support.
+
+It had the broadest corrected chromatin support among the final trio:
+
+- promoter H3K27ac: supported;
+- promoter H3K4me1: supported;
+- fixed non-promoter H3K27ac: supported;
+- fixed non-promoter H3K4me1: supported by the predefined directional criteria.
+
+The H3K27ac fixed-locus pattern was particularly strong, with rescue returning the average signal close to the RPMI state. H3K4me1 also showed persistent/reversal direction, but the rescue response overshot RPMI and was therefore interpreted more cautiously.
+
+Overall, BMPR1A has particularly strong integrated chromatin evidence, especially for H3K27ac.
+
+# 13. JAK3
+
+JAK3 showed a positive Day-6 RNA memory effect and HIGH integrated RNA priority.
+
+The promoter showed dual-mark support:
+
+- promoter H3K27ac: supported;
+- promoter H3K4me1: supported.
+
+At the fixed non-promoter/proximal region:
+
+- H3K27ac: supported;
+- H3K4me1: not supported because rescue did not become closer to RPMI.
+
+Because the selected non-promoter window lies immediately outside the operational promoter boundary, it is best described as a **proximal non-promoter regulatory window**, not as a proven distal enhancer.
+
+# 14. Directional Chromatin Patterns in the Final Candidates
+
+```{r fig-top-direction}
+safe_include(
+  "figures/08_final_chromatin/08C_TOP_candidates_chromatin_direction.png"
+)
+```
+
+The figure is internally scaled within each mark-region unit. Therefore, it should be interpreted for **direction and pattern**, not for absolute comparison of effect size between H3K27ac and H3K4me1.
+
+# 15. IGV Validation
+
+IGV inspection was used as a final qualitative validation step for the three leading candidates.
+
+The hg19 loci used were generated automatically by Step 08 and stored in:
+
+```text
+results/08_final_chromatin/08_TOP_candidate_IGV_loci_hg19.csv
+```
+
+IGV was used to verify that the selected promoter/non-promoter regions corresponded to genuine local chromatin signal and that the visual direction was broadly compatible with the quantified analysis.
+
+IGV validation is supportive rather than statistical.
+
+# 16. Limitations
+
+The main limitations are:
+
+1. **Day-1 RNA sample size:** only two matched pairs were available, limiting FDR power for the acute-response analysis.
+2. **β-glucan rescue sample size:** rescue RNA analysis had only two samples and is therefore directional/descriptive.
+3. **Restimulation interaction:** no memory kinase reached genome-wide FDR significance for the history-by-restimulation interaction.
+4. **ChIP donor structure:** Day-1 and Day-6 ChIP samples are not longitudinally paired donors.
+5. **Chromatin inference:** same-locus Day-1/Day-6 signal does not prove causal inheritance of a histone modification.
+6. **Operational regulatory windows:** the non-promoter regions are computationally selected windows, not experimentally validated enhancers.
+7. **Downstream re-analysis:** the RNA workflow is a downstream re-analysis of MMSEQ estimates using limma and is not an exact reproduction of the original publication's MMDIFF differential-expression pipeline.
+
+# 17. Conclusion
+
+This re-analysis identifies a persistent kinase-associated transcriptional state following LPS exposure and washout. Twenty-four canonical kinases met the Day-6 memory criteria, and integration with β-glucan rescue/restimulation evidence prioritized ten at the RNA level.
+
+After correcting the chromatin workflow to avoid post-hoc distal-window selection, three candidates—**MAP3K8, BMPR1A, and JAK3**—showed the strongest combined RNA and dual-mark chromatin evidence.
+
+The results support these genes as high-value candidates for mechanistic follow-up. However, the chromatin patterns should be interpreted as **persistent, same-locus directional associations** rather than proof that H3K27ac or H3K4me1 causally transmits cellular memory.
+
+# 18. Reproducibility
+
+```{r run-status}
+if (!is.null(status)) {
+  knitr::kable(
+    status[
+      ,
+      intersect(
+        c(
+          "step",
+          "label",
+          "status",
+          "elapsed_minutes",
+          "exit_status"
+        ),
+        names(status)
+      ),
+      drop = FALSE
+    ],
+    caption = "Canonical run-all pipeline status"
+  )
+} else {
+  cat("`results/run_all_status.csv` was not found.")
+}
+```
+
+The canonical analysis can be reproduced with:
+
+```bash
+Rscript --vanilla run_all.R
+```
+
+The final pipeline is considered complete when all nine canonical steps report `SUCCESS`.
+
+# 19. Key Output Files
+
+```text
+results/05_integrated_trajectory/05_integrated_kinase_trajectory.csv
+figures/06_final_kinase/06D_FINAL_integrated_kinase_summary.png
+
+results/07b_unbiased_distal_chromatin/
+  07b_corrected_gene_level_chromatin_summary.csv
+
+results/08_final_chromatin/
+  08_TOP_integrated_candidates.csv
+  08_TOP_candidate_IGV_loci_hg19.csv
+  08_FINAL_professor_table.csv
+
+figures/08_final_chromatin/
+  08A_corrected_chromatin_support_all24.png
+  08B_HIGH_RNA_Day6_effect_with_chromatin_class.png
+  08C_TOP_candidates_chromatin_direction.png
+  08D_FINAL_RNA_chromatin_integration.png
+```
+
+# 20. Data Source
+
+Primary dataset: **GSE85246**
+
+Associated components used in this project include RNA-seq and ChIP-seq data from the LPS tolerance / β-glucan reprogramming study by Novakovic and colleagues.
+

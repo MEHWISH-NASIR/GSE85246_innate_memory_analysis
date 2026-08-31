@@ -1,0 +1,20 @@
+GSE85246 — Step 08 Final Corrected Chromatin Figures
+
+Memory kinases: 24
+RNA HIGH-priority kinases: 10
+Any corrected chromatin support: 18
+Any corrected dual-mark support: 7
+RNA HIGH with any corrected chromatin support: 8
+RNA HIGH with corrected dual-mark support: 3
+
+TOP RNA-HIGH + dual-chromatin candidates: 3
+MAP3K8, BMPR1A, JAK3
+
+Figure 08A: all 24 corrected chromatin support matrix
+Figure 08B: HIGH RNA Day6 effect with corrected chromatin class
+Figure 08C: TOP-candidate directional chromatin patterns
+Figure 08D: final professor-facing RNA + chromatin integration
+
+Interpretation: The strongest integrated candidates combine HIGH RNA-level memory/rescue evidence with corrected dual-mark chromatin support at a predefined promoter or condition-blind selected distal locus.
+
+Caution: Chromatin evidence is directional/descriptive; Day1 and Day6 ChIP donor sets are not longitudinally paired, and these data do not establish causal epigenetic inheritance.
