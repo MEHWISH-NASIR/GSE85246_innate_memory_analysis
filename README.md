@@ -411,3 +411,12 @@ All key final outputs are present.
 Final top integrated candidates: 3
 MAP3K8, BMPR1A, JAK3
 ```
+
+## R environment
+
+Exact R and package versions used by this analysis are recorded in:
+
+```text
+renv.lock
+install.packages("renv")
+renv::restore()
