@@ -412,11 +412,14 @@ Final top integrated candidates: 3
 MAP3K8, BMPR1A, JAK3
 ```
 
+
+
 ## R environment
 
-Exact R and package versions used by this analysis are recorded in:
+Exact R and package versions used by this analysis are recorded in `renv.lock`.
 
-```text
-renv.lock
-install.packages("renv")
-renv::restore()
+After cloning the repository, restore the package environment from within R:
+
+    install.packages("renv")
+    renv::restore()
+
