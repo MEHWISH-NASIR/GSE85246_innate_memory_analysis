@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this analysis, please cite this repository."
+title: "GSE85246 Innate Immune Memory Analysis"
+type: software
+authors:
+  - family-names: "Nasir"
+    given-names: "Mehwish"
+version: 1.0.0
+date-released: 2026-08-31
+repository-code: "https://github.com/MEHWISH-NASIR/GSE85246_innate_memory_analysis"
+url: "https://mehwish-nasir.github.io/GSE85246_innate_memory_analysis/"
+abstract: >-
+  Reproducible RNA-seq and ChIP-seq re-analysis of GSE85246 focused on
+  persistent kinase-associated transcriptional states after LPS exposure,
+  beta-glucan rescue and restimulation, and associated H3K27ac/H3K4me1
+  chromatin patterns.
+keywords:
+  - RNA-seq
+  - ChIP-seq
+  - innate immune memory
+  - LPS tolerance
+  - beta-glucan
+  - H3K27ac
+  - H3K4me1
+  - kinase
