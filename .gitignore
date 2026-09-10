@@ -53,3 +53,29 @@ results/mmseq_restim_QC/
 # Extra Step-03 intermediate tables
 results/03_memory_kinases/*
 !results/03_memory_kinases/03_memory_kinases_FDR05.csv
+.positai
+data/external/
+
+# Step-12 corrected chromatin audit
+# Ignore regenerated/intermediate outputs by default.
+results/12_kinase_reevaluation/*
+
+# Keep compact provenance / QC tables
+!results/12_kinase_reevaluation/12a_day6_chromatin_file_manifest.csv
+!results/12_kinase_reevaluation/12c_bigwig_global_qc.csv
+!results/12_kinase_reevaluation/12c_RPMI_rep2_scaling_audit.csv
+!results/12_kinase_reevaluation/12d_day6_sample_manifest.csv
+!results/12_kinase_reevaluation/12d_target_gene_raw_promoter_signal.csv
+!results/12_kinase_reevaluation/12e_RPMI_rep2_scaling_factors.csv
+!results/12_kinase_reevaluation/12e_target_promoter_signal_scaling_audit.csv
+
+# Keep formal local reproduction outputs
+!results/12_kinase_reevaluation/12j_all_kinase_corrected_limma.csv
+!results/12_kinase_reevaluation/12j_target_results.csv
+
+# Keep final corrected audit outputs
+!results/12_kinase_reevaluation/12m_local_formal_promoter_results.csv
+!results/12_kinase_reevaluation/12m_independent_corrected_benchmark.csv
+!results/12_kinase_reevaluation/12m_FINAL_candidate_status.csv
+!results/12_kinase_reevaluation/12m_reproducibility_summary.csv
+!results/12_kinase_reevaluation/12_run_status.csv

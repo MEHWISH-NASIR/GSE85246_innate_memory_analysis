@@ -1,0 +1,6 @@
+"SYMBOL","RNA_status","Local_chromatin_reproduction","Independent_corrected_chromatin","Downstream_status","Priority_basis"
+"JAK3","Persistent RNA-supported candidate","Strong nominal H3K27ac/H3K4me3 signal; exact Tobias FDRs not reproduced","H3K27ac FDR 0.0065; H3K4me3 FDR 0.0141","PRIORITIZE","Our RNA evidence + independent corrected promoter chromatin support"
+"EPHB2","Washout-emergent RNA candidate","Independent significant H3K27ac result not reproduced locally","H3K27ac FDR 0.030","PRIORITIZE","Our washout RNA evidence + independent corrected promoter H3K27ac support"
+"MET","RNA-supported candidate","Strong nominal H3K27ac signal; corrected independent FDR is non-significant","H3K27ac FDR 0.051 after correction","RNA_ONLY","RNA evidence; corrected promoter chromatin does not cross FDR 0.05"
+"MAP3K8","RNA-supported candidate","No local formal promoter support","No significant corrected promoter result","RNA_ONLY","RNA evidence without confirmed formal promoter chromatin support"
+"BMPR1A","RNA-supported candidate","No local formal promoter support","No significant corrected promoter result","RNA_ONLY","RNA evidence without confirmed formal promoter chromatin support"

@@ -56,9 +56,31 @@ chromatin <- safe_read(
   "results/07b_unbiased_distal_chromatin/07b_corrected_gene_level_chromatin_summary.csv"
 )
 
-top <- safe_read(
+# Historical Step-08 table retained for provenance
+legacy_top <- safe_read(
   "results/08_final_chromatin/08_TOP_integrated_candidates.csv"
 )
+
+# Corrected formal chromatin audit outputs
+final_status <- safe_read(
+  "results/12_kinase_reevaluation/12m_FINAL_candidate_status.csv"
+)
+
+local_promoter <- safe_read(
+  "results/12_kinase_reevaluation/12m_local_formal_promoter_results.csv"
+)
+
+tobias_benchmark <- safe_read(
+  "results/12_kinase_reevaluation/12m_independent_corrected_benchmark.csv"
+)
+
+audit_repro <- safe_read(
+  "results/12_kinase_reevaluation/12m_reproducibility_summary.csv"
+)
+
+priority_candidates <- final_status$SYMBOL[
+  final_status$Downstream_status == "PRIORITIZE"
+]
 
 # Reproducibility status is optional for the narrative, but useful if present.
 status_file <- "results/run_all_status.csv"
@@ -110,23 +132,27 @@ n_high_chr_dual <- if ("Any_corrected_dual_mark_support" %in% names(high_chr)) {
 
 # Executive Summary
 
-This report presents a downstream computational re-analysis of the human monocyte innate-memory dataset **GSE85246**, integrating RNA-seq state, β-glucan rescue/restimulation behavior, and chromatin signal from **H3K27ac** and **H3K4me1** tracks.
+This report presents a downstream computational re-analysis of the human monocyte innate-memory dataset **GSE85246/GSE85245**, integrating RNA-seq state, β-glucan rescue/restimulation behavior, and chromatin information.
 
-The analysis identified `r n_memory` Day-6 memory-associated kinase candidates. Integrated RNA evidence prioritized `r n_high` kinases as HIGH-priority candidates. After correcting the distal chromatin analysis to avoid post-hoc best-window selection, `r n_chr_any` of 24 memory kinases showed directional chromatin support and `r n_chr_dual` showed corrected dual-mark support. Among the 10 HIGH RNA-priority kinases, `r n_high_chr_any` showed corrected chromatin support and `r n_high_chr_dual` showed corrected dual-mark support.
+The RNA analysis identified `r n_memory` Day-6 kinase-family candidates and assigned integrated trajectory priorities using acute response, persistent Day-6 state, β-glucan rescue, and restimulation information.
 
-The final integrated candidates were:
+The original Step-07/07b/08 chromatin workflow used directional H3K27ac/H3K4me1 evidence and produced MAP3K8, BMPR1A, and JAK3 as the strongest exploratory integrated candidates. A subsequent formal promoter audit showed that this earlier ranking should **not** be treated as the final promoter-level statistical result.
 
-```{r top-symbols, results='asis'}
-cat(
-  paste0(
-    "**",
-    paste(top$SYMBOL, collapse = ", "),
-    "**"
-  )
-)
+The corrected audit uses TSS ±2 kb promoter windows, mean BigWig signal, log transformation, an unpaired limma design, and kinase-restricted statistical testing. Three RPMI Day-6 replicate-2 tracks labelled `NotNormalized` were explicitly audited and rescaled locally.
+
+The local reconstruction did **not** reproduce every numerical FDR from the independent corrected analysis. Therefore, local statistics and independently reported corrected promoter results are kept separate.
+
+The current downstream priority produced by the integration workflow is:
+
+```{r corrected-priority-summary, results='asis'}
+cat(paste0("**", paste(priority_candidates, collapse = ", "), "**"))
 ```
 
-These candidates combine persistent Day-6 RNA-state evidence, rescue/restimulation support, and corrected chromatin evidence. The chromatin component is interpreted as **directional and descriptive** rather than proof of causal epigenetic inheritance.
+**JAK3** is supported by the project's RNA analysis and by independently corrected H3K27ac/H3K4me3 promoter evidence. **EPHB2** is a washout-emergent RNA candidate with independently corrected H3K27ac promoter support.
+
+MET, MAP3K8, and BMPR1A remain RNA-supported candidates but are not currently classified as formally promoter-chromatin-supported.
+
+> The exact corrected Tobias FDR values are treated as independent benchmark results and are not claimed as locally reproduced statistics.
 
 # 1. Biological Question
 
@@ -148,11 +174,13 @@ The main analytical comparisons were:
 - **Day 6:** LPS-history versus RPMI-history after washout, representing the persistent state.
 - **Restimulation:** comparison of restimulation responses between LPS-history and RPMI-history cells.
 - **β-glucan rescue:** directional assessment of whether rescue moved expression or chromatin signal back toward the RPMI state.
-- **Chromatin:** H3K27ac and H3K4me1 at predefined promoters and condition-blind selected non-promoter loci.
+- **Chromatin:** H3K27ac, H3K4me1, and H3K4me3. The earlier exploratory workflow evaluated H3K27ac/H3K4me1 promoter and non-promoter patterns; the corrected formal promoter audit prioritizes H3K27ac and H3K4me3 at TSS ±2 kb.
 
 # 3. Analytical Workflow
 
-The canonical reproducible pipeline is:
+The project now contains two linked workflows.
+
+The original RNA and exploratory chromatin workflow is:
 
 ```text
 01_setup_and_data.R
@@ -174,13 +202,35 @@ The canonical reproducible pipeline is:
 08_make_final_chromatin_figures.R
 ```
 
-The complete pipeline can be rerun from the project root using:
+This historical workflow can be rerun with:
 
 ```bash
 Rscript --vanilla run_all.R
 ```
 
-Each analysis step is executed in a separate clean R process.
+The corrected Day-6 promoter audit is run separately because it requires local GEO BigWig files that are intentionally excluded from Git:
+
+```text
+12a file audit
+    ↓
+12c BigWig global QC
+    ↓
+12d TSS ±2 kb promoter quantification
+    ↓
+12e RPMI_d6_rep2 normalization correction
+    ↓
+12j local kinase-restricted unpaired limma
+    ↓
+12m transparent final integration
+```
+
+Run the corrected audit with:
+
+```bash
+Rscript --vanilla run_corrected_chromatin_audit.R
+```
+
+The final integration explicitly distinguishes locally reproduced chromatin statistics from the independently corrected promoter results.
 
 # 4. Day-1 Initial LPS Response
 
@@ -278,171 +328,199 @@ cat(paste(high_symbols, collapse = ", "))
 
 Priority is an integrated directional-evidence label and **not a new significance test**.
 
-# 8. Chromatin Persistence Analysis
+# 8. Legacy Exploratory Chromatin Analysis
 
-Chromatin analysis used normalized BigWig signal for:
+Steps 07, 07b, and 08 are retained as analysis provenance.
 
-- H3K27ac
-- H3K4me1
+The earlier chromatin workflow evaluated directional H3K27ac and H3K4me1 patterns at promoter and condition-blind selected non-promoter regions. Step 07b corrected the original post-hoc distal-window selection problem by selecting one non-promoter region per gene without using condition-specific direction.
 
-The analysis examined both:
+That exploratory workflow produced MAP3K8, BMPR1A, and JAK3 as the highest integrated candidates. These outputs remain useful for historical and locus-level exploration, but they no longer define the final formal promoter-supported candidate hierarchy.
 
-- a predefined promoter window around each gene TSS;
-- a non-promoter window selected without using the LPS/RPMI/BG direction.
+```{r legacy-chromatin-figure}
+safe_include("figures/08_final_chromatin/08A_corrected_chromatin_support_all24.png")
+```
 
-For a mark to count as directional persistent/reversible support, it had to satisfy:
+# 9. Corrected Day-6 Promoter Audit
 
-1. Day-1 LPS−RPMI and Day-6 LPS−RPMI had the same direction;
-2. the Day-6 rescue shift opposed the Day-6 LPS−RPMI direction;
-3. rescue was closer to RPMI than the Day-6 LPS state.
+A subsequent audit was performed after identifying three RPMI Day-6 replicate-2 BigWig tracks labelled `NotNormalized`:
 
-# 9. Correction of Distal-Window Selection Bias
+- GSM2262963 — H3K27ac
+- GSM2263007 — H3K4me1
+- GSM2263015 — H3K4me3
 
-The first exploratory distal implementation scanned many 1-kb windows around each candidate gene and then selected the most favorable window. This produced an implausibly high rate of dual-mark support and created a post-hoc selection problem.
+The corrected local audit uses:
 
-The corrected analysis therefore selected **one fixed non-promoter window per gene using condition-blind chromatin abundance**, before testing any Day-1, Day-6, or rescue direction.
+- TSS ±2 kb promoter windows;
+- mean BigWig promoter signal;
+- log-transformed signal;
+- an unpaired limma model;
+- statistical testing restricted to kinase genes.
 
-This corrected analysis produced:
+The locally implemented transformation is `log2(signal + 1)`. The exact pseudocount used in the independent analysis was not specified.
 
-- **15/24** promoter any-mark support;
-- **6/24** promoter dual-mark support;
-- **14/24** fixed non-promoter any-mark support;
-- **3/24** fixed non-promoter dual-mark support;
-- **18/24** any corrected chromatin support;
-- **7/24** any corrected dual-mark support.
+The three unnormalized RPMI Day-6 replicate-2 tracks were rescaled locally using normalized-peer global-mean matching. This is an approximation of the correction described during independent review; the exact independent scaling factors were not supplied.
 
-Among the 10 HIGH RNA candidates:
-
-- **8/10** showed corrected chromatin support;
-- **3/10** showed corrected dual-mark support.
-
-```{r fig-chromatin-all}
-safe_include(
-  "figures/08_final_chromatin/08A_corrected_chromatin_support_all24.png"
+```{r audit-repro-table}
+knitr::kable(
+  audit_repro,
+  caption = "Corrected chromatin audit reproducibility status"
 )
 ```
 
-# 10. Final RNA + Chromatin Integration
+# 10. Local Formal Promoter Results
 
-```{r fig-final-integration}
-safe_include(
-  "figures/08_final_chromatin/08D_FINAL_RNA_chromatin_integration.png"
-)
-```
+The local kinase-restricted unpaired limma reconstruction is reported separately from the independent benchmark.
 
-The final three leading integrated candidates are:
-
-```{r top-table}
-top_cols <- intersect(
-  c(
-    "SYMBOL",
-    "Day6_memory_log2FC",
-    "Day6_memory_FDR_kinase",
-    "Directional_support_score",
-    "Promoter_mark_support_count",
-    "Distal_mark_support_count",
-    "Corrected_RNA_plus_chromatin_class"
-  ),
-  names(top)
-)
+```{r local-promoter-table}
+local_show <- local_promoter[
+  local_promoter$SYMBOL %in% c("JAK3", "EPHB2", "MET", "MAP3K8", "BMPR1A"),
+  ,
+  drop = FALSE
+]
 
 knitr::kable(
-  top[, top_cols, drop = FALSE],
-  caption = "Final integrated candidates"
+  local_show,
+  caption = "Local formal Day-6 promoter reproduction"
 )
 ```
 
-# 11. MAP3K8
+The local model shows strong nominal promoter signal for JAK3 and MET, but the kinase-family adjusted FDRs do not reproduce the independent corrected values. Most importantly, the independently reported EPHB2 H3K27ac result is not reproduced locally.
 
-MAP3K8 emerged as a HIGH-priority RNA candidate with positive Day-6 memory expression and integrated rescue/restimulation support.
+Therefore the local analysis is retained as a transparent reproduction audit rather than presented as an exact replication.
 
-Its corrected chromatin pattern was strongest at the promoter:
+# 11. Independent Corrected Promoter Benchmark
 
-- promoter H3K27ac: supported;
-- promoter H3K4me1: supported;
-- fixed non-promoter H3K27ac: supported;
-- fixed non-promoter H3K4me1: not supported.
+The following corrected values were reported independently during methodological review and are stored separately from local statistics:
 
-IGV inspection showed real chromatin structure at the locus and a pattern broadly compatible with the computational result. The most defensible interpretation is that MAP3K8 has **strong promoter-centered dual-mark chromatin support**, with additional H3K27ac support at the fixed non-promoter locus.
-
-# 12. BMPR1A
-
-BMPR1A showed a negative Day-6 RNA memory effect and strong integrated directional support.
-
-It had the broadest corrected chromatin support among the final trio:
-
-- promoter H3K27ac: supported;
-- promoter H3K4me1: supported;
-- fixed non-promoter H3K27ac: supported;
-- fixed non-promoter H3K4me1: supported by the predefined directional criteria.
-
-The H3K27ac fixed-locus pattern was particularly strong, with rescue returning the average signal close to the RPMI state. H3K4me1 also showed persistent/reversal direction, but the rescue response overshot RPMI and was therefore interpreted more cautiously.
-
-Overall, BMPR1A has particularly strong integrated chromatin evidence, especially for H3K27ac.
-
-# 13. JAK3
-
-JAK3 showed a positive Day-6 RNA memory effect and HIGH integrated RNA priority.
-
-The promoter showed dual-mark support:
-
-- promoter H3K27ac: supported;
-- promoter H3K4me1: supported.
-
-At the fixed non-promoter/proximal region:
-
-- H3K27ac: supported;
-- H3K4me1: not supported because rescue did not become closer to RPMI.
-
-Because the selected non-promoter window lies immediately outside the operational promoter boundary, it is best described as a **proximal non-promoter regulatory window**, not as a proven distal enhancer.
-
-# 14. Directional Chromatin Patterns in the Final Candidates
-
-```{r fig-top-direction}
-safe_include(
-  "figures/08_final_chromatin/08C_TOP_candidates_chromatin_direction.png"
+```{r tobias-benchmark-table}
+knitr::kable(
+  tobias_benchmark,
+  caption = "Independent corrected promoter benchmark"
 )
 ```
 
-The figure is internally scaled within each mark-region unit. Therefore, it should be interpreted for **direction and pattern**, not for absolute comparison of effect size between H3K27ac and H3K4me1.
+The independently corrected interpretation is:
 
-# 15. IGV Validation
+- **JAK3:** H3K27ac FDR 0.0065 and H3K4me3 FDR 0.0141;
+- **EPHB2:** significant H3K27ac support, reported FDR 0.030;
+- **MET:** H3K27ac changed from FDR 0.032 before correction to 0.051 after correction;
+- **MAP3K8:** no significant corrected formal promoter support;
+- **BMPR1A:** no significant corrected formal promoter support.
 
-IGV inspection was used as a final qualitative validation step for the three leading candidates.
+For EPHB2 and MET, the quoted correspondence did not explicitly identify the relevant Day-6 contrast in the same sentence as the reported FDR. The benchmark table therefore avoids assigning those values to multiple contrasts.
 
-The hg19 loci used were generated automatically by Step 08 and stored in:
+# 12. Current RNA + Chromatin Integration
 
-```text
-results/08_final_chromatin/08_TOP_candidate_IGV_loci_hg19.csv
+The final Step-12m integration combines the project's RNA evidence with the independently corrected promoter review while explicitly recording whether the chromatin result was locally reproduced.
+
+```{r final-status-table}
+knitr::kable(
+  final_status,
+  caption = "Current integrated candidate status"
+)
 ```
 
-IGV was used to verify that the selected promoter/non-promoter regions corresponded to genuine local chromatin signal and that the visual direction was broadly compatible with the quantified analysis.
+The generated downstream priority is:
 
-IGV validation is supportive rather than statistical.
+```{r final-priority, results='asis'}
+cat(paste0("**", paste(priority_candidates, collapse = ", "), "**"))
+```
+
+This means that **JAK3 and EPHB2 are prioritized for downstream external validation**.
+
+It does **not** mean that the local chromatin model independently discovered both genes.
+
+# 13. Candidate Interpretation
+
+## JAK3
+
+JAK3 remains the strongest cross-layer candidate. It has persistent RNA support in the project and independently corrected promoter support for both H3K27ac and H3K4me3.
+
+The local reconstruction also shows strong positive nominal promoter effects, although the exact independent FDR values were not reproduced.
+
+## EPHB2
+
+EPHB2 is not part of the original 24 Day-6 kinase-FDR set. It emerged from the broader washout-associated RNA review and gained independently corrected H3K27ac promoter support.
+
+The local promoter reconstruction does not reproduce the reported significant EPHB2 result. This discrepancy is retained explicitly as a reproducibility limitation.
+
+## MET
+
+MET remains RNA-supported. Its initially significant H3K27ac result became borderline/non-significant after correction of the RPMI Day-6 normalization issue (reported FDR 0.051), so it is not currently classified as a confirmed RNA + promoter-chromatin hit.
+
+## MAP3K8 and BMPR1A
+
+MAP3K8 and BMPR1A retain RNA-level biological interest but do not have significant corrected formal promoter support in the independent review. Their earlier H3K27ac/H3K4me1 directional patterns remain exploratory provenance.
+
+# 14. Corrected Final Integration Figure
+
+```{r corrected-final-figure}
+safe_include("figures/12_kinase_reevaluation/12m_FINAL_candidate_summary.png")
+```
+
+This figure represents the **downstream integration decision**, not an assertion that all chromatin statistics were reproduced locally.
+
+# 15. IGV and Locus-Level Interpretation
+
+The previous IGV inspections of MAP3K8, BMPR1A, and JAK3 remain useful as historical qualitative checks, but IGV visualization is not a statistical test and does not override the corrected promoter analysis.
+
+Future locus-level visualization should prioritize **JAK3 and EPHB2**, particularly the Day-6 H3K27ac and H3K4me3 promoter tracks in hg19.
+
+The earlier non-promoter regions remain computationally defined regions rather than experimentally validated enhancers.
 
 # 16. Limitations
 
 The main limitations are:
 
 1. **Day-1 RNA sample size:** only two matched pairs were available, limiting FDR power for the acute-response analysis.
-2. **β-glucan rescue sample size:** rescue RNA analysis had only two samples and is therefore directional/descriptive.
-3. **Restimulation interaction:** no memory kinase reached genome-wide FDR significance for the history-by-restimulation interaction.
+2. **β-glucan rescue sample size:** rescue RNA analysis had only two samples and is therefore interpreted primarily as directional/trajectory evidence.
+3. **Restimulation interaction:** no memory kinase reached genome-wide FDR significance for the formal history-by-restimulation interaction.
 4. **ChIP donor structure:** Day-1 and Day-6 ChIP samples are not longitudinally paired donors.
-5. **Chromatin inference:** same-locus Day-1/Day-6 signal does not prove causal inheritance of a histone modification.
-6. **Operational regulatory windows:** the non-promoter regions are computationally selected windows, not experimentally validated enhancers.
-7. **Downstream re-analysis:** the RNA workflow is a downstream re-analysis of MMSEQ estimates using limma and is not an exact reproduction of the original publication's MMDIFF differential-expression pipeline.
+5. **Chromatin inference:** concordant RNA and chromatin changes do not establish causal epigenetic inheritance.
+6. **Legacy regulatory windows:** the Step-07/07b non-promoter regions are computationally selected regions rather than experimentally validated enhancers.
+7. **RNA re-analysis:** the RNA workflow is a downstream re-analysis of processed MMSEQ estimates and is not an exact reproduction of the original publication's differential-expression pipeline.
+8. **RPMI Day-6 normalization:** three RPMI_d6_rep2 BigWigs were deposited as `NotNormalized`. The local audit rescales these tracks using normalized-peer genome-wide mean matching; the exact scaling factors used in the independent corrected analysis were not supplied.
+9. **Log transformation:** the independent analysis was confirmed to use log-transformed promoter signal, but the exact transformation/pseudocount was not specified. The local implementation uses `log2(signal + 1)`.
+10. **Numerical reproduction:** the local kinase-restricted unpaired limma model does not reproduce all independently reported corrected FDR values. In particular, the independently significant EPHB2 H3K27ac result is not reproduced locally.
+
+These limitations are reported explicitly so that independently corrected benchmark results are not presented as locally reproduced statistics.
 
 # 17. Conclusion
 
-This re-analysis identifies a persistent kinase-associated transcriptional state following LPS exposure and washout. Twenty-four canonical kinases met the Day-6 memory criteria, and integration with β-glucan rescue/restimulation evidence prioritized ten at the RNA level.
+This re-analysis identifies persistent and washout-associated kinase transcriptional states following LPS exposure and subsequent washout. The original RNA workflow identified 24 Day-6 kinase-family candidates and used acute response, β-glucan rescue, and restimulation behavior to provide additional trajectory context.
 
-After correcting the chromatin workflow to avoid post-hoc distal-window selection, three candidates—**MAP3K8, BMPR1A, and JAK3**—showed the strongest combined RNA and dual-mark chromatin evidence.
+The original Step-07/07b/08 chromatin workflow produced **MAP3K8, BMPR1A, and JAK3** as the strongest exploratory RNA/chromatin candidates using directional H3K27ac/H3K4me1 evidence. That ranking is retained as analysis provenance but is no longer treated as the final formal promoter-level result.
 
-The results support these genes as high-value candidates for mechanistic follow-up. However, the chromatin patterns should be interpreted as **persistent, same-locus directional associations** rather than proof that H3K27ac or H3K4me1 causally transmits cellular memory.
+A subsequent Day-6 promoter audit incorporated TSS ±2 kb promoter quantification, log-transformed BigWig signal, an unpaired limma design, kinase-restricted statistical testing, and explicit consideration of the three `NotNormalized` RPMI_d6_rep2 tracks.
+
+The local reconstruction and the independently corrected promoter results are deliberately reported separately. The exact independent FDR values were not reproduced locally.
+
+The independently corrected promoter review supports:
+
+- **JAK3:** H3K27ac FDR 0.0065 and H3K4me3 FDR 0.0141;
+- **EPHB2:** H3K27ac FDR 0.030;
+- **MET:** H3K27ac FDR 0.051 after normalization correction;
+- **MAP3K8 and BMPR1A:** no significant corrected formal promoter support.
+
+Accordingly, the current reproducible integration workflow carries **JAK3 and EPHB2 forward for downstream external validation**.
+
+This should be interpreted precisely: **JAK3 + EPHB2 is the downstream integration decision obtained by combining this project's RNA evidence with the independently corrected promoter review. It is not a claim that the local chromatin limma reconstruction independently identified both genes.**
 
 # 18. Reproducibility
 
-```{r run-status}
+The repository contains two related reproducible workflows.
+
+## Historical RNA / exploratory chromatin workflow
+
+Run:
+
+```bash
+Rscript --vanilla run_all.R
+```
+
+This executes Steps 01–08. Its original Step-08 MAP3K8/BMPR1A/JAK3 ranking is retained for provenance and should not be interpreted as the current formal promoter-supported candidate hierarchy.
+
+```{r historical-run-status}
 if (!is.null(status)) {
   knitr::kable(
     status[
@@ -459,27 +537,106 @@ if (!is.null(status)) {
       ),
       drop = FALSE
     ],
-    caption = "Canonical run-all pipeline status"
+    caption = "Historical Steps 01-08 run status"
   )
 } else {
   cat("`results/run_all_status.csv` was not found.")
 }
 ```
 
-The canonical analysis can be reproduced with:
+## Corrected Day-6 promoter audit
+
+Run:
 
 ```bash
-Rscript --vanilla run_all.R
+Rscript --vanilla run_corrected_chromatin_audit.R
 ```
 
-The final pipeline is considered complete when all nine canonical steps report `SUCCESS`.
+This executes the final corrected audit chain:
+
+```text
+12a → 12c → 12d → 12e → 12j → 12m
+```
+
+where:
+
+- 12a audits the Day-6 chromatin files;
+- 12c evaluates global BigWig signal;
+- 12d quantifies TSS ±2 kb promoter signal;
+- 12e applies the local RPMI_d6_rep2 normalization correction;
+- 12j performs the local kinase-restricted unpaired limma reconstruction;
+- 12m integrates the local RNA/chromatin audit with the independently corrected promoter benchmark.
+
+```{r corrected-audit-status}
+audit_status_file <-
+  "results/12_kinase_reevaluation/12_run_status.csv"
+
+if (file.exists(audit_status_file)) {
+  audit_status <- read.csv(
+    audit_status_file,
+    stringsAsFactors = FALSE,
+    check.names = FALSE
+  )
+
+  knitr::kable(
+    audit_status,
+    caption = "Corrected Day-6 chromatin audit status"
+  )
+} else {
+  cat("`12_run_status.csv` was not found.")
+}
+```
+
+A successful corrected audit reports:
+
+```text
+Successful steps: 6 / 6
+Downstream priority: JAK3, EPHB2
+```
+
+The final statement is an **integration result**. The independently reported Tobias FDR values remain explicitly separated from locally reproduced statistics.
 
 # 19. Key Output Files
 
-```text
-results/05_integrated_trajectory/05_integrated_kinase_trajectory.csv
-figures/06_final_kinase/06D_FINAL_integrated_kinase_summary.png
+## RNA analysis
 
+```text
+results/03_memory_kinases/
+  03_memory_kinases_FDR05.csv
+
+results/05_integrated_trajectory/
+  05_integrated_kinase_trajectory.csv
+
+figures/06_final_kinase/
+  06D_FINAL_integrated_kinase_summary.png
+```
+
+## Corrected formal chromatin audit
+
+```text
+results/12_kinase_reevaluation/
+  12_run_status.csv
+  12a_day6_chromatin_file_manifest.csv
+  12c_bigwig_global_qc.csv
+  12c_RPMI_rep2_scaling_audit.csv
+  12d_day6_sample_manifest.csv
+  12d_target_gene_raw_promoter_signal.csv
+  12e_RPMI_rep2_scaling_factors.csv
+  12e_target_promoter_signal_scaling_audit.csv
+  12j_all_kinase_corrected_limma.csv
+  12j_target_results.csv
+  12m_local_formal_promoter_results.csv
+  12m_independent_corrected_benchmark.csv
+  12m_FINAL_candidate_status.csv
+  12m_reproducibility_summary.csv
+
+figures/12_kinase_reevaluation/
+  12m_FINAL_candidate_summary.png
+```
+
+## Historical exploratory chromatin outputs
+
+```text
 results/07b_unbiased_distal_chromatin/
   07b_corrected_gene_level_chromatin_summary.csv
 
@@ -495,9 +652,14 @@ figures/08_final_chromatin/
   08D_FINAL_RNA_chromatin_integration.png
 ```
 
+These Step-07/08 outputs are retained for provenance and exploratory interpretation; they do not determine the current formal promoter-supported downstream priority.
+
 # 20. Data Source
 
-Primary dataset: **GSE85246**
+Primary SuperSeries: **GSE85246**
 
-Associated components used in this project include RNA-seq and ChIP-seq data from the LPS tolerance / β-glucan reprogramming study by Novakovic and colleagues.
+ChIP-seq subseries: **GSE85245**
 
+The project analyzes RNA-seq and histone ChIP-seq data from the LPS tolerance / β-glucan reprogramming study by Novakovic and colleagues.
+
+Chromatin analyses use hg19 GEO BigWig tracks for H3K27ac, H3K4me1, and H3K4me3. Large BigWig files are maintained locally and intentionally excluded from Git version control.

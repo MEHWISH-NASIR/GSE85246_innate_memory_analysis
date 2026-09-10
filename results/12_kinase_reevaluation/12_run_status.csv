@@ -1,0 +1,7 @@
+"step","label","script","status","exit_status"
+"12a","Audit Day-6 chromatin files","scripts/12a_audit_day6_chromatin_files.R","SUCCESS",0
+"12c","BigWig global QC","scripts/12c_bigwig_global_qc.R","SUCCESS",0
+"12d","Quantify Day-6 promoters","scripts/12d_quantify_day6_promoters.R","SUCCESS",0
+"12e","Rescale RPMI rep2 promoter signals","scripts/12e_rescale_RPMI_rep2_promoters.R","SUCCESS",0
+"12j","Local Tobias-style kinase limma","scripts/12j_reproduce_Tobias_corrected_limma.R","SUCCESS",0
+"12m","Finalize corrected chromatin audit","scripts/12m_finalize_chromatin_audit.R","SUCCESS",0

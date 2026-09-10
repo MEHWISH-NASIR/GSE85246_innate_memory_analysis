@@ -1,0 +1,7 @@
+"SYMBOL","Mark","Reported_FDR","Reported_contrast","Independent_interpretation"
+"JAK3","H3K27ac",0.0065,"LPS_vs_RPMI","Significant corrected promoter support"
+"JAK3","H3K4me3",0.0141,"LPS_vs_RPMI","Significant corrected promoter support"
+"EPHB2","H3K27ac",0.03,"Day6 promoter comparison; exact contrast not specified in quoted email","Significant corrected H3K27ac support"
+"MET","H3K27ac",0.051,"Day6 promoter comparison; exact contrast not specified in quoted email","Not significant after normalization correction"
+"MAP3K8","multiple",NA,"Day6 promoter tests","No significant corrected promoter support"
+"BMPR1A","multiple",NA,"Day6 promoter tests","No significant corrected promoter support"
