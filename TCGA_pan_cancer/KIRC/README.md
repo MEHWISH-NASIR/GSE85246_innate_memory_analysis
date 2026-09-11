@@ -196,3 +196,13 @@ The TCGA-KIRC analysis distinguishes the two candidates.
 - a survival association that requires cautious interpretation because of non-proportional hazards
 
 These findings describe cancer-context associations and do not establish a causal role for either kinase in KIRC.
+
+---
+
+# Figures
+
+## Tumor versus normal expression
+
+![TCGA-KIRC JAK3 and EPHB2 tumor-normal expression](figures/01_tumor_normal_JAK3_EPHB2.png)
+
+The distributions show the opposite tumor-associated patterns of the two priority genes: JAK3 is strongly elevated in KIRC tumors, whereas EPHB2 is significantly reduced relative to normal kidney tissue.
