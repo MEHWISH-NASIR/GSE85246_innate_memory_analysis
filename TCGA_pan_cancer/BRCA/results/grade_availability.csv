@@ -1,0 +1,2 @@
+"Cancer","Total_clinical_cases","Usable_grade_cases","Grade_analysis_status","Reason"
+"TCGA-BRCA",1098,0,"Not assessable","GDC tumor_grade field is essentially unpopulated for TCGA-BRCA"

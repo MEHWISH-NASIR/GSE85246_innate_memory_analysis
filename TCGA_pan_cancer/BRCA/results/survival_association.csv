@@ -1,0 +1,3 @@
+"Gene","Model_n","Deaths","Stratified_adjusted_HR","Lower95","Upper95","P","Gene_PH_P","Global_PH_P","Adjustment","FDR"
+"JAK3",1054,141,0.911530293425251,0.775684149389055,1.0711672740591,0.260587706927254,0.767996203428931,0.725492611637542,"Age + strata(Early/Advanced stage); stage stratified because PH assumption was violated",0.260587706927254
+"EPHB2",1054,141,1.20864381021862,0.979583781363503,1.4912658700274,0.0771345031255581,0.967132364451754,0.694697982174147,"Age + strata(Early/Advanced stage); stage stratified because PH assumption was violated",0.154269006251116

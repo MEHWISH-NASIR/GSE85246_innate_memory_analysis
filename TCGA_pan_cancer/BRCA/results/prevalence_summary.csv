@@ -1,0 +1,3 @@
+"Gene","Direction","Tumor_patient_n","Normal_patient_n","Tumor_median_TPM","Normal_median_TPM","Normal_P05_TPM","Normal_P95_TPM","Prevalence_threshold_TPM","Prevalence_definition","Aberrant_tumor_n","Aberrant_tumor_percent"
+"JAK3","UP",1095,113,5.317,4.7808,1.33192,10.83986,10.83986,"Tumor TPM > normal 95th percentile",221,20.1826484018265
+"EPHB2","UP",1095,113,3.179,1.7017,0.70748,3.78352,3.78352,"Tumor TPM > normal 95th percentile",441,40.2739726027397

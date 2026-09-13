@@ -1,0 +1,3 @@
+"Gene","Matched_patients","Median_paired_log2_difference","Tumor_higher_n","Tumor_lower_n","Paired_Wilcoxon_P","Paired_FDR"
+"JAK3",113,-0.0690407684463281,56,57,0.353298856462655,0.353298856462655
+"EPHB2",113,0.669165901270405,95,18,4.90052443069544e-13,9.80104886139088e-13
