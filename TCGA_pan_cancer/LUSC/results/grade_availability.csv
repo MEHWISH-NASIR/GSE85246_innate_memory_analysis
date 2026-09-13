@@ -1,0 +1,2 @@
+"Cancer","Total_clinical_cases","Usable_grade_cases","Grade_analysis_status","Reason"
+"TCGA-LUSC",504,0,"Not assessable","GDC tumor_grade field is unpopulated for TCGA-LUSC"
