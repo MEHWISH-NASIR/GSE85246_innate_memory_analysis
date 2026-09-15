@@ -1,0 +1,413 @@
+"patient_id","primary_diagnosis","pathologic_stage","tumor_grade","pathologic_T","pathologic_N","pathologic_M","age_at_diagnosis_days","vital_status","days_to_death","gender","age_at_diagnosis_years"
+"TCGA-DK-A3IS","Transitional cell carcinoma","Stage I",NA,"T1","N0","M0",25098,"Alive",NA,"male",68.7145790554415
+"TCGA-CF-A1HS","Squamous cell carcinoma, NOS","Stage III","High Grade","T3","N0","M0",27565,"Alive",NA,"female",75.4688569472964
+"TCGA-BT-A20V","Transitional cell carcinoma","Stage IV","High Grade","T4a","N2","M0",21551,"Dead",154,"female",59.0034223134839
+"TCGA-XF-AAN8","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",27309,"Dead",118,"female",74.7679671457905
+"TCGA-GC-A3WC","Transitional cell carcinoma","Stage III","High Grade","T3","N0","MX",29295,"Alive",NA,"female",80.2053388090349
+"TCGA-FD-A3B6","Papillary transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",27541,"Dead",1005,"male",75.4031485284052
+"TCGA-ZF-A9R5","Transitional cell carcinoma","Stage III","High Grade","T3","N0","M0",21811,"Alive",NA,"male",59.7152635181383
+"TCGA-GV-A3QG","Transitional cell carcinoma","Stage IV","High Grade","T3a","N3","MX",23847,"Dead",NA,"male",65.2895277207392
+"TCGA-C4-A0F1","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","M0",26178,"Alive",NA,"male",71.6714579055441
+"TCGA-DK-A6B6","Carcinoma, NOS",NA,NA,"T2b",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-ZF-A9R3","Transitional cell carcinoma",NA,NA,NA,NA,NA,20301,"Dead",949,"female",55.5811088295688
+"TCGA-FD-A5BZ","Transitional cell carcinoma",NA,NA,NA,NA,NA,28984,"Dead",835,"female",79.3538672142368
+"TCGA-CU-A3KJ","Transitional cell carcinoma",NA,NA,NA,NA,NA,27858,"Alive",NA,"male",76.2710472279261
+"TCGA-E7-A97Q","Transitional cell carcinoma","Stage IV","High Grade","T4a","N3","MX",22249,"Dead",246,"female",60.9144421629021
+"TCGA-DK-A3IU","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","M0",21369,"Dead",706,"male",58.5051334702259
+"TCGA-HQ-A2OF","Papillary adenocarcinoma, NOS",NA,NA,NA,NA,NA,19923,"Alive",NA,"female",54.5462012320329
+"TCGA-CU-A3QU","Transitional cell carcinoma","Stage IV","High Grade","T2b","N1","M0",21233,"Alive",NA,"male",58.1327857631759
+"TCGA-DK-A3IT","Adenocarcinoma, NOS","Stage II",NA,"T2a","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-G2-A3IB","Transitional cell carcinoma","Stage II","High Grade",NA,"NX","MX",24149,"Dead",220,"male",66.1163586584531
+"TCGA-C4-A0F7","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",62,"male",NA
+"TCGA-XF-A9SM","Adenocarcinoma, NOS",NA,NA,"T2","N0","MX",27888,"Alive",NA,"male",76.35318275154
+"TCGA-GV-A40G","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-ZF-AA4R","Transitional cell carcinoma",NA,NA,NA,NA,NA,23687,"Dead",1036,"male",64.8514715947981
+"TCGA-GC-A3BM","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","M0",25609,"Dead",651,"male",70.113620807666
+"TCGA-CF-A5UA","Transitional cell carcinoma","Stage II","Low Grade","T2","N0","M0",24625,"Alive",NA,"male",67.419575633128
+"TCGA-G2-A2ES","Not Reported",NA,NA,NA,NA,NA,32190,"Dead",1004,"male",88.1314168377823
+"TCGA-XF-AAN4","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",28302,"Dead",823,"female",77.4866529774127
+"TCGA-FD-A3B7","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",24245,"Dead",122,"male",66.3791923340178
+"TCGA-XF-A9SH","Transitional cell carcinoma",NA,NA,NA,NA,NA,24607,"Dead",1971,"female",67.3702943189596
+"TCGA-CF-A3MH","Papillary transitional cell carcinoma","Stage II","Low Grade","T2","N0","M0",27458,"Alive",NA,"male",75.1759069130732
+"TCGA-UY-A78P","Transitional cell carcinoma","Stage II","High Grade","T2","N0","MX",28719,"Alive",NA,"female",78.6283367556468
+"TCGA-FJ-A871","Transitional cell carcinoma",NA,NA,NA,NA,NA,18157,"Dead",272,"male",49.7111567419576
+"TCGA-K4-AAQO","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",20683,"Alive",NA,"male",56.6269678302532
+"TCGA-ZF-AA54","Transitional cell carcinoma","Stage III","High Grade","T3","NX","MX",26128,"Dead",590,"male",71.5345653661875
+"TCGA-GC-A3RC","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","M0",21668,"Alive",NA,"male",59.3237508555784
+"TCGA-GV-A40E","Transitional cell carcinoma",NA,NA,NA,NA,NA,27796,"Dead",261,"male",76.1013004791239
+"TCGA-GU-A767","Transitional cell carcinoma","Stage IV","High Grade","T3b","N2","MX",29739,"Dead",144,"male",81.4209445585216
+"TCGA-ZF-AA4N","Carcinoma, NOS","Stage II","High Grade",NA,NA,NA,27056,"Dead",88,"male",74.0752908966461
+"TCGA-BT-A20O","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",27534,"Dead",370,"male",75.3839835728953
+"TCGA-GV-A3QF","Transitional cell carcinoma","Stage IV","High Grade","T3b","N2","MX",28890,"Dead",617,"male",79.0965092402464
+"TCGA-BL-A5ZZ","Transitional cell carcinoma","Stage III","High Grade","T4a","N0","MX",29247,"Alive",NA,"female",80.0739219712526
+"TCGA-DK-A3IV","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",294,"male",NA
+"TCGA-FD-A3SS","Transitional cell carcinoma","Stage IV","High Grade","T4","N3","MX",24408,"Dead",391,"male",66.8254620123203
+"TCGA-FD-A6TD","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",28328,"Dead",386,"male",77.5578370978782
+"TCGA-DK-A1A5","Basal cell carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",65,"male",NA
+"TCGA-E7-A3X6","Transitional cell carcinoma",NA,NA,NA,NA,NA,25953,"Dead",904,"male",71.0554414784394
+"TCGA-E7-A85H","Transitional cell carcinoma","Stage III","High Grade","T3","N0","M0",23497,"Alive",NA,"male",64.331279945243
+"TCGA-E5-A4TZ","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Dead",467,"male",NA
+"TCGA-DK-AA6L","Adenocarcinoma, NOS","Stage II",NA,"T2b","N0","M0",17633,"Dead",1163,"male",48.2765229295003
+"TCGA-FD-A5BT","Transitional cell carcinoma",NA,NA,NA,NA,NA,NA,"Dead",328,"male",NA
+"TCGA-FD-A6TK","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",21942,"Alive",NA,"male",60.0739219712526
+"TCGA-ZF-AA4V","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","M0",24448,"Alive",NA,"male",66.9349760438056
+"TCGA-FT-A3EE","Transitional cell carcinoma","Stage III","High Grade","T4a","N0","MX",29293,"Dead",99,"female",80.1998631074606
+"TCGA-UY-A9PH","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",26654,"Alive",NA,"male",72.974674880219
+"TCGA-XF-A9SK","Transitional cell carcinoma","Stage IV","High Grade","T3b","N1","MX",24019,"Dead",486,"male",65.7604380561259
+"TCGA-G2-A3VY","Papillary transitional cell carcinoma","Stage I",NA,"T1a","N0","M0",23609,"Alive",NA,"male",64.6379192334018
+"TCGA-YF-AA3M","Transitional cell carcinoma",NA,NA,NA,NA,NA,21478,"Alive",NA,"male",58.8035592060233
+"TCGA-G2-A3IE","Transitional cell carcinoma","Stage II","High Grade",NA,"NX","MX",18983,"Dead",612,"male",51.9726214921287
+"TCGA-DK-AA75","Transitional cell carcinoma","Stage III","High Grade","T3","N0","M0",30090,"Dead",340,"male",82.3819301848049
+"TCGA-ZF-A9RL","Transitional cell carcinoma",NA,NA,NA,NA,NA,24778,"Alive",NA,"male",67.8384668035592
+"TCGA-BT-A2LB","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","M0",26846,"Dead",492,"female",73.5003422313484
+"TCGA-DK-AA74","Transitional cell carcinoma","Stage 0is",NA,"Tis","N0","M0",27722,"Alive",NA,"male",75.8986995208761
+"TCGA-MV-A51V","Papillary transitional cell carcinoma","Stage III","High Grade","T3a","N0","M0",27430,"Alive",NA,"male",75.0992470910335
+"TCGA-FD-A43Y","Transitional cell carcinoma","Stage III","High Grade","T4","N0","MX",23889,"Dead",474,"male",65.4045174537988
+"TCGA-HQ-A5ND","Transitional cell carcinoma",NA,NA,NA,NA,NA,28639,"Dead",274,"male",78.4093086926762
+"TCGA-E7-A677","Transitional cell carcinoma","Stage II","Low Grade","T2b","N0","M0",29613,"Alive",NA,"male",81.0759753593429
+"TCGA-DK-A6AW","Transitional cell carcinoma","Stage I",NA,"T1","N0","M0",25432,"Alive",NA,"male",69.6290212183436
+"TCGA-K4-A3WV","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",28444,"Alive",NA,"female",77.8754277891855
+"TCGA-DK-A2I1","Papillary transitional cell carcinoma","Stage II","High Grade","T2b","N0","M0",26726,"Alive",NA,"female",73.1718001368925
+"TCGA-DK-A3WX","Transitional cell carcinoma",NA,NA,NA,NA,NA,24797,"Dead",321,"female",67.8904859685147
+"TCGA-E7-A7PW","Transitional cell carcinoma","Stage III","High Grade","T3a","NX","M0",23057,"Alive",NA,"male",63.1266255989049
+"TCGA-DK-AA6M","Transitional cell carcinoma","Stage 0a",NA,"Ta","N0","M0",23574,"Alive",NA,"female",64.5420944558522
+"TCGA-FD-A62S","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",22000,"Dead",406,"female",60.2327173169062
+"TCGA-BT-A42B","Papillary transitional cell carcinoma","Stage IV","High Grade","T3a","N1","MX",21788,"Dead",534,"male",59.6522929500342
+"TCGA-GU-A42R","Transitional cell carcinoma","Stage IV","High Grade","T4a","N2","MX",25134,"Dead",577,"male",68.8131416837782
+"TCGA-2F-A9KO","Transitional cell carcinoma","Stage IV","High Grade","T3","N1","M0",23323,"Dead",734,"male",63.854893908282
+"TCGA-GV-A3QI","Transitional cell carcinoma",NA,NA,NA,NA,NA,18151,"Alive",NA,"male",49.6947296372348
+"TCGA-FD-A5BR","Carcinoma, NOS",NA,NA,"T2a",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-HQ-A5NE","Transitional cell carcinoma","Stage III","High Grade","T3","N0","M0",20647,"Dead",370,"male",56.5284052019165
+"TCGA-CU-A3YL","Papillary transitional cell carcinoma","Stage III","High Grade","T4a","N0","M0",24524,"Alive",NA,"male",67.1430527036276
+"TCGA-FD-A6TH","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Dead",131,"male",NA
+"TCGA-CF-A47V","Papillary transitional cell carcinoma","Stage II","High Grade","T2","N0","M0",19265,"Alive",NA,"male",52.7446954140999
+"TCGA-FD-A6TG","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N0","MX",26919,"Dead",93,"male",73.700205338809
+"TCGA-GU-A766","Transitional cell carcinoma","Stage II","High Grade","T2a","N0","MX",22774,"Alive",NA,"male",62.3518138261465
+"TCGA-ZF-AA58","Transitional cell carcinoma","Stage IV","High Grade","T3a","N2","MX",22549,"Alive",NA,"female",61.7357973990418
+"TCGA-DK-AA77","Adenocarcinoma, NOS","Stage II",NA,"T2a","N0","M0",22414,"Alive",NA,"male",61.3661875427789
+"TCGA-ZF-A9R9","Transitional cell carcinoma",NA,NA,NA,NA,NA,22120,"Dead",864,"male",60.5612594113621
+"TCGA-BL-A3JM","Transitional cell carcinoma","Stage III","High Grade","T3","N0","M0",23000,"Dead",205,"male",62.9705681040383
+"TCGA-BL-A13I","Transitional cell carcinoma",NA,NA,NA,NA,NA,21101,"Dead",223,"female",57.7713894592745
+"TCGA-ZF-AA51","Transitional cell carcinoma","Stage II","High Grade","T2","NX","M0",25484,"Alive",NA,"female",69.7713894592745
+"TCGA-LT-A5Z6","Transitional cell carcinoma","Stage II","High Grade",NA,"NX","MX",20746,"Alive",NA,"male",56.7994524298426
+"TCGA-CF-A47W","Papillary transitional cell carcinoma","Stage II","Low Grade","T2","N0","M0",15497,"Alive",NA,"male",42.4284736481862
+"TCGA-XF-AAMX","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",31884,"Dead",206,"female",87.2936344969199
+"TCGA-K4-A5RH","Transitional cell carcinoma",NA,NA,NA,NA,NA,25512,"Alive",NA,"male",69.8480492813142
+"TCGA-XF-A8HC","Papillary transitional cell carcinoma","Stage IV","High Grade","T3a","N2","MX",28996,"Dead",200,"male",79.3867214236824
+"TCGA-4Z-AA7S","Papillary transitional cell carcinoma","Stage III","High Grade","T4a","N0","M0",24111,"Dead",1064,"male",66.0123203285421
+"TCGA-E7-A97P","Transitional cell carcinoma","Stage II","High Grade","T2","NX","M0",26956,"Dead",437,"male",73.8015058179329
+"TCGA-ZF-A9R1","Transitional cell carcinoma",NA,NA,NA,NA,NA,30368,"Alive",NA,"male",83.1430527036276
+"TCGA-E5-A4U1","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","M0",26305,"Alive",NA,"male",72.0191649555099
+"TCGA-DK-A1AF","Transitional cell carcinoma",NA,NA,NA,NA,NA,31442,"Alive",NA,"female",86.0835044490075
+"TCGA-CF-A3MF","Papillary transitional cell carcinoma","Stage III","Low Grade","T3","N0","M0",12557,"Alive",NA,"male",34.3791923340178
+"TCGA-GV-A6ZA","Adenocarcinoma, NOS",NA,NA,"T2","N0","MX",19914,"Alive",NA,"male",54.5215605749487
+"TCGA-4Z-AA7M","Adenocarcinoma, NOS","Stage I",NA,"T1b","N0","M0",23856,"Alive",NA,"male",65.3141683778234
+"TCGA-GU-A763","Not Reported",NA,NA,"T1",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-K4-A4AC","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",30655,"Dead",278,"male",83.9288158795346
+"TCGA-ZF-AA5N","Transitional cell carcinoma","Stage IV","High Grade","T2","NX","M1",22741,"Dead",168,"female",62.2614647501711
+"TCGA-G2-AA3B","Transitional cell carcinoma","Stage II","High Grade","T2","N0","M0",27646,"Alive",NA,"female",75.6906228610541
+"TCGA-BT-A0YX","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","M0",25570,"Dead",400,"female",70.0068446269678
+"TCGA-UY-A9PB","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",17885,"Alive",NA,"male",48.9664613278576
+"TCGA-DK-A2I2","Transitional cell carcinoma",NA,NA,NA,NA,NA,23279,"Dead",237,"female",63.7344284736482
+"TCGA-XF-A9T5","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-ZF-AA5P","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,24033,"Alive",NA,"male",65.7987679671458
+"TCGA-ZF-A9RF","Transitional cell carcinoma","Stage II","High Grade","T1","NX","M0",27281,"Alive",NA,"male",74.6913073237509
+"TCGA-UY-A8OD","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",24588,"Alive",NA,"female",67.3182751540041
+"TCGA-2F-A9KQ","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","M0",25259,"Alive",NA,"male",69.1553730321697
+"TCGA-E7-A6MF","Papillary transitional cell carcinoma","Stage II","Low Grade","T2a","NX","M0",13867,"Alive",NA,"male",37.9657768651608
+"TCGA-E7-A7XN","Transitional cell carcinoma",NA,NA,NA,NA,NA,24656,"Alive",NA,"male",67.5044490075291
+"TCGA-FD-A6TA","Carcinoma, NOS",NA,NA,"T2c",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-E7-A678","Transitional cell carcinoma","Stage III","Low Grade","T3","N0","M0",20169,"Alive",NA,"male",55.2197125256674
+"TCGA-UY-A9PE","Transitional cell carcinoma",NA,NA,NA,NA,NA,32228,"Alive",NA,"male",88.2354551676934
+"TCGA-GD-A3OS","Transitional cell carcinoma","Stage II","High Grade",NA,"NX","MX",19776,"Alive",NA,"female",54.1437371663244
+"TCGA-DK-A3WW","Transitional cell carcinoma","Stage III","High Grade","T3","N0","M0",20909,"Alive",NA,"male",57.2457221081451
+"TCGA-GD-A3OQ","Transitional cell carcinoma","Stage IV","High Grade","T4a","N1","MX",17682,"Alive",NA,"male",48.4106776180698
+"TCGA-G2-A2EL","Transitional cell carcinoma",NA,NA,NA,NA,NA,28475,"Dead",819,"male",77.9603011635866
+"TCGA-XF-A9T8","Carcinoma, NOS",NA,NA,"T2b",NA,NA,NA,"Dead",418,"male",NA
+"TCGA-GD-A3OP","Transitional cell carcinoma","Stage IV","High Grade","T4a","N2","MX",30956,"Alive",NA,"female",84.7529089664613
+"TCGA-XF-AAML","Transitional cell carcinoma",NA,NA,"T1",NA,NA,27422,"Dead",232,"male",75.0773442847365
+"TCGA-4Z-AA82","Transitional cell carcinoma","Stage IV","High Grade","T2a","N1","M0",21893,"Dead",1556,"male",59.9397672826831
+"TCGA-K4-A5RI","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",24614,"Dead",356,"female",67.3894592744695
+"TCGA-XF-A9ST","Papillary transitional cell carcinoma",NA,NA,"T1",NA,NA,24937,"Dead",128,"male",68.2737850787132
+"TCGA-GV-A3QH","Transitional cell carcinoma",NA,NA,NA,NA,NA,24806,"Dead",258,"male",67.9151266255989
+"TCGA-4Z-AA81","Papillary transitional cell carcinoma","Stage II","High Grade","T2b","N0","M0",29457,"Dead",1270,"male",80.6488706365503
+"TCGA-DK-A1AC","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","M0",26307,"Alive",NA,"male",72.0246406570842
+"TCGA-ZF-A9R4","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,30307,"Alive",NA,"male",82.9760438056126
+"TCGA-FD-A6TB","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-XF-AAMG","Transitional cell carcinoma","Stage III","High Grade","T4a","N0","MX",18021,"Alive",NA,"male",49.3388090349076
+"TCGA-CF-A1HR","Transitional cell carcinoma","Stage III","High Grade","T3","N0","M0",22777,"Alive",NA,"male",62.3600273785079
+"TCGA-CF-A3MG","Papillary transitional cell carcinoma","Stage II","Low Grade","T2","N0","M0",17600,"Alive",NA,"male",48.186173853525
+"TCGA-LC-A66R","Transitional cell carcinoma","Stage IV","High Grade","T4a","N2","MX",28793,"Alive",NA,"male",78.8309377138946
+"TCGA-GU-AATP","Transitional cell carcinoma",NA,NA,NA,NA,NA,27910,"Alive",NA,"male",76.413415468857
+"TCGA-2F-A9KW","Transitional cell carcinoma",NA,NA,NA,NA,NA,24788,"Dead",254,"female",67.8658453114305
+"TCGA-UY-A9PF","Papillary transitional cell carcinoma","Stage IV","High Grade","T3a","N2","MX",28470,"Alive",NA,"male",77.9466119096509
+"TCGA-FD-A43N","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",27833,"Alive",NA,"male",76.2026009582478
+"TCGA-GV-A3JW","Transitional cell carcinoma",NA,NA,NA,NA,NA,27362,"Alive",NA,"male",74.9130732375086
+"TCGA-DK-A1A7","Transitional cell carcinoma","Stage IV","High Grade","T3","N2","M0",24499,"Alive",NA,"female",67.0746064339494
+"TCGA-E7-A7DV","Transitional cell carcinoma","Stage I",NA,"T1","NX","MX",16150,"Alive",NA,"male",44.2162902121834
+"TCGA-DK-A3IK","Transitional cell carcinoma","Stage IV","High Grade","T3","N2","M0",32076,"Dead",146,"male",87.8193018480493
+"TCGA-C4-A0F0","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","M0",22068,"Alive",NA,"male",60.4188911704312
+"TCGA-DK-A3X2","Transitional cell carcinoma",NA,NA,NA,NA,NA,31693,"Dead",547,"male",86.7707049965777
+"TCGA-E5-A2PC","Transitional cell carcinoma","Stage IV","High Grade","T2b","N1","MX",22308,"Alive",NA,"female",61.0759753593429
+"TCGA-BT-A20Q","Transitional cell carcinoma","Stage IV","High Grade","T3b","N2","M0",26778,"Dead",593,"male",73.3141683778234
+"TCGA-DK-A3IM","Transitional cell carcinoma",NA,NA,NA,NA,NA,28307,"Dead",248,"male",77.5003422313484
+"TCGA-SY-A9G0","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N0","M0",28333,"Dead",1008,"male",77.5715263518138
+"TCGA-XF-A9SU","Papillary transitional cell carcinoma",NA,NA,NA,NA,NA,27171,"Dead",182,"female",74.3901437371663
+"TCGA-UY-A78O","Transitional cell carcinoma","Stage II","High Grade","T2","N0","MX",27234,"Alive",NA,"female",74.5626283367557
+"TCGA-CF-A8HX","Transitional cell carcinoma","Stage II","High Grade","T2","N0","M0",20259,"Alive",NA,"female",55.4661190965092
+"TCGA-FD-A3SL","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Dead",712,"male",NA
+"TCGA-4Z-AA87","Transitional cell carcinoma","Stage III","High Grade","T4a","N0","M0",26430,"Alive",NA,"male",72.3613963039014
+"TCGA-DK-AA6S","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","M0",22027,"Alive",NA,"male",60.3066392881588
+"TCGA-UY-A9PA","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",17520,"Alive",NA,"male",47.9671457905544
+"TCGA-FD-A3B5","Transitional cell carcinoma","Stage IV","High Grade","T2b","N1","MX",31442,"Dead",272,"male",86.0835044490075
+"TCGA-FD-A62O","Transitional cell carcinoma","Stage IV","High Grade","T3a","N2","MX",27310,"Dead",216,"male",74.7707049965777
+"TCGA-FD-A3SM","Transitional cell carcinoma",NA,NA,NA,NA,NA,25996,"Dead",547,"male",71.1731690622861
+"TCGA-DK-A1AE","Transitional cell carcinoma","Stage III","High Grade","T3","N0","M0",30707,"Alive",NA,"male",84.0711841204654
+"TCGA-4Z-AA7Y","Papillary transitional cell carcinoma","Stage II","High Grade","T2a","N0","M0",22056,"Alive",NA,"male",60.3860369609856
+"TCGA-FD-A3B3","Papillary transitional cell carcinoma","Stage III","High Grade","T3","N0","MX",27068,"Dead",974,"female",74.1081451060917
+"TCGA-CF-A5U8","Transitional cell carcinoma","Stage II","Low Grade","T2","N0","M0",21734,"Alive",NA,"male",59.5044490075291
+"TCGA-BT-A20W","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","M0",26078,"Dead",254,"male",71.3976728268309
+"TCGA-DK-AA6P","Transitional cell carcinoma",NA,NA,NA,NA,NA,26576,"Alive",NA,"female",72.7611225188227
+"TCGA-ZF-A9RC","Carcinoma, NOS",NA,NA,"T2c",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-FD-A5BV","Transitional cell carcinoma",NA,NA,NA,NA,NA,17635,"Dead",163,"female",48.2819986310746
+"TCGA-5N-A9KI","Transitional cell carcinoma","Stage III","High Grade","T4","NX","MX",27777,"Dead",76,"female",76.0492813141684
+"TCGA-C4-A0F6","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","M0",29951,"Alive",NA,"female",82.0013689253936
+"TCGA-E7-A5KE","Transitional cell carcinoma","Stage II","High Grade","T2a","N0","M0",28714,"Alive",NA,"female",78.6146475017112
+"TCGA-XF-A9SL","Transitional cell carcinoma","Stage IV","High Grade","T3a","N2","MX",25460,"Dead",2020,"male",69.7056810403833
+"TCGA-K4-A54R","Adenocarcinoma, NOS","Stage IIC",NA,"T2","N0","MX",21754,"Alive",NA,"male",59.5592060232717
+"TCGA-XF-AAN1","Papillary transitional cell carcinoma","Stage III","High Grade","T4a","N0","M0",27687,"Dead",941,"female",75.8028747433265
+"TCGA-FD-A3B8","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",20555,"Alive",NA,"male",56.2765229295003
+"TCGA-GC-A6I1","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",32872,"Dead",0,"female",89.9986310746064
+"TCGA-BL-A13J","Transitional cell carcinoma","Stage IV","High Grade","T4","N2","M0",23927,"Dead",81,"male",65.5085557837098
+"TCGA-UY-A78N","Carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",2641,"male",NA
+"TCGA-ZF-AA4U","Transitional cell carcinoma",NA,NA,NA,NA,NA,25881,"Dead",262,"male",70.8583162217659
+"TCGA-UY-A8OC","Transitional cell carcinoma","Stage IV","High Grade","T4","N1","MX",32872,"Dead",0,"male",89.9986310746064
+"TCGA-K4-A5RJ","Papillary transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",27518,"Alive",NA,"male",75.3401779603012
+"TCGA-ZF-A9R0","Transitional cell carcinoma",NA,NA,NA,NA,NA,30781,"Dead",680,"male",84.2737850787132
+"TCGA-DK-A2I4","Papillary transitional cell carcinoma","Stage III","High Grade","T3b","N0","M0",29037,"Alive",NA,"male",79.4989733059548
+"TCGA-FD-A6TE","Transitional cell carcinoma",NA,NA,NA,NA,NA,20195,"Alive",NA,"male",55.2908966461328
+"TCGA-E7-A5KF","Transitional cell carcinoma","Stage II","Low Grade","T2a","N0","M0",24528,"Alive",NA,"male",67.1540041067762
+"TCGA-GD-A2C5","Transitional cell carcinoma",NA,NA,NA,NA,NA,19712,"Alive",NA,"female",53.968514715948
+"TCGA-G2-A2EK","Transitional cell carcinoma","Stage II","High Grade",NA,"N0","M0",20995,"Alive",NA,"male",57.4811772758385
+"TCGA-DK-AA6R","Transitional cell carcinoma","Stage IV","High Grade","T4","N1","M0",25196,"Alive",NA,"male",68.9828884325804
+"TCGA-4Z-AA80","Papillary transitional cell carcinoma","Stage II","High Grade","T2a","N0","M0",26873,"Dead",19,"male",73.574264202601
+"TCGA-UY-A78K","Papillary transitional cell carcinoma","Stage IV","High Grade",NA,"N2","MX",22020,"Dead",536,"male",60.2874743326489
+"TCGA-XF-A9T0","Carcinoma, NOS",NA,NA,"T2a",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-XF-A9T3","Not Reported",NA,NA,NA,NA,NA,19566,"Alive",NA,"female",53.5687885010267
+"TCGA-FD-A3SP","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",22005,"Alive",NA,"male",60.2464065708419
+"TCGA-DK-AA6Q","Transitional cell carcinoma",NA,NA,NA,NA,NA,22599,"Dead",413,"female",61.8726899383984
+"TCGA-4Z-AA89","Not Reported",NA,NA,NA,NA,NA,22919,"Alive",NA,"male",62.7488021902806
+"TCGA-K4-A6FZ","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",27686,"Alive",NA,"female",75.8001368925394
+"TCGA-FD-A6TF","Transitional cell carcinoma","Stage IV","High Grade","T3b","N2","M1",29317,"Dead",69,"female",80.2655715263518
+"TCGA-ZF-AA4W","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",20611,"Alive",NA,"male",56.4298425735797
+"TCGA-DK-AA6W","Transitional cell carcinoma","Stage II","High Grade","T2","N0","M0",28853,"Dead",415,"male",78.9952087611225
+"TCGA-2F-A9KP","Transitional cell carcinoma",NA,NA,NA,NA,NA,24771,"Dead",364,"male",67.8193018480493
+"TCGA-YF-AA3L","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",17268,"Alive",NA,"female",47.2772073921971
+"TCGA-K4-A6MB","Transitional cell carcinoma","Stage IV","High Grade","T3b","N1","MX",23664,"Alive",NA,"male",64.788501026694
+"TCGA-KQ-A41N","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N0","MX",26882,"Alive",NA,"male",73.5989048596851
+"TCGA-BT-A0S7","Transitional cell carcinoma","Stage III","High Grade","T4a","N0","MX",27533,"Dead",200,"male",75.3812457221081
+"TCGA-R3-A69X","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N0","M0",25603,"Alive",NA,"male",70.0971937029432
+"TCGA-GU-A762","Transitional cell carcinoma","Stage IV","High Grade","T4a","N2","MX",31812,"Dead",232,"male",87.0965092402464
+"TCGA-GC-A3RD","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","M0",30529,"Alive",NA,"female",83.5838466803559
+"TCGA-CF-A8HY","Transitional cell carcinoma","Stage II","High Grade","T2","N0","M0",21636,"Alive",NA,"male",59.2361396303901
+"TCGA-LT-A8JT","Papillary transitional cell carcinoma","Stage II","High Grade","T2a","N0","M0",25498,"Alive",NA,"female",69.8097193702943
+"TCGA-XF-A9SI","Papillary transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",26719,"Alive",NA,"female",73.1526351813826
+"TCGA-FJ-A3Z7","Transitional cell carcinoma","Stage IV","High Grade","T4a","N2","MX",28052,"Alive",NA,"male",76.8021902806297
+"TCGA-FD-A5BX","Carcinoma, NOS",NA,NA,"T2a",NA,NA,NA,"Dead",173,"male",NA
+"TCGA-DK-A3X1","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-GD-A76B","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",31571,"Dead",NA,"female",86.4366872005476
+"TCGA-ZF-AA52","Transitional cell carcinoma","Stage III","High Grade","T3a","NX","MX",25579,"Dead",1077,"male",70.031485284052
+"TCGA-FD-A3SJ","Transitional cell carcinoma","Stage IV","High Grade","T2b","N2","MX",21615,"Dead",739,"male",59.1786447638604
+"TCGA-YC-A9TC","Transitional cell carcinoma","Stage IV","High Grade",NA,NA,"M1",26283,"Dead",20,"male",71.958932238193
+"TCGA-XF-A9T6","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-E7-A7DU","Transitional cell carcinoma","Stage III","Low Grade","T3","N0","M0",27000,"Alive",NA,"male",73.9219712525667
+"TCGA-FD-A3SR","Carcinoma, NOS",NA,NA,"T2a",NA,NA,NA,"Dead",602,"male",NA
+"TCGA-4Z-AA7R","Papillary transitional cell carcinoma","Stage IV","High Grade","T4b","N0","M0",26781,"Dead",522,"male",73.3223819301848
+"TCGA-FJ-A3Z9","Papillary transitional cell carcinoma",NA,"High Grade","TX","N0","M0",26515,"Dead",385,"male",72.5941136208077
+"TCGA-BT-A3PK","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",303,"male",NA
+"TCGA-CF-A9FF","Papillary transitional cell carcinoma","Stage II","High Grade","T2","N0","M0",19195,"Alive",NA,"male",52.5530458590007
+"TCGA-DK-A6B0","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","M0",22439,"Alive",NA,"male",61.4346338124572
+"TCGA-ZF-A9RN","Transitional cell carcinoma",NA,NA,NA,NA,NA,25311,"Dead",615,"female",69.2977412731006
+"TCGA-FD-A62P","Adenocarcinoma, NOS","Stage IV",NA,"T3a","N1","MX",27880,"Dead",191,"male",76.331279945243
+"TCGA-E7-A519","Transitional cell carcinoma","Stage II","High Grade","T2b","NX","M0",26427,"Alive",NA,"male",72.35318275154
+"TCGA-BT-A20J","Transitional cell carcinoma",NA,NA,NA,NA,NA,28078,"Dead",579,"male",76.8733744010951
+"TCGA-GC-A3I6","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","M0",16504,"Dead",630,"male",45.1854893908282
+"TCGA-XF-A9SP","Carcinoma, NOS",NA,NA,"T2a",NA,NA,NA,"Dead",454,"male",NA
+"TCGA-S5-A6DX","Transitional cell carcinoma","Stage IV","High Grade","T4a","N2","MX",30594,"Dead",56,"male",83.7618069815195
+"TCGA-FD-A43S","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",25993,"Alive",NA,"female",71.1649555099247
+"TCGA-4Z-AA7N","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","M0",24090,"Dead",1367,"male",65.9548254620123
+"TCGA-4Z-AA83","Papillary transitional cell carcinoma","Stage II","High Grade","T2a","N0","M0",19280,"Alive",NA,"male",52.7857631759069
+"TCGA-BT-A2LA","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","M0",20032,"Alive",NA,"male",54.8446269678303
+"TCGA-CU-A5W6","Transitional cell carcinoma","Stage III","High Grade","T4a","N0","M0",25706,"Dead",56,"male",70.3791923340178
+"TCGA-FT-A61P","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-SY-A9G5","Transitional cell carcinoma","Stage III","High Grade","T4a","N0","M0",24260,"Alive",NA,"male",66.4202600958248
+"TCGA-ZF-A9RM","Transitional cell carcinoma","Stage II","High Grade","T0","N0","MX",25642,"Alive",NA,"male",70.2039698836413
+"TCGA-CF-A27C","Papillary transitional cell carcinoma","Stage III","High Grade","T3","N0","M0",19270,"Alive",NA,"male",52.7583846680356
+"TCGA-XF-A9SG","Papillary transitional cell carcinoma","Stage II","High Grade","T2a","N0","MX",29825,"Alive",NA,"male",81.6563997262149
+"TCGA-XF-AAMR","Carcinoma, NOS",NA,NA,"T1a",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-4Z-AA7W","Transitional cell carcinoma",NA,NA,NA,NA,NA,21184,"Alive",NA,"male",57.9986310746064
+"TCGA-CF-A47X","Papillary transitional cell carcinoma","Stage II","Low Grade","T2","N0","M0",22200,"Alive",NA,"male",60.7802874743326
+"TCGA-XF-AAMQ","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-4Z-AA7O","Papillary transitional cell carcinoma","Stage II","High Grade","T2a","N0","M0",23645,"Alive",NA,"male",64.7364818617385
+"TCGA-CF-A9FH","Papillary transitional cell carcinoma","Stage II","Low Grade","T2","N0","M0",31236,"Alive",NA,"male",85.5195071868583
+"TCGA-BT-A20U","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","M0",25761,"Dead",455,"female",70.5297741273101
+"TCGA-XF-A8HE","Adenocarcinoma, NOS",NA,NA,"T2a","N0","MX",17245,"Alive",NA,"male",47.2142368240931
+"TCGA-E7-A8O8","Transitional cell carcinoma","Stage II","High Grade","T2","N0","M0",21629,"Alive",NA,"male",59.2169746748802
+"TCGA-XF-A8HF","Adenocarcinoma, NOS",NA,NA,"T2b","N0","MX",29360,"Dead",2954,"male",80.3832991101985
+"TCGA-DK-A1AD","Transitional cell carcinoma","Stage IV","High Grade","T3b","N2","M0",25317,"Alive",NA,"male",69.3141683778234
+"TCGA-FD-A3B4","Transitional cell carcinoma","Stage III","High Grade","T4a","N0","MX",20379,"Dead",510,"female",55.7946611909651
+"TCGA-XF-A9SY","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,22267,"Alive",NA,"female",60.9637234770705
+"TCGA-K4-A4AB","Adenocarcinoma, NOS",NA,NA,"T2a","N0","MX",27958,"Alive",NA,"male",76.5448323066393
+"TCGA-FD-A3N6","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",15758,"Alive",NA,"female",43.1430527036277
+"TCGA-BT-A42E","Papillary transitional cell carcinoma","Stage III","High Grade","T3a","N0","M0",27045,"Alive",NA,"male",74.0451745379877
+"TCGA-FD-A5BY","Papillary adenocarcinoma, NOS",NA,NA,NA,NA,NA,15654,"Alive",NA,"female",42.8583162217659
+"TCGA-XF-AAMJ","Not Reported",NA,NA,NA,"N0",NA,23059,"Dead",1670,"male",63.1321013004791
+"TCGA-XF-A8HB","Papillary transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",18544,"Alive",NA,"female",50.7707049965777
+"TCGA-FJ-A3ZE","Transitional cell carcinoma",NA,NA,NA,NA,NA,24018,"Dead",324,"male",65.7577002053388
+"TCGA-E7-A4XJ","Transitional cell carcinoma","Stage II","High Grade","T2","N0","M0",24279,"Dead",68,"male",66.4722792607803
+"TCGA-E7-A6MD","Transitional cell carcinoma","Stage IV","High Grade","T4a","N1","M0",24180,"Alive",NA,"male",66.2012320328542
+"TCGA-BT-A3PH","Transitional cell carcinoma","Stage IV","High Grade","T3b","N2","MX",28030,"Dead",142,"male",76.7419575633128
+"TCGA-4Z-AA86","Transitional cell carcinoma",NA,NA,NA,NA,NA,24601,"Dead",311,"male",67.3538672142368
+"TCGA-XF-AAMF","Transitional cell carcinoma","Stage IV","High Grade","T4","N2","MX",25023,"Dead",329,"male",68.5092402464066
+"TCGA-FD-A3SO","Transitional cell carcinoma",NA,NA,NA,NA,NA,25290,"Dead",168,"male",69.2402464065708
+"TCGA-YC-A89H","Transitional cell carcinoma","Stage II","High Grade",NA,NA,"MX",28741,"Alive",NA,"female",78.6885694729637
+"TCGA-CF-A9FL","Papillary transitional cell carcinoma",NA,NA,NA,NA,NA,31421,"Dead",565,"male",86.0260095824778
+"TCGA-5N-A9KM","Transitional cell carcinoma","Stage III","High Grade","T4a","N0","MX",26906,"Dead",530,"female",73.6646132785763
+"TCGA-YC-A8S6","Papillary transitional cell carcinoma","Stage II","High Grade","T2a","N0","MX",26130,"Alive",NA,"male",71.5400410677618
+"TCGA-FD-A5BU","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",27882,"Alive",NA,"female",76.3367556468173
+"TCGA-XF-AAN2","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",26720,"Dead",1869,"male",73.1553730321697
+"TCGA-G2-AA3F","Transitional cell carcinoma","Stage IV","High Grade","T3","N1","M0",28457,"Alive",NA,"male",77.9110198494182
+"TCGA-G2-A2EO","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","M0",25440,"Dead",1804,"male",69.6509240246407
+"TCGA-DK-A3WY","Transitional cell carcinoma","Stage III","High Grade","T3","N0","M0",24536,"Alive",NA,"female",67.1759069130732
+"TCGA-CF-A47Y","Papillary transitional cell carcinoma","Stage II","Low Grade","T2","N0","M0",20432,"Alive",NA,"male",55.9397672826831
+"TCGA-DK-A1A6","Transitional cell carcinoma","Stage IV","High Grade","T2a","N1","M0",19554,"Alive",NA,"male",53.5359342915811
+"TCGA-GU-A42Q","Transitional cell carcinoma",NA,NA,NA,NA,NA,NA,"Dead",344,"male",NA
+"TCGA-GV-A3JZ","Transitional cell carcinoma","Stage IV","High Grade","T4a","N3","MX",20420,"Alive",NA,"male",55.9069130732375
+"TCGA-XF-AAMY","Papillary transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",28509,"Alive",NA,"male",78.0533880903491
+"TCGA-XF-AAN7","Adenocarcinoma, NOS",NA,NA,"T2a","N1","MX",21995,"Dead",565,"male",60.2190280629706
+"TCGA-KQ-A41O","Transitional cell carcinoma","Stage I",NA,"T1","NX","MX",28614,"Alive",NA,"male",78.3408624229979
+"TCGA-BT-A2LD","Transitional cell carcinoma","Stage IV","High Grade","T3a","N1","M0",28673,"Dead",623,"female",78.5023956194387
+"TCGA-UY-A9PD","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",29565,"Alive",NA,"male",80.9445585215606
+"TCGA-E7-A6ME","Transitional cell carcinoma","Stage II","High Grade","T2b","NX","M0",27670,"Alive",NA,"male",75.7563312799452
+"TCGA-KQ-A41Q","Transitional cell carcinoma","Stage 0a",NA,"Ta","NX","MX",32754,"Alive",NA,"male",89.6755646817249
+"TCGA-PQ-A6FN","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",28546,"Alive",NA,"female",78.154688569473
+"TCGA-S5-AA26","Papillary transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",16972,"Alive",NA,"male",46.466803559206
+"TCGA-XF-A9SX","Transitional cell carcinoma",NA,NA,NA,NA,NA,23824,"Dead",719,"female",65.2265571526352
+"TCGA-FD-A3N5","Transitional cell carcinoma",NA,NA,NA,NA,NA,25688,"Dead",685,"male",70.3299110198494
+"TCGA-BT-A42C","Squamous cell carcinoma, NOS","Stage I",NA,"T1","N0","M0",22557,"Alive",NA,"male",61.7577002053388
+"TCGA-GC-A4ZW","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","M0",25964,"Alive",NA,"male",71.0855578370979
+"TCGA-DK-A2HX","Gastrointestinal stromal tumor, NOS",NA,NA,NA,NA,NA,NA,"Dead",1420,"female",NA
+"TCGA-K4-A83P","Transitional cell carcinoma",NA,NA,NA,NA,NA,28552,"Alive",NA,"male",78.1711156741958
+"TCGA-XF-A9T2","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Dead",575,"male",NA
+"TCGA-FD-A3NA","Carcinoma, NOS",NA,NA,"T2a",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-GD-A6C6","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","MX",23631,"Alive",NA,"male",64.6981519507187
+"TCGA-C4-A0EZ","Transitional cell carcinoma","Stage IV","High Grade","T3a","N1","M1",25202,"Dead",273,"female",68.9993155373032
+"TCGA-CU-A0YR","Adenocarcinoma, NOS","Stage III",NA,"T3b","N0","M0",30708,"Dead",460,"male",84.0739219712526
+"TCGA-BT-A3PJ","Adenocarcinoma, NOS","Stage IIIA",NA,"T2a","N0","MX",NA,"Alive",NA,"male",NA
+"TCGA-GC-A6I3","Transitional cell carcinoma","Stage IV","High Grade","T3a","N1","MX",32872,"Alive",NA,"female",89.9986310746064
+"TCGA-DK-A6B2","Transitional cell carcinoma",NA,NA,NA,NA,NA,25893,"Alive",NA,"male",70.8911704312115
+"TCGA-XF-AAMT","Transitional cell carcinoma","Stage IV","High Grade","T3b","N2","MX",27397,"Dead",90,"female",75.0088980150582
+"TCGA-CU-A72E","Not Reported",NA,NA,NA,NA,NA,28219,"Dead",413,"male",77.2594113620808
+"TCGA-FD-A43X","Transitional cell carcinoma",NA,NA,"T1",NA,NA,30721,"Alive",NA,"male",84.1095140314853
+"TCGA-ZF-A9R2","Squamous cell carcinoma, clear cell type",NA,NA,NA,NA,NA,15282,"Alive",NA,"male",41.8398357289528
+"TCGA-GV-A3QK","Transitional cell carcinoma","Stage IV","High Grade","T4a","N2","M0",20802,"Alive",NA,"female",56.952772073922
+"TCGA-GU-AATQ","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",25185,"Dead",213,"male",68.952772073922
+"TCGA-K4-A3WU","Adenocarcinoma, NOS",NA,NA,"T2a","N0","MX",NA,"Alive",NA,"male",NA
+"TCGA-XF-A9SJ","Transitional cell carcinoma","Stage IV","High Grade","T3b","N2","MX",30362,"Dead",98,"male",83.1266255989049
+"TCGA-DK-A2I6","Adenocarcinoma, NOS","Stage II",NA,"T2b","N0","M0",29819,"Alive",NA,"male",81.6399726214921
+"TCGA-DK-A6AV","Transitional cell carcinoma","Stage II","High Grade","T2a","N0","M0",30089,"Alive",NA,"female",82.3791923340178
+"TCGA-DK-A3IQ","Transitional cell carcinoma",NA,NA,NA,NA,NA,27444,"Dead",539,"male",75.1375770020534
+"TCGA-FD-A5BS","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",24963,"Alive",NA,"male",68.3449691991786
+"TCGA-DK-A3IN","Basal cell carcinoma, NOS",NA,NA,"T1","N0","M0",NA,"Dead",250,"male",NA
+"TCGA-FD-A62N","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",25297,"Alive",NA,"male",69.2594113620808
+"TCGA-GU-A42P","Transitional cell carcinoma","Stage IV","High Grade","T3a","N1","M0",26546,"Dead",332,"male",72.6789869952088
+"TCGA-FD-A3SN","Transitional cell carcinoma",NA,NA,NA,NA,NA,29279,"Alive",NA,"male",80.1615331964408
+"TCGA-FD-A3SQ","Transitional cell carcinoma",NA,NA,NA,NA,NA,23678,"Dead",1423,"male",64.8268309377139
+"TCGA-XF-A8HG","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",25421,"Dead",467,"male",69.5989048596851
+"TCGA-CU-A0YO","Carcinoma, NOS",NA,NA,"T2b",NA,NA,NA,"Dead",149,"male",NA
+"TCGA-2F-A9KT","Carcinoma, NOS",NA,NA,"T2a",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-CU-A0YN","Adenocarcinoma, NOS","Stage II",NA,"T2c","N0","MX",NA,"Dead",393,"male",NA
+"TCGA-BT-A20X","Transitional cell carcinoma","Stage IV","High Grade","T4a","N2","M0",20519,"Dead",251,"male",56.1779603011636
+"TCGA-CF-A9FM","Papillary transitional cell carcinoma","Stage I","High Grade","T1","N0","M0",18445,"Alive",NA,"male",50.4996577686516
+"TCGA-G2-AA3C","Transitional cell carcinoma","Stage IV","High Grade","T3b","N1","M0",24267,"Dead",211,"male",66.4394250513347
+"TCGA-FD-A43P","Transitional cell carcinoma","Stage II","High Grade","T2a","N0","MX",27201,"Alive",NA,"male",74.4722792607803
+"TCGA-XF-AAN5","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",22411,"Alive",NA,"female",61.3579739904175
+"TCGA-GC-A3YS","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N0","MX",22543,"Alive",NA,"male",61.719370294319
+"TCGA-DK-A1A3","Transitional cell carcinoma","Stage IV","High Grade","T3","N2","M0",22235,"Dead",665,"male",60.8761122518823
+"TCGA-G2-A2EJ","Transitional cell carcinoma","Stage II","High Grade",NA,"N0","M0",20649,"Alive",NA,"female",56.5338809034908
+"TCGA-GC-A3RB","Carcinoma, NOS",NA,NA,"T2a",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-XF-AAME","Transitional cell carcinoma",NA,NA,NA,NA,NA,25099,"Dead",2828,"female",68.7173169062286
+"TCGA-DK-A1AA","Transitional cell carcinoma","Stage III","High Grade","T3","N0","M0",21093,"Alive",NA,"male",57.7494866529774
+"TCGA-K4-A3WS","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-BL-A0C8","Transitional cell carcinoma","Stage I","Not Reported","T1","NX","M0",26819,"Alive",NA,"male",73.4264202600958
+"TCGA-KQ-A41S","Transitional cell carcinoma","Stage III","High Grade","T4a","NX","MX",32041,"Alive",NA,"female",87.7234770704997
+"TCGA-UY-A78L","Not Reported",NA,NA,NA,NA,NA,23072,"Alive",NA,"male",63.1676933607118
+"TCGA-4Z-AA84","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-GU-AATO","Transitional cell carcinoma","Stage IV","High Grade","T4a","N2","MX",27684,"Dead",324,"male",75.7946611909651
+"TCGA-XF-A9SV","Papillary transitional cell carcinoma",NA,NA,"Ta",NA,NA,30060,"Dead",388,"male",82.299794661191
+"TCGA-ZF-A9R7","Transitional cell carcinoma","Stage II","High Grade",NA,"NX","M0",28063,"Alive",NA,"female",76.8323066392882
+"TCGA-H4-A2HQ","Transitional cell carcinoma",NA,NA,NA,NA,NA,23928,"Alive",NA,"female",65.5112936344969
+"TCGA-HQ-A2OE","Transitional cell carcinoma",NA,"Unknown","T2a","N2","MX",NA,"Alive",NA,"male",NA
+"TCGA-CF-A47S","Papillary transitional cell carcinoma","Stage II","Low Grade","T2","N0","M0",15225,"Alive",NA,"male",41.6837782340862
+"TCGA-H4-A2HO","Papillary transitional cell carcinoma","Stage III","High Grade","T4a","N0","MX",19630,"Alive",NA,"male",53.7440109514031
+"TCGA-ZF-AA53","Carcinoma in situ, NOS",NA,NA,NA,NA,NA,21649,"Alive",NA,"male",59.2717316906229
+"TCGA-DK-AA76","Transitional cell carcinoma","Stage II","High Grade",NA,"N0","M0",23542,"Alive",NA,"female",64.4544832306639
+"TCGA-FD-A6TC","Transitional cell carcinoma","Stage III","High Grade","T4a","N0","MX",28963,"Alive",NA,"female",79.296372347707
+"TCGA-E7-A541","Adenocarcinoma, NOS","Stage I",NA,"T2a","NX","MX",24229,"Dead",778,"male",66.3353867214237
+"TCGA-GV-A3JV","Transitional cell carcinoma","Stage IV","High Grade","T3b","N1","MX",24243,"Dead",434,"male",66.3737166324435
+"TCGA-XF-A8HH","Transitional cell carcinoma","Stage IV","High Grade","T3b","N2","M0",22393,"Dead",57,"female",61.3086926762491
+"TCGA-DK-A6B5","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-ZF-AA5H","Transitional cell carcinoma",NA,NA,NA,NA,NA,22571,"Alive",NA,"female",61.7960301163587
+"TCGA-KQ-A41P","Carcinoma, NOS",NA,NA,"T2a",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-PQ-A6FI","Transitional cell carcinoma","Stage II","High Grade","T2a","N0","MX",25672,"Alive",NA,"male",70.2861054072553
+"TCGA-GV-A3JX","Transitional cell carcinoma","Stage III","High Grade","T3b","N0","MX",21888,"Alive",NA,"male",59.9260780287474
+"TCGA-BT-A42F","Transitional cell carcinoma","Stage IV","High Grade","T4a","N1","MX",23713,"Alive",NA,"male",64.9226557152635
+"TCGA-FD-A5C0","Not Reported",NA,NA,NA,NA,NA,22527,"Dead",550,"male",61.6755646817248
+"TCGA-XF-A9SZ","Transitional cell carcinoma",NA,NA,NA,NA,NA,29954,"Dead",859,"male",82.009582477755
+"TCGA-UY-A78M","Transitional cell carcinoma","Stage IV","High Grade","T2","N2","MX",29706,"Dead",690,"female",81.3305954825462
+"TCGA-XF-A8HD","Carcinoma, NOS",NA,NA,"T2a",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-FD-A5C1","Papillary transitional cell carcinoma",NA,NA,"T1","N0","MX",22505,"Alive",NA,"female",61.6153319644079
+"TCGA-DK-AA6X","Transitional cell carcinoma","Stage II","High Grade",NA,"N0","M0",23208,"Alive",NA,"male",63.5400410677618
+"TCGA-G2-AA3D","Carcinoma, NOS",NA,NA,"T1a",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-KQ-A41R","Transitional cell carcinoma","Stage II","High Grade","T2","N0","MX",29351,"Alive",NA,"female",80.3586584531143
+"TCGA-BT-A20T","Transitional cell carcinoma",NA,NA,NA,NA,NA,23534,"Dead",453,"male",64.4325804243669
+"TCGA-ZF-AA4X","Transitional cell carcinoma","Stage II","High Grade","T2","NX","M0",20579,"Alive",NA,"male",56.3422313483915
+"TCGA-DK-A6B1","Transitional cell carcinoma","Stage II","High Grade","T2a","N0","M0",24607,"Alive",NA,"male",67.3702943189596
+"TCGA-XF-AAN0","Transitional cell carcinoma","Stage IV","High Grade","T4a","N2","M0",24877,"Dead",1718,"male",68.1095140314853
+"TCGA-ZF-AA56","Transitional cell carcinoma",NA,NA,NA,NA,NA,29185,"Dead",259,"female",79.9041752224504
+"TCGA-CF-A47T","Not Reported",NA,NA,NA,NA,NA,21486,"Dead",385,"female",58.8254620123203
+"TCGA-XF-AAMH","Transitional cell carcinoma",NA,NA,"T1",NA,NA,29541,"Dead",344,"male",80.8788501026694
+"TCGA-FD-A6TI","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N0","MX",26914,"Dead",294,"male",73.6865160848734
+"TCGA-BT-A20N","Carcinoma, NOS",NA,NA,"T1a",NA,NA,NA,"Dead",795,"male",NA
+"TCGA-DK-AA6U","Transitional cell carcinoma","Stage II","Unknown",NA,"N0","M0",23611,"Alive",NA,"male",64.643394934976
+"TCGA-XF-AAMZ","Not Reported",NA,NA,"T1",NA,NA,28510,"Dead",1348,"female",78.0561259411362
+"TCGA-FD-A43U","Transitional cell carcinoma","Stage IV","High Grade","T4a","N2","MX",25841,"Alive",NA,"male",70.7488021902806
+"TCGA-DK-A3IL","Transitional cell carcinoma","Stage IV","High Grade","T3","N2","M0",29047,"Dead",413,"female",79.5263518138262
+"TCGA-XF-A8HI","Papillary transitional cell carcinoma",NA,NA,NA,NA,NA,21527,"Dead",544,"female",58.9377138945927
+"TCGA-ZF-AA4T","Transitional cell carcinoma","Stage IV","High Grade","T4","N2","MX",23974,"Dead",599,"male",65.637234770705
+"TCGA-DK-A1AB","Transitional cell carcinoma",NA,NA,NA,NA,NA,27490,"Dead",508,"female",75.2635181382615
+"TCGA-XF-AAMW","Transitional cell carcinoma","Stage IV","High Grade","T2b","N0",NA,28903,"Dead",253,"female",79.1321013004791
+"TCGA-CF-A3MI","Papillary transitional cell carcinoma","Stage II","Low Grade","T2","N0","M0",22716,"Alive",NA,"male",62.1930184804928
+"TCGA-E7-A8O7","Transitional cell carcinoma","Stage II","Low Grade","T2","N0","M0",19063,"Alive",NA,"male",52.1916495550992
+"TCGA-BT-A20P","Transitional cell carcinoma","Stage III","High Grade","T3a","N0","M0",29634,"Dead",544,"female",81.1334702258727
+"TCGA-ZF-A9RD","Transitional cell carcinoma","Stage IV","High Grade","T3a","N2","MX",27496,"Dead",408,"female",75.2799452429843
+"TCGA-ZF-A9RG","Transitional cell carcinoma",NA,NA,NA,NA,NA,26742,"Alive",NA,"female",73.2156057494867
+"TCGA-XF-A9SW","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Dead",362,"male",NA
+"TCGA-GC-A3OO","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","M0",29065,"Alive",NA,"male",79.5756331279945
+"TCGA-2F-A9KR","Papillary transitional cell carcinoma","Stage III","High Grade","T3a","N0","M0",21848,"Dead",3183,"female",59.8165639972622
+"TCGA-GU-A764","Transitional cell carcinoma","Stage II","High Grade","T2b","N0","MX",24343,"Alive",NA,"male",66.6475017111567
+"TCGA-E7-A3Y1","Transitional cell carcinoma","Stage II","Low Grade",NA,"N0","M0",20917,"Alive",NA,"male",57.2676249144422
+"TCGA-BT-A20R","Transitional cell carcinoma","Stage IV","High Grade","T3b","N1","M0",28987,"Dead",154,"female",79.3620807665982
+"TCGA-DK-A1AG","Transitional cell carcinoma","Stage III","High Grade","T3","N0","M0",24095,"Alive",NA,"male",65.968514715948
+"TCGA-DK-AA71","Papillary transitional cell carcinoma, non-invasive",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-XF-A9T4","Transitional cell carcinoma","Stage IV","High Grade","T2b","N1","MX",17728,"Dead",495,"male",48.5366187542779
+"TCGA-XF-AAN3","Transitional cell carcinoma","Stage IV","High Grade","T3b","N2","MX",27909,"Alive",NA,"male",76.4106776180698
+"TCGA-DK-AA6T","Transitional cell carcinoma","Stage II","High Grade",NA,"N0","M0",23198,"Alive",NA,"male",63.5126625598905
+"TCGA-CF-A7I0","Papillary transitional cell carcinoma","Stage II","Low Grade","T2","N0","M0",20059,"Alive",NA,"male",54.9185489390828
+"TCGA-FJ-A3ZF","Not Reported","Stage 0a",NA,"TX","NX","MX",26092,"Alive",NA,"male",71.4360027378508
+"TCGA-ZF-A9RE","Transitional cell carcinoma","Stage II","High Grade",NA,NA,"MX",28622,"Dead",106,"female",78.362765229295
+"TCGA-E7-A4IJ","Papillary transitional cell carcinoma",NA,NA,NA,NA,NA,21343,"Dead",674,"male",58.4339493497604
+"TCGA-G2-A2EC","Transitional cell carcinoma","Stage II","High Grade",NA,"N0","M0",21215,"Dead",696,"female",58.0835044490075
+"TCGA-UY-A8OB","Transitional cell carcinoma","Stage IV","High Grade","T3a","N1","MX",23360,"Alive",NA,"male",63.9561943874059
+"TCGA-G2-A2EF","Transitional cell carcinoma","Stage II","High Grade",NA,"N0","M0",18467,"Alive",NA,"male",50.5598904859685
+"TCGA-4Z-AA7Q","Carcinoma, NOS",NA,NA,"T1a",NA,NA,NA,"Dead",510,"male",NA

@@ -1,0 +1,586 @@
+"patient_id","primary_diagnosis","pathologic_stage","tumor_grade","pathologic_T","pathologic_N","pathologic_M","age_at_diagnosis_days","vital_status","days_to_death","gender","age_at_diagnosis_years"
+"TCGA-44-3918","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",22236,"Alive",NA,"female",60.8788501026694
+"TCGA-44-6146","Mucinous adenocarcinoma",NA,NA,NA,NA,NA,24009,"Alive",NA,"male",65.7330595482546
+"TCGA-62-8394","Adenocarcinoma with mixed subtypes","Stage IIIB",NA,"T4","N2","M0",23758,"Dead",139,"female",65.0458590006845
+"TCGA-55-8204","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","MX",31818,"Alive",NA,"female",87.1129363449692
+"TCGA-MN-A4N1","Squamous cell carcinoma, NOS","Stage II",NA,"T2","N0","MX",19175,"Alive",NA,"male",52.498288843258
+"TCGA-55-7724","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","MX",27891,"Alive",NA,"female",76.3613963039014
+"TCGA-55-6979","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,21975,"Dead",237,"female",60.1642710472279
+"TCGA-05-4395","Adenocarcinoma with mixed subtypes","Stage IIIB",NA,"T4","N2","M0",27971,"Dead",0,"male",76.580424366872
+"TCGA-50-5939","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",31236,"Dead",460,"male",85.5195071868583
+"TCGA-78-7633","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",24713,"Dead",1528,"male",67.6605065023956
+"TCGA-73-7499","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2a","N0","M0",29683,"Dead",1531,"female",81.2676249144422
+"TCGA-05-4405","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-55-7903","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","MX",23509,"Alive",NA,"male",64.3641341546886
+"TCGA-64-1677","Not Reported",NA,NA,NA,NA,NA,28842,"Dead",628,"female",78.9650924024641
+"TCGA-75-5122","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",NA,"Dead",NA,"male",NA
+"TCGA-62-A46U","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T2","N1","M0",25998,"Alive",NA,"female",71.1786447638604
+"TCGA-17-Z057",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-44-7670","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-78-7156","Adenocarcinoma with mixed subtypes","Stage IV",NA,"T4","N1","M1",22720,"Dead",976,"male",62.2039698836413
+"TCGA-J2-8194","Adenocarcinoma with mixed subtypes",NA,NA,NA,NA,NA,25911,"Alive",NA,"female",70.9404517453799
+"TCGA-44-A47A","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","MX",28782,"Alive",NA,"female",78.8008213552361
+"TCGA-50-5935","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",653,"female",NA
+"TCGA-55-8207","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-05-4402","Adenocarcinoma with mixed subtypes","Stage IV",NA,"T2","NX","M1",20819,"Dead",244,"female",56.9993155373032
+"TCGA-99-8032","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","M0",22635,"Alive",NA,"male",61.9712525667351
+"TCGA-44-7667","Adenocarcinoma, NOS","Stage IIB",NA,"T3","N0","MX",18062,"Alive",NA,"female",49.45106091718
+"TCGA-64-5775","Adenocarcinoma, NOS","Stage IIIA",NA,"T4","N0","M0",26058,"Dead",62,"male",71.3429158110883
+"TCGA-55-8302","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","MX",20011,"Alive",NA,"male",54.7871321013005
+"TCGA-64-1679","Adenocarcinoma, NOS","Stage IIIA",NA,"T1","N2","M0",21310,"Alive",NA,"female",58.3436002737851
+"TCGA-55-8621","Clear cell carcinoma",NA,NA,NA,NA,NA,26993,"Alive",NA,"female",73.9028062970568
+"TCGA-17-Z003",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-55-6968","Adenocarcinoma, NOS","Stage IV",NA,"T1","N0","M1",22344,"Dead",1293,"male",61.1745379876797
+"TCGA-44-8120","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","M0",21188,"Alive",NA,"male",58.009582477755
+"TCGA-99-8025","Adenocarcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",26634,"Alive",NA,"female",72.9199178644764
+"TCGA-50-6594","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,29209,"Dead",370,"female",79.9698836413416
+"TCGA-NJ-A7XG","Adenocarcinoma, NOS","Stage IIIA",NA,"T4","N1","M0",18127,"Alive",NA,"male",49.6290212183436
+"TCGA-MP-A4TF","Adenocarcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",21387,"Dead",336,"female",58.5544147843943
+"TCGA-78-7161","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T3","N0","M0",25294,"Dead",291,"female",69.2511978097194
+"TCGA-86-6851","Adenocarcinoma with mixed subtypes","Stage IIA",NA,"T1b","N1","M0",26808,"Alive",NA,"female",73.3963039014374
+"TCGA-73-4677","Adenocarcinoma, NOS",NA,NA,"T2a","N0","M0",27381,"Dead",38,"male",74.9650924024641
+"TCGA-78-7540","Bronchio-alveolar carcinoma, mucinous","Stage IB",NA,"T2","N0","M0",24440,"Dead",1197,"female",66.9130732375086
+"TCGA-44-6148","Mucinous adenocarcinoma","Stage IA",NA,"T1b","N0","M0",22138,"Alive",NA,"male",60.6105407255305
+"TCGA-NJ-A55O","Mucinous adenocarcinoma","Stage IIA",NA,"T1b","N1","M0",20628,"Alive",NA,"female",56.476386036961
+"TCGA-17-Z055",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-97-8174","Papillary adenocarcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",24725,"Dead",164,"male",67.6933607118412
+"TCGA-49-4505","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N1","M0",22628,"Dead",428,"female",61.9520876112252
+"TCGA-97-8177","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2a","N0","M0",21648,"Alive",NA,"female",59.2689938398357
+"TCGA-MP-A5C7","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",28015,"Alive",NA,"female",76.7008898015058
+"TCGA-50-6592","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",26191,"Dead",777,"female",71.7070499657769
+"TCGA-64-5778","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IB",NA,"T2","N0","M0",21927,"Alive",NA,"male",60.0328542094456
+"TCGA-62-8397","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T3","N0","M0",25728,"Alive",NA,"female",70.4394250513347
+"TCGA-55-7284","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IIB",NA,"T3","N0","MX",27087,"Dead",243,"male",74.1601642710472
+"TCGA-75-5126","Papillary adenocarcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",NA,"Alive",NA,"female",NA
+"TCGA-91-6828","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","M0",25870,"Alive",NA,"male",70.8281998631075
+"TCGA-17-Z004",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-91-6849","Adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","MX",27676,"Alive",NA,"female",75.772758384668
+"TCGA-55-8205","Basal cell carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-38-4625","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","M0",24241,"Alive",NA,"female",66.3682409308693
+"TCGA-44-A47B","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","M0",28869,"Alive",NA,"male",79.0390143737166
+"TCGA-55-8089","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","M0",20576,"Dead",702,"male",56.3340177960301
+"TCGA-99-8028","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","M0",18542,"Alive",NA,"female",50.7652292950034
+"TCGA-91-6847","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,23634,"Alive",NA,"female",64.7063655030801
+"TCGA-55-A48Y","Adenocarcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",25384,"Alive",NA,"male",69.4976043805613
+"TCGA-50-5049","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,28121,"Alive",NA,"male",76.9911019849418
+"TCGA-55-5899","Adenocarcinoma, NOS",NA,NA,"T1a","N1","M0",NA,"Alive",NA,"male",NA
+"TCGA-91-6829","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IB",NA,"T2","N0","MX",28841,"Dead",1258,"male",78.9623545516769
+"TCGA-49-AARQ","Adenocarcinoma, NOS","Stage I",NA,"T2","N0","MX",15065,"Alive",NA,"female",41.2457221081451
+"TCGA-MP-A4SW","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N1","M0",19640,"Dead",1778,"male",53.7713894592745
+"TCGA-50-6591","Adenocarcinoma, NOS","Stage IV",NA,"T2","N0","M1",23067,"Dead",119,"female",63.1540041067762
+"TCGA-05-5425","Not Reported",NA,NA,NA,NA,NA,25506,"Alive",NA,"male",69.8316221765914
+"TCGA-49-AARR","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","MX",24942,"Alive",NA,"male",68.2874743326489
+"TCGA-MN-A4N5","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","M0",23257,"Alive",NA,"male",63.6741957563313
+"TCGA-97-8552","Bronchiolo-alveolar carcinoma, non-mucinous","Stage I",NA,"T1a","N0","MX",20331,"Alive",NA,"female",55.6632443531828
+"TCGA-17-Z050",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-93-A4JN","Acinar cell carcinoma","Stage IV",NA,"T2a","N0","M1a",26273,"Alive",NA,"male",71.9315537303217
+"TCGA-97-7552","Bronchio-alveolar carcinoma, mucinous","Stage IB",NA,"T2","N0","MX",25578,"Alive",NA,"male",70.0287474332649
+"TCGA-86-A4P7","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","M0",23330,"Alive",NA,"female",63.8740588637919
+"TCGA-50-5944","Acinar cell carcinoma","Stage IA",NA,"T1","N0","M0",25440,"Alive",NA,"female",69.6509240246407
+"TCGA-69-8453","Mucinous adenocarcinoma","Stage IIB",NA,"T3","N0","MX",28413,"Alive",NA,"male",77.7905544147844
+"TCGA-55-6975","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T2","N1","M0",NA,"Dead",118,"male",NA
+"TCGA-75-5146","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IB",NA,"T2","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-97-7546","Acinar cell carcinoma","Stage IA",NA,"T1","N0","MX",27913,"Alive",NA,"female",76.4216290212183
+"TCGA-49-4512","Adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","MX",25502,"Dead",905,"female",69.8206707734428
+"TCGA-44-5644","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0",NA,18644,"Alive",NA,"female",51.0444900752909
+"TCGA-05-4417","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",18780,"Alive",NA,"female",51.4168377823409
+"TCGA-75-5125","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",2027,"male",NA
+"TCGA-49-6743","Clear cell adenocarcinoma, NOS","Stage IIIA",NA,"T1","N2","MX",29807,"Alive",NA,"female",81.6071184120465
+"TCGA-44-6144","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,21682,"Alive",NA,"male",59.3620807665982
+"TCGA-86-7701","Adenocarcinoma, NOS","Stage IV",NA,"T2","N0","M1",24209,"Alive",NA,"male",66.280629705681
+"TCGA-69-7764","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1b","N0","M0",27693,"Alive",NA,"male",75.8193018480493
+"TCGA-17-Z060",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-44-7660","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","MX",26594,"Alive",NA,"male",72.8104038329911
+"TCGA-17-Z021",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-83-5908","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",21760,"Alive",NA,"female",59.5756331279945
+"TCGA-17-Z019",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-L4-A4E6","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",24631,"Alive",NA,"male",67.4360027378508
+"TCGA-44-5643","Adenocarcinoma, NOS","Stage IIIA",NA,"T2b","N2","M0",19426,"Alive",NA,"male",53.1854893908282
+"TCGA-55-7574","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","M0",23703,"Dead",995,"female",64.8952772073922
+"TCGA-73-A9RS","Mucinous adenocarcinoma","Stage IIB",NA,"T3","N0","M0",15162,"Dead",340,"male",41.5112936344969
+"TCGA-86-8278","Mucinous adenocarcinoma","Stage IIB",NA,"T2","N1","M0",23117,"Alive",NA,"female",63.2908966461328
+"TCGA-NJ-A4YI","Acinar cell carcinoma","Stage IIIA",NA,"T2","N2","M0",31867,"Dead",4,"female",87.2470910335387
+"TCGA-55-8299","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","MX",22626,"Dead",469,"female",61.9466119096509
+"TCGA-75-6211","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",NA,"Dead",NA,"female",NA
+"TCGA-17-Z051",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-78-7149","Adenocarcinoma with mixed subtypes","Stage IIIB",NA,"T4","N0","M0",26285,"Alive",NA,"male",71.9644079397673
+"TCGA-55-6987","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",28382,"Alive",NA,"male",77.7056810403833
+"TCGA-44-7662","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","MX",22543,"Alive",NA,"male",61.719370294319
+"TCGA-86-8585","Solid carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",20918,"Alive",NA,"male",57.2703627652293
+"TCGA-55-7995","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,27305,"Alive",NA,"female",74.757015742642
+"TCGA-17-Z047",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-MP-A4T4","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N1","M0",25052,"Dead",2617,"female",68.5886379192334
+"TCGA-17-Z007",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-55-A494","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","MX",22540,"Alive",NA,"female",61.7111567419576
+"TCGA-73-4675","Adenocarcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",21614,"Dead",922,"male",59.1759069130732
+"TCGA-S2-AA1A","Bronchio-alveolar carcinoma, mucinous","Stage IA",NA,"T1b","N0","M0",24903,"Alive",NA,"female",68.1806981519507
+"TCGA-50-5066","Adenocarcinoma with mixed subtypes",NA,NA,NA,NA,NA,26862,"Alive",NA,"male",73.5441478439425
+"TCGA-05-4433","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",30194,"Alive",NA,"male",82.6666666666667
+"TCGA-17-Z001",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-97-A4M6","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1a","N0","M0",16764,"Alive",NA,"female",45.8973305954825
+"TCGA-55-8097","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","MX",22260,"Alive",NA,"female",60.9445585215606
+"TCGA-L4-A4E5","Adenocarcinoma, NOS","Stage I",NA,"T1","N0","M0",17680,"Alive",NA,"female",48.4052019164955
+"TCGA-55-A48X","Not Reported",NA,NA,NA,NA,NA,23956,"Alive",NA,"female",65.5879534565366
+"TCGA-55-7910","Adenocarcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",18289,"Alive",NA,"female",50.072553045859
+"TCGA-17-Z002",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-05-4244","Adenocarcinoma, NOS","Stage IV",NA,"T2","N2","M1",25752,"Alive",NA,"male",70.5051334702259
+"TCGA-97-A4M2","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-44-6777","Adenocarcinoma, NOS","Stage IB",NA,"T2","NX","MX",31234,"Dead",987,"female",85.5140314852841
+"TCGA-55-A490","Adenocarcinoma, NOS","Stage IIA",NA,"T2b","N0","MX",28728,"Dead",99,"male",78.652977412731
+"TCGA-55-6982","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",995,"female",NA
+"TCGA-55-8508","Mucinous adenocarcinoma","Stage IIA",NA,"T2a","N1","MX",22159,"Alive",NA,"female",60.6680355920602
+"TCGA-55-8096","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","MX",24684,"Dead",719,"female",67.5811088295688
+"TCGA-17-Z058",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-50-5930","Adenocarcinoma with mixed subtypes","Stage IIIA",NA,"T2","N2","M0",17238,"Dead",282,"male",47.1950718685832
+"TCGA-86-8673","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IB",NA,"T2","N0","M0",22571,"Alive",NA,"male",61.7960301163587
+"TCGA-69-7765","Adenocarcinoma with mixed subtypes",NA,NA,"T4","N0","MX",20625,"Alive",NA,"male",56.4681724845996
+"TCGA-71-8520","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",21921,"Dead",210,"female",60.0164271047228
+"TCGA-MP-A4TE","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,20853,"Dead",896,"male",57.0924024640657
+"TCGA-MP-A4TD","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,26209,"Dead",307,"male",71.7563312799452
+"TCGA-55-7907","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,28495,"Dead",343,"male",78.0150581793292
+"TCGA-17-Z056",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-97-A4M1","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1a","N0","M0",19272,"Alive",NA,"female",52.7638603696099
+"TCGA-55-A492","Medullary carcinoma, NOS","Stage IIA",NA,"T3","N0","M0",25080,"Alive",NA,"female",68.6652977412731
+"TCGA-78-7160","Adenocarcinoma with mixed subtypes","Stage IV",NA,"T4","N2","M1",22385,"Dead",697,"male",61.2867898699521
+"TCGA-05-4430","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",21884,"Alive",NA,"female",59.9151266255989
+"TCGA-49-AAR0","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,20552,"Alive",NA,"male",56.2683093771389
+"TCGA-55-A57B","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1b","N0","M0",29452,"Alive",NA,"female",80.6351813826146
+"TCGA-75-6206","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-95-7567","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T2b","N1","M0",22437,"Alive",NA,"male",61.429158110883
+"TCGA-44-3396","Adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",27073,"Alive",NA,"female",74.1218343600274
+"TCGA-49-4494","Adenocarcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",28387,"Dead",1081,"male",77.719370294319
+"TCGA-50-5946","Adenocarcinoma with mixed subtypes",NA,NA,NA,NA,NA,23073,"Alive",NA,"male",63.170431211499
+"TCGA-05-4420","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",15159,"Alive",NA,"male",41.5030800821355
+"TCGA-44-6779","Not Reported",NA,NA,NA,NA,NA,18701,"Dead",500,"female",51.2005475701574
+"TCGA-69-7974","Adenocarcinoma with mixed subtypes","Stage IIIA",NA,"T2a","N2","MX",20021,"Alive",NA,"female",54.8145106091718
+"TCGA-55-A4DG","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","MX",26044,"Alive",NA,"male",71.3045859000684
+"TCGA-86-7713","Adenocarcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",25791,"Alive",NA,"male",70.611909650924
+"TCGA-44-2662","Not Reported",NA,NA,NA,NA,NA,24259,"Alive",NA,"male",66.4175222450376
+"TCGA-64-5781","Not Reported",NA,NA,NA,NA,NA,20315,"Alive",NA,"female",55.6194387405886
+"TCGA-NJ-A4YP","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2a","N0","M0",19106,"Alive",NA,"male",52.3093771389459
+"TCGA-55-7283","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IIIA",NA,"T3","N2","MX",27946,"Alive",NA,"female",76.5119780971937
+"TCGA-44-2656","Not Reported",NA,NA,NA,NA,NA,22334,"Alive",NA,"male",61.1471594798084
+"TCGA-53-7813","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IIIB",NA,"T4","N0","M0",18875,"Alive",NA,"female",51.6769336071184
+"TCGA-MN-A4N4","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","M0",20888,"Alive",NA,"male",57.1882272416153
+"TCGA-17-Z027",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-35-4122","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",25491,"Alive",NA,"male",69.7905544147844
+"TCGA-69-8253","Adenocarcinoma with mixed subtypes","Stage IIA",NA,"T1a","N1","MX",21771,"Alive",NA,"female",59.605749486653
+"TCGA-78-7154","Adenocarcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",26481,"Dead",593,"male",72.5010266940452
+"TCGA-05-4422","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",24837,"Alive",NA,"male",68
+"TCGA-99-AA5R","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","M0",25778,"Alive",NA,"female",70.5763175906913
+"TCGA-86-8358","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","M0",16409,"Alive",NA,"male",44.9253935660507
+"TCGA-50-8457","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1a","N0","M0",23055,"Alive",NA,"female",63.1211498973306
+"TCGA-86-8056","Adenocarcinoma with mixed subtypes","Stage IIIA",NA,"T4","N0","M0",23369,"Alive",NA,"female",63.9808350444901
+"TCGA-55-6642","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","MX",23107,"Alive",NA,"male",63.2635181382615
+"TCGA-17-Z049",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-86-8074","Papillary adenocarcinoma, NOS","Stage IIA",NA,"T1b","N1","M0",22862,"Alive",NA,"female",62.5927446954141
+"TCGA-38-4627","Adenocarcinoma, NOS","Stage IIA",NA,"T1b","N1","M0",23510,"Dead",1147,"female",64.3668720054757
+"TCGA-49-4488","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","MX",27332,"Dead",869,"female",74.8309377138946
+"TCGA-91-8497","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","MX",27632,"Dead",434,"female",75.6522929500342
+"TCGA-86-8280","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IIA",NA,"T2b","N0","M0",19977,"Alive",NA,"female",54.694045174538
+"TCGA-05-4249","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",24532,"Alive",NA,"male",67.1649555099247
+"TCGA-78-7536","Not Reported",NA,NA,NA,NA,NA,25789,"Dead",244,"male",70.6064339493498
+"TCGA-17-Z005",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-55-7728","Mucinous adenocarcinoma","Stage IB",NA,"T2a","N0","MX",23505,"Alive",NA,"female",64.35318275154
+"TCGA-55-8092","Adenocarcinoma, NOS","Stage IIB",NA,"T3","N0","MX",27597,"Dead",154,"male",75.5564681724846
+"TCGA-69-7973","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2a","N0","M0",15355,"Alive",NA,"female",42.0396988364134
+"TCGA-86-6562","Adenocarcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",19301,"Dead",376,"male",52.8432580424367
+"TCGA-17-Z011",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-78-7159","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1","NX","M0",22261,"Alive",NA,"female",60.9472963723477
+"TCGA-55-7227","Adenocarcinoma, NOS","Stage IIIA",NA,"T3","N1","MX",28458,"Dead",952,"male",77.9137577002053
+"TCGA-97-A4M0","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2a","N0","M0",22206,"Alive",NA,"female",60.7967145790554
+"TCGA-44-5645","Adenocarcinoma, NOS","Stage IA",NA,"T1","NX",NA,22471,"Alive",NA,"female",61.5222450376454
+"TCGA-75-7030","Adenocarcinoma, NOS","Stage IIB",NA,"T3","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-17-Z054",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-62-A46S","Papillary adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",26825,"Dead",1653,"male",73.4428473648186
+"TCGA-86-A4JF","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,20927,"Dead",737,"male",57.2950034223135
+"TCGA-86-A4D0","Adenocarcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",17607,"Dead",116,"male",48.2053388090349
+"TCGA-50-6593","Adenocarcinoma with mixed subtypes","Stage IIIA",NA,"T1","N2","M0",18152,"Dead",336,"female",49.6974674880219
+"TCGA-86-7714","Adenocarcinoma with mixed subtypes","Stage IIIA",NA,"T1b","N2","M0",22619,"Dead",625,"female",61.927446954141
+"TCGA-17-Z006",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-78-7143","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IB",NA,"T2","N0","M0",22673,"Dead",4961,"female",62.0752908966461
+"TCGA-44-2666","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",15970,"Dead",97,"male",43.7234770704997
+"TCGA-55-6983","Mucinous adenocarcinoma","Stage IIB",NA,"T2","N1","M0",NA,"Alive",NA,"male",NA
+"TCGA-55-8087","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","MX",21655,"Alive",NA,"female",59.2881587953457
+"TCGA-97-A4LX","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2a","N0","M0",29915,"Alive",NA,"male",81.9028062970568
+"TCGA-55-8620","Adenocarcinoma, NOS","Stage IV",NA,"T1a","N1","M1b",22091,"Dead",375,"male",60.4818617385353
+"TCGA-55-A493","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","M0",20027,"Alive",NA,"female",54.8309377138946
+"TCGA-62-A472","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,26183,"Alive",NA,"male",71.6851471594798
+"TCGA-97-A4M3","Basal cell carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-J2-A4AE","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","MX",28163,"Alive",NA,"female",77.1060917180014
+"TCGA-75-6207","Adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",NA,"Dead",NA,"male",NA
+"TCGA-78-7542","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",20763,"Dead",321,"male",56.8459958932238
+"TCGA-NJ-A4YF","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1","N0","M0",18584,"Alive",NA,"female",50.880219028063
+"TCGA-55-6543","Bronchio-alveolar carcinoma, mucinous","Stage IA",NA,"T1b","N0","MX",NA,"Alive",NA,"female",NA
+"TCGA-78-7163","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",22002,"Alive",NA,"male",60.2381930184805
+"TCGA-05-4432","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T2","N1","M0",24350,"Alive",NA,"male",66.6666666666667
+"TCGA-62-8395","Adenocarcinoma with mixed subtypes",NA,NA,NA,NA,NA,29811,"Alive",NA,"female",81.6180698151951
+"TCGA-78-7148","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T2","N1","M0",25990,"Dead",626,"male",71.1567419575633
+"TCGA-44-6778","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","MX",21725,"Alive",NA,"male",59.4798083504449
+"TCGA-86-8281","Adenocarcinoma, NOS","Stage IA",NA,"T1","NX","M0",27409,"Alive",NA,"male",75.0417522245038
+"TCGA-MP-A4T6","Adenocarcinoma, NOS","Stage IIIA",NA,"T1","N2","MX",27993,"Dead",1790,"female",76.6406570841889
+"TCGA-93-7347","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1a","N0","MX",27949,"Alive",NA,"female",76.5201916495551
+"TCGA-97-7547","Papillary adenocarcinoma, NOS","Stage IB",NA,"T2","N0","MX",24737,"Alive",NA,"female",67.7262149212868
+"TCGA-44-6145","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",22745,"Alive",NA,"female",62.2724161533196
+"TCGA-55-6712","Adenocarcinoma, NOS","Stage IIA",NA,"T2a","N1","MX",NA,"Dead",171,"male",NA
+"TCGA-17-Z052",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-17-Z062",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-17-Z036",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-17-Z008",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-MP-A4TI","Adenocarcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",26565,"Dead",429,"male",72.7310061601643
+"TCGA-86-A4P8","Adenocarcinoma, NOS","Stage IIIA",NA,"T1b","N2","MX",21738,"Alive",NA,"female",59.5154004106776
+"TCGA-44-2657","Adenocarcinoma, NOS","Stage IB",NA,"T2","NX","M0",27298,"Alive",NA,"female",74.7378507871321
+"TCGA-97-8175","Solid carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",20206,"Alive",NA,"female",55.3210130047912
+"TCGA-05-4424","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T3","N0","M0",25689,"Alive",NA,"male",70.3326488706365
+"TCGA-55-8505","Adenocarcinoma, NOS","Stage IIIA",NA,"T1a","N2","MX",22676,"Alive",NA,"male",62.0835044490075
+"TCGA-44-A47F","Adenocarcinoma, NOS","Stage IIB",NA,"T2b","N1","M0",27122,"Alive",NA,"male",74.2559890485968
+"TCGA-67-3772","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",29989,"Alive",NA,"female",82.1054072553046
+"TCGA-17-Z044",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-78-7537","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",26610,"Dead",1622,"male",72.8542094455852
+"TCGA-17-Z048",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-55-7994","Adenocarcinoma, NOS","Stage IIB",NA,"T3","N0","MX",29858,"Alive",NA,"male",81.7467488021903
+"TCGA-MP-A4TK","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,21126,"Dead",582,"female",57.8398357289528
+"TCGA-62-A46V","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",28495,"Alive",NA,"female",78.0150581793292
+"TCGA-55-8514","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","MX",25608,"Alive",NA,"female",70.1108829568789
+"TCGA-44-A4SS","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","M0",26991,"Alive",NA,"male",73.8973305954825
+"TCGA-05-4250","Adenocarcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",29068,"Dead",121,"female",79.5838466803559
+"TCGA-44-4112","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","M0",22106,"Dead",808,"female",60.5229295003422
+"TCGA-55-8094","Adenocarcinoma, NOS","Stage IV",NA,"T2b","N0","M1b",18903,"Alive",NA,"male",51.7535934291581
+"TCGA-44-2665","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N1","M0",20349,"Alive",NA,"female",55.7125256673511
+"TCGA-49-4490","Adenocarcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",16634,"Dead",385,"female",45.5414099931554
+"TCGA-97-7937","Invasive micropapillary carcinoma","Stage IB",NA,"T2a","N0","MX",23919,"Alive",NA,"male",65.4866529774127
+"TCGA-44-8117","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","M0",19855,"Alive",NA,"female",54.3600273785079
+"TCGA-78-7220","Not Reported",NA,NA,NA,NA,NA,20011,"Dead",807,"female",54.7871321013005
+"TCGA-17-Z030",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-78-7167","Not Reported",NA,NA,NA,NA,NA,29021,"Dead",2681,"male",79.4551676933607
+"TCGA-55-8616","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","M0",21225,"Alive",NA,"female",58.1108829568789
+"TCGA-55-7570","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","MX",22218,"Alive",NA,"male",60.829568788501
+"TCGA-78-7146","Adenocarcinoma with mixed subtypes","Stage IIIA",NA,"T2","N2","M0",26272,"Dead",173,"female",71.9288158795346
+"TCGA-44-3398","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","M0",28392,"Alive",NA,"female",77.7330595482546
+"TCGA-44-2655","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",23854,"Alive",NA,"female",65.3086926762491
+"TCGA-73-4662","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-44-7671","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2a","N0","M0",23538,"Alive",NA,"male",64.4435318275154
+"TCGA-78-8660","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,25664,"Dead",321,"male",70.2642026009582
+"TCGA-55-6978","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",176,"male",NA
+"TCGA-J2-8192","Adenocarcinoma, NOS","Stage IIA",NA,"T2a","N1","MX",23892,"Alive",NA,"female",65.4127310061602
+"TCGA-80-5611","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-93-8067","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","MX",28453,"Alive",NA,"male",77.9000684462697
+"TCGA-05-4418","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",274,"male",NA
+"TCGA-67-6217","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-49-6745","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-55-8091","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-38-7271","Not Reported",NA,NA,NA,NA,NA,26744,"Dead",800,"female",73.2210814510609
+"TCGA-55-7914","Adenocarcinoma, NOS","Stage IIA",NA,"T1b","N1","MX",26105,"Dead",187,"female",71.4715947980835
+"TCGA-55-1595","Infiltrating duct carcinoma, NOS",NA,NA,"T1c","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-73-4658","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",29508,"Dead",1600,"female",80.788501026694
+"TCGA-38-4630","Not Reported",NA,NA,NA,NA,NA,28413,"Dead",1073,"female",77.7905544147844
+"TCGA-55-1592","Adenocarcinoma, NOS","Stage IA",NA,NA,NA,NA,NA,"Dead",701,"male",NA
+"TCGA-55-1594","Adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",25008,"Alive",NA,"male",68.4681724845996
+"TCGA-67-3776","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N1","M0",20940,"Alive",NA,"female",57.3305954825462
+"TCGA-95-7043","Adenocarcinoma with mixed subtypes",NA,NA,"T1a","NX",NA,NA,"Dead",503,"female",NA
+"TCGA-86-8076","Papillary adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",15605,"Alive",NA,"male",42.7241615331964
+"TCGA-05-4245","Not Reported",NA,NA,"T3","N1","M0",NA,"Alive",NA,"male",NA
+"TCGA-44-2661","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",25313,"Alive",NA,"female",69.3032169746749
+"TCGA-55-8619","Mucinous adenocarcinoma","Stage IIB",NA,"T3","N0","MX",26616,"Alive",NA,"female",72.870636550308
+"TCGA-78-7166","Basal cell carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",258,"male",NA
+"TCGA-38-4631","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",26538,"Dead",354,"female",72.6570841889117
+"TCGA-73-4670","Adenocarcinoma, NOS","Stage IV",NA,"T2","N0","M1",25526,"Alive",NA,"female",69.886379192334
+"TCGA-49-6742","Mucinous adenocarcinoma",NA,NA,NA,NA,NA,26053,"Dead",488,"male",71.3292265571526
+"TCGA-55-7726","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","MX",26451,"Alive",NA,"female",72.4188911704312
+"TCGA-50-5932","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","M0",NA,"Dead",1235,"male",NA
+"TCGA-55-1596","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N1","M0",20381,"Alive",NA,"male",55.8001368925394
+"TCGA-44-6147","Adenocarcinoma, NOS","Stage IA",NA,"T1b","NX","M0",24631,"Alive",NA,"female",67.4360027378508
+"TCGA-50-6597","Carcinoid tumor, NOS",NA,NA,NA,NA,NA,NA,"Dead",1268,"female",NA
+"TCGA-44-7661","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,25818,"Dead",557,"female",70.6858316221766
+"TCGA-05-4384","Adenocarcinoma with mixed subtypes",NA,NA,NA,NA,NA,24594,"Alive",NA,"male",67.3347022587269
+"TCGA-44-2659","Adenocarcinoma, NOS","Stage IIB",NA,"T1","N1","M0",23808,"Alive",NA,"female",65.1827515400411
+"TCGA-55-8511","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-44-6776","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","MX",22150,"Alive",NA,"female",60.643394934976
+"TCGA-80-5607","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N1","M0",NA,"Alive",NA,"female",NA
+"TCGA-50-5072","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,27249,"Dead",250,"male",74.6036960985626
+"TCGA-05-4396","Adenocarcinoma with mixed subtypes","Stage IIIB",NA,"T4","N1","M0",28094,"Dead",303,"male",76.9171800136892
+"TCGA-95-7948","Hodgkin lymphoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-95-7562","Adenocarcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",26000,"Dead",87,"male",71.1841204654346
+"TCGA-55-8090","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,29783,"Dead",598,"male",81.5414099931554
+"TCGA-73-7498","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IA",NA,"T1b","N0","M0",21527,"Alive",NA,"female",58.9377138945927
+"TCGA-55-7725","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-05-5420","Not Reported",NA,NA,NA,NA,"M1",NA,"Alive",NA,"male",NA
+"TCGA-38-4629","Adenocarcinoma, NOS","Stage IIB",NA,"T3","N0","M0",25104,"Dead",864,"male",68.7310061601643
+"TCGA-67-3770","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",25658,"Alive",NA,"female",70.2477754962354
+"TCGA-73-4676","Adenocarcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",16746,"Dead",281,"male",45.8480492813142
+"TCGA-95-7947","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1a","N0","M0",24752,"Alive",NA,"male",67.7672826830938
+"TCGA-97-8172","Acinar cell carcinoma","Stage IB",NA,"T2a","N0","M0",27416,"Alive",NA,"female",75.0609171800137
+"TCGA-95-8494","Adenocarcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",24773,"Alive",NA,"male",67.8247775496235
+"TCGA-MP-A4T9","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,20185,"Dead",1265,"female",55.2635181382615
+"TCGA-MP-A4SV","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",24516,"Dead",2620,"male",67.1211498973306
+"TCGA-93-A4JQ","Acinar cell carcinoma","Stage IA",NA,"T1b","N0","MX",17951,"Alive",NA,"male",49.1471594798084
+"TCGA-17-Z034",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-05-4410","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",22888,"Alive",NA,"male",62.6639288158795
+"TCGA-91-6836","Papillary adenocarcinoma, NOS",NA,NA,NA,NA,NA,19202,"Alive",NA,"female",52.5722108145106
+"TCGA-50-5942","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,26159,"Alive",NA,"female",71.6194387405886
+"TCGA-05-4382","Carcinoma in situ, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-49-AAR4","Adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","MX",18939,"Dead",879,"male",51.8521560574949
+"TCGA-69-7761","Acinar cell carcinoma","Stage IB",NA,"T2a","N0","MX",31041,"Alive",NA,"male",84.9856262833676
+"TCGA-55-7573","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","MX",26302,"Alive",NA,"female",72.0109514031485
+"TCGA-17-Z059",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-91-7771","Adenocarcinoma, NOS","Stage IIB",NA,"T3","N0","MX",22926,"Alive",NA,"male",62.7679671457906
+"TCGA-55-8208","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","M0",26716,"Alive",NA,"female",73.1444216290212
+"TCGA-38-6178","Granulosa cell tumor, malignant",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-05-4434","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",457,"female",NA
+"TCGA-44-2664","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,25281,"Alive",NA,"female",69.2156057494867
+"TCGA-50-5933","Adenocarcinoma, NOS","Stage IIIB",NA,"T4","N2","M0",26377,"Dead",2393,"male",72.2162902121834
+"TCGA-MP-A4TH","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","M0",25759,"Alive",NA,"female",70.5242984257358
+"TCGA-49-4501","Not Reported",NA,NA,NA,NA,NA,25362,"Dead",1421,"female",69.4373716632443
+"TCGA-86-8669","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","M0",23443,"Alive",NA,"male",64.1834360027378
+"TCGA-44-8119","Adenocarcinoma, NOS","Stage IIB",NA,"T3","N0","M0",27003,"Alive",NA,"male",73.9301848049281
+"TCGA-78-7539","Adenocarcinoma with mixed subtypes",NA,NA,NA,NA,NA,28133,"Alive",NA,"female",77.0239561943874
+"TCGA-MP-A4T8","Adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",25069,"Dead",161,"male",68.6351813826146
+"TCGA-NJ-A55R","Solid carcinoma, NOS","Stage IA",NA,"T1b","N0","MX",24738,"Alive",NA,"male",67.7289527720739
+"TCGA-53-A4EZ","Acinar cell carcinoma","Stage IIA",NA,"T2a","N1","MX",23201,"Alive",NA,"male",63.5208761122519
+"TCGA-55-6970","Papillary adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","MX",24773,"Dead",464,"female",67.8247775496235
+"TCGA-86-8359","Adenocarcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",19088,"Dead",444,"male",52.2600958247776
+"TCGA-05-4427","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T2","N1","M0",23893,"Alive",NA,"female",65.4154688569473
+"TCGA-50-7109","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",21979,"Dead",308,"male",60.1752224503765
+"TCGA-44-3917","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",12179,"Alive",NA,"female",33.3442847364819
+"TCGA-NJ-A4YG","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",23812,"Alive",NA,"male",65.1937029431896
+"TCGA-55-8203","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","M0",25477,"Alive",NA,"female",69.7522245037646
+"TCGA-17-Z017",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-50-6595","Adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",27197,"Dead",189,"female",74.4613278576318
+"TCGA-50-5051","Adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",15585,"Dead",478,"female",42.6694045174538
+"TCGA-62-A471","Adenocarcinoma, NOS","Stage IIB",NA,"T2b","N1","M0",23689,"Alive",NA,"male",64.8569472963724
+"TCGA-67-3773","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",30706,"Alive",NA,"female",84.0684462696783
+"TCGA-17-Z038",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-44-A479","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","MX",27024,"Alive",NA,"female",73.9876796714579
+"TCGA-91-6848","Adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","MX",21829,"Alive",NA,"male",59.7645448323066
+"TCGA-55-6986","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IB",NA,"T2","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-38-4632","Not Reported",NA,NA,NA,NA,NA,16098,"Dead",1357,"male",44.0739219712526
+"TCGA-17-Z028",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-95-8039","Acinar cell carcinoma","Stage IA",NA,"T1","N0","MX",26317,"Alive",NA,"male",72.0520191649555
+"TCGA-86-8075","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",24402,"Dead",694,"female",66.8090349075975
+"TCGA-69-7760","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T3","N0","M0",26777,"Alive",NA,"male",73.3114305270363
+"TCGA-55-7576","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","M0",19917,"Alive",NA,"male",54.5297741273101
+"TCGA-55-8615","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,25010,"Alive",NA,"male",68.4736481861738
+"TCGA-17-Z026",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-86-7954","Bronchiolo-alveolar adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",25062,"Alive",NA,"female",68.6160164271047
+"TCGA-MP-A4SY","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,22937,"Dead",1501,"male",62.798083504449
+"TCGA-55-6971","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","MX",21734,"Alive",NA,"female",59.5044490075291
+"TCGA-86-A456","Papillary adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","M0",28533,"Alive",NA,"female",78.1190965092403
+"TCGA-J2-A4AD","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,22938,"Dead",550,"female",62.8008213552361
+"TCGA-MP-A4TJ","Signet ring cell carcinoma","Stage IA",NA,"T1","N0","M0",22875,"Dead",339,"female",62.6283367556468
+"TCGA-86-8674","Papillary adenocarcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",18479,"Alive",NA,"male",50.5927446954141
+"TCGA-55-6981","Adenocarcinoma, NOS","Stage IIIA",NA,"T1","N2","M0",19497,"Dead",1379,"female",53.3798767967146
+"TCGA-L9-A8F4","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","MX",23617,"Alive",NA,"female",64.6598220396988
+"TCGA-62-A46P","Adenocarcinoma with mixed subtypes",NA,NA,NA,NA,NA,24260,"Dead",594,"male",66.4202600958248
+"TCGA-17-Z041",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-86-7955","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,23592,"Alive",NA,"male",64.5913757700205
+"TCGA-91-A4BD","Adenocarcinoma, NOS","Stage IIA",NA,"T1b","N1","MX",28544,"Alive",NA,"male",78.1492128678987
+"TCGA-99-8033","Adenocarcinoma, NOS","Stage IV",NA,"TX","NX","M1",27342,"Dead",656,"female",74.8583162217659
+"TCGA-67-3771","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",28406,"Alive",NA,"female",77.7713894592745
+"TCGA-55-8510","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","MX",20410,"Alive",NA,"female",55.8795345653662
+"TCGA-86-8054","Acinar cell carcinoma","Stage IIB",NA,"T2b","N1","M0",22584,"Alive",NA,"male",61.8316221765914
+"TCGA-99-7458","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IIIA",NA,"T4","N0","M0",27359,"Alive",NA,"female",74.9048596851472
+"TCGA-49-AAQV","Adenocarcinoma with mixed subtypes",NA,NA,NA,NA,NA,23879,"Dead",677,"female",65.3771389459274
+"TCGA-50-6590","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",26444,"Dead",1288,"female",72.3997262149213
+"TCGA-97-8179","Acinar cell carcinoma","Stage IA",NA,"T1a","N0","M0",26305,"Alive",NA,"male",72.0191649555099
+"TCGA-MP-A4TA","Papillary transitional cell carcinoma",NA,NA,NA,NA,NA,26570,"Dead",950,"female",72.7446954140999
+"TCGA-49-AARN","Not Reported",NA,NA,NA,NA,NA,20575,"Dead",1135,"female",56.331279945243
+"TCGA-97-8176","Acinar cell carcinoma","Stage IIIA",NA,"T3","N1","M0",23170,"Dead",468,"male",63.4360027378508
+"TCGA-50-5931","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",27733,"Dead",434,"female",75.9288158795346
+"TCGA-MP-A4TC","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,25720,"Dead",74,"male",70.4175222450376
+"TCGA-49-6744","Adenocarcinoma with mixed subtypes","Stage IIA",NA,"T2a","N1","MX",23484,"Alive",NA,"female",64.2956878850103
+"TCGA-75-6205","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",NA,"female",NA
+"TCGA-78-7162","Not Reported",NA,NA,NA,NA,NA,29811,"Dead",3169,"male",81.6180698151951
+"TCGA-55-A48Z","Adenocarcinoma with mixed subtypes",NA,NA,NA,NA,NA,22592,"Alive",NA,"female",61.8535249828884
+"TCGA-17-Z015",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-78-8662","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",19563,"Dead",3361,"female",53.5605749486653
+"TCGA-17-Z037",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-86-7711","Adenocarcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",25719,"Dead",1046,"male",70.4147843942505
+"TCGA-78-8640","Adenocarcinoma, NOS","Stage IIA",NA,"T1","N1","M0",21832,"Alive",NA,"male",59.772758384668
+"TCGA-50-8459","Mucinous adenocarcinoma","Stage IIB",NA,"T3","N0","M0",24859,"Alive",NA,"male",68.0602327173169
+"TCGA-64-1680","Adenocarcinoma with mixed subtypes","Stage IV",NA,"T2a","N2","M1",23267,"Alive",NA,"male",63.7015742642026
+"TCGA-95-A4VP","Acinar cell carcinoma",NA,NA,NA,NA,NA,24346,"Alive",NA,"female",66.6557152635181
+"TCGA-69-7763","Acinar cell carcinoma","Stage IA",NA,"T1b","N0","M0",25316,"Alive",NA,"male",69.3114305270363
+"TCGA-50-5045","Adenocarcinoma, NOS",NA,NA,"T2","N1","M0",20961,"Dead",2174,"female",57.388090349076
+"TCGA-64-5779","Acinar cell carcinoma","Stage IIIA",NA,"T2","N2","M0",22305,"Alive",NA,"male",61.0677618069815
+"TCGA-78-7150","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N1","M0",21891,"Dead",666,"male",59.9342915811088
+"TCGA-17-Z033",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-17-Z013",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-55-7911","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","MX",25746,"Alive",NA,"female",70.4887063655031
+"TCGA-55-8206","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","M0",20690,"Alive",NA,"male",56.6461327857632
+"TCGA-55-8512","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IV",NA,"T1a","N1","M1b",15266,"Dead",607,"male",41.7960301163587
+"TCGA-55-A491","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,29487,"Alive",NA,"female",80.7310061601643
+"TCGA-38-4626","Not Reported",NA,NA,NA,NA,NA,23421,"Alive",NA,"female",64.1232032854209
+"TCGA-05-4389","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1","N0","M0",25660,"Alive",NA,"male",70.2532511978097
+"TCGA-75-6212","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",1516,"female",NA
+"TCGA-55-8513","Mucinous adenocarcinoma",NA,NA,NA,NA,NA,28601,"Alive",NA,"female",78.3052703627652
+"TCGA-38-A44F","Acinar cell carcinoma","Stage IB",NA,"T2a","N0","M0",29534,"Alive",NA,"male",80.8596851471595
+"TCGA-17-Z039",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-69-7979","Acinar cell carcinoma","Stage IB",NA,"T2a","N0","MX",26180,"Alive",NA,"female",71.6769336071184
+"TCGA-L9-A743","Adenocarcinoma, NOS","Stage IIA",NA,"T1c","NX","MX",20711,"Alive",NA,"male",56.703627652293
+"TCGA-64-5815","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T2","N1","M0",27280,"Alive",NA,"male",74.6885694729637
+"TCGA-86-8279","Adenocarcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",17032,"Alive",NA,"male",46.6310746064339
+"TCGA-L9-A50W","Adenocarcinoma with mixed subtypes","Stage IIA",NA,"T1b","N1","MX",27414,"Dead",442,"male",75.0554414784394
+"TCGA-L9-A5IP","Adenocarcinoma, NOS","Stage IV",NA,"T3","N2","M1b",14681,"Dead",58,"female",40.1943874058864
+"TCGA-75-6203","Adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",NA,"Alive",NA,"female",NA
+"TCGA-55-8614","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","MX",27924,"Alive",NA,"male",76.4517453798768
+"TCGA-17-Z053",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-78-8655","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1","N0","M0",28379,"Alive",NA,"female",77.6974674880219
+"TCGA-97-7554","Papillary adenocarcinoma, NOS","Stage IIIA",NA,"T2a","N2","M0",30327,"Alive",NA,"female",83.0308008213552
+"TCGA-50-6673","Adenocarcinoma, NOS","Stage I",NA,"T1","N0","M0",30689,"Dead",22,"female",84.0219028062971
+"TCGA-55-6980","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IA",NA,"T1","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-91-6835","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",29887,"Alive",NA,"female",81.8261464750171
+"TCGA-95-7944","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","M0",26003,"Alive",NA,"male",71.192334017796
+"TCGA-17-Z025",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-62-8398","Adenocarcinoma with mixed subtypes","Stage IIIA",NA,"T2","N2","M0",20197,"Dead",444,"male",55.296372347707
+"TCGA-97-8547","Acinar cell carcinoma","Stage IIIA",NA,"T2a","N2","MX",28801,"Alive",NA,"female",78.8528405201916
+"TCGA-93-A4JP","Papillary adenocarcinoma, NOS","Stage IV",NA,"TX","NX","M1b",23620,"Alive",NA,"male",64.6680355920602
+"TCGA-17-Z009",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-95-7039","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,21239,"Alive",NA,"female",58.1492128678987
+"TCGA-05-4398","Adenocarcinoma with mixed subtypes","Stage IIIB",NA,"T4","N3","M0",17471,"Alive",NA,"female",47.8329911019849
+"TCGA-69-7980","Acinar cell carcinoma","Stage I",NA,"T1b","N0","M0",25583,"Alive",NA,"female",70.0424366872005
+"TCGA-75-6214","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",1115,"female",NA
+"TCGA-73-4668","Invasive micropapillary carcinoma","Stage IIB",NA,"T2","N1","M0",24255,"Alive",NA,"female",66.4065708418891
+"TCGA-97-7941","Acinar cell carcinoma","Stage IA",NA,"T1b","N0","MX",26298,"Alive",NA,"female",72
+"TCGA-44-6774","Adenocarcinoma, NOS","Stage IIIA",NA,"T1","N2","M0",20462,"Alive",NA,"female",56.0219028062971
+"TCGA-05-5423","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T2","N1","M0",23863,"Alive",NA,"male",65.3333333333333
+"TCGA-55-8301","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,21773,"Alive",NA,"male",59.6112251882272
+"TCGA-17-Z040",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-78-7152","Adenocarcinoma with mixed subtypes",NA,NA,NA,NA,NA,24984,"Dead",1215,"male",68.4024640657084
+"TCGA-17-Z018",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-49-4506","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N1","M0",25132,"Dead",999,"female",68.807665982204
+"TCGA-05-4390","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",21430,"Alive",NA,"female",58.6721423682409
+"TCGA-44-7659","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","MX",25730,"Alive",NA,"male",70.444900752909
+"TCGA-49-4514","Papillary adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",28908,"Alive",NA,"female",79.1457905544148
+"TCGA-86-8055","Adenocarcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",29124,"Dead",124,"male",79.7371663244353
+"TCGA-NJ-A55A","Acinar cell carcinoma","Stage IB",NA,"T2","N0","M0",28022,"Alive",NA,"female",76.7200547570157
+"TCGA-55-7727","Adenocarcinoma, NOS","Stage IIIA",NA,"T1a","N2","MX",25929,"Alive",NA,"male",70.9897330595483
+"TCGA-55-A4DF","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","MX",32454,"Dead",440,"male",88.8542094455852
+"TCGA-44-2668","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",18856,"Dead",761,"male",51.6249144421629
+"TCGA-67-3774","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",26704,"Alive",NA,"female",73.1115674195756
+"TCGA-05-4426","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",26084,"Alive",NA,"male",71.4140999315537
+"TCGA-49-4487","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",26583,"Dead",855,"female",72.7802874743327
+"TCGA-17-Z046",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-97-7553","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IA",NA,"T1","N0","MX",21518,"Alive",NA,"female",58.9130732375086
+"TCGA-44-A4SU","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","MX",24820,"Dead",409,"female",67.9534565366188
+"TCGA-95-A4VN","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-17-Z014",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-97-8171","Papillary adenocarcinoma, NOS","Stage IV",NA,"T2a","N2","M1a",29627,"Alive",NA,"male",81.1143052703628
+"TCGA-86-8672","Adenocarcinoma, NOS","Stage IIB",NA,"T3","N0","M0",21682,"Dead",19,"male",59.3620807665982
+"TCGA-78-7153","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",23922,"Alive",NA,"female",65.4948665297741
+"TCGA-17-Z031",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-62-A46R","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",20063,"Dead",1725,"female",54.9295003422313
+"TCGA-L9-A443","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",193,"female",NA
+"TCGA-86-8671","Papillary adenocarcinoma, NOS","Stage IIB",NA,"T2b","N1","M0",26448,"Alive",NA,"female",72.4106776180698
+"TCGA-55-6972","Papillary adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",26625,"Dead",1632,"male",72.8952772073922
+"TCGA-64-1681","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",22525,"Dead",1167,"female",61.6700889801506
+"TCGA-97-A4M7","Adenocarcinoma with mixed subtypes",NA,NA,NA,NA,NA,27062,"Alive",NA,"male",74.0917180013689
+"TCGA-44-6775","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,27099,"Alive",NA,"female",74.1930184804928
+"TCGA-17-Z035",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-55-7913","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,22806,"Dead",561,"female",62.4394250513347
+"TCGA-93-A4JO","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1a","N0","MX",25898,"Dead",33,"male",70.9048596851472
+"TCGA-50-5055","Adenocarcinoma with mixed subtypes","Stage IIA",NA,"T1","N1","M0",28988,"Dead",1830,"female",79.3648186173854
+"TCGA-38-4628","Not Reported",NA,NA,NA,NA,NA,25140,"Dead",1492,"female",68.829568788501
+"TCGA-67-4679","Adenocarcinoma, NOS",NA,NA,"T3","N0","M0",25202,"Alive",NA,"male",68.9993155373032
+"TCGA-55-8506","Adenocarcinoma, NOS","Stage IIB",NA,"T3","N0","MX",22850,"Alive",NA,"female",62.5598904859685
+"TCGA-05-5428","Adenocarcinoma with mixed subtypes","Stage IIA",NA,"T1b","N1","M0",21061,"Alive",NA,"male",57.6618754277892
+"TCGA-44-7672","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","M0",19200,"Alive",NA,"female",52.5667351129363
+"TCGA-67-6216","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","M0",20967,"Alive",NA,"female",57.4045174537988
+"TCGA-O1-A52J","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,28121,"Dead",1798,"female",76.9911019849418
+"TCGA-73-4659","Adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",24253,"Dead",711,"male",66.4010951403149
+"TCGA-86-8073","Bronchiolo-alveolar adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","M0",21214,"Alive",NA,"male",58.0807665982204
+"TCGA-49-AARE","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,19281,"Dead",1229,"female",52.788501026694
+"TCGA-05-4403","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2","N0","M0",27881,"Alive",NA,"male",76.3340177960301
+"TCGA-62-8402","Adenocarcinoma with mixed subtypes","Stage IIIA",NA,"T2","N2","M0",26934,"Dead",1498,"female",73.741273100616
+"TCGA-17-Z023",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-17-Z032",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-05-4415","Not Reported",NA,NA,NA,NA,NA,20940,"Dead",91,"male",57.3305954825462
+"TCGA-75-5147","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IB",NA,"T2","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-95-A4VK","Adenocarcinoma with mixed subtypes","Stage IIIA",NA,"T2b","N2","M0",27040,"Alive",NA,"female",74.031485284052
+"TCGA-78-7535","Not Reported",NA,NA,NA,NA,NA,17380,"Dead",949,"male",47.5838466803559
+"TCGA-53-7626","Adenocarcinoma, NOS","Stage IIA",NA,"T1","N1","M0",28024,"Dead",929,"female",76.72553045859
+"TCGA-MP-A4T7","Adenocarcinoma, NOS","Stage IV",NA,"T2","N0","M1",27603,"Dead",167,"female",75.5728952772074
+"TCGA-91-6840","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","M0",21854,"Alive",NA,"female",59.8329911019849
+"TCGA-55-8507","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","MX",19390,"Alive",NA,"male",53.0869267624914
+"TCGA-49-AAR9","Adenocarcinoma, NOS","Stage IIB",NA,"T3","N0","MX",22510,"Dead",260,"male",61.6290212183436
+"TCGA-55-6969","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",19270,"Alive",NA,"male",52.7583846680356
+"TCGA-75-7027","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-17-Z016",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-50-8460","Papillary adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","M0",27270,"Alive",NA,"male",74.6611909650924
+"TCGA-17-Z024",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-L9-A444","Endometrioid adenocarcinoma, NOS","Stage IB",NA,"T1b","NX","MX",20597,"Alive",NA,"female",56.3915126625599
+"TCGA-62-A46O","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,24993,"Dead",1454,"female",68.4271047227926
+"TCGA-44-A47G","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",26800,"Alive",NA,"female",73.3744010951403
+"TCGA-44-7669","Not Reported",NA,NA,NA,NA,NA,22418,"Dead",574,"male",61.3771389459274
+"TCGA-91-6831","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","MX",24436,"Alive",NA,"male",66.90212183436
+"TCGA-71-6725","Papillary adenocarcinoma, NOS",NA,NA,NA,NA,NA,17957,"Alive",NA,"female",49.1635865845311
+"TCGA-67-6215","Adenocarcinoma, NOS","Stage IB",NA,"T2a","N0","M0",19310,"Alive",NA,"female",52.8678986995209
+"TCGA-73-4666","Adenocarcinoma, NOS","Stage IV",NA,"T1","N0","M1",19074,"Alive",NA,"female",52.2217659137577
+"TCGA-49-6761","Not Reported",NA,NA,NA,NA,NA,20499,"Alive",NA,"female",56.1232032854209
+"TCGA-55-7815","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,28711,"Alive",NA,"male",78.6064339493498
+"TCGA-78-7145","Adenocarcinoma, NOS","Stage IV",NA,"T4","N1","M1",19080,"Dead",826,"female",52.2381930184805
+"TCGA-75-7031","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-78-7158","Adenocarcinoma with mixed subtypes","Stage IIIB",NA,"T4","N2","M0",21742,"Dead",179,"female",59.5263518138261
+"TCGA-49-4507","Adenocarcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",26851,"Dead",268,"female",73.5140314852841
+"TCGA-49-AARO","Papillary adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","MX",14527,"Alive",NA,"female",39.772758384668
+"TCGA-05-5715","Adenocarcinoma with mixed subtypes","Stage IB",NA,"T2a","N0","M0",25383,"Alive",NA,"female",69.4948665297741
+"TCGA-NJ-A4YQ","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1b","N0","M0",25427,"Alive",NA,"female",69.6153319644079
+"TCGA-91-8499","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","MX",27853,"Alive",NA,"female",76.2573579739904
+"TCGA-86-7953","Bronchiolo-alveolar adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","M0",25315,"Alive",NA,"female",69.3086926762491
+"TCGA-55-7816","Adenocarcinoma, NOS","Stage IV",NA,"TX","NX","MX",18170,"Dead",468,"female",49.7467488021903
+"TCGA-J2-A4AG","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","MX",24224,"Alive",NA,"female",66.321697467488
+"TCGA-53-7624","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,15194,"Dead",1043,"female",41.5989048596851
+"TCGA-L9-A7SV","Adenocarcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",25298,"Alive",NA,"male",69.2621492128679
+"TCGA-MP-A4T2","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,27120,"Dead",1136,"male",74.2505133470226
+"TCGA-69-8255","Solid carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",26289,"Alive",NA,"male",71.9753593429158
+"TCGA-17-Z042",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-17-Z022",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-62-A46Y","Adenocarcinoma with mixed subtypes",NA,NA,NA,NA,NA,26219,"Dead",414,"female",71.7837097878166
+"TCGA-17-Z020",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-55-6985","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","MX",21381,"Alive",NA,"female",58.5379876796715
+"TCGA-49-AAR3","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,27362,"Alive",NA,"male",74.9130732375086
+"TCGA-62-A470","Acinar cell carcinoma",NA,NA,NA,NA,NA,31228,"Dead",1194,"male",85.4976043805613
+"TCGA-50-5068","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N1","MX",21728,"Dead",1499,"female",59.4880219028063
+"TCGA-91-6830","Adenocarcinoma, NOS","Stage IIA",NA,"T1","N1","MX",23922,"Alive",NA,"female",65.4948665297741
+"TCGA-97-7938","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IA",NA,"T1a","N0","MX",27980,"Dead",18,"female",76.6050650239562
+"TCGA-78-8648","Adenocarcinoma, NOS","Stage IIB",NA,"T3","N0","M0",21443,"Dead",1209,"female",58.7077344284736
+"TCGA-80-5608","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-93-7348","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","MX",27456,"Alive",NA,"female",75.170431211499
+"TCGA-78-7147","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N1","M0",24809,"Dead",586,"female",67.9233401779603
+"TCGA-35-5375","Adenocarcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",22628,"Alive",NA,"male",61.9520876112252
+"TCGA-35-3615","Adenocarcinoma, NOS","Stage IB",NA,"T2","N0","M0",21076,"Alive",NA,"male",57.7029431895962
+"TCGA-17-Z000",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-91-A4BC","Adenocarcinoma, NOS","Stage IIA",NA,"T2b","N0","MX",21565,"Alive",NA,"male",59.0417522245038
+"TCGA-17-Z012",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-55-8085","Papillary adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","M0",23596,"Alive",NA,"male",64.6023271731691
+"TCGA-97-A4M5","Adenocarcinoma with mixed subtypes","Stage IA",NA,"T1b","N0","M0",30665,"Alive",NA,"male",83.9561943874059
+"TCGA-50-5936","Not Reported",NA,NA,NA,NA,NA,21388,"Dead",257,"male",58.5571526351814
+"TCGA-55-6984","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N1","M0",NA,"Dead",760,"female",NA
+"TCGA-69-8254","Adenocarcinoma with mixed subtypes",NA,NA,"T2b",NA,NA,31134,"Alive",NA,"male",85.2402464065708
+"TCGA-49-4486","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,28460,"Dead",2318,"male",77.9192334017796
+"TCGA-4B-A93V","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","M0",19035,"Dead",300,"female",52.1149897330595
+"TCGA-62-8399","Adenocarcinoma with mixed subtypes","Stage IIIA",NA,"T2","N2","M0",22952,"Alive",NA,"male",62.839151266256
+"TCGA-17-Z045",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-86-8668","Bronchio-alveolar carcinoma, mucinous","Stage IA",NA,"T1b","N0","M0",22383,"Alive",NA,"female",61.2813141683778
+"TCGA-05-5429","Adenocarcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",22066,"Dead",275,"male",60.4134154688569
+"TCGA-50-5941","Adenocarcinoma, NOS","Stage IIIA",NA,"T2a","N2","M0",20350,"Alive",NA,"female",55.7152635181383
+"TCGA-17-Z010",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-91-8496","Bronchiolo-alveolar carcinoma, non-mucinous","Stage IB",NA,"T2a","NX","MX",23358,"Alive",NA,"female",63.9507186858316
+"TCGA-55-7281","Adenocarcinoma, NOS","Stage IA",NA,"T1b","N0","M0",25870,"Alive",NA,"female",70.8281998631075
+"TCGA-69-7978","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T2b","N1","MX",21785,"Alive",NA,"male",59.6440793976728
+"TCGA-17-Z061",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-44-3919","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",26081,"Dead",1026,"female",71.4058863791923
+"TCGA-49-4510","Adenocarcinoma, NOS","Stage IIB",NA,"T2","N1","M0",18762,"Dead",896,"female",51.3675564681725
+"TCGA-64-1678","Adenocarcinoma, NOS",NA,NA,"T2b","N0","M0",25931,"Alive",NA,"female",70.9952087611225
+"TCGA-69-A59K","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T3","N0","M0",22093,"Alive",NA,"female",60.4873374401095
+"TCGA-75-7025","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-49-AAR2","Acinar cell carcinoma","Stage IB",NA,"T2","N0","MX",23479,"Alive",NA,"male",64.2819986310746
+"TCGA-17-Z043",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-50-5044","Adenocarcinoma, NOS","Stage IIIB",NA,"T4","N1","M0",26567,"Dead",624,"female",72.7364818617385
+"TCGA-17-Z029",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-64-1676","Adenocarcinoma, NOS","Stage IA",NA,"T1a","N0","M0",21428,"Alive",NA,"male",58.6666666666667
+"TCGA-05-4425","Adenocarcinoma with mixed subtypes","Stage IV",NA,"T2","N0","M1",25902,"Alive",NA,"female",70.9158110882957
+"TCGA-49-6767","Adenocarcinoma, NOS","Stage IIB",NA,"T3","N0","MX",17108,"Alive",NA,"female",46.839151266256
+"TCGA-78-7155","Not Reported",NA,NA,NA,NA,NA,25072,"Dead",1171,"male",68.643394934976
+"TCGA-35-4123","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",14064,"Alive",NA,"male",38.5051334702259
+"TCGA-64-5774","Not Reported",NA,NA,NA,NA,NA,22305,"Alive",NA,"male",61.0677618069815
+"TCGA-05-4397","Adenocarcinoma with mixed subtypes","Stage IIB",NA,"T2","N1","M0",23833,"Dead",731,"male",65.2511978097194

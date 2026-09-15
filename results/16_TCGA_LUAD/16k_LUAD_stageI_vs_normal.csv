@@ -1,0 +1,3 @@
+"Gene","Comparison","Early_stage_definition","Early_tumor_n","Normal_n","Early_tumor_median_TPM","Normal_median_TPM","Median_log2TPM1_difference","Direction","Wilcoxon_P","Aberrant_early_n","Aberrant_early_percent","Wilcoxon_FDR"
+"JAK3","Stage I tumor vs normal","Stage I",220,59,11.9278,6.389,0.807006663145665,"UP",3.99680288865056e-15,80,36.3636363636364,3.99680288865056e-15
+"EPHB2","Stage I tumor vs normal","Stage I",220,59,5.8611,2.0078,1.18963944878171,"UP",0,125,56.8181818181818,0

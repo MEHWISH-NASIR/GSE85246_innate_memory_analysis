@@ -1,0 +1,3 @@
+"Gene","Grade_patient_n","Low_grade_n","High_grade_n","Low_grade_median_TPM","High_grade_median_TPM","Median_log2_difference_High_minus_Low","Wilcoxon_P","Wilcoxon_FDR"
+"JAK3",242,19,223,3.3044,6.1789,0.737950650283785,0.000324518147087449,0.000324518147087449
+"EPHB2",242,19,223,2.2568,6.8181,1.26336291142388,0.000324518147087449,0.000324518147087449

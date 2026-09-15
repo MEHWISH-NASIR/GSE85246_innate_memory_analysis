@@ -1,0 +1,3 @@
+"Gene","Tumor_n","Normal_n","Tumor_median_TPM","Normal_median_TPM","Tumor_mean_TPM","Normal_mean_TPM","Median_log2TPM1_difference","Unpaired_Wilcoxon_P","Normal_95th_percentile_TPM","Tumors_above_normal_P95","Percent_tumors_above_normal_P95","Unpaired_FDR"
+"JAK3",541,72,13.009,1.97735,15.4305842883549,2.91138194444444,2.23427946380995,0,7.869075,406,75.0462107208872,0
+"EPHB2",541,72,1.3729,3.6278,2.14901774491682,4.22995972222222,-0.963668517415808,3.13048500367211e-15,9.56947,10,1.84842883548983,3.13048500367211e-15

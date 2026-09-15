@@ -1,0 +1,606 @@
+"patient_id","sample_type","TPM"
+"TCGA-3Z-A93Z","Primary Tumor",8.3463
+"TCGA-6D-AA2E","Primary Tumor",2.9356
+"TCGA-A3-3306","Primary Tumor",22.2049
+"TCGA-A3-3307","Primary Tumor",8.1088
+"TCGA-A3-3308","Primary Tumor",11.785
+"TCGA-A3-3311","Primary Tumor",14.8939
+"TCGA-A3-3313","Primary Tumor",3.1394
+"TCGA-A3-3316","Primary Tumor",11.7685
+"TCGA-A3-3317","Primary Tumor",11.9244
+"TCGA-A3-3319","Primary Tumor",31.5597
+"TCGA-A3-3320","Primary Tumor",11.2582
+"TCGA-A3-3322","Primary Tumor",11.1194
+"TCGA-A3-3323","Primary Tumor",23.7429
+"TCGA-A3-3324","Primary Tumor",14.3156
+"TCGA-A3-3325","Primary Tumor",11.6696
+"TCGA-A3-3326","Primary Tumor",16.0044
+"TCGA-A3-3328","Primary Tumor",0.5882
+"TCGA-A3-3329","Primary Tumor",7.3977
+"TCGA-A3-3331","Primary Tumor",6.3657
+"TCGA-A3-3335","Primary Tumor",14.6721
+"TCGA-A3-3343","Primary Tumor",8.769
+"TCGA-A3-3346","Primary Tumor",21.4328
+"TCGA-A3-3347","Primary Tumor",46.2033
+"TCGA-A3-3349","Primary Tumor",18.2202
+"TCGA-A3-3351","Primary Tumor",39.9493
+"TCGA-A3-3352","Primary Tumor",5.7683
+"TCGA-A3-3357","Primary Tumor",10.4526
+"TCGA-A3-3358","Primary Tumor",15.0349
+"TCGA-A3-3359","Primary Tumor",15.2469
+"TCGA-A3-3362","Primary Tumor",6.2395
+"TCGA-A3-3363","Primary Tumor",14.1558
+"TCGA-A3-3365","Primary Tumor",7.5112
+"TCGA-A3-3367","Primary Tumor",16.8552
+"TCGA-A3-3370","Primary Tumor",23.4684
+"TCGA-A3-3372","Primary Tumor",20.7874
+"TCGA-A3-3373","Primary Tumor",3.8627
+"TCGA-A3-3374","Primary Tumor",2.2323
+"TCGA-A3-3376","Primary Tumor",14.2228
+"TCGA-A3-3378","Primary Tumor",53.8495
+"TCGA-A3-3380","Primary Tumor",10.265
+"TCGA-A3-3382","Primary Tumor",35.7091
+"TCGA-A3-3383","Primary Tumor",26.0455
+"TCGA-A3-3385","Primary Tumor",9.231
+"TCGA-A3-3387","Primary Tumor",22.6273
+"TCGA-A3-A6NI","Primary Tumor",14.3942
+"TCGA-A3-A6NJ","Primary Tumor",16.83
+"TCGA-A3-A6NL","Primary Tumor",14.6465
+"TCGA-A3-A6NN","Primary Tumor",15.2812
+"TCGA-A3-A8CQ","Primary Tumor",6.9998
+"TCGA-A3-A8OU","Primary Tumor",11.7917
+"TCGA-A3-A8OV","Primary Tumor",13.787
+"TCGA-A3-A8OW","Primary Tumor",6.4098
+"TCGA-A3-A8OX","Primary Tumor",15.5264
+"TCGA-AK-3425","Primary Tumor",13.5045
+"TCGA-AK-3426","Primary Tumor",35.6712
+"TCGA-AK-3427","Primary Tumor",0.1371
+"TCGA-AK-3428","Primary Tumor",5.96
+"TCGA-AK-3429","Primary Tumor",11.8304
+"TCGA-AK-3431","Primary Tumor",9.9479
+"TCGA-AK-3433","Primary Tumor",1.5063
+"TCGA-AK-3434","Primary Tumor",5.8816
+"TCGA-AK-3436","Primary Tumor",14.6575
+"TCGA-AK-3440","Primary Tumor",1.4901
+"TCGA-AK-3443","Primary Tumor",0.1454
+"TCGA-AK-3444","Primary Tumor",3.0526
+"TCGA-AK-3445","Primary Tumor",34.9725
+"TCGA-AK-3447","Primary Tumor",0.2281
+"TCGA-AK-3450","Primary Tumor",3.6128
+"TCGA-AK-3451","Primary Tumor",1.9871
+"TCGA-AK-3453","Primary Tumor",19.2297
+"TCGA-AK-3454","Primary Tumor",24.8212
+"TCGA-AK-3455","Primary Tumor",18.8796
+"TCGA-AK-3456","Primary Tumor",1.9955
+"TCGA-AK-3458","Primary Tumor",6.7995
+"TCGA-AK-3460","Primary Tumor",5.5231
+"TCGA-AK-3461","Primary Tumor",15.6253
+"TCGA-AK-3465","Primary Tumor",1.341
+"TCGA-AS-3777","Primary Tumor",0.9023
+"TCGA-AS-3778","Primary Tumor",11.3357
+"TCGA-B0-4688","Primary Tumor",29.6658
+"TCGA-B0-4690","Primary Tumor",37.6009
+"TCGA-B0-4691","Primary Tumor",12.0096
+"TCGA-B0-4693","Primary Tumor",17.9485
+"TCGA-B0-4694","Primary Tumor",19.2768
+"TCGA-B0-4696","Primary Tumor",6.6375
+"TCGA-B0-4697","Primary Tumor",39.6506
+"TCGA-B0-4698","Primary Tumor",25.9622
+"TCGA-B0-4699","Primary Tumor",19.5937
+"TCGA-B0-4700","Primary Tumor",33.7195
+"TCGA-B0-4701","Primary Tumor",27.3884
+"TCGA-B0-4703","Primary Tumor",30.3277
+"TCGA-B0-4706","Primary Tumor",7.5293
+"TCGA-B0-4707","Primary Tumor",9.2577
+"TCGA-B0-4710","Primary Tumor",11.2984
+"TCGA-B0-4712","Primary Tumor",18.9239
+"TCGA-B0-4713","Primary Tumor",11.3276
+"TCGA-B0-4714","Primary Tumor",17.5022
+"TCGA-B0-4718","Primary Tumor",14.5316
+"TCGA-B0-4810","Primary Tumor",39.2616
+"TCGA-B0-4811","Primary Tumor",9.6812
+"TCGA-B0-4813","Primary Tumor",27.3276
+"TCGA-B0-4814","Primary Tumor",9.2914
+"TCGA-B0-4815","Primary Tumor",45.2965
+"TCGA-B0-4816","Primary Tumor",13.3501
+"TCGA-B0-4817","Primary Tumor",21.6944
+"TCGA-B0-4818","Primary Tumor",13.6361
+"TCGA-B0-4819","Primary Tumor",34.7167
+"TCGA-B0-4821","Primary Tumor",32.1042
+"TCGA-B0-4822","Primary Tumor",26.7274
+"TCGA-B0-4823","Primary Tumor",12.8924
+"TCGA-B0-4824","Primary Tumor",24.5459
+"TCGA-B0-4827","Primary Tumor",26.2033
+"TCGA-B0-4828","Primary Tumor",12.9949
+"TCGA-B0-4833","Primary Tumor",13.8207
+"TCGA-B0-4834","Primary Tumor",0.7479
+"TCGA-B0-4836","Primary Tumor",28.3752
+"TCGA-B0-4837","Primary Tumor",20.002
+"TCGA-B0-4838","Primary Tumor",21.2925
+"TCGA-B0-4839","Primary Tumor",7.6203
+"TCGA-B0-4841","Primary Tumor",2.8861
+"TCGA-B0-4842","Primary Tumor",57.1974
+"TCGA-B0-4843","Primary Tumor",14.8414
+"TCGA-B0-4844","Primary Tumor",33.5276
+"TCGA-B0-4845","Primary Tumor",14.4275
+"TCGA-B0-4846","Primary Tumor",11.8909
+"TCGA-B0-4847","Primary Tumor",20.2038
+"TCGA-B0-4848","Primary Tumor",19.3031
+"TCGA-B0-4849","Primary Tumor",16.9655
+"TCGA-B0-4852","Primary Tumor",6.7377
+"TCGA-B0-4945","Primary Tumor",11.0989
+"TCGA-B0-5075","Primary Tumor",11.9488
+"TCGA-B0-5077","Primary Tumor",19.0467
+"TCGA-B0-5080","Primary Tumor",17.5912
+"TCGA-B0-5081","Primary Tumor",38.612
+"TCGA-B0-5083","Primary Tumor",3.5789
+"TCGA-B0-5084","Primary Tumor",16.3192
+"TCGA-B0-5085","Primary Tumor",4.1213
+"TCGA-B0-5088","Primary Tumor",13.1558
+"TCGA-B0-5092","Primary Tumor",29.9275
+"TCGA-B0-5094","Primary Tumor",42.6448
+"TCGA-B0-5095","Primary Tumor",27.5487
+"TCGA-B0-5096","Primary Tumor",13.0625
+"TCGA-B0-5097","Primary Tumor",28.6705
+"TCGA-B0-5098","Primary Tumor",5.2833
+"TCGA-B0-5099","Primary Tumor",5.2384
+"TCGA-B0-5100","Primary Tumor",12.2812
+"TCGA-B0-5102","Primary Tumor",6.3466
+"TCGA-B0-5104","Primary Tumor",6.6826
+"TCGA-B0-5106","Primary Tumor",29.7555
+"TCGA-B0-5107","Primary Tumor",26.8548
+"TCGA-B0-5108","Primary Tumor",40.1346
+"TCGA-B0-5109","Primary Tumor",22.0618
+"TCGA-B0-5110","Primary Tumor",11.1782
+"TCGA-B0-5113","Primary Tumor",17.2307
+"TCGA-B0-5115","Primary Tumor",7.8539
+"TCGA-B0-5116","Primary Tumor",15.4126
+"TCGA-B0-5117","Primary Tumor",1.1122
+"TCGA-B0-5119","Primary Tumor",14.8799
+"TCGA-B0-5120","Primary Tumor",12.2869
+"TCGA-B0-5121","Primary Tumor",7.2449
+"TCGA-B0-5399","Primary Tumor",16.3009
+"TCGA-B0-5400","Primary Tumor",29.3627
+"TCGA-B0-5402","Primary Tumor",5.8376
+"TCGA-B0-5690","Primary Tumor",9.3306
+"TCGA-B0-5691","Primary Tumor",13.5959
+"TCGA-B0-5692","Primary Tumor",45.6451
+"TCGA-B0-5693","Primary Tumor",5.5314
+"TCGA-B0-5694","Primary Tumor",10.6302
+"TCGA-B0-5695","Primary Tumor",4.0637
+"TCGA-B0-5696","Primary Tumor",5.2731
+"TCGA-B0-5697","Primary Tumor",16.2404
+"TCGA-B0-5698","Primary Tumor",8.5541
+"TCGA-B0-5699","Primary Tumor",12.378
+"TCGA-B0-5700","Primary Tumor",8.8484
+"TCGA-B0-5701","Primary Tumor",12.4675
+"TCGA-B0-5702","Primary Tumor",42.4112
+"TCGA-B0-5703","Primary Tumor",9.3813
+"TCGA-B0-5705","Primary Tumor",5.3553
+"TCGA-B0-5706","Primary Tumor",13.2457
+"TCGA-B0-5707","Primary Tumor",8.0127
+"TCGA-B0-5709","Primary Tumor",20.6616
+"TCGA-B0-5710","Primary Tumor",23.32
+"TCGA-B0-5711","Primary Tumor",17.9987
+"TCGA-B0-5712","Primary Tumor",13.009
+"TCGA-B0-5713","Primary Tumor",8.518
+"TCGA-B0-5812","Primary Tumor",9.3995
+"TCGA-B2-3923","Primary Tumor",1.7814
+"TCGA-B2-3924","Primary Tumor",16.6259
+"TCGA-B2-4098","Primary Tumor",11.8727
+"TCGA-B2-4099","Primary Tumor",9.5951
+"TCGA-B2-4101","Primary Tumor",19.6075
+"TCGA-B2-4102","Primary Tumor",17.0027
+"TCGA-B2-5633","Primary Tumor",18.7031
+"TCGA-B2-5635","Primary Tumor",23.4403
+"TCGA-B2-5636","Primary Tumor",16.1487
+"TCGA-B2-5639","Primary Tumor",11.6704
+"TCGA-B2-5641","Primary Tumor",33.5536
+"TCGA-B2-A4SR","Primary Tumor",13.4928
+"TCGA-B4-5377","Primary Tumor",10.2523
+"TCGA-B4-5378","Primary Tumor",8.7441
+"TCGA-B4-5832","Primary Tumor",7.4702
+"TCGA-B4-5834","Primary Tumor",12.8325
+"TCGA-B4-5835","Primary Tumor",4.009
+"TCGA-B4-5836","Primary Tumor",14.5336
+"TCGA-B4-5838","Primary Tumor",5.6405
+"TCGA-B4-5843","Primary Tumor",10.353
+"TCGA-B4-5844","Primary Tumor",4.5527
+"TCGA-B8-4143","Primary Tumor",47.0592
+"TCGA-B8-4146","Primary Tumor",3.8806
+"TCGA-B8-4148","Primary Tumor",23.9291
+"TCGA-B8-4151","Primary Tumor",2.692
+"TCGA-B8-4153","Primary Tumor",7.1459
+"TCGA-B8-4154","Primary Tumor",3.1357
+"TCGA-B8-4619","Primary Tumor",1.2536
+"TCGA-B8-4620","Primary Tumor",25.735
+"TCGA-B8-4621","Primary Tumor",4.8987
+"TCGA-B8-4622","Primary Tumor",12.1846
+"TCGA-B8-5158","Primary Tumor",17.989
+"TCGA-B8-5159","Primary Tumor",18.7529
+"TCGA-B8-5162","Primary Tumor",13.7054
+"TCGA-B8-5163","Primary Tumor",32.0708
+"TCGA-B8-5164","Primary Tumor",22.3007
+"TCGA-B8-5165","Primary Tumor",5.6656
+"TCGA-B8-5545","Primary Tumor",12.5189
+"TCGA-B8-5546","Primary Tumor",1.5198
+"TCGA-B8-5549","Primary Tumor",12.6739
+"TCGA-B8-5550","Primary Tumor",9.8619
+"TCGA-B8-5551","Primary Tumor",33.8568
+"TCGA-B8-5552","Primary Tumor",16.1507
+"TCGA-B8-5553","Primary Tumor",12.9348
+"TCGA-B8-A54D","Primary Tumor",17.4475
+"TCGA-B8-A54E","Primary Tumor",4.503
+"TCGA-B8-A54F","Primary Tumor",25.5256
+"TCGA-B8-A54G","Primary Tumor",19.7289
+"TCGA-B8-A54H","Primary Tumor",10.3714
+"TCGA-B8-A54I","Primary Tumor",14.4977
+"TCGA-B8-A54J","Primary Tumor",11.2419
+"TCGA-B8-A54K","Primary Tumor",16.2127
+"TCGA-B8-A7U6","Primary Tumor",11.5268
+"TCGA-B8-A8YJ","Primary Tumor",27.7439
+"TCGA-BP-4158","Primary Tumor",3.9033
+"TCGA-BP-4159","Primary Tumor",3.5962
+"TCGA-BP-4160","Primary Tumor",8.8603
+"TCGA-BP-4161","Primary Tumor",16.344
+"TCGA-BP-4162","Primary Tumor",12.4565
+"TCGA-BP-4163","Primary Tumor",13.2309
+"TCGA-BP-4164","Primary Tumor",7.0236
+"TCGA-BP-4165","Primary Tumor",9.8778
+"TCGA-BP-4166","Primary Tumor",4.0158
+"TCGA-BP-4167","Primary Tumor",16.0037
+"TCGA-BP-4169","Primary Tumor",25.2231
+"TCGA-BP-4170","Primary Tumor",7.082
+"TCGA-BP-4173","Primary Tumor",56.5274
+"TCGA-BP-4174","Primary Tumor",9.5608
+"TCGA-BP-4176","Primary Tumor",15.4785
+"TCGA-BP-4177","Primary Tumor",7.4261
+"TCGA-BP-4325","Primary Tumor",12.0553
+"TCGA-BP-4326","Primary Tumor",16.821
+"TCGA-BP-4327","Primary Tumor",22.2962
+"TCGA-BP-4329","Primary Tumor",4.3359
+"TCGA-BP-4330","Primary Tumor",27.0005
+"TCGA-BP-4331","Primary Tumor",18.3388
+"TCGA-BP-4332","Primary Tumor",18.5456
+"TCGA-BP-4334","Primary Tumor",1.2368
+"TCGA-BP-4335","Primary Tumor",10.5089
+"TCGA-BP-4337","Primary Tumor",14.5523
+"TCGA-BP-4338","Primary Tumor",8.348
+"TCGA-BP-4340","Primary Tumor",4.2825
+"TCGA-BP-4341","Primary Tumor",6.3265
+"TCGA-BP-4342","Primary Tumor",24.1419
+"TCGA-BP-4343","Primary Tumor",5.4196
+"TCGA-BP-4344","Primary Tumor",7.8559
+"TCGA-BP-4345","Primary Tumor",20.6076
+"TCGA-BP-4346","Primary Tumor",52.3427
+"TCGA-BP-4347","Primary Tumor",7.5297
+"TCGA-BP-4349","Primary Tumor",8.8764
+"TCGA-BP-4351","Primary Tumor",12.6591
+"TCGA-BP-4352","Primary Tumor",7.2406
+"TCGA-BP-4353","Primary Tumor",16.1786
+"TCGA-BP-4354","Primary Tumor",48.6231
+"TCGA-BP-4355","Primary Tumor",13.4528
+"TCGA-BP-4756","Primary Tumor",5.8157
+"TCGA-BP-4758","Primary Tumor",9.7484
+"TCGA-BP-4759","Primary Tumor",2.6747
+"TCGA-BP-4760","Primary Tumor",11.9651
+"TCGA-BP-4761","Primary Tumor",27.5795
+"TCGA-BP-4762","Primary Tumor",5.857
+"TCGA-BP-4763","Primary Tumor",11.9905
+"TCGA-BP-4765","Primary Tumor",6.7892
+"TCGA-BP-4766","Primary Tumor",6.1692
+"TCGA-BP-4768","Primary Tumor",22.7269
+"TCGA-BP-4769","Primary Tumor",9.4274
+"TCGA-BP-4770","Primary Tumor",16.3702
+"TCGA-BP-4771","Primary Tumor",49.4532
+"TCGA-BP-4774","Primary Tumor",6.5224
+"TCGA-BP-4775","Primary Tumor",10.2652
+"TCGA-BP-4776","Primary Tumor",10.6332
+"TCGA-BP-4777","Primary Tumor",14.9974
+"TCGA-BP-4781","Primary Tumor",15.136
+"TCGA-BP-4782","Primary Tumor",11.8094
+"TCGA-BP-4784","Primary Tumor",17.3382
+"TCGA-BP-4787","Primary Tumor",20.0194
+"TCGA-BP-4789","Primary Tumor",6.0057
+"TCGA-BP-4790","Primary Tumor",22.1652
+"TCGA-BP-4795","Primary Tumor",11.7827
+"TCGA-BP-4797","Primary Tumor",9.0258
+"TCGA-BP-4798","Primary Tumor",49.6922
+"TCGA-BP-4799","Primary Tumor",7.862
+"TCGA-BP-4801","Primary Tumor",10.086
+"TCGA-BP-4803","Primary Tumor",16.2764
+"TCGA-BP-4804","Primary Tumor",27.8788
+"TCGA-BP-4807","Primary Tumor",9.1391
+"TCGA-BP-4959","Primary Tumor",6.3647
+"TCGA-BP-4960","Primary Tumor",15.588
+"TCGA-BP-4961","Primary Tumor",9.7713
+"TCGA-BP-4962","Primary Tumor",9.9085
+"TCGA-BP-4963","Primary Tumor",14.0022
+"TCGA-BP-4964","Primary Tumor",20.8923
+"TCGA-BP-4965","Primary Tumor",9.3451
+"TCGA-BP-4967","Primary Tumor",15.9678
+"TCGA-BP-4968","Primary Tumor",11.1728
+"TCGA-BP-4969","Primary Tumor",3.9768
+"TCGA-BP-4970","Primary Tumor",16.3164
+"TCGA-BP-4971","Primary Tumor",27.1773
+"TCGA-BP-4972","Primary Tumor",9.5647
+"TCGA-BP-4973","Primary Tumor",9.5717
+"TCGA-BP-4974","Primary Tumor",18.8727
+"TCGA-BP-4975","Primary Tumor",13.5328
+"TCGA-BP-4976","Primary Tumor",4.141
+"TCGA-BP-4977","Primary Tumor",20.7271
+"TCGA-BP-4981","Primary Tumor",22.0971
+"TCGA-BP-4982","Primary Tumor",16.3258
+"TCGA-BP-4983","Primary Tumor",41.2131
+"TCGA-BP-4985","Primary Tumor",23.1272
+"TCGA-BP-4986","Primary Tumor",30.948
+"TCGA-BP-4987","Primary Tumor",15.0251
+"TCGA-BP-4988","Primary Tumor",81.6626
+"TCGA-BP-4989","Primary Tumor",24.8093
+"TCGA-BP-4991","Primary Tumor",21.827
+"TCGA-BP-4992","Primary Tumor",27.1974
+"TCGA-BP-4993","Primary Tumor",7.8411
+"TCGA-BP-4994","Primary Tumor",4.1783
+"TCGA-BP-4995","Primary Tumor",5.2938
+"TCGA-BP-4998","Primary Tumor",22.1827
+"TCGA-BP-4999","Primary Tumor",9.2747
+"TCGA-BP-5000","Primary Tumor",15.5802
+"TCGA-BP-5001","Primary Tumor",7.6138
+"TCGA-BP-5004","Primary Tumor",5.4702
+"TCGA-BP-5006","Primary Tumor",4.2606
+"TCGA-BP-5007","Primary Tumor",10.704
+"TCGA-BP-5008","Primary Tumor",17.5872
+"TCGA-BP-5009","Primary Tumor",23.951
+"TCGA-BP-5010","Primary Tumor",12.3587
+"TCGA-BP-5168","Primary Tumor",7.1917
+"TCGA-BP-5169","Primary Tumor",15.0377
+"TCGA-BP-5170","Primary Tumor",19.4297
+"TCGA-BP-5173","Primary Tumor",7.5924
+"TCGA-BP-5174","Primary Tumor",2.6922
+"TCGA-BP-5175","Primary Tumor",10.9746
+"TCGA-BP-5176","Primary Tumor",8.0532
+"TCGA-BP-5177","Primary Tumor",4.7139
+"TCGA-BP-5178","Primary Tumor",18.6339
+"TCGA-BP-5180","Primary Tumor",18.2852
+"TCGA-BP-5181","Primary Tumor",12.069
+"TCGA-BP-5182","Primary Tumor",9.8338
+"TCGA-BP-5183","Primary Tumor",12.6055
+"TCGA-BP-5184","Primary Tumor",5.8584
+"TCGA-BP-5185","Primary Tumor",13.9786
+"TCGA-BP-5186","Primary Tumor",8.741
+"TCGA-BP-5187","Primary Tumor",14.3241
+"TCGA-BP-5189","Primary Tumor",22.2592
+"TCGA-BP-5190","Primary Tumor",9.668
+"TCGA-BP-5191","Primary Tumor",13.7625
+"TCGA-BP-5192","Primary Tumor",9.2558
+"TCGA-BP-5194","Primary Tumor",9.3261
+"TCGA-BP-5195","Primary Tumor",9.3302
+"TCGA-BP-5196","Primary Tumor",21.1492
+"TCGA-BP-5198","Primary Tumor",11.1743
+"TCGA-BP-5199","Primary Tumor",33.9397
+"TCGA-BP-5200","Primary Tumor",15.2668
+"TCGA-BP-5201","Primary Tumor",19.3039
+"TCGA-BP-5202","Primary Tumor",6.8965
+"TCGA-CJ-4634","Primary Tumor",6.9771
+"TCGA-CJ-4635","Primary Tumor",37.737
+"TCGA-CJ-4636","Primary Tumor",12.0577
+"TCGA-CJ-4637","Primary Tumor",54.846
+"TCGA-CJ-4638","Primary Tumor",5.0704
+"TCGA-CJ-4639","Primary Tumor",15.7926
+"TCGA-CJ-4640","Primary Tumor",9.8214
+"TCGA-CJ-4641","Primary Tumor",32.7831
+"TCGA-CJ-4642","Primary Tumor",20.5464
+"TCGA-CJ-4643","Primary Tumor",11.3129
+"TCGA-CJ-4644","Primary Tumor",5.7624
+"TCGA-CJ-4868","Primary Tumor",23.8485
+"TCGA-CJ-4869","Primary Tumor",16.0819
+"TCGA-CJ-4870","Primary Tumor",2.3216
+"TCGA-CJ-4871","Primary Tumor",13.9503
+"TCGA-CJ-4872","Primary Tumor",15.6771
+"TCGA-CJ-4873","Primary Tumor",13.3683
+"TCGA-CJ-4874","Primary Tumor",6.7844
+"TCGA-CJ-4875","Primary Tumor",8.5672
+"TCGA-CJ-4876","Primary Tumor",9.6554
+"TCGA-CJ-4878","Primary Tumor",9.7787
+"TCGA-CJ-4881","Primary Tumor",22.4104
+"TCGA-CJ-4882","Primary Tumor",40.1163
+"TCGA-CJ-4884","Primary Tumor",7.9712
+"TCGA-CJ-4885","Primary Tumor",7.0424
+"TCGA-CJ-4886","Primary Tumor",13.9286
+"TCGA-CJ-4887","Primary Tumor",12.6744
+"TCGA-CJ-4888","Primary Tumor",43.4066
+"TCGA-CJ-4889","Primary Tumor",16.2164
+"TCGA-CJ-4890","Primary Tumor",30.0053
+"TCGA-CJ-4891","Primary Tumor",10.3249
+"TCGA-CJ-4892","Primary Tumor",17.3082
+"TCGA-CJ-4893","Primary Tumor",8.3637
+"TCGA-CJ-4894","Primary Tumor",26.5781
+"TCGA-CJ-4895","Primary Tumor",35.6588
+"TCGA-CJ-4897","Primary Tumor",4.1447
+"TCGA-CJ-4899","Primary Tumor",16.1372
+"TCGA-CJ-4900","Primary Tumor",17.5553
+"TCGA-CJ-4901","Primary Tumor",33.9303
+"TCGA-CJ-4902","Primary Tumor",22.1119
+"TCGA-CJ-4903","Primary Tumor",9.942
+"TCGA-CJ-4904","Primary Tumor",5.9364
+"TCGA-CJ-4905","Primary Tumor",4.4459
+"TCGA-CJ-4907","Primary Tumor",7.4338
+"TCGA-CJ-4908","Primary Tumor",15.9119
+"TCGA-CJ-4912","Primary Tumor",13.8941
+"TCGA-CJ-4916","Primary Tumor",21.0195
+"TCGA-CJ-4918","Primary Tumor",13.8237
+"TCGA-CJ-4920","Primary Tumor",20.1447
+"TCGA-CJ-4923","Primary Tumor",26.1206
+"TCGA-CJ-5671","Primary Tumor",34.4857
+"TCGA-CJ-5672","Primary Tumor",14.7186
+"TCGA-CJ-5675","Primary Tumor",23.1592
+"TCGA-CJ-5676","Primary Tumor",16.6638
+"TCGA-CJ-5677","Primary Tumor",13.571
+"TCGA-CJ-5678","Primary Tumor",9.7154
+"TCGA-CJ-5679","Primary Tumor",15.6755
+"TCGA-CJ-5680","Primary Tumor",6.5011
+"TCGA-CJ-5681","Primary Tumor",1.5554
+"TCGA-CJ-5682","Primary Tumor",21.2968
+"TCGA-CJ-5683","Primary Tumor",9.0271
+"TCGA-CJ-5684","Primary Tumor",9.4252
+"TCGA-CJ-5686","Primary Tumor",18.5082
+"TCGA-CJ-5689","Primary Tumor",12.3914
+"TCGA-CJ-6027","Primary Tumor",37.2422
+"TCGA-CJ-6028","Primary Tumor",22.6738
+"TCGA-CJ-6030","Primary Tumor",31.7576
+"TCGA-CJ-6031","Primary Tumor",14.0793
+"TCGA-CJ-6032","Primary Tumor",4.141
+"TCGA-CJ-6033","Primary Tumor",23.9396
+"TCGA-CW-5580","Primary Tumor",16.1096
+"TCGA-CW-5581","Primary Tumor",7.2483
+"TCGA-CW-5583","Primary Tumor",6.0264
+"TCGA-CW-5584","Primary Tumor",13.0135
+"TCGA-CW-5585","Primary Tumor",1.458
+"TCGA-CW-5587","Primary Tumor",14.7355
+"TCGA-CW-5588","Primary Tumor",14.8585
+"TCGA-CW-5589","Primary Tumor",9.7444
+"TCGA-CW-5590","Primary Tumor",9.1215
+"TCGA-CW-5591","Primary Tumor",6.2044
+"TCGA-CW-6087","Primary Tumor",66.7297
+"TCGA-CW-6088","Primary Tumor",7.5658
+"TCGA-CW-6090","Primary Tumor",10.0671
+"TCGA-CW-6093","Primary Tumor",10.2315
+"TCGA-CW-6097","Primary Tumor",24.5705
+"TCGA-CZ-4853","Primary Tumor",5.859
+"TCGA-CZ-4854","Primary Tumor",25.9496
+"TCGA-CZ-4856","Primary Tumor",10.0857
+"TCGA-CZ-4857","Primary Tumor",29.2564
+"TCGA-CZ-4858","Primary Tumor",36.0539
+"TCGA-CZ-4859","Primary Tumor",2.139
+"TCGA-CZ-4860","Primary Tumor",16.5853
+"TCGA-CZ-4861","Primary Tumor",11.3322
+"TCGA-CZ-4862","Primary Tumor",37.8943
+"TCGA-CZ-4863","Primary Tumor",22.0022
+"TCGA-CZ-4864","Primary Tumor",13.5835
+"TCGA-CZ-4865","Primary Tumor",6.4535
+"TCGA-CZ-4866","Primary Tumor",2.4483
+"TCGA-CZ-5451","Primary Tumor",4.0786
+"TCGA-CZ-5452","Primary Tumor",14.9681
+"TCGA-CZ-5453","Primary Tumor",7.4348
+"TCGA-CZ-5454","Primary Tumor",8.5141
+"TCGA-CZ-5455","Primary Tumor",17.6622
+"TCGA-CZ-5456","Primary Tumor",24.0474
+"TCGA-CZ-5457","Primary Tumor",5.186
+"TCGA-CZ-5458","Primary Tumor",7.8933
+"TCGA-CZ-5459","Primary Tumor",12.6375
+"TCGA-CZ-5460","Primary Tumor",7.0044
+"TCGA-CZ-5461","Primary Tumor",16.1301
+"TCGA-CZ-5462","Primary Tumor",18.0037
+"TCGA-CZ-5463","Primary Tumor",15.3194
+"TCGA-CZ-5464","Primary Tumor",28.7906
+"TCGA-CZ-5465","Primary Tumor",5.153
+"TCGA-CZ-5466","Primary Tumor",13.2652
+"TCGA-CZ-5467","Primary Tumor",8.574
+"TCGA-CZ-5468","Primary Tumor",16.3297
+"TCGA-CZ-5469","Primary Tumor",14.5232
+"TCGA-CZ-5470","Primary Tumor",8.5829
+"TCGA-CZ-5982","Primary Tumor",9.3953
+"TCGA-CZ-5984","Primary Tumor",36.7351
+"TCGA-CZ-5985","Primary Tumor",17.1575
+"TCGA-CZ-5986","Primary Tumor",11.8647
+"TCGA-CZ-5987","Primary Tumor",25.3212
+"TCGA-CZ-5988","Primary Tumor",16.146
+"TCGA-CZ-5989","Primary Tumor",6.557
+"TCGA-DV-5565","Primary Tumor",8.2994
+"TCGA-DV-5566","Primary Tumor",5.5873
+"TCGA-DV-5567","Primary Tumor",10.0825
+"TCGA-DV-5568","Primary Tumor",8.4108
+"TCGA-DV-5569","Primary Tumor",13.7422
+"TCGA-DV-5573","Primary Tumor",23.4735
+"TCGA-DV-5574","Primary Tumor",19.3342
+"TCGA-DV-5575","Primary Tumor",12.5092
+"TCGA-DV-5576","Primary Tumor",11.075
+"TCGA-DV-A4VX","Primary Tumor",20.6864
+"TCGA-DV-A4VZ","Primary Tumor",15.8621
+"TCGA-DV-A4W0","Primary Tumor",2.8893
+"TCGA-EU-5904","Primary Tumor",6.6577
+"TCGA-EU-5905","Primary Tumor",28.6761
+"TCGA-EU-5906","Primary Tumor",7.9987
+"TCGA-EU-5907","Primary Tumor",4.8415
+"TCGA-G6-A5PC","Primary Tumor",4.3273
+"TCGA-G6-A8L6","Primary Tumor",9.1855
+"TCGA-G6-A8L7","Primary Tumor",23.6328
+"TCGA-G6-A8L8","Primary Tumor",22.4072
+"TCGA-GK-A6C7","Primary Tumor",8.6656
+"TCGA-MM-A563","Primary Tumor",27.8775
+"TCGA-MM-A564","Primary Tumor",14.2907
+"TCGA-MM-A84U","Primary Tumor",12.5428
+"TCGA-MW-A4EC","Primary Tumor",11.9661
+"TCGA-T7-A92I","Primary Tumor",2.9039
+"TCGA-A3-3358","Solid Tissue Normal",1.2857
+"TCGA-A3-3387","Solid Tissue Normal",1.08
+"TCGA-B0-4700","Solid Tissue Normal",1.7803
+"TCGA-B0-4712","Solid Tissue Normal",3.1301
+"TCGA-B0-5402","Solid Tissue Normal",6.28
+"TCGA-B0-5690","Solid Tissue Normal",0.8919
+"TCGA-B0-5691","Solid Tissue Normal",6.1649
+"TCGA-B0-5694","Solid Tissue Normal",4.6571
+"TCGA-B0-5696","Solid Tissue Normal",1.8208
+"TCGA-B0-5697","Solid Tissue Normal",0.9158
+"TCGA-B0-5699","Solid Tissue Normal",0.8664
+"TCGA-B0-5701","Solid Tissue Normal",3.5063
+"TCGA-B0-5703","Solid Tissue Normal",1.8626
+"TCGA-B0-5705","Solid Tissue Normal",1.6704
+"TCGA-B0-5706","Solid Tissue Normal",1.2186
+"TCGA-B0-5709","Solid Tissue Normal",2.3995
+"TCGA-B0-5711","Solid Tissue Normal",1.6668
+"TCGA-B0-5712","Solid Tissue Normal",5.5535
+"TCGA-B2-5636","Solid Tissue Normal",4.8913
+"TCGA-B2-5641","Solid Tissue Normal",2.6125
+"TCGA-B8-4619","Solid Tissue Normal",1.5208
+"TCGA-B8-4620","Solid Tissue Normal",5.2847
+"TCGA-B8-4622","Solid Tissue Normal",2.0013
+"TCGA-B8-5549","Solid Tissue Normal",1.8588
+"TCGA-B8-5552","Solid Tissue Normal",10.5973
+"TCGA-CJ-5672","Solid Tissue Normal",2.1861
+"TCGA-CJ-5676","Solid Tissue Normal",5.6152
+"TCGA-CJ-5677","Solid Tissue Normal",3.3542
+"TCGA-CJ-5678","Solid Tissue Normal",1.3716
+"TCGA-CJ-5679","Solid Tissue Normal",4.9182
+"TCGA-CJ-5680","Solid Tissue Normal",8.2802
+"TCGA-CJ-5681","Solid Tissue Normal",1.4793
+"TCGA-CJ-5689","Solid Tissue Normal",5.3642
+"TCGA-CJ-6030","Solid Tissue Normal",2.1045
+"TCGA-CJ-6033","Solid Tissue Normal",3.4994
+"TCGA-CW-5580","Solid Tissue Normal",1.9594
+"TCGA-CW-5581","Solid Tissue Normal",0.7878
+"TCGA-CW-5584","Solid Tissue Normal",9.8197
+"TCGA-CW-5585","Solid Tissue Normal",1.0935
+"TCGA-CW-5587","Solid Tissue Normal",1.3075
+"TCGA-CW-5589","Solid Tissue Normal",2.5372
+"TCGA-CW-5591","Solid Tissue Normal",16.776
+"TCGA-CW-6087","Solid Tissue Normal",0.9156
+"TCGA-CW-6088","Solid Tissue Normal",1.3522
+"TCGA-CW-6090","Solid Tissue Normal",0.8703
+"TCGA-CZ-4863","Solid Tissue Normal",2.7535
+"TCGA-CZ-4864","Solid Tissue Normal",1.2499
+"TCGA-CZ-4865","Solid Tissue Normal",2.4041
+"TCGA-CZ-5451","Solid Tissue Normal",0.8602
+"TCGA-CZ-5452","Solid Tissue Normal",1.3319
+"TCGA-CZ-5453","Solid Tissue Normal",2.4805
+"TCGA-CZ-5454","Solid Tissue Normal",2.4259
+"TCGA-CZ-5455","Solid Tissue Normal",1.4283
+"TCGA-CZ-5456","Solid Tissue Normal",1.5602
+"TCGA-CZ-5457","Solid Tissue Normal",2.8837
+"TCGA-CZ-5458","Solid Tissue Normal",1.7496
+"TCGA-CZ-5461","Solid Tissue Normal",2.5926
+"TCGA-CZ-5462","Solid Tissue Normal",1.6586
+"TCGA-CZ-5463","Solid Tissue Normal",1.7389
+"TCGA-CZ-5465","Solid Tissue Normal",1.4305
+"TCGA-CZ-5466","Solid Tissue Normal",1.8802
+"TCGA-CZ-5467","Solid Tissue Normal",2.0582
+"TCGA-CZ-5468","Solid Tissue Normal",3.0678
+"TCGA-CZ-5469","Solid Tissue Normal",2.2967
+"TCGA-CZ-5470","Solid Tissue Normal",2.2998
+"TCGA-CZ-5982","Solid Tissue Normal",0.394
+"TCGA-CZ-5984","Solid Tissue Normal",1.9953
+"TCGA-CZ-5985","Solid Tissue Normal",0.3883
+"TCGA-CZ-5986","Solid Tissue Normal",1.0576
+"TCGA-CZ-5987","Solid Tissue Normal",7.5327
+"TCGA-CZ-5988","Solid Tissue Normal",0.9812
+"TCGA-CZ-5989","Solid Tissue Normal",6.0098

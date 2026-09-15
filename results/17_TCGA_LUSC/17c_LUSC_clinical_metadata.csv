@@ -1,0 +1,505 @@
+"patient_id","primary_diagnosis","pathologic_stage","tumor_grade","pathologic_T","pathologic_N","pathologic_M","age_at_diagnosis_days","vital_status","days_to_death","gender","age_at_diagnosis_years"
+"TCGA-56-8305","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",26428,"Alive",NA,"male",72.3559206023272
+"TCGA-33-4538","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",24174,"Dead",2979,"male",66.1848049281314
+"TCGA-18-3409","Not Reported",NA,NA,NA,NA,NA,29445,"Alive",NA,"male",80.6160164271047
+"TCGA-56-8308","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","MX",29139,"Alive",NA,"male",79.7782340862423
+"TCGA-60-2696","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",109,"female",NA
+"TCGA-51-6867","Squamous cell carcinoma, NOS","Stage I",NA,"T1","N0","M0",26523,"Dead",1856,"female",72.6160164271047
+"TCGA-21-1077","Not Reported",NA,NA,NA,NA,NA,24167,"Dead",1058,"male",66.1656399726215
+"TCGA-96-A4JK","Transitional cell carcinoma",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-60-2712","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",274,"female",NA
+"TCGA-56-7221","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",28873,"Alive",NA,"male",79.0499657768652
+"TCGA-21-A5DI","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",28374,"Alive",NA,"male",77.6837782340862
+"TCGA-77-8138","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,27514,"Dead",539,"male",75.3292265571526
+"TCGA-43-7657","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","MX",25042,"Alive",NA,"female",68.5612594113621
+"TCGA-60-2695","Basaloid squamous cell carcinoma","Stage IB",NA,"T2","N0","M0",27211,"Alive",NA,"female",74.4996577686516
+"TCGA-21-1070","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N0","M0",22273,"Alive",NA,"female",60.9801505817933
+"TCGA-94-7033","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","MX",26948,"Alive",NA,"male",73.7796030116359
+"TCGA-60-2710","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1","N1","M0",24669,"Alive",NA,"female",67.5400410677618
+"TCGA-33-4589","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",22754,"Dead",47,"female",62.2970568104038
+"TCGA-68-8250","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-34-2604","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",29827,"Dead",958,"female",81.6618754277892
+"TCGA-60-2715","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",18990,"Dead",1075,"male",51.9917864476386
+"TCGA-NK-A5D1","Squamous cell carcinoma, clear cell type",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-43-2576","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",22805,"Alive",NA,"female",62.4366872005476
+"TCGA-22-5472","Not Reported",NA,NA,NA,NA,NA,25384,"Dead",1975,"male",69.4976043805613
+"TCGA-22-1017","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",22880,"Dead",1485,"male",62.6420260095825
+"TCGA-60-2698","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",22800,"Dead",311,"male",62.4229979466119
+"TCGA-18-3410","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",29827,"Dead",146,"male",81.6618754277892
+"TCGA-18-3406","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,24834,"Dead",371,"male",67.9917864476386
+"TCGA-22-1011","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",26732,"Dead",53,"male",73.1882272416153
+"TCGA-O2-A52W","Squamous cell carcinoma, NOS","Stage I",NA,"T2","N0","MX",23156,"Dead",261,"male",63.3976728268309
+"TCGA-56-A49D","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2a","N2","MX",24745,"Alive",NA,"male",67.7481177275838
+"TCGA-56-8504","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","MX",27210,"Alive",NA,"male",74.4969199178645
+"TCGA-37-A5EM","Squamous cell carcinoma, NOS","Stage II",NA,"T2","N0","M0",18011,"Alive",NA,"male",49.3114305270363
+"TCGA-66-2763","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",23315,"Alive",NA,"female",63.8329911019849
+"TCGA-66-2744","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",26084,"Alive",NA,"male",71.4140999315537
+"TCGA-22-1000","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",27901,"Dead",454,"male",76.3887748117728
+"TCGA-37-4135","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",25041,"Alive",NA,"male",68.5585215605749
+"TCGA-60-2697","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2","N2","M0",14984,"Dead",372,"male",41.0239561943874
+"TCGA-56-8628","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","MX",28805,"Alive",NA,"male",78.8637919233402
+"TCGA-21-1076","Not Reported",NA,NA,NA,NA,NA,21438,"Alive",NA,"female",58.694045174538
+"TCGA-18-5595","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",18611,"Dead",827,"male",50.9541409993155
+"TCGA-43-A474","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",24286,"Alive",NA,"male",66.4914442162902
+"TCGA-56-8625","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","MX",24188,"Dead",315,"female",66.2231348391513
+"TCGA-18-3416","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,31375,"Dead",973,"male",85.9000684462697
+"TCGA-43-7658","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,30039,"Dead",2378,"female",82.2422997946612
+"TCGA-60-2708","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",23691,"Alive",NA,"female",64.8624229979466
+"TCGA-90-7766","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","MX",24354,"Alive",NA,"female",66.6776180698152
+"TCGA-85-6175","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",23228,"Dead",294,"female",63.5947980835045
+"TCGA-94-A4VJ","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",25991,"Alive",NA,"female",71.1594798083504
+"TCGA-22-4607","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",27601,"Dead",587,"male",75.5674195756331
+"TCGA-39-5039","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",544,"male",NA
+"TCGA-33-4532","Basaloid squamous cell carcinoma",NA,NA,NA,NA,NA,24009,"Dead",3924,"male",65.7330595482546
+"TCGA-77-7463","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",27520,"Dead",1423,"male",75.3456536618754
+"TCGA-22-5485","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",21488,"Dead",916,"female",58.8309377138946
+"TCGA-63-7023","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1","N1","M0",NA,"Alive",NA,"male",NA
+"TCGA-77-8153","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",28253,"Alive",NA,"female",77.3524982888433
+"TCGA-34-2605","Not Reported",NA,NA,NA,NA,NA,28227,"Dead",881,"male",77.2813141683778
+"TCGA-34-2609","Not Reported",NA,NA,NA,NA,NA,30461,"Dead",951,"male",83.3976728268309
+"TCGA-34-5234","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",26072,"Alive",NA,"female",71.3812457221081
+"TCGA-21-1081","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",25440,"Dead",284,"male",69.6509240246407
+"TCGA-85-8666","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",23906,"Dead",687,"male",65.45106091718
+"TCGA-98-8020","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,20520,"Dead",84,"female",56.1806981519507
+"TCGA-96-8170","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1a","N1","M0",27558,"Alive",NA,"female",75.4496919917865
+"TCGA-58-A46K","Basaloid squamous cell carcinoma",NA,NA,NA,NA,NA,22602,"Dead",1045,"male",61.8809034907598
+"TCGA-56-7222","Not Reported",NA,NA,NA,NA,NA,22524,"Dead",562,"male",61.6673511293634
+"TCGA-33-4586","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,21317,"Dead",428,"male",58.362765229295
+"TCGA-56-6546","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","MX",24594,"Dead",NA,"male",67.3347022587269
+"TCGA-63-A5MP","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,21329,"Alive",NA,"male",58.3956194387406
+"TCGA-22-4601","Not Reported",NA,NA,NA,NA,NA,27462,"Dead",1057,"female",75.1868583162218
+"TCGA-22-5480","Not Reported",NA,NA,NA,NA,NA,26024,"Dead",2170,"female",71.2498288843258
+"TCGA-98-A53C","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",28146,"Alive",NA,"female",77.0595482546201
+"TCGA-66-2737","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",26390,"Alive",NA,"male",72.2518822724162
+"TCGA-39-5036","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",26963,"Alive",NA,"male",73.8206707734428
+"TCGA-94-A5I4","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","MX",22299,"Alive",NA,"male",61.0513347022587
+"TCGA-85-A513","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","NX","M0",21967,"Alive",NA,"female",60.1423682409309
+"TCGA-85-A511","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2b","N1","M0",22759,"Dead",455,"male",62.3107460643395
+"TCGA-43-8115","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","MX",26406,"Alive",NA,"female",72.2956878850103
+"TCGA-68-A59J","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","MX",27031,"Alive",NA,"female",74.0068446269678
+"TCGA-NC-A5HO","Squamous cell carcinoma, keratinizing, NOS","Stage IIIA",NA,"T3","N1","M0",25694,"Alive",NA,"female",70.3463381245722
+"TCGA-39-5019","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",25756,"Alive",NA,"male",70.5160848733744
+"TCGA-33-4547","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",25056,"Alive",NA,"male",68.5995893223819
+"TCGA-46-6025","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2b","N1","M0",26168,"Alive",NA,"male",71.6440793976728
+"TCGA-58-8392","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",25710,"Dead",501,"male",70.3901437371663
+"TCGA-66-2759","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",24287,"Alive",NA,"male",66.4941820670773
+"TCGA-66-2780","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",23955,"Dead",366,"male",65.5852156057495
+"TCGA-77-8150","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,24752,"Dead",1655,"male",67.7672826830938
+"TCGA-60-2709","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","MX",25453,"Alive",NA,"male",69.6865160848734
+"TCGA-22-5492","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2a","N2","M0",26838,"Dead",506,"female",73.4784394250513
+"TCGA-85-8287","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",26401,"Dead",23,"male",72.2819986310746
+"TCGA-56-7579","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,22781,"Dead",951,"male",62.3709787816564
+"TCGA-22-4593","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",28385,"Dead",1067,"male",77.7138945927447
+"TCGA-33-AASD","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","MX",30623,"Dead",2249,"male",83.8412046543463
+"TCGA-39-5021","Not Reported",NA,NA,NA,NA,NA,27770,"Dead",2086,"male",76.0301163586584
+"TCGA-22-5491","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",27145,"Dead",1713,"male",74.3189596167009
+"TCGA-60-2707","Not Reported",NA,NA,NA,NA,NA,26337,"Dead",667,"male",72.1067761806981
+"TCGA-77-7141","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",23584,"Alive",NA,"male",64.5694729637235
+"TCGA-63-7022","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-98-A53H","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",27928,"Alive",NA,"female",76.4626967830253
+"TCGA-60-2719","Squamous cell carcinoma, NOS","Stage IB",NA,"T1","N0","M0",30379,"Alive",NA,"female",83.1731690622861
+"TCGA-18-3421","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",23972,"Alive",NA,"male",65.6317590691307
+"TCGA-85-8072","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",22069,"Alive",NA,"male",60.4216290212183
+"TCGA-NC-A5HF","Squamous cell carcinoma, keratinizing, NOS","Stage IIIB",NA,"T4","N0","MX",27038,"Dead",138,"male",74.0260095824778
+"TCGA-37-4141","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",24048,"Alive",NA,"female",65.8398357289528
+"TCGA-39-5027","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",26714,"Alive",NA,"male",73.138945927447
+"TCGA-77-8146","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",26533,"Alive",NA,"male",72.643394934976
+"TCGA-66-2754","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",24471,"Alive",NA,"male",66.9979466119097
+"TCGA-94-A5I6","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",22949,"Alive",NA,"male",62.8309377138946
+"TCGA-LA-A446","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","MX",25199,"Alive",NA,"male",68.9911019849418
+"TCGA-85-A53L","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",23065,"Alive",NA,"male",63.1485284052019
+"TCGA-85-8070","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",26183,"Alive",NA,"male",71.6851471594798
+"TCGA-22-1012","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",29273,"Dead",429,"female",80.145106091718
+"TCGA-46-3767","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",27912,"Alive",NA,"male",76.4188911704312
+"TCGA-46-3768","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",21307,"Dead",299,"male",58.3353867214237
+"TCGA-85-A50M","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",17429,"Dead",826,"male",47.7180013689254
+"TCGA-56-A5DR","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","MX",29828,"Alive",NA,"male",81.6646132785763
+"TCGA-77-A5G8","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",25921,"Alive",NA,"male",70.9678302532512
+"TCGA-94-8490","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",25588,"Alive",NA,"male",70.0561259411362
+"TCGA-90-7769","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2b","N1","MX",20276,"Alive",NA,"male",55.5126625598905
+"TCGA-34-8455","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",123,"male",NA
+"TCGA-56-A62T","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","MX",28522,"Alive",NA,"male",78.0889801505818
+"TCGA-77-A5FZ","Papillary squamous cell carcinoma","Stage IIIB",NA,"T4","N0","M0",23436,"Dead",3838,"male",64.1642710472279
+"TCGA-56-7823","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1b","N1","M0",21344,"Alive",NA,"female",58.4366872005476
+"TCGA-34-2596","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",25574,"Dead",80,"male",70.0177960301164
+"TCGA-22-4595","Not Reported",NA,NA,NA,NA,NA,21730,"Dead",734,"male",59.4934976043806
+"TCGA-43-5670","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",25652,"Alive",NA,"male",70.2313483915127
+"TCGA-66-2786","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",25051,"Alive",NA,"female",68.5859000684463
+"TCGA-33-A4WN","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","MX",22268,"Dead",143,"male",60.9664613278576
+"TCGA-O2-A52V","Squamous cell carcinoma, NOS","Stage II",NA,"T3","N0","MX",27449,"Dead",1335,"female",75.151266255989
+"TCGA-77-8145","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",212,"male",NA
+"TCGA-77-A5GB","Not Reported",NA,NA,NA,NA,NA,32872,"Dead",0,"male",89.9986310746064
+"TCGA-85-8479","Papillary squamous cell carcinoma","Stage IA",NA,"T1a","N0","M0",24350,"Alive",NA,"male",66.6666666666667
+"TCGA-58-8390","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",25827,"Alive",NA,"male",70.7104722792608
+"TCGA-52-7812","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,25678,"Dead",835,"male",70.3025325119781
+"TCGA-85-A4QQ","Squamous cell carcinoma, keratinizing, NOS","Stage IB",NA,"T2a","N0","M0",25065,"Dead",927,"male",68.6242299794661
+"TCGA-39-5030","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2a","N2","M0",29893,"Dead",59,"female",81.8425735797399
+"TCGA-O2-A5IB","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,26464,"Dead",340,"female",72.4544832306639
+"TCGA-77-8144","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",25796,"Alive",NA,"male",70.6255989048597
+"TCGA-NK-A7XE","Squamous cell carcinoma, NOS","Stage IIIB",NA,"T4","N2","M0",24319,"Alive",NA,"male",66.5817932922656
+"TCGA-85-A50Z","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",20941,"Alive",NA,"male",57.3333333333333
+"TCGA-37-4129","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",19154,"Alive",NA,"female",52.4407939767283
+"TCGA-56-7730","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",26699,"Dead",198,"male",73.09787816564
+"TCGA-63-A5MV","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-66-2794","Squamous cell carcinoma, NOS","Stage IIIB",NA,"T4","N2","M0",23710,"Alive",NA,"male",64.9144421629021
+"TCGA-33-A5GW","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1a","N1","MX",24586,"Dead",9,"male",67.3127994524298
+"TCGA-85-8048","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",22907,"Alive",NA,"male",62.715947980835
+"TCGA-60-2722","Not Reported",NA,NA,NA,NA,NA,25118,"Alive",NA,"male",68.7693360711841
+"TCGA-56-A4BW","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",20301,"Alive",NA,"male",55.5811088295688
+"TCGA-22-4613","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",26722,"Dead",358,"female",73.160848733744
+"TCGA-77-A5G7","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",23090,"Dead",180,"male",63.2169746748802
+"TCGA-63-A5MN","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",NA,"Dead",345,"female",NA
+"TCGA-37-3792","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",25502,"Alive",NA,"male",69.8206707734428
+"TCGA-85-7698","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",17651,"Alive",NA,"male",48.3258042436687
+"TCGA-58-8387","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",21952,"Dead",403,"male",60.1013004791239
+"TCGA-18-3415","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",28430,"Dead",2803,"male",77.8370978781656
+"TCGA-66-2793","Squamous cell carcinoma, NOS","Stage IIIB",NA,"T4","N1","M0",25111,"Dead",306,"male",68.7501711156742
+"TCGA-43-8116","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",26790,"Alive",NA,"male",73.347022587269
+"TCGA-21-1079","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N0","M0",26176,"Dead",965,"male",71.6659822039699
+"TCGA-33-AASJ","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","MX",22179,"Dead",3600,"male",60.7227926078029
+"TCGA-21-5786","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",23649,"Alive",NA,"male",64.7474332648871
+"TCGA-77-8009","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",25037,"Dead",1695,"male",68.5475701574264
+"TCGA-77-8128","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",21986,"Dead",1150,"male",60.1943874058864
+"TCGA-63-A5MY","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-85-7710","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",21790,"Alive",NA,"female",59.6577686516085
+"TCGA-66-2770","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",28945,"Alive",NA,"male",79.2470910335387
+"TCGA-77-A5GH","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",29843,"Alive",NA,"male",81.7056810403833
+"TCGA-60-2726","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2","N1","M0",20618,"Dead",358,"male",56.4490075290897
+"TCGA-66-2742","Squamous cell carcinoma, NOS","Stage IV",NA,"T2","N1","M1",25688,"Alive",NA,"male",70.3299110198494
+"TCGA-37-A5EN","Squamous cell carcinoma, NOS","Stage IIIB",NA,"T4","N2","M0",21600,"Alive",NA,"male",59.1375770020534
+"TCGA-56-8626","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","MX",21908,"Dead",302,"male",59.9808350444901
+"TCGA-58-8388","Basaloid squamous cell carcinoma","Stage IB",NA,"T2a","N0","M0",21949,"Dead",412,"male",60.0930869267625
+"TCGA-37-A5EL","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",19371,"Dead",1143,"male",53.0349075975359
+"TCGA-85-8350","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",22526,"Alive",NA,"male",61.6728268309377
+"TCGA-63-A5MB","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-33-4566","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",14643,"Dead",5287,"male",40.0903490759754
+"TCGA-56-8503","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",28095,"Alive",NA,"female",76.9199178644764
+"TCGA-68-8251","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",28739,"Alive",NA,"male",78.6830937713895
+"TCGA-98-7454","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",26827,"Alive",NA,"male",73.4483230663929
+"TCGA-66-2771","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",22219,"Alive",NA,"male",60.8323066392882
+"TCGA-85-8276","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1b","N1","M0",22707,"Alive",NA,"male",62.1683778234086
+"TCGA-66-2765","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",23465,"Alive",NA,"male",64.2436687200548
+"TCGA-34-5927","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,26102,"Alive",NA,"female",71.4633812457221
+"TCGA-43-6771","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","MX",31052,"Dead",166,"male",85.015742642026
+"TCGA-63-7020","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-77-7335","Squamous cell carcinoma, keratinizing, NOS","Stage IIIB",NA,"T4","N2","M0",22863,"Dead",2133,"female",62.5954825462012
+"TCGA-66-2734","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",22919,"Alive",NA,"female",62.7488021902806
+"TCGA-21-1080","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",24253,"Alive",NA,"male",66.4010951403149
+"TCGA-18-3411","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",23370,"Alive",NA,"female",63.9835728952772
+"TCGA-43-A56V","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,22830,"Alive",NA,"male",62.5051334702259
+"TCGA-85-A512","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1b","N1","M0",16811,"Alive",NA,"male",46.0260095824778
+"TCGA-39-5011","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",25788,"Alive",NA,"female",70.6036960985626
+"TCGA-43-2581","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",17447,"Alive",NA,"female",47.7672826830938
+"TCGA-66-2800","Squamous cell carcinoma, NOS","Stage IIIB",NA,"T4","N0","M0",25810,"Alive",NA,"male",70.6639288158795
+"TCGA-34-5240","Basaloid squamous cell carcinoma","Stage IIB",NA,"T2","N1","M0",26735,"Alive",NA,"female",73.1964407939767
+"TCGA-63-6202","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-56-7731","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","MX",24441,"Dead",3,"female",66.9158110882957
+"TCGA-77-6844","Not Reported",NA,NA,NA,NA,NA,29008,"Dead",2284,"male",79.419575633128
+"TCGA-77-8007","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",25102,"Dead",198,"male",68.72553045859
+"TCGA-98-A539","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",23098,"Alive",NA,"male",63.2388774811773
+"TCGA-18-3412","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,19298,"Dead",345,"male",52.8350444900753
+"TCGA-NC-A5HM","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",27938,"Alive",NA,"male",76.4900752908966
+"TCGA-85-7697","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",17921,"Alive",NA,"male",49.0650239561944
+"TCGA-22-1005","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",23322,"Dead",1953,"male",63.8521560574949
+"TCGA-77-7337","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",24065,"Dead",3253,"male",65.886379192334
+"TCGA-63-5131","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",NA,"Dead",NA,"male",NA
+"TCGA-85-A5B5","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",21450,"Alive",NA,"male",58.7268993839836
+"TCGA-51-4080","Basaloid squamous cell carcinoma","Stage IIIB",NA,"T4","N1",NA,24054,"Dead",12,"male",65.8562628336756
+"TCGA-66-2753","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",25506,"Alive",NA,"male",69.8316221765914
+"TCGA-22-0944","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",22329,"Dead",223,"male",61.1334702258727
+"TCGA-66-2783","Squamous cell carcinoma, NOS","Stage IIIB",NA,"T2","N3","M0",24686,"Alive",NA,"male",67.586584531143
+"TCGA-34-5239","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,29058,"Alive",NA,"male",79.5564681724846
+"TCGA-98-A53A","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",25662,"Dead",552,"male",70.258726899384
+"TCGA-46-3769","Squamous cell carcinoma, NOS",NA,NA,"T4","N0","M0",20941,"Alive",NA,"male",57.3333333333333
+"TCGA-34-2600","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",28072,"Dead",1874,"female",76.8569472963724
+"TCGA-66-2795","Squamous cell carcinoma, NOS","Stage IIIB",NA,"T4","N1","M0",24897,"Alive",NA,"male",68.1642710472279
+"TCGA-92-8064","Squamous cell carcinoma, NOS",NA,NA,"T2b","N0","MX",21417,"Alive",NA,"male",58.6365503080082
+"TCGA-66-2758","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",26209,"Alive",NA,"male",71.7563312799452
+"TCGA-98-A538","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",24698,"Alive",NA,"male",67.6194387405886
+"TCGA-90-7767","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2b","N1","MX",20534,"Alive",NA,"male",56.2190280629706
+"TCGA-XC-AA0X","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",28211,"Dead",6,"female",77.2375085557837
+"TCGA-77-7138","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",24594,"Dead",340,"male",67.3347022587269
+"TCGA-NC-A5HK","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",21531,"Alive",NA,"female",58.9486652977413
+"TCGA-22-1002","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",25359,"Dead",131,"male",69.429158110883
+"TCGA-21-5782","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",24969,"Dead",962,"female",68.3613963039014
+"TCGA-18-3417","Squamous cell carcinoma, NOS","Stage IV",NA,"T2","N1","M1",24019,"Dead",1097,"male",65.7604380561259
+"TCGA-39-5037","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1b","N1","M0",23868,"Alive",NA,"male",65.347022587269
+"TCGA-63-A5MS","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-60-2725","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",27073,"Alive",NA,"male",74.1218343600274
+"TCGA-92-8065","Squamous cell carcinoma, keratinizing, NOS","Stage IIB",NA,"T3","N0","MX",27049,"Alive",NA,"female",74.0561259411362
+"TCGA-77-A5G6","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",24215,"Dead",678,"male",66.2970568104038
+"TCGA-85-8277","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",25793,"Dead",307,"male",70.6173853524983
+"TCGA-22-4591","Not Reported",NA,NA,NA,NA,NA,29693,"Dead",623,"male",81.2950034223135
+"TCGA-34-5232","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1","N1","M0",27633,"Alive",NA,"female",75.6550308008214
+"TCGA-56-8622","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",24861,"Alive",NA,"male",68.0657084188912
+"TCGA-46-6026","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2a","N1","M0",29890,"Alive",NA,"male",81.8343600273785
+"TCGA-22-A5C4","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",25629,"Alive",NA,"male",70.1683778234086
+"TCGA-34-2608","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",30958,"Dead",1000,"male",84.7583846680356
+"TCGA-46-3766","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",22707,"Alive",NA,"female",62.1683778234086
+"TCGA-98-A53B","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",25390,"Dead",61,"male",69.5140314852841
+"TCGA-85-7950","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",16975,"Alive",NA,"male",46.4750171115674
+"TCGA-98-8023","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",25732,"Alive",NA,"male",70.4503764544832
+"TCGA-56-A4ZK","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",28039,"Alive",NA,"female",76.766598220397
+"TCGA-22-5473","Squamous cell carcinoma, NOS",NA,NA,"T3","N0","M0",28826,"Dead",1933,"male",78.92128678987
+"TCGA-33-AASB","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","MX",24183,"Dead",211,"male",66.2094455852156
+"TCGA-66-2773","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",25355,"Dead",92,"male",69.4182067077344
+"TCGA-NK-A5CT","Adenosquamous carcinoma",NA,NA,NA,NA,NA,25259,"Alive",NA,"male",69.1553730321697
+"TCGA-85-8664","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2b","N1","M0",26954,"Dead",550,"male",73.7960301163587
+"TCGA-NC-A5HJ","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",21730,"Dead",418,"male",59.4934976043806
+"TCGA-85-7843","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",18353,"Alive",NA,"male",50.2477754962355
+"TCGA-85-8049","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",20995,"Alive",NA,"male",57.4811772758385
+"TCGA-LA-A7SW","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,26353,"Dead",408,"male",72.1505817932923
+"TCGA-34-8454","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",22913,"Alive",NA,"female",62.7323750855578
+"TCGA-NC-A5HD","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",28916,"Dead",2,"male",79.1676933607118
+"TCGA-85-7699","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,27725,"Dead",1001,"male",75.9069130732375
+"TCGA-22-5479","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",23563,"Dead",2625,"male",64.5119780971937
+"TCGA-37-3789","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0",NA,23782,"Alive",NA,"male",65.1115674195756
+"TCGA-56-A4BX","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","MX",25745,"Alive",NA,"male",70.4859685147159
+"TCGA-21-1075","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",21093,"Alive",NA,"male",57.7494866529774
+"TCGA-O2-A52N","Squamous cell carcinoma, NOS","Stage I",NA,"T2","N0","MX",28520,"Dead",1006,"male",78.0835044490075
+"TCGA-21-1082","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",22492,"Alive",NA,"male",61.5797399041752
+"TCGA-52-7811","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",24782,"Dead",266,"male",67.8494182067077
+"TCGA-68-A59I","Not Reported",NA,NA,NA,NA,NA,26998,"Alive",NA,"female",73.9164955509925
+"TCGA-98-8021","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",27738,"Alive",NA,"female",75.9425051334702
+"TCGA-85-7844","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",26141,"Alive",NA,"male",71.5701574264203
+"TCGA-18-3407","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",NA,"Dead",136,"male",NA
+"TCGA-21-1083","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",27708,"Dead",1315,"male",75.8603696098563
+"TCGA-58-A46L","Basaloid squamous cell carcinoma","Stage IIIA",NA,"T2","N2","M0",26685,"Alive",NA,"male",73.0595482546201
+"TCGA-33-6737","Hairy cell leukemia",NA,NA,NA,NA,NA,NA,"Dead",601,"male",NA
+"TCGA-22-5471","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",27749,"Alive",NA,"male",75.9726214921287
+"TCGA-43-5668","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",559,"male",NA
+"TCGA-56-8623","Not Reported",NA,NA,NA,NA,NA,26876,"Dead",692,"male",73.5824777549624
+"TCGA-94-7557","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",26802,"Dead",5,"male",73.3798767967146
+"TCGA-56-8629","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","MX",23346,"Alive",NA,"male",63.917864476386
+"TCGA-94-7943","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","NX","MX",29282,"Alive",NA,"male",80.1697467488022
+"TCGA-98-A53D","Squamous cell carcinoma, keratinizing, NOS",NA,NA,NA,NA,NA,25304,"Dead",645,"male",69.2785763175907
+"TCGA-90-6837","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","MX",23511,"Alive",NA,"male",64.3696098562628
+"TCGA-21-1078","Not Reported",NA,NA,NA,NA,NA,28382,"Dead",474,"male",77.7056810403833
+"TCGA-33-4533","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",28001,"Alive",NA,"female",76.662559890486
+"TCGA-92-7341","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","MX",26134,"Alive",NA,"male",71.5509924709103
+"TCGA-85-A4JB","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",27315,"Alive",NA,"male",74.7843942505133
+"TCGA-NK-A5CR","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","MX",28126,"Alive",NA,"male",77.0047912388775
+"TCGA-J1-A4AH","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","MX",25893,"Alive",NA,"male",70.8911704312115
+"TCGA-18-4083","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",23125,"Dead",188,"male",63.3127994524298
+"TCGA-56-8624","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","MX",30798,"Alive",NA,"male",84.3203285420945
+"TCGA-43-2578","Adenocarcinoma, NOS",NA,NA,"T1a",NA,NA,NA,"Dead",684,"female",NA
+"TCGA-56-8201","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",397,"male",NA
+"TCGA-90-7964","Adenocarcinoma, NOS",NA,NA,"T2a",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-39-5029","Not Reported",NA,NA,NA,NA,NA,25204,"Dead",740,"male",69.0047912388775
+"TCGA-77-A5GA","Lentigo maligna",NA,NA,NA,NA,NA,22708,"Alive",NA,"male",62.1711156741958
+"TCGA-96-7545","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",1736,"male",NA
+"TCGA-34-5236","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",21935,"Dead",276,"male",60.0547570157426
+"TCGA-60-2711","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",23651,"Alive",NA,"female",64.7529089664613
+"TCGA-60-2721","Transitional cell carcinoma",NA,NA,"T0",NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-60-2720","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",22238,"Alive",NA,"female",60.8843258042437
+"TCGA-94-8035","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","MX",23399,"Alive",NA,"male",64.062970568104
+"TCGA-63-A5MW","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-60-2714","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",24169,"Alive",NA,"female",66.1711156741958
+"TCGA-77-7140","Basal cell carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",632,"female",NA
+"TCGA-68-7755","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1b","N1","M0",21936,"Alive",NA,"female",60.0574948665298
+"TCGA-56-1622","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",21371,"Dead",881,"male",58.5106091718001
+"TCGA-34-5928","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",30334,"Alive",NA,"female",83.0499657768652
+"TCGA-O2-A52S","Squamous cell carcinoma, NOS","Stage III",NA,"T4","N2","MX",21182,"Dead",387,"female",57.9931553730322
+"TCGA-77-7142","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",21796,"Alive",NA,"female",59.6741957563313
+"TCGA-56-7223","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,24420,"Dead",442,"male",66.8583162217659
+"TCGA-85-8052","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",19671,"Alive",NA,"male",53.8562628336756
+"TCGA-22-5489","Not Reported",NA,NA,NA,NA,NA,24348,"Dead",1912,"male",66.6611909650924
+"TCGA-52-7622","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",22807,"Alive",NA,"female",62.4421629021218
+"TCGA-56-8082","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","MX",29440,"Alive",NA,"female",80.6023271731691
+"TCGA-22-0940","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1","N1","M0",26272,"Dead",669,"male",71.9288158795346
+"TCGA-66-2792","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",21428,"Alive",NA,"male",58.6666666666667
+"TCGA-43-6647","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2b","N1","MX",25378,"Alive",NA,"female",69.4811772758385
+"TCGA-22-5481","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",26419,"Dead",2409,"female",72.331279945243
+"TCGA-92-8063","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2b","N2","MX",19193,"Alive",NA,"male",52.5475701574264
+"TCGA-43-6770","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","MX",21683,"Alive",NA,"female",59.3648186173854
+"TCGA-77-8008","Squamous cell carcinoma, keratinizing, NOS","Stage IB",NA,"T2","N0","M0",24948,"Dead",2639,"male",68.3039014373717
+"TCGA-43-A475","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",24680,"Alive",NA,"female",67.5701574264203
+"TCGA-77-8140","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",24415,"Dead",351,"female",66.8446269678303
+"TCGA-60-2704","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",26927,"Dead",1154,"male",73.7221081451061
+"TCGA-33-4587","Squamous cell carcinoma, small cell, nonkeratinizing","Stage IB",NA,"T2","N0","MX",23062,"Dead",1656,"female",63.1403148528405
+"TCGA-22-5478","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",28978,"Dead",24,"male",79.337440109514
+"TCGA-22-4609","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",29844,"Dead",291,"male",81.7084188911704
+"TCGA-77-8139","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",26464,"Alive",NA,"male",72.4544832306639
+"TCGA-NC-A5HP","Squamous cell carcinoma, keratinizing, NOS",NA,NA,NA,NA,NA,25709,"Dead",770,"male",70.3874058863792
+"TCGA-21-5784","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",29362,"Alive",NA,"female",80.3887748117728
+"TCGA-NC-A5HQ","Squamous cell carcinoma, keratinizing, NOS","Stage IIIA",NA,"T3","N2","M0",25781,"Dead",448,"male",70.5845311430527
+"TCGA-18-4086","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",23731,"Dead",85,"male",64.9719370294319
+"TCGA-85-A4JC","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",30942,"Dead",604,"male",84.7145790554415
+"TCGA-22-4605","Squamous cell carcinoma, large cell, nonkeratinizing, NOS","Stage IB",NA,"T2","N0","M0",28623,"Dead",974,"female",78.3655030800821
+"TCGA-56-8309","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","MX",24382,"Alive",NA,"male",66.7542778918549
+"TCGA-66-2756","Squamous cell carcinoma, NOS","Stage IIIB",NA,"T4","N0","M0",24929,"Alive",NA,"male",68.2518822724162
+"TCGA-63-A5MH","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-85-8584","Papillary squamous cell carcinoma","Stage IIA",NA,"T2a","N1","M0",26081,"Dead",383,"male",71.4058863791923
+"TCGA-77-8154","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",24640,"Alive",NA,"male",67.460643394935
+"TCGA-85-8481","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",25782,"Dead",236,"male",70.5872689938398
+"TCGA-85-7696","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",23413,"Alive",NA,"male",64.1013004791239
+"TCGA-66-2727","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",20150,"Dead",516,"female",55.1676933607118
+"TCGA-NK-A5CX","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","MX",26879,"Alive",NA,"male",73.5906913073238
+"TCGA-L3-A524","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",16765,"Dead",490,"female",45.9000684462697
+"TCGA-34-5929","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",28844,"Dead",151,"female",78.9705681040383
+"TCGA-85-8580","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",19301,"Alive",NA,"female",52.8432580424367
+"TCGA-90-A4ED","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","MX",25453,"Alive",NA,"male",69.6865160848734
+"TCGA-56-A5DS","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","MX",26355,"Alive",NA,"female",72.1560574948665
+"TCGA-98-A53J","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",28485,"Alive",NA,"male",77.9876796714579
+"TCGA-21-1072","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",27397,"Alive",NA,"male",75.0088980150582
+"TCGA-63-A5MI","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",NA,"Alive",NA,"male",NA
+"TCGA-77-8148","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",24918,"Alive",NA,"male",68.2217659137577
+"TCGA-77-6842","Not Reported",NA,NA,NA,NA,NA,29062,"Dead",899,"male",79.5674195756331
+"TCGA-85-A4CN","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2b","N1","M0",20490,"Alive",NA,"female",56.0985626283368
+"TCGA-22-5474","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",27271,"Dead",445,"male",74.6639288158795
+"TCGA-66-2791","Squamous cell carcinoma, NOS","Stage IIIB",NA,"T2","N3","M0",24138,"Dead",153,"male",66.0862422997947
+"TCGA-85-A4PA","Squamous cell carcinoma, large cell, nonkeratinizing, NOS","Stage IB",NA,"T2a","N0","M0",22614,"Alive",NA,"male",61.9137577002053
+"TCGA-18-4721","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",27076,"Alive",NA,"male",74.1300479123888
+"TCGA-77-8131","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","NX","M0",26611,"Dead",383,"male",72.8569472963724
+"TCGA-63-A5MJ","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",NA,"Alive",NA,"male",NA
+"TCGA-37-5819","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",23726,"Alive",NA,"male",64.9582477754962
+"TCGA-34-7107","Squamous cell carcinoma, NOS","Stage II",NA,"T2a","N0","M0",25677,"Dead",34,"male",70.299794661191
+"TCGA-22-4594","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",22115,"Dead",1470,"female",60.5475701574264
+"TCGA-NC-A5HI","Not Reported",NA,NA,NA,NA,NA,25051,"Alive",NA,"female",68.5859000684463
+"TCGA-63-A5MU","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2b","N1","M0",NA,"Dead",NA,"male",NA
+"TCGA-43-8118","Adenocarcinoma, NOS","Stage IIA",NA,"T2b","N0","MX",20258,"Dead",89,"female",55.4633812457221
+"TCGA-NC-A5HL","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2b","N0","M0",26977,"Dead",88,"male",73.8590006844627
+"TCGA-6A-AB49","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","MX",NA,"Dead",NA,"female",NA
+"TCGA-96-7544","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","MX",30548,"Dead",2160,"male",83.6358658453114
+"TCGA-37-4130","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",20652,"Alive",NA,"male",56.5420944558522
+"TCGA-34-8456","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",26183,"Alive",NA,"female",71.6851471594798
+"TCGA-MF-A522","Squamous cell carcinoma, keratinizing, NOS","Stage IB",NA,"T2a","N0","MX",20051,"Dead",360,"male",54.8966461327858
+"TCGA-85-8355","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",23227,"Alive",NA,"male",63.5920602327173
+"TCGA-60-2716","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",14345,"Alive",NA,"male",39.27446954141
+"TCGA-63-A5MM","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,25566,"Dead",456,"female",69.9958932238193
+"TCGA-77-8130","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",25260,"Alive",NA,"male",69.1581108829569
+"TCGA-79-5596","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",NA,"Alive",NA,"male",NA
+"TCGA-90-A59Q","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","MX",22420,"Dead",322,"female",61.3826146475017
+"TCGA-43-3394","Not Reported",NA,NA,NA,NA,NA,19862,"Dead",1190,"male",54.3791923340178
+"TCGA-56-8304","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","MX",26803,"Alive",NA,"female",73.3826146475017
+"TCGA-18-3419","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",26813,"Alive",NA,"male",73.409993155373
+"TCGA-92-7340","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","MX",16447,"Alive",NA,"female",45.0294318959617
+"TCGA-51-4079","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0",NA,26899,"Dead",12,"female",73.6454483230664
+"TCGA-85-6560","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1b","N1","M0",21768,"Alive",NA,"male",59.5975359342916
+"TCGA-18-5592","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",21020,"Alive",NA,"male",57.5496235455168
+"TCGA-NC-A5HT","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,25669,"Alive",NA,"male",70.2778918548939
+"TCGA-85-8288","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1b","N1","M0",25629,"Dead",402,"male",70.1683778234086
+"TCGA-66-2789","Squamous cell carcinoma, NOS","Stage IIIB",NA,"T1","N3","M0",26753,"Dead",123,"male",73.2457221081451
+"TCGA-39-5016","Basaloid squamous cell carcinoma","Stage IIA",NA,"T2a","N1","M0",16306,"Alive",NA,"male",44.643394934976
+"TCGA-66-2782","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",26237,"Dead",365,"male",71.8329911019849
+"TCGA-43-3920","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",26059,"Alive",NA,"male",71.3456536618754
+"TCGA-52-7809","Basaloid squamous cell carcinoma","Stage IB",NA,"T2","N0","M0",27233,"Dead",166,"male",74.5598904859685
+"TCGA-O2-A52Q","Squamous cell carcinoma, NOS","Stage III",NA,"T3","N1","MX",16429,"Dead",113,"female",44.9801505817933
+"TCGA-68-7757","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","MX",27272,"Alive",NA,"male",74.6666666666667
+"TCGA-77-8156","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",22198,"Alive",NA,"male",60.7748117727584
+"TCGA-52-7810","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",22241,"Alive",NA,"female",60.8925393566051
+"TCGA-66-2777","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",26085,"Alive",NA,"male",71.4168377823409
+"TCGA-85-A4CL","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",24005,"Dead",921,"male",65.7221081451061
+"TCGA-66-2769","Squamous cell carcinoma, NOS","Stage IIIB",NA,"T4","N0","M0",27515,"Dead",215,"male",75.3319644079398
+"TCGA-21-5783","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",27904,"Dead",2680,"male",76.3969883641342
+"TCGA-56-8307","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",20411,"Alive",NA,"female",55.8822724161533
+"TCGA-43-7656","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","MX",25991,"Alive",NA,"male",71.1594798083504
+"TCGA-56-7580","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",30740,"Alive",NA,"male",84.1615331964408
+"TCGA-39-5031","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",28106,"Dead",1841,"female",76.9500342231348
+"TCGA-66-2766","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",19814,"Alive",NA,"male",54.2477754962355
+"TCGA-66-2757","Not Reported",NA,NA,NA,NA,NA,24926,"Dead",1338,"female",68.2436687200548
+"TCGA-22-4596","Squamous cell carcinoma, NOS","Stage IB",NA,"T1b","N0","M0",25448,"Dead",17,"female",69.6728268309377
+"TCGA-63-A5MR","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-66-2790","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",26420,"Alive",NA,"male",72.3340177960301
+"TCGA-43-6773","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","MX",28036,"Dead",116,"male",76.7583846680356
+"TCGA-77-7465","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",21548,"Alive",NA,"male",58.9952087611225
+"TCGA-33-AAS8","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","MX",21675,"Dead",1114,"female",59.3429158110883
+"TCGA-43-6143","Basaloid squamous cell carcinoma","Stage IB",NA,"T2","N0","M0",25820,"Alive",NA,"male",70.6913073237509
+"TCGA-66-2768","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",20970,"Alive",NA,"male",57.4127310061602
+"TCGA-90-A4EE","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","MX",19676,"Alive",NA,"male",53.8699520876112
+"TCGA-85-A4QR","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",24756,"Alive",NA,"male",67.7782340862423
+"TCGA-66-2778","Squamous cell carcinoma, NOS","Stage IIIB",NA,"T2","N3","M0",25080,"Alive",NA,"female",68.6652977412731
+"TCGA-NC-A5HG","Basaloid squamous cell carcinoma","Stage IIIA",NA,"T2","N2","M0",21608,"Alive",NA,"male",59.1594798083504
+"TCGA-56-A4ZJ","Carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-98-8022","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",22487,"Dead",933,"male",61.5660506502396
+"TCGA-94-8491","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",26698,"Alive",NA,"male",73.0951403148528
+"TCGA-22-5477","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",24055,"Dead",1346,"male",65.8590006844627
+"TCGA-56-6545","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",28400,"Alive",NA,"female",77.7549623545517
+"TCGA-NC-A5HR","Renal cell carcinoma, chromophobe type","Stage I",NA,"T1","N0","M0",25039,"Alive",NA,"female",68.5530458590007
+"TCGA-18-3414","Squamous cell carcinoma, NOS","Stage IV",NA,"T4","N1","M1",26938,"Dead",716,"male",73.7522245037646
+"TCGA-39-5035","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",26383,"Alive",NA,"female",72.2327173169062
+"TCGA-22-5483","Not Reported",NA,NA,NA,NA,NA,27677,"Dead",573,"male",75.7754962354552
+"TCGA-34-A5IX","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",29391,"Alive",NA,"male",80.4681724845996
+"TCGA-56-5897","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","MX",27118,"Alive",NA,"male",74.2450376454483
+"TCGA-85-8582","Squamous cell carcinoma, keratinizing, NOS","Stage IA",NA,"T1a","N0","M0",18168,"Alive",NA,"male",49.741273100616
+"TCGA-77-8143","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",27772,"Dead",803,"male",76.0355920602327
+"TCGA-33-AASI","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","MX",23965,"Dead",1344,"female",65.6125941136208
+"TCGA-21-1071","Not Reported",NA,NA,NA,NA,NA,25508,"Dead",1426,"male",69.8370978781656
+"TCGA-39-5034","Not Reported",NA,NA,NA,NA,NA,27034,"Dead",1107,"female",74.0150581793292
+"TCGA-77-8133","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1","N1","M0",27139,"Dead",1640,"male",74.3025325119781
+"TCGA-85-A510","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2b","N1","M0",27067,"Alive",NA,"female",74.1054072553046
+"TCGA-56-A4BY","Squamous cell carcinoma, keratinizing, NOS","Stage IB",NA,"T2a","N0","MX",24445,"Dead",543,"male",66.9267624914442
+"TCGA-60-2706","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",21477,"Alive",NA,"male",58.8008213552361
+"TCGA-77-6843","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1","N1","M0",27291,"Dead",2224,"male",74.7186858316222
+"TCGA-60-2703","Not Reported",NA,NA,NA,NA,NA,28760,"Dead",2945,"male",78.7405886379192
+"TCGA-37-3783","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",18728,"Alive",NA,"male",51.27446954141
+"TCGA-85-8071","Squamous cell carcinoma, NOS","Stage IIA",NA,"T1a","N1","M0",19158,"Alive",NA,"male",52.4517453798768
+"TCGA-68-7756","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T4","N1","MX",30763,"Alive",NA,"male",84.2245037645448
+"TCGA-39-5022","Not Reported",NA,NA,NA,NA,NA,29304,"Dead",1679,"male",80.2299794661191
+"TCGA-85-6561","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","NX","M0",24234,"Alive",NA,"male",66.3490759753593
+"TCGA-85-8351","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",26437,"Alive",NA,"male",72.3805612594114
+"TCGA-43-A56U","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","MX",27847,"Alive",NA,"female",76.2409308692676
+"TCGA-34-5231","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",26525,"Dead",1984,"male",72.621492128679
+"TCGA-33-6738","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T1","N2","MX",29368,"Alive",NA,"male",80.4052019164956
+"TCGA-56-7582","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",30678,"Alive",NA,"male",83.9917864476386
+"TCGA-66-2785","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",23772,"Alive",NA,"male",65.0841889117043
+"TCGA-21-5787","Not Reported",NA,NA,NA,NA,NA,24174,"Dead",329,"male",66.1848049281314
+"TCGA-37-4132","Squamous cell carcinoma, NOS","Stage IV",NA,"T2","N0","M1",22520,"Alive",NA,"female",61.6563997262149
+"TCGA-66-2781","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",24471,"Alive",NA,"male",66.9979466119097
+"TCGA-85-8353","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",26549,"Dead",94,"male",72.6872005475702
+"TCGA-96-8169","Squamous cell carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",24674,"Alive",NA,"female",67.5537303216975
+"TCGA-NC-A5HE","Squamous cell carcinoma, NOS","Stage III",NA,"T2","N1","M0",NA,"Alive",NA,"male",NA
+"TCGA-63-A5MT","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-L3-A4E7","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",26232,"Alive",NA,"male",71.8193018480493
+"TCGA-39-5028","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T4","N1","M0",27707,"Dead",52,"male",75.8576317590691
+"TCGA-60-2724","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",17462,"Alive",NA,"male",47.8083504449008
+"TCGA-56-5898","Squamous cell carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",25441,"Alive",NA,"male",69.6536618754278
+"TCGA-77-A5G3","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",23171,"Alive",NA,"male",63.4387405886379
+"TCGA-98-A53I","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",23502,"Alive",NA,"male",64.3449691991786
+"TCGA-34-5241","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",29098,"Dead",515,"male",79.6659822039699
+"TCGA-66-2755","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",23348,"Alive",NA,"male",63.9233401779603
+"TCGA-63-5128","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",NA,"Dead",NA,"male",NA
+"TCGA-58-8391","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",21102,"Alive",NA,"female",57.7741273100616
+"TCGA-63-A5ML","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-18-3408","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,29964,"Dead",2304,"female",82.0369609856263
+"TCGA-58-A46J","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",23653,"Alive",NA,"male",64.7583846680356
+"TCGA-85-6798","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,21017,"Dead",195,"male",57.5414099931554
+"TCGA-66-2787","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",21124,"Alive",NA,"male",57.8343600273785
+"TCGA-56-8083","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","MX",20696,"Alive",NA,"male",56.662559890486
+"TCGA-33-AASL","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,21089,"Dead",826,"female",57.7385352498289
+"TCGA-39-5024","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T2a","N2","M0",23975,"Alive",NA,"female",65.6399726214921
+"TCGA-NC-A5HN","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",28151,"Alive",NA,"male",77.0732375085558
+"TCGA-66-2788","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",20637,"Alive",NA,"male",56.5010266940452
+"TCGA-60-2713","Not Reported",NA,NA,NA,NA,NA,24986,"Alive",NA,"male",68.4079397672827
+"TCGA-22-4599","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",26925,"Dead",1161,"female",73.7166324435318
+"TCGA-22-1016","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",24078,"Dead",822,"male",65.9219712525667
+"TCGA-77-A5G1","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",27555,"Alive",NA,"male",75.4414784394251
+"TCGA-51-4081","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2a","N1","M0",20261,"Alive",NA,"male",55.4715947980835
+"TCGA-46-3765","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",21762,"Alive",NA,"female",59.5811088295688
+"TCGA-22-5482","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",29657,"Dead",357,"male",81.1964407939767
+"TCGA-85-8354","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",19692,"Alive",NA,"male",53.9137577002053
+"TCGA-77-6845","Squamous cell carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",25321,"Dead",708,"male",69.3251197809719
+"TCGA-39-5040","Not Reported",NA,NA,NA,NA,NA,22232,"Dead",519,"male",60.8678986995209
+"TCGA-37-4133","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T4","N0","M0",23083,"Alive",NA,"male",63.1978097193703
+"TCGA-77-7139","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",20632,"Alive",NA,"male",56.4873374401095
+"TCGA-77-8136","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,27494,"Dead",1189,"female",75.27446954141
+"TCGA-56-7822","Not Reported",NA,NA,NA,NA,NA,28056,"Dead",532,"male",76.8131416837782
+"TCGA-NC-A5HH","Basaloid squamous cell carcinoma","Stage IA",NA,"T1","N0","M0",19485,"Alive",NA,"male",53.347022587269
+"TCGA-77-A5GF","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",25654,"Dead",840,"male",70.2368240930869
+"TCGA-58-A46M","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2b","N1","M0",22592,"Alive",NA,"male",61.8535249828884
+"TCGA-77-7338","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",23480,"Dead",5,"male",64.2847364818617
+"TCGA-70-6722","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",17328,"Alive",NA,"male",47.4414784394251
+"TCGA-33-4583","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",26799,"Dead",4601,"male",73.3716632443532
+"TCGA-63-A5MG","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-63-A5M9","Squamous cell carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",NA,"Alive",NA,"female",NA
+"TCGA-63-7021","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-22-4604","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",26952,"Dead",399,"male",73.7905544147844
+"TCGA-96-A4JL","Squamous cell carcinoma, NOS","Stage IIA",NA,"T2a","N1","M0",28686,"Alive",NA,"female",78.5379876796715
+"TCGA-33-4582","Squamous cell carcinoma, NOS","Stage IA",NA,"T1","N0","M0",20402,"Dead",3149,"male",55.8576317590691
+"TCGA-60-2723","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",27225,"Alive",NA,"female",74.5379876796715
+"TCGA-58-A46N","Basaloid squamous cell carcinoma",NA,NA,NA,NA,NA,19680,"Alive",NA,"male",53.8809034907598
+"TCGA-58-8386","Squamous cell carcinoma, NOS","Stage IV",NA,"T3","NX","M1",27455,"Dead",1,"male",75.1676933607118
+"TCGA-58-8393","Squamous cell carcinoma, NOS","Stage IB",NA,"T2a","N0","M0",25132,"Alive",NA,"female",68.807665982204
+"TCGA-85-8352","Squamous cell carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",24788,"Dead",161,"male",67.8658453114305
+"TCGA-70-6723","Papillary squamous cell carcinoma","Stage IIA",NA,"T3","N0","M0",24035,"Alive",NA,"male",65.80424366872
+"TCGA-66-2767","Squamous cell carcinoma, NOS","Stage IIIB",NA,"T2","N3","M0",22888,"Alive",NA,"male",62.6639288158795

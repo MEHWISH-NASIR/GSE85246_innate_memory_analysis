@@ -1,0 +1,75 @@
+
+========================================
+13b — INSPECT ONE TCGA-KIRC FILE
+========================================
+
+KIRC Primary Tumor records: 541 
+
+Selected record:
+       project                        cases   sample_type
+3913 TCGA-KIRC TCGA-BP-4160-01A-02R-1289-07 Primary Tumor
+                                  file_id
+3913 fc63bae4-fdfb-4990-9902-3e0fb51ec092
+                                                                       file_name
+3913 e95ef864-eeee-4883-943c-e2e1eecd259c.rna_seq.augmented_star_gene_counts.tsv
+     analysis_workflow_type TCGA_project
+3913          STAR - Counts    TCGA-KIRC
+
+Downloading temporary file:
+https://api.gdc.cancer.gov/data/fc63bae4-fdfb-4990-9902-3e0fb51ec092 
+
+
+Temporary file size:
+[1] 4224305
+
+========================================
+FIRST 15 LINES
+========================================
+
+# gene-model: GENCODE v36
+gene_id	gene_name	gene_type	unstranded	stranded_first	stranded_second	tpm_unstranded	fpkm_unstranded	fpkm_uq_unstranded
+N_unmapped			1544399	1544399	1544399			
+N_multimapping			3318294	3318294	3318294			
+N_noFeature			1188507	19125036	19128071			
+N_ambiguous			3865081	961514	962055			
+ENSG00000000003.15	TSPAN6	protein_coding	2382	1209	1173	50.5575	15.9299	16.3777
+ENSG00000000005.6	TNMD	protein_coding	7	4	3	0.4566	0.1439	0.1479
+ENSG00000000419.13	DPM1	protein_coding	1109	561	548	88.4589	27.8721	28.6555
+ENSG00000000457.14	SCYL3	protein_coding	313	225	259	4.3781	1.3795	1.4182
+ENSG00000000460.17	C1orf112	protein_coding	105	155	146	1.6933	0.5335	0.5485
+ENSG00000000938.13	FGR	protein_coding	637	321	316	18.1336	5.7136	5.8742
+ENSG00000000971.16	CFH	protein_coding	2466	1186	1280	29.7514	9.3742	9.6377
+ENSG00000001036.14	FUCA2	protein_coding	2650	2177	2258	90.4078	28.4862	29.2869
+ENSG00000001084.13	GCLC	protein_coding	1402	856	812	15.6624	4.9350	5.0737 
+
+========================================
+READING TABLE
+========================================
+
+Rows: 60664 
+Columns: 9 
+
+Column names:
+[1] "gene_id"            "gene_name"          "gene_type"         
+[4] "unstranded"         "stranded_first"     "stranded_second"   
+[7] "tpm_unstranded"     "fpkm_unstranded"    "fpkm_uq_unstranded"
+
+========================================
+JAK3 SEARCH
+========================================
+
+Cells matching symbol JAK3: 1 
+Cells matching ENSG00000105639: 
+
+JAK3 row:
+
+            gene_id gene_name      gene_type unstranded stranded_first
+ ENSG00000105639.20      JAK3 protein_coding        627            322
+ stranded_second tpm_unstranded fpkm_unstranded fpkm_uq_unstranded
+             305         8.8603          2.7917             2.8702
+
+Temporary file deleted.
+
+========================================
+13b COMPLETE
+========================================

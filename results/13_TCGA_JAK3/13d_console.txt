@@ -1,0 +1,47 @@
+
+========================================
+13d — KIRC JAK3 PREVALENCE
+========================================
+
+Raw records: 613 
+Patient-level records: 605 
+
+Patient sample types:
+
+      Primary Tumor Solid Tissue Normal 
+                533                  72 
+
+========================================
+TUMOR vs NORMAL
+========================================
+
+Tumor N: 533 
+Normal N: 72 
+
+Tumor median TPM: 13.0135 
+Normal median TPM: 1.9773 
+Median tumor/normal ratio: 6.581 
+log2 median ratio: 2.718 
+Wilcoxon P: 0e+00 
+
+========================================
+JAK3-HIGH PREVALENCE
+========================================
+
+Normal 95th percentile TPM: 7.8691 
+JAK3-high tumors: 401 / 533 
+Prevalence: 75.23 %
+Tumors >=2x normal median: 495 / 533 = 92.87 %
+
+========================================
+MATCHED PATIENT ANALYSIS
+========================================
+
+Matched tumor-normal patients: 72 
+Paired Wilcoxon P: 1.184164e-12 
+Matched patients with higher tumor JAK3: 94.44 %
+Matched patients with >=2-fold tumor increase: 86.11 %
+
+========================================
+13d COMPLETE
+========================================

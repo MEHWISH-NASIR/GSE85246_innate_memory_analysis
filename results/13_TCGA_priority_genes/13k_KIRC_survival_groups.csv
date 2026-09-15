@@ -1,0 +1,5 @@
+"Gene","Group","N","Deaths","Median_OS_years"
+"JAK3","Reference",131,34,NA
+"JAK3","Aberrant",398,139,6.53251197809719
+"EPHB2","Reference",343,115,6.71868583162218
+"EPHB2","Aberrant",186,58,9.73032169746749

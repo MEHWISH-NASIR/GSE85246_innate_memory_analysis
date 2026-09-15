@@ -1,0 +1,433 @@
+
+========================================
+13a — TCGA JAK3 SAMPLE AUDIT
+========================================
+
+Checking GDC server...
+GDC connection: OK
+
+TCGA projects identified: 33 
+
+ [1] "TCGA-ACC"  "TCGA-BLCA" "TCGA-BRCA" "TCGA-CESC" "TCGA-CHOL" "TCGA-COAD"
+ [7] "TCGA-DLBC" "TCGA-ESCA" "TCGA-GBM"  "TCGA-HNSC" "TCGA-KICH" "TCGA-KIRC"
+[13] "TCGA-KIRP" "TCGA-LAML" "TCGA-LGG"  "TCGA-LIHC" "TCGA-LUAD" "TCGA-LUSC"
+[19] "TCGA-MESO" "TCGA-OV"   "TCGA-PAAD" "TCGA-PCPG" "TCGA-PRAD" "TCGA-READ"
+[25] "TCGA-SARC" "TCGA-SKCM" "TCGA-STAD" "TCGA-TGCT" "TCGA-THCA" "TCGA-THYM"
+[31] "TCGA-UCEC" "TCGA-UCS"  "TCGA-UVM" 
+
+========================================
+[01/33] TCGA-ACC
+========================================
+
+Sample types:
+Primary Tumor 
+           79 
+
+========================================
+[02/33] TCGA-BLCA
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal 
+                412                  19 
+
+========================================
+[03/33] TCGA-BRCA
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal          Metastatic 
+               1111                 113                   7 
+
+========================================
+[04/33] TCGA-CESC
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal          Metastatic 
+                304                   3                   2 
+
+========================================
+[05/33] TCGA-CHOL
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal 
+                 35                   9 
+
+========================================
+[06/33] TCGA-COAD
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal          Metastatic     Recurrent Tumor 
+                481                  41                   1                   1 
+
+========================================
+[07/33] TCGA-DLBC
+========================================
+
+Sample types:
+Primary Tumor 
+           48 
+
+========================================
+[08/33] TCGA-ESCA
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal          Metastatic 
+                184                  13                   1 
+
+========================================
+[09/33] TCGA-GBM
+========================================
+
+Sample types:
+
+      Primary Tumor     Recurrent Tumor Solid Tissue Normal 
+                372                  14                   5 
+
+========================================
+[10/33] TCGA-HNSC
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal          Metastatic 
+                520                  44                   2 
+
+========================================
+[11/33] TCGA-KICH
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal 
+                 66                  25 
+
+========================================
+[12/33] TCGA-KIRC
+========================================
+
+Sample types:
+
+           Primary Tumor      Solid Tissue Normal Additional - New Primary 
+                     541                       72                        1 
+
+========================================
+[13/33] TCGA-KIRP
+========================================
+
+Sample types:
+
+           Primary Tumor      Solid Tissue Normal Additional - New Primary 
+                     290                       32                        1 
+
+========================================
+[14/33] TCGA-LAML
+========================================
+
+Sample types:
+Primary Blood Derived Cancer - Peripheral Blood 
+                                            151 
+
+========================================
+[15/33] TCGA-LGG
+========================================
+
+Sample types:
+
+  Primary Tumor Recurrent Tumor 
+            516              18 
+
+========================================
+[16/33] TCGA-LIHC
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal     Recurrent Tumor 
+                371                  50                   3 
+
+========================================
+[17/33] TCGA-LUAD
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal     Recurrent Tumor 
+                540                  59                   2 
+
+========================================
+[18/33] TCGA-LUSC
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal 
+                511                  51 
+
+========================================
+[19/33] TCGA-MESO
+========================================
+
+Sample types:
+Primary Tumor 
+           87 
+
+========================================
+[20/33] TCGA-OV
+========================================
+
+Sample types:
+
+  Primary Tumor Recurrent Tumor 
+            426               8 
+
+========================================
+[21/33] TCGA-PAAD
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal          Metastatic 
+                178                   4                   1 
+
+========================================
+[22/33] TCGA-PCPG
+========================================
+
+Sample types:
+
+           Primary Tumor Additional - New Primary      Solid Tissue Normal 
+                     179                        3                        3 
+              Metastatic 
+                       2 
+
+========================================
+[23/33] TCGA-PRAD
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal          Metastatic 
+                501                  52                   1 
+
+========================================
+[24/33] TCGA-READ
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal     Recurrent Tumor 
+                166                  10                   1 
+
+========================================
+[25/33] TCGA-SARC
+========================================
+
+Sample types:
+
+      Primary Tumor     Recurrent Tumor Solid Tissue Normal          Metastatic 
+                259                   3                   2                   1 
+
+========================================
+[26/33] TCGA-SKCM
+========================================
+
+Sample types:
+
+           Metastatic         Primary Tumor Additional Metastatic 
+                  368                   103                     1 
+  Solid Tissue Normal 
+                    1 
+
+========================================
+[27/33] TCGA-STAD
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal 
+                412                  36 
+
+========================================
+[28/33] TCGA-TGCT
+========================================
+
+Sample types:
+
+           Primary Tumor Additional - New Primary 
+                     150                        6 
+
+========================================
+[29/33] TCGA-THCA
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal          Metastatic 
+                505                  59                   8 
+
+========================================
+[30/33] TCGA-THYM
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal 
+                120                   2 
+
+========================================
+[31/33] TCGA-UCEC
+========================================
+
+Sample types:
+
+      Primary Tumor Solid Tissue Normal     Recurrent Tumor 
+                553                  35                   1 
+
+========================================
+[32/33] TCGA-UCS
+========================================
+
+Sample types:
+Primary Tumor 
+           57 
+
+========================================
+[33/33] TCGA-UVM
+========================================
+
+Sample types:
+Primary Tumor 
+           80 
+
+
+========================================
+PAN-CANCER AUDIT SUMMARY
+========================================
+
+   Project Total_STAR_files Total_unique_cases Primary_Tumor_cases
+  TCGA-ACC               79                 79                  79
+ TCGA-BLCA              431                431                 412
+ TCGA-BRCA             1231               1231                1111
+ TCGA-CESC              309                309                 304
+ TCGA-CHOL               44                 44                  35
+ TCGA-COAD              524                524                 481
+ TCGA-DLBC               48                 48                  48
+ TCGA-ESCA              198                198                 184
+  TCGA-GBM              391                391                 372
+ TCGA-HNSC              566                566                 520
+ TCGA-KICH               91                 91                  66
+ TCGA-KIRC              614                614                 541
+ TCGA-KIRP              323                323                 290
+ TCGA-LAML              151                151                   0
+  TCGA-LGG              534                534                 516
+ TCGA-LIHC              424                424                 371
+ TCGA-LUAD              601                601                 540
+ TCGA-LUSC              562                562                 511
+ TCGA-MESO               87                 87                  87
+   TCGA-OV              434                434                 426
+ TCGA-PAAD              183                183                 178
+ TCGA-PCPG              187                187                 179
+ TCGA-PRAD              554                554                 501
+ TCGA-READ              177                177                 166
+ TCGA-SARC              265                265                 259
+ TCGA-SKCM              473                473                 103
+ TCGA-STAD              448                448                 412
+ TCGA-TGCT              156                156                 150
+ TCGA-THCA              572                572                 505
+ TCGA-THYM              122                122                 120
+ TCGA-UCEC              589                589                 553
+  TCGA-UCS               57                 57                  57
+  TCGA-UVM               80                 80                  80
+ Solid_Tissue_Normal_cases Primary_Blood_Cancer_cases Recurrent_Tumor_cases
+                         0                          0                     0
+                        19                          0                     0
+                       113                          0                     0
+                         3                          0                     0
+                         9                          0                     0
+                        41                          0                     1
+                         0                          0                     0
+                        13                          0                     0
+                         5                          0                    14
+                        44                          0                     0
+                        25                          0                     0
+                        72                          0                     0
+                        32                          0                     0
+                         0                        151                     0
+                         0                          0                    18
+                        50                          0                     3
+                        59                          0                     2
+                        51                          0                     0
+                         0                          0                     0
+                         0                          0                     8
+                         4                          0                     0
+                         3                          0                     0
+                        52                          0                     0
+                        10                          0                     1
+                         2                          0                     3
+                         1                          0                     0
+                        36                          0                     0
+                         0                          0                     0
+                        59                          0                     0
+                         2                          0                     0
+                        35                          0                     1
+                         0                          0                     0
+                         0                          0                     0
+ Metastatic_cases Has_Primary_Tumor Has_Solid_Normal Tumor_Normal_available
+                0              TRUE            FALSE                  FALSE
+                0              TRUE             TRUE                   TRUE
+                7              TRUE             TRUE                   TRUE
+                2              TRUE             TRUE                   TRUE
+                0              TRUE             TRUE                   TRUE
+                1              TRUE             TRUE                   TRUE
+                0              TRUE            FALSE                  FALSE
+                1              TRUE             TRUE                   TRUE
+                0              TRUE             TRUE                   TRUE
+                2              TRUE             TRUE                   TRUE
+                0              TRUE             TRUE                   TRUE
+                0              TRUE             TRUE                   TRUE
+                0              TRUE             TRUE                   TRUE
+                0             FALSE            FALSE                  FALSE
+                0              TRUE            FALSE                  FALSE
+                0              TRUE             TRUE                   TRUE
+                0              TRUE             TRUE                   TRUE
+                0              TRUE             TRUE                   TRUE
+                0              TRUE            FALSE                  FALSE
+                0              TRUE            FALSE                  FALSE
+                1              TRUE             TRUE                   TRUE
+                2              TRUE             TRUE                   TRUE
+                1              TRUE             TRUE                   TRUE
+                0              TRUE             TRUE                   TRUE
+                1              TRUE             TRUE                   TRUE
+              369              TRUE             TRUE                   TRUE
+                0              TRUE             TRUE                   TRUE
+                0              TRUE            FALSE                  FALSE
+                8              TRUE             TRUE                   TRUE
+                0              TRUE             TRUE                   TRUE
+                0              TRUE             TRUE                   TRUE
+                0              TRUE            FALSE                  FALSE
+                0              TRUE            FALSE                  FALSE
+
+TCGA projects: 33 
+Projects with Primary Tumor: 32 
+Projects with Solid Tissue Normal: 24 
+Projects with both Primary Tumor + Normal: 24 
+Projects containing primary blood-derived cancer: 1 
+
+Saved:
+  results/13_TCGA_JAK3/13a_TCGA_STARCounts_sample_audit.csv 
+  results/13_TCGA_JAK3/13a_TCGA_STARCounts_metadata.csv 
+
+========================================
+13a COMPLETE
+========================================

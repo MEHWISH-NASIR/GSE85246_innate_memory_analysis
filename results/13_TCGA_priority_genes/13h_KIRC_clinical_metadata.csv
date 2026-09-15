@@ -1,0 +1,538 @@
+"patient_id","primary_diagnosis","pathologic_stage","tumor_grade","pathologic_T","pathologic_N","pathologic_M","age_at_diagnosis_days","vital_status","days_to_death","gender","age_at_diagnosis_years"
+"TCGA-B0-5098","Clear cell adenocarcinoma, NOS","Stage I","G3","T1","NX","M0",19620,"Dead",1584,"female",53.7166324435318
+"TCGA-BP-4165","Not Reported",NA,NA,NA,NA,NA,25523,"Alive",NA,"female",69.8781656399726
+"TCGA-BP-4166","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",25300,"Alive",NA,"male",69.2676249144422
+"TCGA-B0-4810","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,17607,"Dead",478,"male",48.2053388090349
+"TCGA-DV-5568","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",9714,"Alive",NA,"male",26.5954825462012
+"TCGA-BP-4169","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","N0","M0",27778,"Dead",701,"female",76.0520191649555
+"TCGA-B0-5693","Clear cell adenocarcinoma, NOS","Stage I",NA,"T1","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-A3-3325","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",1170,"male",NA
+"TCGA-A3-3359","Melanoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-BP-5009","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",19052,"Dead",1092,"male",52.1615331964408
+"TCGA-BP-5201","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3b","N0","M1",23125,"Alive",NA,"male",63.3127994524298
+"TCGA-B0-4710","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",27396,"Alive",NA,"female",75.0061601642711
+"TCGA-BP-4782","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",20102,"Alive",NA,"female",55.0362765229295
+"TCGA-BP-5191","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","N0","M0",29207,"Alive",NA,"male",79.9644079397673
+"TCGA-CJ-4916","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",25470,"Alive",NA,"female",69.7330595482546
+"TCGA-BP-4173","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","N0","M0",17449,"Alive",NA,"male",47.772758384668
+"TCGA-BP-4999","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-CJ-4894","Not Reported",NA,NA,NA,NA,NA,21682,"Dead",841,"male",59.3620807665982
+"TCGA-B0-5115","Not Reported",NA,NA,NA,NA,NA,16010,"Alive",NA,"male",43.8329911019849
+"TCGA-B0-5812","Clear cell carcinoma","Stage I",NA,"T1b","NX","MX",NA,"Alive",NA,"male",NA
+"TCGA-A3-3383","Clear cell adenocarcinoma, NOS","Stage I","G2","T1","NX","M0",19324,"Alive",NA,"male",52.9062286105407
+"TCGA-CJ-4890","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3a","N0","M1",26604,"Alive",NA,"male",72.8377823408624
+"TCGA-DV-5574","Not Reported",NA,NA,NA,NA,NA,13874,"Alive",NA,"male",37.9849418206708
+"TCGA-B8-4148","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","N0","M0",23062,"Alive",NA,"female",63.1403148528405
+"TCGA-BP-4338","Not Reported",NA,NA,NA,NA,NA,18463,"Alive",NA,"male",50.54893908282
+"TCGA-CJ-4642","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","NX","M0",17367,"Alive",NA,"male",47.5482546201232
+"TCGA-BP-4159","Not Reported",NA,NA,NA,NA,NA,28029,"Dead",2601,"male",76.7392197125257
+"TCGA-AK-3454","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",30862,"Alive",NA,"male",84.4955509924709
+"TCGA-B2-5639","Not Reported",NA,NA,NA,NA,NA,17896,"Dead",1003,"male",48.9965776865161
+"TCGA-A3-3357","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","N0","M0",22825,"Alive",NA,"male",62.4914442162902
+"TCGA-A3-3329","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",27650,"Alive",NA,"male",75.7015742642026
+"TCGA-BP-4976","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-CJ-6033","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3a","N0","M1",19919,"Dead",224,"female",54.5352498288843
+"TCGA-B8-4621","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",23176,"Alive",NA,"male",63.4524298425736
+"TCGA-BP-4959","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",17968,"Alive",NA,"male",49.1937029431896
+"TCGA-BP-4787","Not Reported",NA,NA,NA,NA,NA,21956,"Dead",480,"female",60.1122518822724
+"TCGA-B8-5162","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-CJ-5689","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",0,"male",NA
+"TCGA-A3-A6NL","Renal cell carcinoma, NOS","Stage I","G2","T1b","NX","MX",17952,"Alive",NA,"female",49.1498973305955
+"TCGA-CJ-4873","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",31096,"Alive",NA,"female",85.1362080766598
+"TCGA-BP-4799","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","N0","M0",25842,"Dead",1133,"male",70.7515400410678
+"TCGA-BP-4771","Not Reported",NA,NA,NA,NA,NA,22881,"Dead",162,"male",62.6447638603696
+"TCGA-B4-5378","Clear cell adenocarcinoma, NOS","Stage I","G2","T1","N0","M0",22980,"Alive",NA,"male",62.9158110882957
+"TCGA-CZ-5466","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","NX","M0",24669,"Alive",NA,"male",67.5400410677618
+"TCGA-CZ-5453","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","NX","M0",24640,"Dead",2419,"male",67.460643394935
+"TCGA-A3-3328","Carcinoid tumor, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-CW-5589","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",19312,"Alive",NA,"male",52.8733744010951
+"TCGA-B8-5550","Not Reported",NA,NA,NA,NA,NA,26631,"Alive",NA,"male",72.911704312115
+"TCGA-B8-A54E","Renal cell carcinoma, NOS","Stage I","G3","T1b","NX","MX",22900,"Alive",NA,"female",62.6967830253251
+"TCGA-BP-5006","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-BP-5199","Clear cell adenocarcinoma, NOS","Stage II","G4","T2","N0","M0",21256,"Alive",NA,"male",58.1957563312799
+"TCGA-AK-3455","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",683,"female",NA
+"TCGA-B0-5085","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",27793,"Dead",770,"female",76.0930869267625
+"TCGA-DV-5576","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",20310,"Dead",727,"female",55.605749486653
+"TCGA-A3-3363","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","N0","M0",18596,"Alive",NA,"male",50.9130732375086
+"TCGA-BP-5168","Adenosquamous carcinoma",NA,NA,NA,NA,NA,NA,"Dead",1463,"male",NA
+"TCGA-A3-3367","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",26489,"Alive",NA,"male",72.5229295003422
+"TCGA-B0-4701","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3a","N0","M1",24232,"Dead",238,"female",66.3436002737851
+"TCGA-AK-3450","Adenocarcinoma, NOS","Stage IA",NA,"T1","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-B0-5107","Not Reported",NA,NA,NA,NA,NA,24478,"Dead",927,"female",67.0171115674196
+"TCGA-CZ-5464","Clear cell adenocarcinoma, NOS","Stage IV","G2","T3b","NX","M1",25463,"Alive",NA,"male",69.7138945927447
+"TCGA-B0-5694","Squamous cell carcinoma, clear cell type",NA,NA,NA,NA,NA,NA,"Dead",480,"male",NA
+"TCGA-CW-5583","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",18666,"Alive",NA,"female",51.1047227926078
+"TCGA-BP-4762","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",1343,"male",NA
+"TCGA-DV-5569","Clear cell carcinoma","Stage I",NA,"T1a","NX","MX",NA,"Alive",NA,"female",NA
+"TCGA-B0-5691","Adenocarcinoma, NOS","Stage I",NA,"T1","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-A3-3307","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","N0","M0",24315,"Alive",NA,"male",66.570841889117
+"TCGA-B0-4707","Clear cell carcinoma","Stage IB",NA,"T1b","NX","MX",NA,"Dead",600,"male",NA
+"TCGA-DV-5566","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",24717,"Alive",NA,"female",67.6714579055441
+"TCGA-CW-5587","Clear cell adenocarcinoma, NOS","Stage III","G2","T3b","N0","M0",22693,"Alive",NA,"female",62.1300479123888
+"TCGA-CZ-5455","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3b","NX","M1",23150,"Dead",561,"male",63.3812457221081
+"TCGA-DV-5575","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-B0-5083","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","N0","M0",23034,"Dead",1045,"male",63.0636550308008
+"TCGA-B0-4718","Not Reported",NA,NA,NA,NA,NA,21678,"Alive",NA,"male",59.3511293634497
+"TCGA-B0-4852","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","N0","M0",28552,"Dead",1121,"female",78.1711156741958
+"TCGA-B4-5832","Clear cell adenocarcinoma, NOS","Stage III","G2","T3b","N0","M0",23806,"Alive",NA,"male",65.1772758384668
+"TCGA-BP-4326","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",19376,"Dead",1625,"female",53.0485968514716
+"TCGA-CJ-4871","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,23364,"Alive",NA,"male",63.9671457905544
+"TCGA-CJ-4643","Clear cell adenocarcinoma, NOS","Stage II","G3","T2b","N0","M0",24477,"Alive",NA,"female",67.0143737166324
+"TCGA-B8-4619","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",21206,"Alive",NA,"male",58.0588637919233
+"TCGA-CW-5588","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",28714,"Alive",NA,"female",78.6146475017112
+"TCGA-B0-4690","Clear cell adenocarcinoma, NOS","Stage IV","G3","T4","N0","M1",23985,"Dead",43,"male",65.6673511293635
+"TCGA-CJ-5683","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",28745,"Alive",NA,"male",78.6995208761122
+"TCGA-CJ-4875","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3a","NX","M1",24510,"Dead",3554,"male",67.1047227926078
+"TCGA-CJ-5678","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,23343,"Dead",574,"male",63.9096509240246
+"TCGA-B8-5553","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",24729,"Alive",NA,"female",67.7043121149897
+"TCGA-CJ-4892","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",23764,"Alive",NA,"female",65.0622861054073
+"TCGA-B8-5165","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",15898,"Alive",NA,"male",43.5263518138261
+"TCGA-AS-3778","Clear cell adenocarcinoma, NOS","Stage I","G1","T1a","NX","M0",12937,"Alive",NA,"male",35.419575633128
+"TCGA-CJ-4905","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",22864,"Alive",NA,"female",62.5982203969884
+"TCGA-CZ-4853","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",30191,"Alive",NA,"male",82.6584531143053
+"TCGA-CZ-5468","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3b","NX","M1",30729,"Dead",59,"male",84.1314168377823
+"TCGA-B8-A8YJ","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX",NA,21994,"Alive",NA,"female",60.2162902121834
+"TCGA-BP-4347","Clear cell adenocarcinoma, NOS","Stage III","G2","T3b","NX","M0",27146,"Alive",NA,"male",74.321697467488
+"TCGA-B0-5703","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",26897,"Alive",NA,"male",73.6399726214921
+"TCGA-AK-3434","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",26490,"Alive",NA,"male",72.5256673511294
+"TCGA-CZ-4863","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","N0","M0",18730,"Alive",NA,"female",51.2799452429843
+"TCGA-BP-4973","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",17461,"Alive",NA,"male",47.8056125941136
+"TCGA-B4-5836","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",22341,"Alive",NA,"female",61.1663244353183
+"TCGA-CJ-4888","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,22309,"Dead",1567,"male",61.07871321013
+"TCGA-BP-4989","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",21382,"Alive",NA,"male",58.5407255304586
+"TCGA-A3-A8OW","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","NX","MX",13546,"Alive",NA,"male",37.0869267624914
+"TCGA-BP-4341","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","NX","M0",24727,"Dead",1589,"male",67.6988364134155
+"TCGA-CZ-5985","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","N0","M0",21242,"Alive",NA,"male",58.1574264202601
+"TCGA-BP-4991","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",19739,"Alive",NA,"male",54.0424366872005
+"TCGA-A3-3380","Clear cell adenocarcinoma, NOS","Stage I","G2","T1","N0","M0",19828,"Alive",NA,"male",54.2861054072553
+"TCGA-B0-4714","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3b","NX","M1",29873,"Dead",99,"male",81.7878165639973
+"TCGA-BP-5177","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",17147,"Alive",NA,"female",46.9459274469541
+"TCGA-A3-A8OV","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","MX",27526,"Alive",NA,"male",75.3620807665982
+"TCGA-BP-4758","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",14824,"Alive",NA,"male",40.5859000684463
+"TCGA-BP-5198","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","N0","M0",26360,"Alive",NA,"male",72.1697467488022
+"TCGA-CJ-4899","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",15637,"Alive",NA,"male",42.8117727583847
+"TCGA-AK-3456","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","N0","M0",17821,"Alive",NA,"male",48.7912388774812
+"TCGA-CZ-5989","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","N0","M0",22170,"Alive",NA,"male",60.6981519507187
+"TCGA-B0-5109","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,25498,"Dead",587,"male",69.8097193702943
+"TCGA-A3-3335","Clear cell adenocarcinoma, NOS","Stage II","G4","T2a","N0","M0",15250,"Alive",NA,"male",41.7522245037645
+"TCGA-A3-A6NJ","Renal cell carcinoma, NOS","Stage I","G1","T1a","NX","MX",20918,"Alive",NA,"female",57.2703627652293
+"TCGA-B8-5552","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",15219,"Alive",NA,"female",41.6673511293634
+"TCGA-B0-5402","Not Reported",NA,NA,NA,NA,NA,23926,"Alive",NA,"male",65.5058179329227
+"TCGA-CZ-5451","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","N0","M0",27312,"Alive",NA,"male",74.7761806981519
+"TCGA-CJ-4882","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",21074,"Alive",NA,"male",57.6974674880219
+"TCGA-AK-3428","Clear cell adenocarcinoma, NOS","Stage III","G2","T3b","N0","M0",22653,"Alive",NA,"male",62.0205338809035
+"TCGA-A3-3387","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",17920,"Alive",NA,"male",49.0622861054073
+"TCGA-BP-4756","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",23001,"Alive",NA,"female",62.9733059548255
+"TCGA-CZ-4858","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,14940,"Dead",2105,"male",40.9034907597536
+"TCGA-B2-4102","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",22492,"Alive",NA,"male",61.5797399041752
+"TCGA-B8-4153","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",27031,"Alive",NA,"male",74.0068446269678
+"TCGA-CZ-5982","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",21592,"Alive",NA,"female",59.1156741957563
+"TCGA-BP-4774","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",20827,"Alive",NA,"female",57.0212183436003
+"TCGA-BP-4992","Clear cell adenocarcinoma, NOS","Stage I","G4","T1b","NX","M0",24438,"Alive",NA,"male",66.9075975359343
+"TCGA-BP-4798","Clear cell adenocarcinoma, NOS",NA,"G4","T3b","N0","M1",27335,"Dead",334,"male",74.839151266256
+"TCGA-BP-4801","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",20825,"Alive",NA,"male",57.015742642026
+"TCGA-B0-5116","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","N0","M0",19352,"Alive",NA,"male",52.9828884325804
+"TCGA-CZ-5463","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","NX","M0",27911,"Alive",NA,"male",76.4161533196441
+"TCGA-B8-5159","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","N0","M0",22462,"Alive",NA,"female",61.4976043805613
+"TCGA-B0-4834","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","N0","M0",18224,"Dead",2090,"male",49.8945927446954
+"TCGA-B0-5117","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",14612,"Alive",NA,"male",40.0054757015743
+"TCGA-BP-4987","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",15041,"Alive",NA,"female",41.1800136892539
+"TCGA-CZ-5470","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","N0","M0",26494,"Alive",NA,"female",72.5366187542779
+"TCGA-BP-4759","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",18569,"Alive",NA,"male",50.839151266256
+"TCGA-B8-4622","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3a","N0","M1",21135,"Alive",NA,"male",57.864476386037
+"TCGA-BP-5196","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",19719,"Alive",NA,"male",53.9876796714579
+"TCGA-BP-5007","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","N0","M0",16793,"Alive",NA,"male",45.9767282683094
+"TCGA-B0-5699","Clear cell adenocarcinoma, NOS","Stage I","G2","T1","N0","M0",19647,"Alive",NA,"male",53.7905544147844
+"TCGA-BP-4340","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",25752,"Dead",562,"female",70.5051334702259
+"TCGA-A3-3316","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","NX","M0",20931,"Alive",NA,"male",57.305954825462
+"TCGA-B8-A54I","Renal cell carcinoma, NOS","Stage I","G3","T1b","NX","MX",17722,"Alive",NA,"male",48.5201916495551
+"TCGA-BP-5202","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","NX","M0",27556,"Alive",NA,"male",75.4442162902122
+"TCGA-CJ-4895","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3a","NX","M1",22892,"Dead",1200,"male",62.6748802190281
+"TCGA-CJ-4641","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3a","NX","M1",20410,"Dead",1661,"female",55.8795345653662
+"TCGA-MM-A563","Clear cell adenocarcinoma, NOS",NA,"G2","T3","NX","MX",15037,"Alive",NA,"male",41.1690622861054
+"TCGA-B0-4699","Clear cell adenocarcinoma, NOS","Stage IV","G4","T4","N0","M1",27225,"Dead",110,"male",74.5379876796715
+"TCGA-CJ-6032","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","NX","M0",23310,"Alive",NA,"female",63.8193018480493
+"TCGA-B0-5709","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",22843,"Alive",NA,"female",62.5407255304586
+"TCGA-CZ-5456","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","N0","M0",21164,"Alive",NA,"male",57.9438740588638
+"TCGA-BP-5004","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",19383,"Alive",NA,"male",53.0677618069815
+"TCGA-BP-4351","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","N0","M0",18662,"Alive",NA,"female",51.0937713894593
+"TCGA-BP-4963","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",23373,"Alive",NA,"male",63.9917864476386
+"TCGA-B0-4813","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","NX","M0",25018,"Dead",18,"male",68.4955509924709
+"TCGA-CJ-4881","Not Reported",NA,NA,NA,NA,NA,17078,"Alive",NA,"male",46.757015742642
+"TCGA-BP-4777","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",17133,"Alive",NA,"male",46.9075975359343
+"TCGA-CJ-4887","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3a","NX","M1",17611,"Dead",932,"male",48.2162902121834
+"TCGA-AK-3426","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N1","M0",13770,"Dead",885,"male",37.700205338809
+"TCGA-CZ-5460","Clear cell adenocarcinoma, NOS","Stage IV","G2","T3b","NX","M1",20392,"Alive",NA,"male",55.8302532511978
+"TCGA-A3-3362","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",21988,"Alive",NA,"female",60.1998631074606
+"TCGA-B8-4146","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",15063,"Alive",NA,"female",41.2402464065708
+"TCGA-AK-3465","Clear cell adenocarcinoma, NOS","Stage I","GX","T1b","NX","M0",26232,"Alive",NA,"female",71.8193018480493
+"TCGA-B0-4824","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","N0","M0",18132,"Dead",1657,"female",49.6427104722793
+"TCGA-BP-4981","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",27676,"Dead",1097,"female",75.772758384668
+"TCGA-CJ-5675","Not Reported",NA,NA,NA,NA,NA,26517,"Alive",NA,"male",72.5995893223819
+"TCGA-B8-4620","Not Reported",NA,NA,NA,NA,NA,26390,"Alive",NA,"female",72.2518822724162
+"TCGA-B4-5377","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3","N0","M1",25115,"Alive",NA,"female",68.7611225188227
+"TCGA-BP-5010","Not Reported",NA,NA,NA,NA,NA,23870,"Dead",878,"male",65.3524982888433
+"TCGA-B0-4698","Clear cell adenocarcinoma, NOS","Stage IV","G4","T4","NX","M0",27417,"Dead",42,"male",75.0636550308008
+"TCGA-CJ-5677","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3a","NX","M1",19849,"Dead",782,"female",54.3436002737851
+"TCGA-CZ-5462","Clear cell adenocarcinoma, NOS","Stage IV","G3","T1b","NX","M1",30659,"Dead",311,"male",83.9397672826831
+"TCGA-B8-5163","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",23293,"Alive",NA,"female",63.772758384668
+"TCGA-B0-5102","Clear cell adenocarcinoma, NOS","Stage I","G3","T1","NX","M0",27152,"Dead",2764,"female",74.3381245722108
+"TCGA-B0-4823","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",32290,"Dead",454,"male",88.4052019164956
+"TCGA-B0-4703","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3a","N0","M1",18921,"Dead",182,"male",51.8028747433265
+"TCGA-BP-4974","Not Reported",NA,NA,NA,NA,NA,21345,"Dead",211,"male",58.4394250513347
+"TCGA-A3-3322","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",18754,"Alive",NA,"male",51.3456536618754
+"TCGA-DV-A4VX","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3b","N0","MX",21670,"Dead",1626,"male",59.3292265571526
+"TCGA-BP-4161","Not Reported",NA,NA,NA,NA,NA,29804,"Alive",NA,"male",81.5989048596851
+"TCGA-BP-5183","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,21366,"Alive",NA,"male",58.4969199178645
+"TCGA-CJ-4902","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",22424,"Alive",NA,"male",61.3935660506502
+"TCGA-T7-A92I","Clear cell adenocarcinoma, NOS","Stage I","G1","T1a","NX","MX",17331,"Alive",NA,"female",47.4496919917864
+"TCGA-B0-4693","Clear cell adenocarcinoma, NOS","Stage III","G4","T3a","N0","M0",26659,"Dead",77,"female",72.9883641341547
+"TCGA-BP-5190","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",22285,"Alive",NA,"male",61.0130047912389
+"TCGA-B0-5697","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",18486,"Alive",NA,"male",50.611909650924
+"TCGA-BP-4982","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",15451,"Alive",NA,"male",42.3025325119781
+"TCGA-BP-4971","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",14675,"Alive",NA,"male",40.1779603011636
+"TCGA-AK-3443","Clear cell adenocarcinoma, NOS","Stage II","GX","T2","N0","M0",16578,"Alive",NA,"male",45.388090349076
+"TCGA-A3-3306","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",24569,"Alive",NA,"male",67.2662559890486
+"TCGA-CW-6093","Clear cell adenocarcinoma, NOS","Stage I","G1","T1a","NX","M0",26909,"Alive",NA,"male",73.6728268309377
+"TCGA-B0-4819","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3b","NX","M1",22220,"Dead",183,"female",60.8350444900753
+"TCGA-BP-4167","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","NX","M0",21901,"Alive",NA,"male",59.9616700889801
+"TCGA-BP-4766","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",15799,"Alive",NA,"female",43.2553045859001
+"TCGA-BP-4332","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","N0","M0",13404,"Alive",NA,"male",36.6981519507187
+"TCGA-BP-5000","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",14868,"Alive",NA,"male",40.7063655030801
+"TCGA-B0-4827","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,29135,"Dead",885,"female",79.7672826830938
+"TCGA-B2-5636","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",28901,"Alive",NA,"male",79.1266255989049
+"TCGA-A3-3351","Clear cell adenocarcinoma, NOS","Stage II","G2","T2a","N0","M0",15562,"Alive",NA,"male",42.6064339493498
+"TCGA-BP-4355","Clear cell adenocarcinoma, NOS","Stage III","G4","T3a","NX","M0",21642,"Dead",953,"female",59.2525667351129
+"TCGA-CJ-4872","Clear cell adenocarcinoma, NOS","Stage I","G4","T1b","N0","M0",18862,"Alive",NA,"male",51.6413415468857
+"TCGA-B0-4816","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","N0","M0",18133,"Dead",1371,"male",49.6454483230664
+"TCGA-A3-3370","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",17621,"Alive",NA,"female",48.2436687200548
+"TCGA-CW-5591","Clear cell adenocarcinoma, NOS","Stage IV","G2","T3a","N0","M1",20712,"Alive",NA,"male",56.7063655030801
+"TCGA-BP-5200","Clear cell adenocarcinoma, NOS","Stage II","G4","T2","NX","M0",16197,"Alive",NA,"male",44.3449691991786
+"TCGA-CJ-4901","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","NX","M0",17396,"Alive",NA,"male",47.62765229295
+"TCGA-BP-5187","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",19999,"Alive",NA,"male",54.7542778918549
+"TCGA-BP-5192","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",21891,"Alive",NA,"male",59.9342915811088
+"TCGA-CJ-6031","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",19905,"Alive",NA,"male",54.4969199178645
+"TCGA-AK-3433","Clear cell adenocarcinoma, NOS","Stage II","GX","T2","N0","M0",17853,"Alive",NA,"female",48.8788501026694
+"TCGA-CJ-4897","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",29124,"Alive",NA,"female",79.7371663244353
+"TCGA-CJ-4913","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,17295,"Dead",1173,"female",47.3511293634497
+"TCGA-B0-5399","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",17145,"Alive",NA,"male",46.9404517453799
+"TCGA-BP-4349","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",24853,"Alive",NA,"female",68.0438056125941
+"TCGA-CJ-4889","Clear cell adenocarcinoma, NOS","Stage I","G4","T1a","NX","M0",23051,"Alive",NA,"female",63.1101984941821
+"TCGA-BP-4985","Not Reported",NA,NA,NA,NA,NA,26816,"Dead",952,"male",73.4182067077344
+"TCGA-B8-5545","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",15376,"Alive",NA,"male",42.0971937029432
+"TCGA-GK-A6C7","Renal cell carcinoma, NOS","Stage I",NA,"T1a","NX","MX",28107,"Alive",NA,"female",76.952772073922
+"TCGA-BP-4162","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",23966,"Alive",NA,"female",65.6153319644079
+"TCGA-BP-4176","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",23609,"Alive",NA,"male",64.6379192334018
+"TCGA-BP-4790","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",28076,"Dead",1111,"male",76.8678986995209
+"TCGA-B0-5695","Chronic lymphocytic leukemia",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-BP-4807","Papillary carcinoma, follicular variant",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-BP-4995","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",24850,"Alive",NA,"male",68.0355920602327
+"TCGA-DV-5573","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",15264,"Alive",NA,"male",41.7905544147844
+"TCGA-CJ-4900","Clear cell adenocarcinoma, NOS","Stage IV","G4","T4","N1","M1",25508,"Dead",1714,"female",69.8370978781656
+"TCGA-BP-4795","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",27162,"Alive",NA,"female",74.3655030800821
+"TCGA-CZ-4862","Malignant lymphoma, non-Hodgkin, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-BP-4354","Not Reported",NA,NA,NA,NA,NA,15658,"Dead",1034,"male",42.8692676249144
+"TCGA-CZ-4861","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","NX","M0",23053,"Dead",446,"male",63.1156741957563
+"TCGA-BP-4353","Clear cell adenocarcinoma, NOS","Stage I","G2","T1","N0","M0",22415,"Dead",375,"male",61.3689253935661
+"TCGA-BP-4775","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",20369,"Alive",NA,"female",55.7672826830938
+"TCGA-BP-4342","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","N0","M0",29032,"Dead",2256,"male",79.4852840520192
+"TCGA-B0-5088","Malignant melanoma, NOS","Stage IIIB",NA,"T2b","N2a","M0",NA,"Dead",563,"male",NA
+"TCGA-B0-4712","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3a","NX","M1",28095,"Dead",1337,"male",76.9199178644764
+"TCGA-DV-5565","Neuroendocrine carcinoma, NOS",NA,NA,NA,"NX","MX",NA,"Alive",NA,"male",NA
+"TCGA-CJ-4869","Clear cell adenocarcinoma, NOS","Stage III","G2","T2","N1","M0",17923,"Alive",NA,"male",49.0704996577687
+"TCGA-BP-4344","Transitional cell carcinoma",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-AK-3425","Adenocarcinoma, NOS","Stage II",NA,"T1c","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-B0-4815","Pituitary adenoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",1588,"male",NA
+"TCGA-CJ-4891","Clear cell adenocarcinoma, NOS","Stage III","G4","T3c","N0","M0",21059,"Dead",819,"female",57.6563997262149
+"TCGA-A3-3336","Clear cell adenocarcinoma, NOS","Stage I","G4","T1","NX","M0",27538,"Alive",NA,"female",75.3949349760438
+"TCGA-BP-4334","Not Reported",NA,NA,NA,NA,NA,21051,"Dead",645,"male",57.6344969199179
+"TCGA-BP-4965","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",16992,"Alive",NA,"male",46.5215605749487
+"TCGA-AK-3430","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","N1","M0",22612,"Dead",480,"male",61.9082819986311
+"TCGA-CZ-4856","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",22684,"Alive",NA,"female",62.1054072553046
+"TCGA-CJ-6030","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",2299,"male",NA
+"TCGA-BP-4160","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","N0","M0",24720,"Alive",NA,"male",67.6796714579055
+"TCGA-BP-4994","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",19946,"Alive",NA,"male",54.6091718001369
+"TCGA-CJ-6027","Clear cell adenocarcinoma, NOS","Stage I","G4","T1a","NX","M0",28359,"Dead",3615,"male",77.6427104722793
+"TCGA-BP-4986","Mucinous adenocarcinoma",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-BP-4760","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",25268,"Alive",NA,"male",69.1800136892539
+"TCGA-CJ-4639","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","N0","M0",18066,"Alive",NA,"female",49.4620123203285
+"TCGA-BP-4331","Squamous cell carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",2454,"male",NA
+"TCGA-G6-A5PC","Clear cell adenocarcinoma, NOS","Stage IV","G4","T1b","N0","M1",20029,"Dead",242,"female",54.8364134154689
+"TCGA-CJ-5679","Clear cell adenocarcinoma, NOS","Stage III","G4","T3b","NX","M0",26858,"Dead",679,"male",73.533196440794
+"TCGA-B0-4839","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",29380,"Dead",1639,"female",80.4380561259411
+"TCGA-B0-4814","Clear cell adenocarcinoma, NOS","Stage IV","G3","T4","N0","M1",21374,"Dead",168,"male",58.5188227241615
+"TCGA-B2-3924","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",26846,"Alive",NA,"male",73.5003422313484
+"TCGA-BP-4158","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",25210,"Alive",NA,"male",69.0212183436003
+"TCGA-B0-5113","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","N0","M0",25369,"Alive",NA,"female",69.4565366187543
+"TCGA-EU-5905","Clear cell adenocarcinoma, NOS","Stage I","G3","T1","NX","M0",24475,"Alive",NA,"female",67.0088980150582
+"TCGA-BP-5189","Clear cell adenocarcinoma, NOS","Stage I","G4","T1b","NX","M0",22156,"Dead",822,"male",60.6598220396988
+"TCGA-B0-5075","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","N0","M0",28205,"Dead",637,"female",77.2210814510609
+"TCGA-DV-5567","Not Reported",NA,NA,NA,NA,NA,16646,"Alive",NA,"female",45.574264202601
+"TCGA-AK-3451","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","N0","M0",17859,"Alive",NA,"male",48.8952772073922
+"TCGA-BP-4993","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-B0-5081","Clear cell adenocarcinoma, NOS","Stage III","G2","T3b","N0","M0",29219,"Dead",362,"female",79.9972621492129
+"TCGA-A3-3343","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","N0","M0",28930,"Alive",NA,"male",79.2060232717317
+"TCGA-CJ-5682","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3a","NX","M1",22244,"Alive",NA,"male",60.9007529089665
+"TCGA-A3-3385","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",17114,"Alive",NA,"female",46.8555783709788
+"TCGA-BP-5178","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",1912,"male",NA
+"TCGA-CW-6090","Not Reported",NA,NA,NA,NA,NA,27689,"Alive",NA,"male",75.8083504449008
+"TCGA-B0-5700","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",28184,"Alive",NA,"male",77.1635865845311
+"TCGA-CJ-4636","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",18878,"Alive",NA,"male",51.6851471594798
+"TCGA-CJ-4884","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",26475,"Alive",NA,"female",72.4845995893224
+"TCGA-B8-A54K","Transitional cell carcinoma in situ","Stage I",NA,"T1","N0","M0",18319,"Alive",NA,"male",50.154688569473
+"TCGA-A3-3320","Clear cell adenocarcinoma, NOS","Stage I","G1","T1b","NX","M0",19138,"Alive",NA,"female",52.3969883641342
+"TCGA-CZ-4865","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",25709,"Dead",166,"female",70.3874058863792
+"TCGA-B8-A54F","Renal cell carcinoma, NOS","Stage I","G2","T1a","NX","MX",18028,"Alive",NA,"female",49.3579739904175
+"TCGA-B2-4098","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",26606,"Dead",51,"female",72.8432580424367
+"TCGA-CW-6096","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",16140,"Alive",NA,"female",44.1889117043121
+"TCGA-B0-4811","Not Reported",NA,NA,NA,NA,NA,18250,"Dead",1417,"male",49.9657768651608
+"TCGA-CJ-4904","Not Reported",NA,NA,NA,NA,NA,22314,"Alive",NA,"female",61.0924024640657
+"TCGA-BP-4346","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","N0","M0",21057,"Dead",1493,"male",57.6509240246407
+"TCGA-A3-3358","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",21087,"Alive",NA,"female",57.7330595482546
+"TCGA-BP-4988","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",828,"male",NA
+"TCGA-BP-4998","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",17997,"Alive",NA,"male",49.2731006160164
+"TCGA-BP-4327","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","N0","M0",27556,"Dead",109,"female",75.4442162902122
+"TCGA-BP-5194","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",14551,"Alive",NA,"male",39.8384668035592
+"TCGA-CJ-5680","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3a","NX","M1",23778,"Dead",768,"female",65.1006160164271
+"TCGA-CZ-4864","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","N0","M0",31557,"Dead",1315,"male",86.3983572895277
+"TCGA-BP-4983","Clear cell adenocarcinoma, NOS","Stage III","G4","T3a","NX","M0",24558,"Alive",NA,"female",67.2361396303901
+"TCGA-AK-3429","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","N0","M0",19849,"Alive",NA,"female",54.3436002737851
+"TCGA-B0-5400","Clear cell adenocarcinoma, NOS","Stage III","G4","T3b","N0","M0",21819,"Alive",NA,"female",59.7371663244353
+"TCGA-BP-4784","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",24603,"Alive",NA,"female",67.3593429158111
+"TCGA-AK-3447","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","NX","M0",30676,"Alive",NA,"male",83.9863107460643
+"TCGA-AK-3436","Not Reported",NA,NA,NA,NA,NA,16031,"Alive",NA,"male",43.8904859685147
+"TCGA-EU-5906","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",20246,"Alive",NA,"male",55.4305270362765
+"TCGA-BP-5181","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",21514,"Alive",NA,"female",58.90212183436
+"TCGA-AK-3427","Clear cell adenocarcinoma, NOS","Stage I","GX","T1a","N0","M0",24067,"Alive",NA,"male",65.8918548939083
+"TCGA-BP-4329","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","N0","M0",27699,"Dead",845,"male",75.8357289527721
+"TCGA-CZ-4854","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",24876,"Dead",1404,"male",68.1067761806981
+"TCGA-B4-5838","Clear cell adenocarcinoma, NOS",NA,"G2","T3","N1","M0",19242,"Alive",NA,"male",52.6817248459959
+"TCGA-B0-5121","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",20635,"Alive",NA,"male",56.4955509924709
+"TCGA-BP-4164","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","NX","M0",18898,"Dead",992,"female",51.7399041752224
+"TCGA-CJ-4920","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",23656,"Dead",139,"female",64.766598220397
+"TCGA-B2-5635","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",27183,"Alive",NA,"male",74.4229979466119
+"TCGA-B0-5702","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",26186,"Alive",NA,"male",71.6933607118412
+"TCGA-B0-5698","Squamous cell carcinoma, NOS","Stage IB",NA,"T2","N0","M0",NA,"Alive",NA,"male",NA
+"TCGA-CW-5584","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","N1","M0",27352,"Dead",164,"male",74.8856947296372
+"TCGA-B0-5108","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","N0","M0",19932,"Alive",NA,"male",54.570841889117
+"TCGA-CZ-5984","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",18775,"Alive",NA,"male",51.4031485284052
+"TCGA-CJ-4637","Clear cell adenocarcinoma, NOS","Stage IV","G4","T2b","NX","M1",19101,"Dead",2227,"female",52.2956878850103
+"TCGA-CJ-4870","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","NX","M0",21340,"Alive",NA,"female",58.425735797399
+"TCGA-A3-3382","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,25721,"Alive",NA,"male",70.4202600958248
+"TCGA-CJ-4878","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","NX","M0",26224,"Alive",NA,"female",71.7973990417522
+"TCGA-BP-4781","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",28701,"Alive",NA,"male",78.5790554414784
+"TCGA-B4-5834","Clear cell adenocarcinoma, NOS","Stage I","G1","T1","N0","M0",21713,"Alive",NA,"male",59.4469541409993
+"TCGA-BP-5195","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",27547,"Alive",NA,"male",75.419575633128
+"TCGA-BP-4170","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",26596,"Dead",2343,"female",72.8158795345654
+"TCGA-B0-4847","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3a","NX","M1",22147,"Dead",793,"male",60.6351813826146
+"TCGA-CJ-4634","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",22155,"Alive",NA,"female",60.6570841889117
+"TCGA-B0-4841","Clear cell adenocarcinoma, NOS","Stage IV","G3","T2","NX","M1",23097,"Dead",204,"male",63.2361396303901
+"TCGA-BP-4174","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","N0","M0",18054,"Alive",NA,"male",49.429158110883
+"TCGA-A3-3376","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",18954,"Dead",1696,"male",51.8932238193018
+"TCGA-CZ-5986","Clear cell adenocarcinoma, NOS","Stage I","G3","T1","N0","M0",22456,"Alive",NA,"male",61.4811772758385
+"TCGA-B0-5711","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","NX","M0",18444,"Alive",NA,"male",50.4969199178645
+"TCGA-B0-4700","Clear cell adenocarcinoma, NOS","Stage IV","G4","T4","NX","M1",22034,"Dead",1980,"male",60.3258042436687
+"TCGA-CW-5580","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3a","NX","M1",26696,"Dead",1964,"female",73.0896646132786
+"TCGA-BP-4345","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","N0","M0",22879,"Alive",NA,"male",62.6392881587953
+"TCGA-DV-A4VZ","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","MX",19560,"Alive",NA,"male",53.5523613963039
+"TCGA-A3-3346","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",25118,"Dead",137,"male",68.7693360711841
+"TCGA-B0-5094","Clear cell adenocarcinoma, NOS","Stage IV","G2","T3b","N0","M1",22965,"Dead",333,"male",62.8747433264887
+"TCGA-CJ-4893","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",27885,"Alive",NA,"female",76.3449691991786
+"TCGA-B8-4154","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",26882,"Alive",NA,"female",73.5989048596851
+"TCGA-B0-4713","Clear cell adenocarcinoma, NOS","Stage III","G2","T3b","NX","M0",27899,"Dead",202,"female",76.3832991101985
+"TCGA-BP-4768","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",26474,"Alive",NA,"female",72.4818617385352
+"TCGA-CJ-4908","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",14226,"Alive",NA,"male",38.9486652977413
+"TCGA-A3-3317","Not Reported",NA,NA,NA,NA,NA,25363,"Alive",NA,"male",69.4401095140315
+"TCGA-BP-4972","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",16038,"Alive",NA,"female",43.9096509240246
+"TCGA-CZ-5469","Not Reported",NA,NA,NA,NA,NA,15352,"Dead",946,"male",42.031485284052
+"TCGA-B0-5701","Clear cell adenocarcinoma, NOS","Stage III","G4","T3b","N0","M0",23915,"Alive",NA,"male",65.4757015742642
+"TCGA-BP-4177","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",23955,"Alive",NA,"male",65.5852156057495
+"TCGA-CJ-4644","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3a","N0","M1",17882,"Dead",336,"female",48.9582477754962
+"TCGA-BP-5184","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",19746,"Alive",NA,"male",54.0616016427105
+"TCGA-B8-A54D","Renal cell carcinoma, NOS","Stage III","G2","T3a","NX","MX",25429,"Alive",NA,"male",69.6208076659822
+"TCGA-BP-5176","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",28727,"Dead",1590,"female",78.6502395619439
+"TCGA-B0-4691","Clear cell adenocarcinoma, NOS","Stage IV","G3","T2","N0","M1",20176,"Dead",139,"male",55.2388774811773
+"TCGA-CJ-5671","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",18954,"Alive",NA,"male",51.8932238193018
+"TCGA-BP-4789","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",17540,"Alive",NA,"male",48.0219028062971
+"TCGA-B8-5549","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",19561,"Alive",NA,"male",53.555099247091
+"TCGA-B0-4821","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","N0","M0",25013,"Dead",1230,"female",68.4818617385352
+"TCGA-CZ-4866","Clear cell adenocarcinoma, NOS","Stage I","G3","T1","NX","M0",28878,"Alive",NA,"female",79.0636550308008
+"TCGA-B0-5100","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",26478,"Dead",1913,"male",72.4928131416838
+"TCGA-B0-4849","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",18843,"Dead",69,"male",51.5893223819302
+"TCGA-AK-3440","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",21337,"Alive",NA,"male",58.4175222450376
+"TCGA-CJ-5684","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","NX","M0",22561,"Alive",NA,"male",61.7686516084873
+"TCGA-CW-5590","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3a","NX","M1",18905,"Dead",1075,"male",51.7590691307324
+"TCGA-B0-5690","Clear cell adenocarcinoma, NOS","Stage I","G1","T1b","NX","M0",19685,"Alive",NA,"female",53.8945927446954
+"TCGA-CZ-5465","Clear cell adenocarcinoma, NOS","Stage III","G2","T3b","NX","M0",27838,"Dead",2564,"female",76.2162902121834
+"TCGA-BP-4337","Clear cell adenocarcinoma, NOS","Stage III","G4","T3b","N0","M0",27906,"Dead",2,"female",76.4024640657084
+"TCGA-CJ-4886","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",15698,"Alive",NA,"female",42.9787816563997
+"TCGA-A3-3331","Clear cell adenocarcinoma, NOS","Stage I","G2","T1","N0","M0",31615,"Alive",NA,"female",86.5571526351814
+"TCGA-B0-5712","Clear cell adenocarcinoma, NOS","Stage IV","G3","T2","N0","M1",24988,"Alive",NA,"female",68.413415468857
+"TCGA-B2-5633","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",20493,"Alive",NA,"male",56.1067761806982
+"TCGA-B2-5641","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","N0","M0",28953,"Alive",NA,"male",79.2689938398357
+"TCGA-BP-5169","Clear cell adenocarcinoma, NOS","Stage I","G4","T1b","N0","M0",25615,"Alive",NA,"male",70.1300479123888
+"TCGA-CZ-5454","Clear cell adenocarcinoma, NOS","Stage IV","G2","T2","N0","M1",23083,"Dead",722,"male",63.1978097193703
+"TCGA-CJ-4912","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","NX","M0",22623,"Alive",NA,"male",61.9383983572895
+"TCGA-B4-5844","Clear cell adenocarcinoma, NOS","Stage II","G1","T2","N0","M0",22409,"Alive",NA,"female",61.3524982888433
+"TCGA-BP-5185","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",20470,"Alive",NA,"male",56.0438056125941
+"TCGA-DV-A4W0","Not Reported",NA,NA,NA,NA,NA,22109,"Alive",NA,"male",60.5311430527036
+"TCGA-B0-5705","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,24588,"Alive",NA,"female",67.3182751540041
+"TCGA-B8-A7U6","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX",NA,19803,"Alive",NA,"female",54.217659137577
+"TCGA-B8-5546","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",14113,"Alive",NA,"female",38.6392881587953
+"TCGA-CW-6088","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",22020,"Alive",NA,"male",60.2874743326489
+"TCGA-MW-A4EC","Renal cell carcinoma, NOS","Stage I","G2","T1a","NX","MX",26649,"Alive",NA,"female",72.9609856262834
+"TCGA-BP-4776","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",19143,"Alive",NA,"male",52.4106776180698
+"TCGA-A3-A8CQ","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","MX",21572,"Alive",NA,"female",59.0609171800137
+"TCGA-B8-4151","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","N0","M0",18760,"Alive",NA,"female",51.3620807665982
+"TCGA-BP-5008","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",17008,"Alive",NA,"male",46.5653661875428
+"TCGA-B4-5843","Clear cell adenocarcinoma, NOS","Stage I","G2","T1","N0","M0",16779,"Alive",NA,"male",45.9383983572895
+"TCGA-CZ-5467","Not Reported",NA,NA,NA,NA,NA,31535,"Dead",73,"female",86.3381245722108
+"TCGA-BP-4960","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","N0","M0",17099,"Alive",NA,"male",46.8145106091718
+"TCGA-B0-4817","Clear cell adenocarcinoma, NOS","Stage III","G3","T3c","N0","M0",29873,"Dead",1019,"male",81.7878165639973
+"TCGA-CW-6097","Clear cell adenocarcinoma, NOS","Stage III","G4","T3a","NX","M0",11701,"Dead",571,"male",32.0355920602327
+"TCGA-B0-5710","Not Reported",NA,NA,NA,NA,NA,22615,"Alive",NA,"male",61.9164955509925
+"TCGA-CZ-4860","Clear cell adenocarcinoma, NOS","Stage IV","G4","T4","NX","M1",22115,"Dead",206,"male",60.5475701574264
+"TCGA-CW-6087","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3a","N1","M1",22438,"Dead",41,"male",61.4318959616701
+"TCGA-CZ-4859","Clear cell adenocarcinoma, NOS","Stage I","G2","T1","N0","M0",21842,"Alive",NA,"female",59.8001368925394
+"TCGA-A3-3308","Clear cell adenocarcinoma, NOS","Stage III","G2","T3b","N0","M0",28287,"Alive",NA,"female",77.4455852156057
+"TCGA-AK-3445","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",25494,"Alive",NA,"male",69.7987679671458
+"TCGA-BP-4970","Clear cell adenocarcinoma, NOS","Stage III","G3","T1a","N1","M0",16228,"Alive",NA,"male",44.4298425735797
+"TCGA-CJ-4640","Clear cell adenocarcinoma, NOS","Stage III","G4","T3a","N0","M0",18178,"Alive",NA,"male",49.7686516084873
+"TCGA-BP-4770","Not Reported",NA,NA,NA,NA,NA,27032,"Dead",329,"female",74.009582477755
+"TCGA-BP-5173","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",27436,"Dead",62,"male",75.1156741957563
+"TCGA-B0-4945","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",27523,"Dead",2145,"female",75.3538672142368
+"TCGA-AK-3460","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",21281,"Alive",NA,"male",58.2642026009582
+"TCGA-B0-4828","Clear cell adenocarcinoma, NOS","Stage IV","G3","T2","NX","M1",28948,"Dead",307,"male",79.2553045859001
+"TCGA-BP-5180","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",19413,"Alive",NA,"male",53.1498973305955
+"TCGA-CJ-4903","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",18510,"Alive",NA,"male",50.6776180698152
+"TCGA-B0-5713","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","N0","M0",27644,"Alive",NA,"female",75.6851471594798
+"TCGA-B0-5096","Clear cell adenocarcinoma, NOS","Stage III","GX","T3a","N1","M0",26574,"Dead",68,"female",72.7556468172485
+"TCGA-BP-4977","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",20950,"Alive",NA,"male",57.3579739904175
+"TCGA-A3-3378","Clear cell adenocarcinoma, NOS","Stage I","G3","T1","N0","M0",22090,"Alive",NA,"male",60.4791238877481
+"TCGA-B0-4845","Not Reported",NA,NA,NA,NA,NA,26330,"Dead",1986,"male",72.0876112251882
+"TCGA-CJ-6028","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3a","NX","M1",21380,"Dead",1625,"male",58.5352498288843
+"TCGA-B2-4101","Clear cell adenocarcinoma, NOS","Stage II","G3","T2a","NX","M0",19059,"Alive",NA,"male",52.1806981519507
+"TCGA-BP-4961","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",17284,"Alive",NA,"male",47.3210130047912
+"TCGA-BP-4325","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",23588,"Alive",NA,"female",64.580424366872
+"TCGA-6D-AA2E","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","MX",25043,"Alive",NA,"female",68.5639972621492
+"TCGA-B0-4836","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3b","NX","M1",22488,"Dead",1238,"male",61.5687885010267
+"TCGA-B0-5692","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","N0","M0",24140,"Alive",NA,"female",66.0917180013689
+"TCGA-B0-5092","Clear cell adenocarcinoma, NOS","Stage IV","G3","T1a","N0","M1",19611,"Dead",459,"female",53.6919917864476
+"TCGA-CZ-4857","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,20906,"Dead",1432,"male",57.2375085557837
+"TCGA-A3-A6NI","Renal cell carcinoma, NOS","Stage I","G3","T1a","NX","MX",17190,"Alive",NA,"male",47.0636550308008
+"TCGA-3Z-A93Z","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",25205,"Alive",NA,"male",69.0075290896646
+"TCGA-BP-4804","Not Reported",NA,NA,NA,NA,NA,22630,"Alive",NA,"male",61.9575633127995
+"TCGA-BP-5001","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",15858,"Alive",NA,"female",43.4168377823409
+"TCGA-AK-3458","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",17557,"Alive",NA,"male",48.0684462696783
+"TCGA-B0-4846","Not Reported",NA,NA,NA,NA,NA,19302,"Dead",1200,"male",52.8459958932238
+"TCGA-BP-4964","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",20084,"Alive",NA,"female",54.9869952087611
+"TCGA-BP-4769","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",23190,"Alive",NA,"male",63.4907597535934
+"TCGA-BP-4797","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","N0","M0",12508,"Alive",NA,"male",34.2450376454483
+"TCGA-CJ-4874","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",26761,"Alive",NA,"female",73.2676249144422
+"TCGA-B8-4143","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3a","N0","M1",24132,"Dead",709,"female",66.0698151950719
+"TCGA-BP-4335","Not Reported",NA,NA,NA,NA,NA,24159,"Dead",475,"female",66.1437371663244
+"TCGA-CJ-4876","Clear cell adenocarcinoma, NOS","Stage II","G3","T2b","N0","M0",20993,"Alive",NA,"male",57.4757015742642
+"TCGA-BP-4763","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",29150,"Dead",1270,"female",79.8083504449008
+"TCGA-CZ-5458","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",15790,"Alive",NA,"male",43.2306639288159
+"TCGA-CJ-4635","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",17620,"Alive",NA,"male",48.2409308692676
+"TCGA-BP-4975","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",14710,"Alive",NA,"male",40.2737850787132
+"TCGA-BP-4765","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",15814,"Alive",NA,"male",43.296372347707
+"TCGA-AS-3777","Clear cell adenocarcinoma, NOS","Stage I",NA,"T1a","NX","M0",23039,"Alive",NA,"male",63.0773442847365
+"TCGA-B0-4833","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",30190,"Dead",2386,"female",82.6557152635181
+"TCGA-EU-5904","Clear cell adenocarcinoma, NOS","Stage I","G1","T1","NX","M0",17468,"Alive",NA,"female",47.8247775496235
+"TCGA-A3-3323","Clear cell adenocarcinoma, NOS","Stage I","G1","T1b","NX","M0",19456,"Alive",NA,"male",53.2676249144422
+"TCGA-B0-4818","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","NX","M0",24853,"Dead",510,"female",68.0438056125941
+"TCGA-B8-5158","Clear cell adenocarcinoma, NOS","Stage III","G4","T3a","N1","M0",20764,"Alive",NA,"male",56.8487337440109
+"TCGA-B0-4844","Not Reported",NA,NA,NA,NA,NA,22282,"Dead",313,"male",61.0047912388775
+"TCGA-BP-4163","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",21980,"Alive",NA,"female",60.1779603011636
+"TCGA-B0-5120","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",26559,"Alive",NA,"female",72.7145790554415
+"TCGA-B0-5106","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",23547,"Dead",1598,"male",64.4681724845996
+"TCGA-BP-4962","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","NX","M0",21255,"Alive",NA,"male",58.1930184804928
+"TCGA-B0-5084","Not Reported",NA,NA,NA,NA,NA,12284,"Dead",222,"male",33.6317590691307
+"TCGA-CZ-5452","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","N0","M0",25486,"Alive",NA,"male",69.7768651608487
+"TCGA-B8-A54G","Renal cell carcinoma, NOS","Stage I","G3","T1a","NX","MX",18612,"Alive",NA,"male",50.9568788501027
+"TCGA-MM-A84U","Papillary microcarcinoma",NA,NA,"T1a","N0",NA,21344,"Alive",NA,"female",58.4366872005476
+"TCGA-B0-5095","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",29921,"Dead",245,"male",81.9192334017796
+"TCGA-CJ-5672","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",30900,"Dead",1972,"male",84.5995893223819
+"TCGA-B0-4838","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",25268,"Dead",834,"female",69.1800136892539
+"TCGA-CZ-5457","Not Reported",NA,NA,NA,NA,NA,22937,"Alive",NA,"male",62.798083504449
+"TCGA-MM-A564","Clear cell adenocarcinoma, NOS","Stage II","G2","T2a","NX","MX",24916,"Alive",NA,"male",68.2162902121834
+"TCGA-G6-A8L7","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","MX",29883,"Alive",NA,"female",81.8151950718686
+"TCGA-CZ-5988","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",14131,"Alive",NA,"male",38.6885694729637
+"TCGA-B0-5080","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3a","N0","M1",23052,"Dead",342,"male",63.1129363449692
+"TCGA-G6-A8L8","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","MX",22649,"Dead",1091,"female",62.009582477755
+"TCGA-A3-A8OU","Clear cell adenocarcinoma, NOS","Stage I","G1","T1a","NX","MX",27377,"Alive",NA,"female",74.9541409993155
+"TCGA-B0-5110","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",25976,"Alive",NA,"female",71.1184120465435
+"TCGA-B8-5164","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",23863,"Alive",NA,"male",65.3333333333333
+"TCGA-CZ-5459","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","NX","M0",23318,"Alive",NA,"male",63.8412046543463
+"TCGA-CZ-5987","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,22305,"Dead",445,"male",61.0677618069815
+"TCGA-B0-5099","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","NX","M0",32364,"Dead",485,"female",88.6078028747433
+"TCGA-BP-4343","Not Reported",NA,NA,NA,NA,NA,25374,"Dead",1912,"male",69.4702258726899
+"TCGA-A3-A8OX","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","MX",23998,"Alive",NA,"female",65.7029431895962
+"TCGA-B0-4822","Clear cell adenocarcinoma, NOS","Stage II","G4","T2","NX","M0",28774,"Dead",1111,"male",78.7789185489391
+"TCGA-B0-5104","Clear cell adenocarcinoma, NOS","Stage I","G2","T1","N0","M0",32872,"Dead",0,"female",89.9986310746064
+"TCGA-B2-A4SR","Clear cell adenocarcinoma, NOS","Stage II",NA,"T2a","NX","M0",22637,"Alive",NA,"male",61.9767282683094
+"TCGA-A3-3324","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",18843,"Alive",NA,"male",51.5893223819302
+"TCGA-AK-3453","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","NX","M0",21271,"Alive",NA,"female",58.2368240930869
+"TCGA-BP-4330","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","N0","M0",22239,"Alive",NA,"female",60.8870636550308
+"TCGA-CJ-4885","Not Reported",NA,NA,NA,NA,NA,25478,"Alive",NA,"male",69.7549623545517
+"TCGA-B0-4688","Clear cell adenocarcinoma, NOS","Stage IV","G4","T4","N0","M1",16804,"Dead",101,"male",46.0068446269678
+"TCGA-B0-5119","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",22607,"Alive",NA,"female",61.8945927446954
+"TCGA-BP-5174","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",16693,"Alive",NA,"female",45.7029431895962
+"TCGA-BP-4352","Not Reported",NA,NA,NA,NA,NA,27266,"Dead",344,"female",74.6502395619439
+"TCGA-B0-5097","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,22211,"Alive",NA,"female",60.8104038329911
+"TCGA-B0-5077","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","N0","M0",28405,"Dead",1317,"male",77.7686516084873
+"TCGA-B0-4843","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",21088,"Dead",320,"male",57.7357973990418
+"TCGA-CW-5585","Clear cell adenocarcinoma, NOS","Stage IV","G2","T3b","N0","M1",18898,"Alive",NA,"male",51.7399041752224
+"TCGA-A3-A6NN","Renal cell carcinoma, NOS","Stage I","G2","T1a","NX","MX",28689,"Alive",NA,"male",78.5462012320329
+"TCGA-CJ-4638","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3a","N1","M1",17110,"Dead",431,"female",46.8446269678303
+"TCGA-CJ-5686","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",21836,"Alive",NA,"female",59.7837097878166
+"TCGA-B8-5551","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",23976,"Alive",NA,"female",65.6427104722793
+"TCGA-B2-3923","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","NX","M0",21793,"Alive",NA,"male",59.6659822039699
+"TCGA-AK-3461","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",26464,"Alive",NA,"male",72.4544832306639
+"TCGA-B8-A54J","Renal cell carcinoma, NOS","Stage II","G2","T2a","NX","MX",22071,"Alive",NA,"male",60.4271047227926
+"TCGA-B0-5707","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","N0","M0",14598,"Alive",NA,"female",39.9671457905544
+"TCGA-A3-3374","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",18890,"Alive",NA,"female",51.7180013689254
+"TCGA-A3-3349","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","N0","M0",12431,"Alive",NA,"female",34.0342231348392
+"TCGA-B0-4848","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","NX","M0",19892,"Dead",883,"male",54.4613278576318
+"TCGA-A3-3311","Clear cell adenocarcinoma, NOS","Stage I","G2","T1","NX","M0",21183,"Dead",1191,"male",57.9958932238193
+"TCGA-A3-3313","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",21556,"Dead",735,"male",59.0171115674196
+"TCGA-A3-3372","Clear cell adenocarcinoma, NOS","Stage III","G2","T3","NX","M0",23528,"Alive",NA,"male",64.4161533196441
+"TCGA-B0-4694","Clear cell adenocarcinoma, NOS","Stage III","G4","T3b","NX","M0",26582,"Dead",106,"male",72.7775496235455
+"TCGA-B0-4696","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",21317,"Dead",866,"male",58.362765229295
+"TCGA-A3-3365","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",16915,"Alive",NA,"male",46.3107460643395
+"TCGA-B0-4697","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3b","NX","M1",16844,"Dead",578,"female",46.1163586584531
+"TCGA-BP-4967","Clear cell adenocarcinoma, NOS","Stage III","G2","T3a","N0","M0",27857,"Alive",NA,"male",76.2683093771389
+"TCGA-B2-4099","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",30355,"Alive",NA,"male",83.1074606433949
+"TCGA-B0-4842","Clear cell adenocarcinoma, NOS","Stage III","G4","T3a","N0","M0",27019,"Dead",1724,"female",73.9739904175222
+"TCGA-B4-5835","Clear cell adenocarcinoma, NOS","Stage I","G2","T1","N0","M0",23408,"Alive",NA,"female",64.0876112251882
+"TCGA-B0-5696","Clear cell adenocarcinoma, NOS","Stage III","G4","T3a","N0","M0",25552,"Alive",NA,"male",69.9575633127995
+"TCGA-BP-4968","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",14651,"Alive",NA,"male",40.1122518822724
+"TCGA-A3-3319","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",25699,"Alive",NA,"male",70.3600273785079
+"TCGA-A3-3352","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","N0","M0",NA,"Dead",561,"male",NA
+"TCGA-CJ-4868","Clear cell adenocarcinoma, NOS","Stage IV","G3","T3a","N0","M1",15601,"Dead",646,"male",42.7132101300479
+"TCGA-AK-3444","Clear cell adenocarcinoma, NOS","Stage I","G2","T1b","NX","M0",29497,"Alive",NA,"female",80.7583846680356
+"TCGA-CJ-4923","Not Reported",NA,NA,NA,NA,NA,23378,"Dead",572,"female",64.0054757015743
+"TCGA-BP-5175","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","NX","M0",21949,"Alive",NA,"male",60.0930869267625
+"TCGA-CJ-4918","Clear cell adenocarcinoma, NOS","Stage IV","G4","T3a","N0","M1",23379,"Dead",93,"male",64.0082135523614
+"TCGA-B0-4706","Clear cell adenocarcinoma, NOS","Stage III","G4","T3a","NX","M0",22331,"Dead",65,"male",61.138945927447
+"TCGA-BP-4761","Clear cell adenocarcinoma, NOS","Stage III","G4","T3a","N1","M0",21019,"Alive",NA,"male",57.5468856947296
+"TCGA-G6-A8L6","Clear cell adenocarcinoma, NOS","Stage IV","G3","T2a","NX","MX",20306,"Dead",313,"male",55.5947980835045
+"TCGA-EU-5907","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",29863,"Alive",NA,"male",81.7604380561259
+"TCGA-CJ-5681","Not Reported",NA,NA,NA,NA,NA,16138,"Dead",552,"female",44.1834360027378
+"TCGA-A3-3373","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",19964,"Alive",NA,"female",54.6584531143053
+"TCGA-CW-5581","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","NX","M0",16195,"Alive",NA,"male",44.3394934976044
+"TCGA-A3-3326","Clear cell adenocarcinoma, NOS","Stage I","G1","T1a","NX","M0",17285,"Alive",NA,"male",47.3237508555784
+"TCGA-BP-5186","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","N0","M0",18348,"Alive",NA,"female",50.2340862422998
+"TCGA-BP-5170","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",20229,"Alive",NA,"male",55.3839835728953
+"TCGA-CJ-5676","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","NX","M0",17170,"Alive",NA,"male",47.0088980150582
+"TCGA-BP-5182","Clear cell adenocarcinoma, NOS","Stage I","G3","T1a","N0","M0",20597,"Alive",NA,"male",56.3915126625599
+"TCGA-B0-4837","Clear cell adenocarcinoma, NOS","Stage I","G3","T1b","N0","M0",23129,"Dead",1378,"male",63.3237508555784
+"TCGA-B8-A54H","Renal cell carcinoma, NOS","Stage II","G3","T2a","N0","MX",25243,"Alive",NA,"female",69.1115674195756
+"TCGA-A3-3347","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,28576,"Dead",1610,"female",78.2368240930869
+"TCGA-AK-3431","Clear cell adenocarcinoma, NOS","Stage II","G3","T2","NX","M0",22852,"Dead",2241,"female",62.5653661875428
+"TCGA-BP-4803","Clear cell adenocarcinoma, NOS","Stage III","G3","T3a","NX","M0",28934,"Alive",NA,"male",79.2169746748802
+"TCGA-CZ-5461","Clear cell adenocarcinoma, NOS",NA,NA,NA,NA,NA,19078,"Dead",330,"male",52.2327173169062
+"TCGA-CJ-4907","Clear cell adenocarcinoma, NOS","Stage III","G3","T3b","NX","M0",21208,"Alive",NA,"male",58.0643394934976
+"TCGA-BP-4969","Clear cell adenocarcinoma, NOS","Stage I","G2","T1a","NX","M0",23216,"Alive",NA,"female",63.5619438740589
+"TCGA-B0-5706","Clear cell adenocarcinoma, NOS","Stage II","G2","T2","N0","M0",16442,"Alive",NA,"male",45.015742642026

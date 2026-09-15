@@ -1,0 +1,1099 @@
+"patient_id","primary_diagnosis","pathologic_stage","tumor_grade","pathologic_T","pathologic_N","pathologic_M","age_at_diagnosis_days","vital_status","days_to_death","gender","age_at_diagnosis_years"
+"TCGA-BH-A0B2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"TCGA-A8-A08S","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-A8-A09C","Infiltrating duct carcinoma, NOS","Stage X",NA,"T2","N0","MX",25355,"Alive",NA,"female",69.4182067077344
+"TCGA-BH-A1F5","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",22842,"Dead",2712,"female",62.5379876796715
+"TCGA-A2-A0YT","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4b","N2a","M0",20482,"Dead",723,"female",56.0766598220397
+"TCGA-BH-A0B6","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-A8-A093","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-A8-A084","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",29858,"Alive",NA,"female",81.7467488021903
+"TCGA-A8-A09E","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4b","N1a","M0",26724,"Alive",NA,"female",73.1663244353183
+"TCGA-A7-A0DC","Infiltrating duct carcinoma, NOS","Stage IA","Not Reported","T1c","N0 (i-)","M0",23294,"Alive",NA,"female",63.7754962354552
+"TCGA-A8-A08F","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",21641,"Alive",NA,"female",59.2498288843258
+"TCGA-LL-A6FP","Lobular carcinoma, NOS","Stage IIA",NA,"T2","NX","MX",32872,"Alive",NA,"female",89.9986310746064
+"TCGA-A8-A06T","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-AR-A2LR","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-A8-A06U","Not Reported",NA,NA,NA,NA,NA,NA,"Dead",883,"female",NA
+"TCGA-AQ-A0Y5","Myelodysplastic syndrome, NOS",NA,NA,NA,NA,NA,NA,"Dead",172,"female",NA
+"TCGA-A7-A0CD","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",24242,"Alive",NA,"female",66.3709787816564
+"TCGA-5L-AAT1","Lobular carcinoma, NOS","Stage IV",NA,"T2","N0","M1",23225,"Alive",NA,"female",63.5865845311431
+"TCGA-GI-A2C8","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4b","N0","MX",23103,"Alive",NA,"female",63.2525667351129
+"TCGA-A8-A09I","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-AO-A0JI","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1","M0",20694,"Alive",NA,"female",56.6570841889117
+"TCGA-D8-A146","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",20861,"Alive",NA,"female",57.1143052703628
+"TCGA-EW-A2FW","Intraductal papillary adenocarcinoma with invasion","Stage IIA",NA,"T2","N0 (i-)","MX",19085,"Alive",NA,"female",52.2518822724162
+"TCGA-A8-A07E","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-A8-A091","Not Reported",NA,NA,NA,NA,NA,22797,"Alive",NA,"female",62.4147843942505
+"TCGA-A8-A09K","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-AO-A0J5","Infiltrating duct mixed with other types of carcinoma","Stage IV",NA,"T4","N1a","M1",17815,"Dead",792,"female",48.7748117727584
+"TCGA-C8-A1HO","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T3","N3","M0",12715,"Alive",NA,"female",34.8117727583847
+"TCGA-C8-A1HI","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",NA,"Alive",NA,"female",NA
+"TCGA-AR-A2LL","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",25747,"Alive",NA,"female",70.4914442162902
+"TCGA-A7-A0DA","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",22708,"Alive",NA,"female",62.1711156741958
+"TCGA-BH-A0BD","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",17275,"Alive",NA,"female",47.296372347707
+"TCGA-B6-A1KC","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",24791,"Alive",NA,"female",67.8740588637919
+"TCGA-A8-A07I","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",25263,"Alive",NA,"female",69.1663244353183
+"TCGA-PL-A8LV","Medullary carcinoma, NOS","Stage IIIB",NA,"T4","N0","M0",19746,"Alive",NA,"female",54.0616016427105
+"TCGA-GM-A2DO","Lobular carcinoma in situ, NOS","Stage 0",NA,"Tis","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-C8-A274","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",23337,"Alive",NA,"female",63.8932238193018
+"TCGA-BH-A0C0","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",23006,"Alive",NA,"female",62.9869952087611
+"TCGA-AC-A2QH","Metaplastic carcinoma, NOS","Stage IIB",NA,"T3","N0","MX",21488,"Alive",NA,"female",58.8309377138946
+"TCGA-E2-A1L7","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",14854,"Alive",NA,"female",40.6680355920602
+"TCGA-AR-A0U0","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",26993,"Alive",NA,"female",73.9028062970568
+"TCGA-A8-A07G","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",23926,"Alive",NA,"female",65.5058179329227
+"TCGA-BH-A28O","Lobular carcinoma, NOS","Stage IIIC",NA,"T3a","N3","M0",18501,"Alive",NA,"female",50.652977412731
+"TCGA-A2-A0D4","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",13805,"Alive",NA,"female",37.7960301163587
+"TCGA-AC-A62V","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T2","N1a","M1",21389,"Dead",348,"male",58.5598904859685
+"TCGA-D8-A1XU","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",20715,"Alive",NA,"female",56.7145790554415
+"TCGA-B6-A0IK","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,23639,"Dead",571,"female",64.7200547570157
+"TCGA-E9-A247","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",21562,"Alive",NA,"female",59.0335386721424
+"TCGA-AN-A0XW","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",13208,"Alive",NA,"female",36.1615331964408
+"TCGA-E9-A1R4","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",24181,"Alive",NA,"female",66.2039698836413
+"TCGA-AO-A1KQ","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4","N1","M0",30859,"Alive",NA,"male",84.4873374401095
+"TCGA-AC-A8OP","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","MX",26550,"Alive",NA,"female",72.6899383983573
+"TCGA-D8-A143","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",18984,"Alive",NA,"female",51.9753593429158
+"TCGA-BH-A18L","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1mi","M0",18519,"Dead",811,"female",50.7022587268994
+"TCGA-AC-A2FO","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1","MX",23928,"Alive",NA,"female",65.5112936344969
+"TCGA-BH-A18M","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",14532,"Dead",2207,"female",39.7864476386037
+"TCGA-BH-A0B1","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",24315,"Alive",NA,"female",66.570841889117
+"TCGA-BH-A18R","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2b","N1","M0",18524,"Dead",1142,"female",50.715947980835
+"TCGA-AO-A12B","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",23150,"Alive",NA,"female",63.3812457221081
+"TCGA-AR-A24Q","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",18084,"Alive",NA,"female",49.5112936344969
+"TCGA-GM-A5PX","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1mi","M0",23753,"Alive",NA,"female",65.0321697467488
+"TCGA-AR-A1AX","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",23507,"Alive",NA,"female",64.3586584531143
+"TCGA-OL-A66N","Lobular carcinoma, NOS","Stage IIIC",NA,"T3","N3","MX",21608,"Alive",NA,"female",59.1594798083504
+"TCGA-A8-A099","Infiltrating duct carcinoma, NOS","Stage X",NA,"T4b","N3a","MX",28063,"Alive",NA,"female",76.8323066392882
+"TCGA-E9-A1R2","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3","MX",18936,"Alive",NA,"female",51.8439425051335
+"TCGA-AO-A0J6","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",22462,"Alive",NA,"female",61.4976043805613
+"TCGA-A2-A0YM","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",24831,"Alive",NA,"female",67.9835728952772
+"TCGA-D8-A73W","Mucinous adenocarcinoma",NA,NA,NA,NA,NA,29146,"Dead",385,"female",79.7973990417522
+"TCGA-OL-A5RY","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1","MX",19216,"Alive",NA,"female",52.6105407255305
+"TCGA-LL-A442","Intraductal carcinoma, noninfiltrating, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-D8-A27R","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",15122,"Alive",NA,"female",41.4017796030116
+"TCGA-E9-A22G","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",17300,"Alive",NA,"female",47.3648186173854
+"TCGA-A2-A4RW","Lobular carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",18060,"Alive",NA,"female",49.4455852156057
+"TCGA-E2-A1LE","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",26239,"Dead",879,"female",71.8384668035592
+"TCGA-3C-AAAU","Lobular carcinoma, NOS",NA,NA,NA,NA,NA,22019,"Alive",NA,"female",60.2847364818617
+"TCGA-OL-A6VQ","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",18151,"Alive",NA,"female",49.6947296372348
+"TCGA-B6-A0WV","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1b","M0",24803,"Dead",2417,"female",67.9069130732375
+"TCGA-AR-A0U1","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",13467,"Alive",NA,"female",36.870636550308
+"TCGA-AR-A2LM","Lobular carcinoma, NOS","Stage II",NA,"T1","N1","M0",18053,"Alive",NA,"female",49.4264202600958
+"TCGA-S3-A6ZH","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T3","N3a","MX",10832,"Alive",NA,"female",29.6563997262149
+"TCGA-A2-A0EP","Lobular carcinoma, NOS","Stage I",NA,"T1","N0 (i+)","M0",20585,"Alive",NA,"female",56.3586584531143
+"TCGA-BH-A0B3","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",19479,"Alive",NA,"female",53.3305954825462
+"TCGA-EW-A1J1","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",14122,"Alive",NA,"female",38.6639288158795
+"TCGA-LL-A9Q3","Lobular carcinoma, NOS","Stage IIIC",NA,"T3","N3a","MX",25477,"Alive",NA,"female",69.7522245037646
+"TCGA-EW-A1P6","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",23485,"Alive",NA,"female",64.2984257357974
+"TCGA-E2-A155","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",21348,"Alive",NA,"female",58.4476386036961
+"TCGA-LL-A5YN","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",16884,"Alive",NA,"female",46.2258726899384
+"TCGA-GI-A2C9","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0","MX",21534,"Alive",NA,"female",58.9568788501027
+"TCGA-A2-A0CZ","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",17026,"Alive",NA,"female",46.6146475017112
+"TCGA-A2-A0CO","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",31404,"Dead",1468,"female",85.9794661190965
+"TCGA-E2-A14Y","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",13004,"Alive",NA,"female",35.6030116358658
+"TCGA-E2-A156","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",22422,"Alive",NA,"female",61.388090349076
+"TCGA-AR-A250","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",21309,"Alive",NA,"female",58.3408624229979
+"TCGA-BH-A0BS","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1c","M0",20374,"Alive",NA,"female",55.7809719370294
+"TCGA-AR-A1AW","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",23855,"Alive",NA,"female",65.3114305270363
+"TCGA-E2-A109","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",23521,"Alive",NA,"female",64.3969883641342
+"TCGA-D8-A1XT","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",22448,"Alive",NA,"female",61.4592744695414
+"TCGA-E2-A2P5","Intraductal carcinoma, noninfiltrating, NOS",NA,NA,NA,NA,NA,NA,"Dead",821,"female",NA
+"TCGA-E2-A572","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",26399,"Alive",NA,"female",72.2765229295003
+"TCGA-PE-A5DC","Lobular carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",26514,"Dead",1430,"female",72.5913757700205
+"TCGA-BH-A0BP","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",27917,"Dead",2296,"female",76.4325804243669
+"TCGA-EW-A1OY","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",23266,"Alive",NA,"female",63.6988364134155
+"TCGA-AC-A3OD","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1mi","MX",25186,"Alive",NA,"female",68.9555099247091
+"TCGA-B6-A0RL","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",22238,"Dead",2469,"female",60.8843258042437
+"TCGA-E9-A1R0","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1","M0",21394,"Alive",NA,"female",58.5735797399042
+"TCGA-E9-A1NA","Infiltrating duct and lobular carcinoma","Stage IIA",NA,"T2","N0","M0",21397,"Alive",NA,"female",58.5817932922656
+"TCGA-D8-A1JP","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",26862,"Alive",NA,"female",73.5441478439425
+"TCGA-A2-A259","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0 (i-)","M0",25666,"Alive",NA,"female",70.2696783025325
+"TCGA-A2-A3XS","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T1","N2a","M0",23000,"Dead",1032,"female",62.9705681040383
+"TCGA-E2-A1IO","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",13671,"Alive",NA,"female",37.429158110883
+"TCGA-C8-A8HP","Metaplastic carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",21613,"Alive",NA,"female",59.1731690622861
+"TCGA-BH-A0W5","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",28304,"Alive",NA,"female",77.492128678987
+"TCGA-AN-A03Y","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24232,"Alive",NA,"female",66.3436002737851
+"TCGA-BH-A0B8","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1b","N0 (i-)","M0",23380,"Alive",NA,"female",64.0109514031485
+"TCGA-AN-A0FD","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",26007,"Alive",NA,"female",71.2032854209446
+"TCGA-BH-A0DO","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-B6-A1KI","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",23031,"Alive",NA,"female",63.0554414784394
+"TCGA-E9-A243","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,19340,"Alive",NA,"female",52.9500342231348
+"TCGA-BH-A1FG","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","NX","M0",32295,"Dead",577,"female",88.4188911704312
+"TCGA-AR-A24M","Infiltrating duct and lobular carcinoma","Stage IIIA",NA,"T2","N2","M0",14119,"Alive",NA,"female",38.6557152635181
+"TCGA-D8-A1JH","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",20497,"Alive",NA,"female",56.1177275838467
+"TCGA-AR-A1AT","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22942,"Dead",1272,"female",62.8117727583847
+"TCGA-B6-A0IM","Infiltrating duct mixed with other types of carcinoma","Stage IIB",NA,"T3","N0 (i-)","M0",27557,"Dead",3873,"female",75.4469541409993
+"TCGA-E9-A5FL","Metaplastic carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",24053,"Alive",NA,"female",65.8535249828884
+"TCGA-3C-AALJ","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",22848,"Alive",NA,"female",62.5544147843943
+"TCGA-E2-A159","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",18621,"Alive",NA,"female",50.9815195071869
+"TCGA-BH-A0BM","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",20049,"Alive",NA,"female",54.8911704312115
+"TCGA-E9-A3QA","Medullary carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",12142,"Alive",NA,"female",33.242984257358
+"TCGA-GM-A2DA","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,21197,"Dead",6593,"female",58.0342231348392
+"TCGA-A2-A0YG","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",23058,"Alive",NA,"female",63.129363449692
+"TCGA-LL-A7T0","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",25867,"Alive",NA,"female",70.8199863107461
+"TCGA-AC-A5XS","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",27160,"Alive",NA,"female",74.3600273785079
+"TCGA-D8-A1JG","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22878,"Alive",NA,"female",62.6365503080082
+"TCGA-OL-A66K","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",26299,"Dead",1275,"female",72.0027378507871
+"TCGA-AN-A0FN","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",22629,"Alive",NA,"female",61.9548254620123
+"TCGA-E9-A22A","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",27288,"Alive",NA,"female",74.7104722792608
+"TCGA-BH-A1FU","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",16174,"Dead",1688,"female",44.2819986310746
+"TCGA-AR-A0TW","Not Reported",NA,NA,NA,NA,NA,19002,"Alive",NA,"female",52.0246406570842
+"TCGA-E2-A15C","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",22583,"Alive",NA,"female",61.8288843258042
+"TCGA-AR-A1AV","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",24875,"Alive",NA,"male",68.104038329911
+"TCGA-E2-A15L","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",23845,"Alive",NA,"female",65.284052019165
+"TCGA-A1-A0SD","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",21793,"Alive",NA,"female",59.6659822039699
+"TCGA-AR-A24R","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T1","N2","M0",16642,"Alive",NA,"female",45.5633127994524
+"TCGA-A8-A08H","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24137,"Alive",NA,"female",66.0835044490075
+"TCGA-AC-A2QI","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N1a","MX",27865,"Alive",NA,"female",76.290212183436
+"TCGA-AN-A0FZ","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",16533,"Alive",NA,"female",45.264887063655
+"TCGA-A7-A4SE","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",20080,"Alive",NA,"female",54.9760438056126
+"TCGA-E9-A1NI","Infiltrating duct and lobular carcinoma","Stage IIA",NA,"T2","N0","M0",18985,"Alive",NA,"female",51.9780971937029
+"TCGA-A8-A095","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",16742,"Alive",NA,"female",45.8370978781656
+"TCGA-AO-A129","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",10898,"Alive",NA,"female",29.8370978781656
+"TCGA-A2-A0CX","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",19152,"Alive",NA,"female",52.435318275154
+"TCGA-AR-A0TZ","Not Reported",NA,NA,NA,NA,NA,17033,"Dead",3262,"female",46.6338124572211
+"TCGA-A1-A0SH","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",14595,"Alive",NA,"female",39.958932238193
+"TCGA-E9-A226","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",16511,"Dead",1048,"female",45.2046543463381
+"TCGA-OL-A5D7","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",25643,"Alive",NA,"female",70.2067077344285
+"TCGA-LD-A7W6","Infiltrating lobular mixed with other types of carcinoma","Stage IIB",NA,"T2","N1a","M0",20077,"Alive",NA,"female",54.9678302532512
+"TCGA-B6-A0RQ","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0 (i-)","M0",25010,"Dead",4267,"female",68.4736481861738
+"TCGA-C8-A12Y","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",NA,"Alive",NA,"female",NA
+"TCGA-BH-A0HB","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",20448,"Alive",NA,"female",55.9835728952772
+"TCGA-AN-A0FF","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",11929,"Alive",NA,"female",32.6598220396988
+"TCGA-D8-A1JS","Intraductal papillary adenocarcinoma with invasion","Stage IA",NA,"T1c","N0","M0",28178,"Alive",NA,"female",77.1471594798084
+"TCGA-B6-A0WT","Not Reported",NA,NA,NA,NA,NA,26224,"Alive",NA,"female",71.7973990417522
+"TCGA-EW-A1PC","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0 (i-)","MX",24434,"Alive",NA,"female",66.8966461327858
+"TCGA-A7-A5ZV","Carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22966,"Alive",NA,"female",62.8774811772758
+"TCGA-A7-A26F","Metaplastic carcinoma, NOS","Stage IA",NA,"T1","N0","M0",20210,"Alive",NA,"female",55.3319644079398
+"TCGA-GM-A3NW","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",23041,"Alive",NA,"female",63.0828199863107
+"TCGA-C8-A12V","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",20346,"Alive",NA,"female",55.7043121149897
+"TCGA-E9-A1R7","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",23397,"Alive",NA,"female",64.0574948665298
+"TCGA-A2-A0EO","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1","N0 (i-)","M0",19880,"Alive",NA,"female",54.4284736481862
+"TCGA-E2-A15G","Infiltrating duct and lobular carcinoma","Stage IIA",NA,"T2","N0","M0",28013,"Alive",NA,"female",76.6954140999316
+"TCGA-BH-A1FB","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1b","M0",21933,"Dead",3669,"female",60.0492813141684
+"TCGA-D8-A27T","Lobular carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",19591,"Alive",NA,"female",53.637234770705
+"TCGA-D8-A1JN","Lobular carcinoma, NOS","Stage IIIC",NA,"T3","N3a","MX",29331,"Alive",NA,"female",80.3039014373717
+"TCGA-A2-A1G6","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",18514,"Alive",NA,"female",50.6885694729637
+"TCGA-BH-A0HW","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",22962,"Alive",NA,"female",62.8665297741273
+"TCGA-C8-A1HN","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",20712,"Alive",NA,"female",56.7063655030801
+"TCGA-A7-A26H","Not Reported",NA,NA,NA,NA,NA,26734,"Alive",NA,"female",73.1937029431896
+"TCGA-A2-A4S0","Mucinous adenocarcinoma","Stage IIA",NA,"T2","N0","M0",28416,"Alive",NA,"female",77.7987679671458
+"TCGA-BH-A5J0","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",23072,"Alive",NA,"female",63.1676933607118
+"TCGA-E2-A1B1","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",16603,"Alive",NA,"female",45.4565366187543
+"TCGA-D8-A3Z6","Lobular carcinoma, NOS","Stage IIIC",NA,"T3","N3a","M0",20629,"Alive",NA,"female",56.4791238877481
+"TCGA-AR-A255","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",22809,"Alive",NA,"female",62.4476386036961
+"TCGA-A7-A5ZX","Lobular carcinoma, NOS","Stage IA",NA,"T1b","NX","M0",17729,"Alive",NA,"female",48.539356605065
+"TCGA-GM-A5PV","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",23215,"Alive",NA,"female",63.5592060232717
+"TCGA-D8-A1XD","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T1c","N2a","M0",13510,"Alive",NA,"female",36.9883641341547
+"TCGA-D8-A1JI","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","MX",20072,"Alive",NA,"female",54.9541409993155
+"TCGA-AN-A0FT","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",23300,"Alive",NA,"female",63.791923340178
+"TCGA-EW-A1J2","Lobular carcinoma, NOS",NA,NA,"T1c","N1mi","MX",18558,"Alive",NA,"female",50.8090349075975
+"TCGA-UL-AAZ6","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",26999,"Alive",NA,"female",73.9192334017796
+"TCGA-EW-A423","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",27627,"Alive",NA,"female",75.6386036960986
+"TCGA-E2-A153","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",18875,"Alive",NA,"female",51.6769336071184
+"TCGA-AC-A3HN","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",32061,"Alive",NA,"female",87.7782340862423
+"TCGA-C8-A26Y","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",32872,"Alive",NA,"female",89.9986310746064
+"TCGA-B6-A0RT","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",14374,"Alive",NA,"female",39.3538672142368
+"TCGA-A2-A0CY","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",23229,"Alive",NA,"female",63.5975359342916
+"TCGA-BH-A1F8","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4b","N2","M0",32871,"Dead",1,"female",89.9958932238193
+"TCGA-A2-A1G1","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",31223,"Alive",NA,"female",85.4839151266256
+"TCGA-A8-A08J","Paget disease and infiltrating duct carcinoma of breast","Stage IV",NA,"T4b","N3","M1",19266,"Dead",1127,"female",52.7474332648871
+"TCGA-OL-A66H","Mucinous adenocarcinoma","Stage IB",NA,"T1c","N1mi","MX",27280,"Alive",NA,"female",74.6885694729637
+"TCGA-D8-A3Z5","Lobular carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",19846,"Alive",NA,"female",54.3353867214237
+"TCGA-C8-A12M","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",25811,"Alive",NA,"female",70.6666666666667
+"TCGA-AQ-A04L","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","MX",17759,"Alive",NA,"female",48.621492128679
+"TCGA-AO-A0J8","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i+)","M0",22284,"Alive",NA,"female",61.0102669404517
+"TCGA-BH-A0WA","Metaplastic carcinoma, NOS","Stage I",NA,"T1c","N0 (i-)","M0",30025,"Alive",NA,"female",82.2039698836413
+"TCGA-A2-A0CQ","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1","N0 (i-)","M0",22810,"Alive",NA,"female",62.4503764544832
+"TCGA-BH-A0AV","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",19314,"Alive",NA,"female",52.8788501026694
+"TCGA-BH-A0W7","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0 (i-)","M0",17996,"Alive",NA,"female",49.2703627652293
+"TCGA-A2-A25C","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",18508,"Alive",NA,"female",50.6721423682409
+"TCGA-AC-A23E","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","MX",18500,"Alive",NA,"female",50.6502395619439
+"TCGA-BH-A0C3","Infiltrating duct and lobular carcinoma",NA,NA,NA,NA,NA,19895,"Alive",NA,"female",54.4695414099932
+"TCGA-AC-A3W7","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",24327,"Alive",NA,"female",66.6036960985626
+"TCGA-BH-A0GY","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N1","M0",24493,"Alive",NA,"female",67.0581793292266
+"TCGA-A2-A0EQ","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",23543,"Alive",NA,"female",64.4572210814511
+"TCGA-OL-A5RZ","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1b","N0","MX",21038,"Alive",NA,"female",57.5989048596851
+"TCGA-A7-A6VX","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",25066,"Alive",NA,"female",68.6269678302532
+"TCGA-BH-A0DE","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22656,"Alive",NA,"female",62.0287474332649
+"TCGA-EW-A1PH","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",19073,"Alive",NA,"female",52.2190280629706
+"TCGA-AR-A1AN","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",16974,"Alive",NA,"female",46.4722792607803
+"TCGA-AR-A1AS","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",20028,"Alive",NA,"female",54.8336755646817
+"TCGA-OL-A5S0","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",24139,"Alive",NA,"female",66.0889801505818
+"TCGA-OL-A5RX","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","MX",18942,"Alive",NA,"female",51.8603696098563
+"TCGA-A2-A0T7","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i+)","M0",18756,"Alive",NA,"female",51.3511293634497
+"TCGA-LD-A9QF","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",26869,"Alive",NA,"female",73.5633127994524
+"TCGA-B6-A0I9","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T3","NX","M1",22798,"Dead",362,"female",62.4175222450376
+"TCGA-BH-A0H9","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",25289,"Alive",NA,"female",69.2375085557837
+"TCGA-BH-A1EO","Infiltrating duct and lobular carcinoma","Stage IIA",NA,"T1c","N1","M0",25136,"Dead",2798,"female",68.8186173853525
+"TCGA-BH-A0BQ","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",14494,"Alive",NA,"female",39.6824093086927
+"TCGA-GM-A2DH","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0 (i+)","M0",21344,"Alive",NA,"female",58.4366872005476
+"TCGA-BH-A0BF","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1mi","M0",20691,"Dead",1324,"female",56.6488706365503
+"TCGA-AQ-A54N","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-BH-A209","Medullary carcinoma, NOS","Stage I",NA,"T1c","N0","M0",28403,"Dead",3959,"female",77.7631759069131
+"TCGA-E2-A15M","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24266,"Dead",336,"female",66.4366872005476
+"TCGA-BH-A8G0","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",19975,"Alive",NA,"female",54.6885694729637
+"TCGA-D8-A13Z","Infiltrating duct carcinoma, NOS",NA,NA,"T2","N2a","M0",18942,"Alive",NA,"female",51.8603696098563
+"TCGA-A2-A4RY","Lobular carcinoma, NOS","Stage IIIC",NA,"T3","N3a","M0",17157,"Alive",NA,"female",46.9733059548255
+"TCGA-E9-A1RI","Infiltrating duct and lobular carcinoma","Stage IIIA",NA,"T1c","N2","M0",15942,"Alive",NA,"female",43.64681724846
+"TCGA-C8-A273","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",NA,"Alive",NA,"female",NA
+"TCGA-BH-A0DP","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0 (i-)","M0",22199,"Alive",NA,"female",60.7775496235455
+"TCGA-WT-AB44","Lobular carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","MX",NA,"Alive",NA,"female",NA
+"TCGA-E2-A1IJ","Lobular carcinoma, NOS","Stage I",NA,"T1c","N0","M0",20956,"Alive",NA,"female",57.3744010951403
+"TCGA-AR-A0TQ","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",9873,"Alive",NA,"female",27.0308008213552
+"TCGA-AR-A2LJ","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N1","MX",14723,"Alive",NA,"female",40.3093771389459
+"TCGA-EW-A1IW","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",29529,"Alive",NA,"female",80.8459958932238
+"TCGA-A8-A083","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",24746,"Alive",NA,"female",67.750855578371
+"TCGA-A2-A0EN","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i+)","M0",25771,"Alive",NA,"female",70.5571526351814
+"TCGA-E2-A574","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",16195,"Alive",NA,"female",44.3394934976044
+"TCGA-BH-A8FY","Lobular carcinoma, NOS","Stage IA",NA,"T1c","N0 (i+)","M0",31932,"Dead",295,"female",87.4250513347023
+"TCGA-A8-A08O","Not Reported",NA,NA,NA,NA,NA,17443,"Alive",NA,"female",47.7563312799452
+"TCGA-D8-A1XC","Mucinous adenocarcinoma",NA,NA,NA,NA,NA,NA,"Dead",377,"female",NA
+"TCGA-AC-A3QP","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1mi","MX",29113,"Alive",NA,"female",79.7070499657769
+"TCGA-EW-A1P8","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3b","M0",21501,"Dead",239,"female",58.8665297741273
+"TCGA-3C-AALK","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i+)","M0",19074,"Alive",NA,"female",52.2217659137577
+"TCGA-AO-A0J9","Not Reported",NA,NA,NA,NA,NA,23708,"Alive",NA,"female",64.9089664613279
+"TCGA-A2-A3KD","Mucinous adenocarcinoma","Stage IIIA",NA,"T3","N1mi","M0",17372,"Alive",NA,"female",47.5619438740589
+"TCGA-AC-A8OR","Mucinous adenocarcinoma","Stage IA",NA,"T1c","N0 (i-)","MX",27605,"Alive",NA,"female",75.5783709787817
+"TCGA-AC-A2FK","Lobular carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",16627,"Alive",NA,"female",45.5222450376454
+"TCGA-E2-A56Z","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",25282,"Alive",NA,"female",69.2183436002738
+"TCGA-GM-A2DK","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0 (i-)","M0",21198,"Alive",NA,"female",58.0369609856263
+"TCGA-BH-A0GZ","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",22714,"Alive",NA,"female",62.1875427789185
+"TCGA-E9-A1R6","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",23347,"Alive",NA,"female",63.9206023271732
+"TCGA-AO-A03M","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0 (i-)","M0",10616,"Alive",NA,"female",29.0650239561944
+"TCGA-AO-A12H","Infiltrating duct mixed with other types of carcinoma","Stage IIA",NA,"T2","N0 (i-)","M0",25515,"Alive",NA,"female",69.8562628336756
+"TCGA-B6-A0WY","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1b","M0",14778,"Dead",3461,"female",40.4599589322382
+"TCGA-AR-A24X","Infiltrating duct and lobular carcinoma","Stage IIA",NA,"T2","N0","M0",19030,"Alive",NA,"female",52.1013004791239
+"TCGA-A2-A0CV","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",15289,"Alive",NA,"female",41.8590006844627
+"TCGA-D8-A145","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",29280,"Alive",NA,"female",80.1642710472279
+"TCGA-BH-A1F6","Infiltrating duct carcinoma, NOS",NA,NA,"T4d","N2a","MX",18691,"Dead",2965,"female",51.1731690622861
+"TCGA-D8-A1XJ","Infiltrating duct mixed with other types of carcinoma","Stage IIIA",NA,"T3","N1a","MX",27967,"Alive",NA,"female",76.5694729637235
+"TCGA-BH-A0BL","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",12841,"Alive",NA,"female",35.1567419575633
+"TCGA-A2-A0EY","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",22872,"Alive",NA,"female",62.6201232032854
+"TCGA-A2-A1FV","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0 (i+)","M0",27287,"Alive",NA,"female",74.7077344284736
+"TCGA-D8-A27I","Lobular carcinoma, NOS","Stage IIIA",NA,"T1c","N2a","M0",21327,"Alive",NA,"female",58.3901437371663
+"TCGA-D8-A1JT","Infiltrating duct mixed with other types of carcinoma","Stage IIA",NA,"T2","N0","M0",25677,"Alive",NA,"female",70.299794661191
+"TCGA-OK-A5Q2","Lobular carcinoma, NOS","Stage II",NA,"T2","N1a","MX",21555,"Alive",NA,"female",59.0143737166324
+"TCGA-D8-A1X7","Intraductal papillary adenocarcinoma with invasion","Stage IIA",NA,"T2","N0","MX",14858,"Alive",NA,"female",40.6789869952088
+"TCGA-EW-A1IX","Infiltrating lobular mixed with other types of carcinoma","Stage IIA",NA,"T1b","N1a","MX",17597,"Alive",NA,"female",48.1779603011636
+"TCGA-C8-A275","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1","N1","M0",20774,"Alive",NA,"female",56.8761122518823
+"TCGA-A7-A4SF","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19985,"Alive",NA,"female",54.715947980835
+"TCGA-E9-A229","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",13817,"Alive",NA,"female",37.8288843258042
+"TCGA-AR-A24H","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24046,"Alive",NA,"female",65.8343600273785
+"TCGA-EW-A1J5","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-A8-A07O","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",18870,"Alive",NA,"female",51.6632443531828
+"TCGA-E9-A5UO","Mucinous adenocarcinoma","Stage IIA",NA,"T2","N0","M0",15050,"Alive",NA,"female",41.2046543463381
+"TCGA-LL-A740","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","MX",22416,"Alive",NA,"female",61.3716632443532
+"TCGA-AR-A0TU","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",13039,"Alive",NA,"female",35.6988364134155
+"TCGA-E2-A1L6","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1mi","M0",16403,"Alive",NA,"female",44.9089664613279
+"TCGA-E2-A14T","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19237,"Alive",NA,"female",52.6680355920602
+"TCGA-E2-A1LB","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",15283,"Alive",NA,"female",41.8425735797399
+"TCGA-EW-A6SB","Infiltrating duct carcinoma, NOS","Stage II",NA,"T2","N0","M0",22844,"Alive",NA,"female",62.5434633812457
+"TCGA-BH-A0C7","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1mi","M0",17871,"Alive",NA,"female",48.9281314168378
+"TCGA-E2-A15S","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",12671,"Alive",NA,"female",34.6913073237509
+"TCGA-LL-A8F5","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","MX",22544,"Alive",NA,"female",61.7221081451061
+"TCGA-A8-A07R","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",29251,"Alive",NA,"female",80.0848733744011
+"TCGA-E9-A54Y","Lobular carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",23057,"Alive",NA,"female",63.1266255989049
+"TCGA-EW-A1OZ","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",20664,"Alive",NA,"female",56.5749486652977
+"TCGA-A7-A3J1","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-PL-A8LZ","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4b","N2","M0",10869,"Alive",NA,"female",29.7577002053388
+"TCGA-EW-A3E8","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0","MX",21922,"Alive",NA,"female",60.0191649555099
+"TCGA-E2-A1LS","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",16887,"Alive",NA,"female",46.2340862422998
+"TCGA-BH-A1ES","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",13138,"Dead",3462,"female",35.9698836413415
+"TCGA-A2-A04Q","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1","N0 (i-)","M0",17660,"Alive",NA,"female",48.3504449007529
+"TCGA-A7-A2KD","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","MX",19563,"Alive",NA,"female",53.5605749486653
+"TCGA-AR-A24S","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",22587,"Alive",NA,"female",61.8398357289528
+"TCGA-LL-A6FQ","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","MX",28375,"Alive",NA,"female",77.6865160848734
+"TCGA-A8-A07U","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",24411,"Alive",NA,"female",66.8336755646817
+"TCGA-B6-A0RS","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",14134,"Dead",3063,"female",38.6967830253251
+"TCGA-BH-A0BV","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",28699,"Alive",NA,"female",78.5735797399042
+"TCGA-AR-A1AP","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",29406,"Alive",NA,"female",80.5092402464066
+"TCGA-AR-A1AK","Lobular carcinoma, NOS","Stage I",NA,"T1","N0","M0",25825,"Alive",NA,"female",70.7049965776865
+"TCGA-AC-A2BK","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","MX",28625,"Alive",NA,"female",78.3709787816564
+"TCGA-AO-A0J7","Infiltrating duct mixed with other types of carcinoma","Stage IIB",NA,"T2","N1","M0",26281,"Alive",NA,"female",71.9534565366188
+"TCGA-A2-A0EV","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",29285,"Alive",NA,"female",80.1779603011636
+"TCGA-C8-A3M7","Lobular carcinoma, NOS","Stage IIIB",NA,"T4b","N0","M0",22096,"Dead",1034,"female",60.4955509924709
+"TCGA-A2-A0T0","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",21575,"Alive",NA,"female",59.0691307323751
+"TCGA-C8-A12T","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-AN-A0XS","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",23358,"Alive",NA,"female",63.9507186858316
+"TCGA-E2-A1IF","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",27341,"Alive",NA,"female",74.8555783709788
+"TCGA-AN-A0AJ","Infiltrating duct and lobular carcinoma","Stage IIB",NA,"T3","N0","M0",29131,"Alive",NA,"female",79.7563312799452
+"TCGA-AR-A0U4","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19729,"Alive",NA,"female",54.0150581793292
+"TCGA-OL-A66J","Lobular carcinoma, NOS","Stage I",NA,"T1c","N0","MX",29345,"Alive",NA,"female",80.3422313483915
+"TCGA-C8-A9FZ","Infiltrating lobular mixed with other types of carcinoma","Stage IIB",NA,"T2","N1","M0",18038,"Alive",NA,"female",49.3853524982888
+"TCGA-AC-A5XU","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0 (i-)","MX",27191,"Alive",NA,"female",74.444900752909
+"TCGA-EW-A6SC","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",21918,"Alive",NA,"female",60.0082135523614
+"TCGA-A2-A04X","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",12642,"Alive",NA,"female",34.611909650924
+"TCGA-A2-A0CU","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i+)","M0",26823,"Dead",158,"female",73.4373716632443
+"TCGA-E2-A15A","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",16750,"Alive",NA,"female",45.8590006844627
+"TCGA-A7-A3RF","Mucinous adenocarcinoma",NA,NA,NA,NA,NA,29358,"Alive",NA,"female",80.3778234086242
+"TCGA-A2-A0ER","Infiltrating duct carcinoma, NOS","Stage IB",NA,"T1c","N1mi","M0",23021,"Alive",NA,"female",63.0280629705681
+"TCGA-B6-A0IG","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1b","M0",18433,"Dead",4456,"female",50.466803559206
+"TCGA-BH-A0DT","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",15078,"Alive",NA,"female",41.2813141683778
+"TCGA-E2-A14N","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",13743,"Alive",NA,"female",37.6262833675565
+"TCGA-B6-A408","Infiltrating duct and lobular carcinoma","Stage IIIC",NA,"T2","N3a","M0",20102,"Alive",NA,"female",55.0362765229295
+"TCGA-AR-A1AU","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",14564,"Alive",NA,"female",39.8740588637919
+"TCGA-AO-A12A","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i+)","M0",17420,"Alive",NA,"female",47.6933607118412
+"TCGA-A2-A0D2","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i+)","M0",16623,"Alive",NA,"female",45.5112936344969
+"TCGA-AO-A0JE","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",19516,"Alive",NA,"female",53.4318959616701
+"TCGA-AR-A2LH","Not Reported",NA,NA,NA,NA,NA,20722,"Dead",616,"female",56.7337440109514
+"TCGA-PL-A8LY","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",11199,"Alive",NA,"female",30.6611909650924
+"TCGA-BH-A18I","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","cM0 (i+)",19489,"Alive",NA,"female",53.3579739904175
+"TCGA-AR-A5QM","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22780,"Alive",NA,"female",62.3682409308693
+"TCGA-D8-A1Y1","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1a","MX",29474,"Dead",302,"female",80.6954140999316
+"TCGA-D8-A1JA","Infiltrating duct carcinoma, NOS",NA,NA,"T4b","NX","M0",21918,"Alive",NA,"female",60.0082135523614
+"TCGA-BH-A1EW","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N1b","M0",14090,"Dead",1694,"female",38.5763175906913
+"TCGA-LD-A66U","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1mi","MX",16101,"Alive",NA,"female",44.082135523614
+"TCGA-A8-A09G","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T3","N3a","M0",29006,"Alive",NA,"female",79.4140999315537
+"TCGA-A7-A0CE","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",20863,"Alive",NA,"female",57.119780971937
+"TCGA-AO-A0J3","Infiltrating duct mixed with other types of carcinoma","Stage IIB",NA,"T2","N1b","M0",24519,"Alive",NA,"female",67.129363449692
+"TCGA-A7-A0CH","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",29104,"Alive",NA,"female",79.6824093086927
+"TCGA-EW-A1OX","Infiltrating duct mixed with other types of carcinoma","Stage IIA",NA,"T2","N0","MX",15837,"Alive",NA,"female",43.3593429158111
+"TCGA-AN-A04C","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",18851,"Alive",NA,"female",51.6112251882272
+"TCGA-E9-A1RD","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24719,"Alive",NA,"female",67.6769336071184
+"TCGA-A1-A0SO","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",24826,"Alive",NA,"female",67.9698836413416
+"TCGA-AR-A254","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",18270,"Alive",NA,"female",50.0205338809035
+"TCGA-GM-A2DI","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0 (i+)","M0",19030,"Alive",NA,"female",52.1013004791239
+"TCGA-AR-A24W","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",20123,"Alive",NA,"female",55.0937713894593
+"TCGA-BH-A0E1","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",19192,"Alive",NA,"female",52.5448323066393
+"TCGA-A7-A0CG","Infiltrating duct and lobular carcinoma","Stage IIA",NA,"T2","N0 (i-)","M0",28596,"Alive",NA,"female",78.2915811088296
+"TCGA-HN-A2OB","Lobular carcinoma, NOS",NA,NA,NA,NA,NA,18345,"Dead",1900,"female",50.2258726899384
+"TCGA-AR-A1AO","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1","N1","M0",17332,"Alive",NA,"female",47.4524298425736
+"TCGA-C8-A8HQ","Mucinous adenocarcinoma","Stage IIB",NA,"T2","N1","M0",19432,"Alive",NA,"female",53.201916495551
+"TCGA-D8-A1J8","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",28444,"Alive",NA,"female",77.8754277891855
+"TCGA-GM-A4E0","Lobular carcinoma, NOS","Stage IIIC",NA,"T3","N3a","M0",24788,"Alive",NA,"female",67.8658453114305
+"TCGA-LL-A441","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","MX",22772,"Alive",NA,"female",62.3463381245722
+"TCGA-E2-A573","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",17689,"Alive",NA,"female",48.4298425735797
+"TCGA-BH-A1F2","Paget disease and infiltrating duct carcinoma of breast","Stage IIIB",NA,"T4b","N1b","M0",19701,"Dead",959,"female",53.9383983572895
+"TCGA-BH-A0BR","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",21622,"Alive",NA,"female",59.1978097193703
+"TCGA-A7-A3IY","Mucinous adenocarcinoma","Stage I",NA,"T1c","N0","M0",26042,"Alive",NA,"female",71.2991101984942
+"TCGA-E9-A1RH","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",23224,"Alive",NA,"female",63.5838466803559
+"TCGA-BH-A18V","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1b","M0",17682,"Dead",1556,"female",48.4106776180698
+"TCGA-BH-A0E6","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",25408,"Alive",NA,"female",69.5633127994524
+"TCGA-AR-A2LQ","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",21865,"Alive",NA,"female",59.8631074606434
+"TCGA-A7-A26J","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",17930,"Alive",NA,"female",49.0896646132786
+"TCGA-C8-A133","Infiltrating duct mixed with other types of carcinoma","Stage IIIA",NA,"T3","N1","M0",23922,"Alive",NA,"female",65.4948665297741
+"TCGA-E9-A22B","Infiltrating duct and lobular carcinoma","Stage IA",NA,"T1c","N0","M0",26278,"Alive",NA,"female",71.9452429842574
+"TCGA-BH-A0H3","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",17152,"Alive",NA,"female",46.9596167008898
+"TCGA-BH-A1FC","Medullary carcinoma, NOS","Stage IIA",NA,"T1c","N1b","M0",28706,"Dead",3472,"female",78.5927446954141
+"TCGA-E2-A1II","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",18788,"Alive",NA,"female",51.4387405886379
+"TCGA-D8-A1XS","Invasive micropapillary carcinoma","Stage IIIC",NA,"T2","N3a","M0",17708,"Alive",NA,"male",48.4818617385353
+"TCGA-BH-A42T","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i+)","M0",27731,"Dead",320,"female",75.9233401779603
+"TCGA-AR-A1AQ","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",18109,"Alive",NA,"female",49.5797399041752
+"TCGA-GM-A2D9","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,26026,"Dead",1812,"female",71.2553045859001
+"TCGA-A2-A0SW","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T2","N2","M1",30085,"Dead",1365,"female",82.3682409308693
+"TCGA-AO-A03L","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",12443,"Alive",NA,"female",34.0670773442847
+"TCGA-AQ-A04J","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i+)","M0",16615,"Alive",NA,"female",45.4893908281999
+"TCGA-AR-A24O","Infiltrating duct and lobular carcinoma","Stage IIIA",NA,"T3","N2","M0",15977,"Alive",NA,"female",43.7426420260096
+"TCGA-V7-A7HQ","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T1c","N2a","M0",27684,"Alive",NA,"female",75.7946611909651
+"TCGA-A8-A0A7","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",20940,"Alive",NA,"female",57.3305954825462
+"TCGA-AO-A1KR","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",18900,"Alive",NA,"female",51.7453798767967
+"TCGA-A2-A04W","Apocrine adenocarcinoma","Stage IIB",NA,"T2","N1mi","M0",18345,"Alive",NA,"female",50.2258726899384
+"TCGA-C8-A12N","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",21428,"Alive",NA,"female",58.6666666666667
+"TCGA-LL-A5YO","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1b","N0","MX",18354,"Alive",NA,"female",50.2505133470226
+"TCGA-A8-A08A","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",32750,"Alive",NA,"female",89.6646132785763
+"TCGA-D8-A4Z1","Lobular carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",25097,"Alive",NA,"female",68.7118412046543
+"TCGA-A2-A1FZ","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",23055,"Alive",NA,"female",63.1211498973306
+"TCGA-E9-A3HO","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",18046,"Alive",NA,"female",49.4072553045859
+"TCGA-D8-A1XY","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",27106,"Alive",NA,"female",74.2121834360027
+"TCGA-EW-A1P7","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",21750,"Alive",NA,"female",59.5482546201232
+"TCGA-AC-A5EI","Ductal carcinoma in situ, NOS",NA,NA,NA,NA,NA,32375,"Alive",NA,"female",88.6379192334018
+"TCGA-B6-A0IQ","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1b","M0",14669,"Alive",NA,"female",40.1615331964408
+"TCGA-AC-A2FB","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",23851,"Alive",NA,"female",65.3004791238878
+"TCGA-E2-A2P6","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",28411,"Alive",NA,"female",77.7850787132101
+"TCGA-D8-A1JC","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",21898,"Alive",NA,"female",59.9534565366188
+"TCGA-E9-A1N5","Infiltrating duct and lobular carcinoma","Stage IIB",NA,"T2","N1","M0",16736,"Alive",NA,"female",45.8206707734428
+"TCGA-BH-A0DX","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1b","N0","M0",22833,"Alive",NA,"female",62.5133470225873
+"TCGA-E2-A14O","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1a","M0",27837,"Alive",NA,"female",76.2135523613963
+"TCGA-E9-A1N3","Infiltrating duct and lobular carcinoma","Stage IIIA",NA,"T1c","N2","M0",25714,"Alive",NA,"female",70.4010951403149
+"TCGA-BH-A0DS","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",25944,"Alive",NA,"female",71.0308008213552
+"TCGA-S3-A6ZF","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",23650,"Alive",NA,"female",64.7501711156742
+"TCGA-AC-A3BB","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N2a","MX",16983,"Alive",NA,"female",46.4969199178645
+"TCGA-BH-A0HP","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N2a","M0",23883,"Alive",NA,"female",65.388090349076
+"TCGA-C8-A1HF","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-A2-A0CP","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",22133,"Alive",NA,"female",60.5968514715948
+"TCGA-A2-A0ES","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",19160,"Alive",NA,"female",52.4572210814511
+"TCGA-A2-A3XZ","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",16978,"Alive",NA,"female",46.4832306639288
+"TCGA-BH-A0DQ","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",15533,"Alive",NA,"female",42.5270362765229
+"TCGA-C8-A26W","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",21391,"Alive",NA,"female",58.5653661875428
+"TCGA-C8-A1HL","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-BH-A1FR","Infiltrating duct mixed with other types of carcinoma","Stage IIIB",NA,"T4b","N1a","M0",26684,"Dead",1642,"female",73.056810403833
+"TCGA-A2-A3XU","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,13642,"Dead",912,"female",37.3497604380561
+"TCGA-B6-A0RI","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,17238,"Alive",NA,"female",47.1950718685832
+"TCGA-AN-A0XT","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",19794,"Alive",NA,"female",54.1930184804928
+"TCGA-LL-A73Z","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T1c","NX","M1",20118,"Dead",227,"female",55.0800821355236
+"TCGA-S3-AA15","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","cM0 (i+)",18659,"Alive",NA,"female",51.0855578370979
+"TCGA-E9-A245","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",17363,"Dead",NA,"female",47.5373032169747
+"TCGA-AQ-A1H3","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3a","MX",18177,"Alive",NA,"female",49.7659137577002
+"TCGA-AC-A2B8","Not Reported",NA,NA,NA,NA,NA,31657,"Alive",NA,"female",86.6721423682409
+"TCGA-C8-A12O","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",18506,"Alive",NA,"female",50.6666666666667
+"TCGA-GM-A2DB","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",22883,"Alive",NA,"female",62.6502395619439
+"TCGA-A2-A4S1","Metaplastic carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24353,"Alive",NA,"female",66.6748802190281
+"TCGA-BH-A0HY","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",22179,"Alive",NA,"female",60.7227926078029
+"TCGA-EW-A1PF","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",18384,"Alive",NA,"female",50.3326488706366
+"TCGA-BH-A204","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1b","M0",29529,"Dead",2534,"female",80.8459958932238
+"TCGA-AN-A0AT","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22798,"Alive",NA,"female",62.4175222450376
+"TCGA-A2-A0T3","Infiltrating duct carcinoma, NOS","Stage IB",NA,"T1c","N1mi","M0",13680,"Alive",NA,"female",37.4537987679671
+"TCGA-AC-A62Y","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1","MX",28876,"Alive",NA,"female",79.0581793292266
+"TCGA-A7-A13H","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",22643,"Alive",NA,"female",61.9931553730322
+"TCGA-BH-A1EY","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",28940,"Dead",538,"female",79.233401779603
+"TCGA-BH-A0W4","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",16911,"Alive",NA,"female",46.299794661191
+"TCGA-A8-A079","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4b","N3","M0",25294,"Alive",NA,"female",69.2511978097194
+"TCGA-A2-A0D0","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",22115,"Alive",NA,"female",60.5475701574264
+"TCGA-B6-A0RE","Infiltrating duct carcinoma, NOS","Stage X",NA,"TX","N0 (i-)","M0",22449,"Alive",NA,"female",61.4620123203285
+"TCGA-A1-A0SQ","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","MX",16458,"Alive",NA,"female",45.0595482546201
+"TCGA-A8-A08T","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T2","N1a","M1",23560,"Dead",3409,"female",64.5037645448323
+"TCGA-LL-A7SZ","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",18161,"Alive",NA,"female",49.7221081451061
+"TCGA-AN-A04D","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",21426,"Alive",NA,"female",58.6611909650924
+"TCGA-BH-AB28","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N1a","M0",19570,"Alive",NA,"female",53.5797399041752
+"TCGA-BH-A0BA","Infiltrating duct and lobular carcinoma","Stage IIIC",NA,"T3","N3a","M0",18839,"Alive",NA,"female",51.5783709787817
+"TCGA-A2-A0D3","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",15524,"Alive",NA,"female",42.5023956194387
+"TCGA-AC-A7VC","Metaplastic carcinoma, NOS","Stage IIB",NA,"T3","N0","MX",20479,"Alive",NA,"female",56.0684462696783
+"TCGA-E2-A150","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",17580,"Alive",NA,"female",48.1314168377823
+"TCGA-A2-A0YD","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0 (i+)","M0",23021,"Alive",NA,"female",63.0280629705681
+"TCGA-E9-A1RA","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",17699,"Alive",NA,"female",48.4572210814511
+"TCGA-A1-A0SF","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19731,"Alive",NA,"female",54.0205338809035
+"TCGA-A8-A0A4","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",26693,"Alive",NA,"female",73.0814510609172
+"TCGA-EW-A1PA","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",21837,"Alive",NA,"female",59.7864476386037
+"TCGA-BH-A1ET","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",20425,"Dead",2520,"female",55.9206023271732
+"TCGA-E9-A227","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",15602,"Alive",NA,"female",42.715947980835
+"TCGA-PE-A5DE","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",15216,"Alive",NA,"female",41.6591375770021
+"TCGA-C8-A132","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",20471,"Alive",NA,"female",56.0465434633812
+"TCGA-BH-A0E2","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",18152,"Alive",NA,"female",49.6974674880219
+"TCGA-A8-A08L","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N2a","M0",32842,"Dead",30,"female",89.9164955509925
+"TCGA-D8-A1XG","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4b","N1a","M0",31748,"Alive",NA,"female",86.92128678987
+"TCGA-AN-A0FV","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",21479,"Alive",NA,"female",58.8062970568104
+"TCGA-AN-A0FY","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",20347,"Alive",NA,"female",55.7070499657769
+"TCGA-5T-A9QA","Infiltrating duct mixed with other types of carcinoma","Stage IIA",NA,"T2","NX","MX",19031,"Alive",NA,"female",52.104038329911
+"TCGA-E2-A15J","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",18771,"Alive",NA,"female",51.3921971252567
+"TCGA-AO-A12D","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",15774,"Alive",NA,"female",43.1868583162218
+"TCGA-BH-A0H7","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T1c","N2a","M0",23972,"Alive",NA,"female",65.6317590691307
+"TCGA-E2-A3DX","Lobular carcinoma, NOS","Stage IIIC",NA,"T2","N3","M0",15969,"Alive",NA,"female",43.7207392197125
+"TCGA-AC-A3W6","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N1","MX",32872,"Alive",NA,"female",89.9986310746064
+"TCGA-BH-A0B7","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",15593,"Alive",NA,"female",42.6913073237509
+"TCGA-D8-A73X","Tubular adenocarcinoma","Stage IIA",NA,"T2","N0","M0",19607,"Alive",NA,"female",53.6810403832991
+"TCGA-BH-A1F0","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1a","N1c","M0",29335,"Dead",785,"female",80.3148528405202
+"TCGA-B6-A0X4","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,23404,"Dead",860,"female",64.0766598220397
+"TCGA-BH-A18U","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",26426,"Dead",1563,"female",72.3504449007529
+"TCGA-A7-A425","Lobular carcinoma, NOS",NA,NA,NA,NA,NA,26121,"Alive",NA,"female",71.5154004106776
+"TCGA-E2-A14U","Lobular carcinoma, NOS","Stage I",NA,"T1c","N0","M0",27389,"Alive",NA,"female",74.9869952087611
+"TCGA-S3-AA10","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24075,"Alive",NA,"female",65.9137577002053
+"TCGA-E2-A154","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",24999,"Alive",NA,"female",68.4435318275154
+"TCGA-AR-A1AJ","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",30489,"Alive",NA,"female",83.4743326488706
+"TCGA-E9-A1RE","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",27392,"Alive",NA,"female",74.9952087611225
+"TCGA-BH-A18J","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T4b","N2","M1",20678,"Dead",612,"female",56.6132785763176
+"TCGA-AO-A126","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",14264,"Alive",NA,"female",39.0527036276523
+"TCGA-A8-A09V","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",18628,"Alive",NA,"female",51.0006844626968
+"TCGA-BH-A0BT","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1mi","M0",20625,"Alive",NA,"female",56.4681724845996
+"TCGA-AO-A0JA","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3","M0",13307,"Alive",NA,"female",36.4325804243669
+"TCGA-AC-A3YI","Lobular carcinoma, NOS","Stage IIIC",NA,"T1c","N3a","MX",27143,"Alive",NA,"female",74.3134839151266
+"TCGA-AC-A3YJ","Papillary carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","MX",24439,"Alive",NA,"female",66.9103353867214
+"TCGA-BH-A8FZ","Lobular carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",21343,"Alive",NA,"female",58.4339493497604
+"TCGA-E2-A1LK","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,30912,"Dead",266,"female",84.6324435318275
+"TCGA-A7-A13D","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",17070,"Alive",NA,"female",46.735112936345
+"TCGA-B6-A0X0","Cribriform carcinoma, NOS","Stage I",NA,"T1c","N0 (i-)","M0",19802,"Dead",3945,"female",54.2149212867899
+"TCGA-E2-A14P","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3","M0",28923,"Alive",NA,"female",79.1868583162218
+"TCGA-AO-A1KT","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1","N1","M0",28660,"Alive",NA,"female",78.466803559206
+"TCGA-BH-A0BG","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",26988,"Alive",NA,"female",73.8891170431211
+"TCGA-BH-A202","Infiltrating duct carcinoma, NOS","Stage II",NA,"T2","N0","M0",22052,"Alive",NA,"female",60.3750855578371
+"TCGA-WT-AB41","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-A8-A06Y","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24442,"Alive",NA,"female",66.9185489390828
+"TCGA-A8-A07L","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1a","M0",21428,"Alive",NA,"female",58.6666666666667
+"TCGA-EW-A1P4","Medullary carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",15989,"Alive",NA,"female",43.7754962354552
+"TCGA-AR-A5QQ","Metaplastic carcinoma, NOS",NA,NA,NA,NA,NA,25142,"Dead",322,"female",68.8350444900753
+"TCGA-D8-A1JD","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",15166,"Alive",NA,"female",41.5222450376454
+"TCGA-C8-A27A","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",17779,"Alive",NA,"female",48.6762491444216
+"TCGA-E9-A248","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",18684,"Alive",NA,"female",51.1540041067762
+"TCGA-BH-A201","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1","N0","M0",23423,"Alive",NA,"female",64.1286789869952
+"TCGA-A8-A085","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",16377,"Alive",NA,"male",44.8377823408624
+"TCGA-BH-A1FL","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1b","M0",25558,"Dead",1673,"female",69.9739904175222
+"TCGA-AR-A24V","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",19027,"Alive",NA,"female",52.0930869267625
+"TCGA-B6-A0IB","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,26363,"Dead",3941,"female",72.1779603011636
+"TCGA-AC-A8OQ","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",26535,"Alive",NA,"female",72.6488706365503
+"TCGA-E9-A22H","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",15504,"Alive",NA,"female",42.4476386036961
+"TCGA-C8-A12P","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",20332,"Alive",NA,"female",55.6659822039699
+"TCGA-B6-A0IN","Infiltrating duct mixed with other types of carcinoma",NA,NA,NA,NA,NA,18117,"Dead",2573,"female",49.6016427104723
+"TCGA-A2-A3Y0","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",21024,"Alive",NA,"female",57.5605749486653
+"TCGA-BH-A1FH","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T2","N1b","M1",17172,"Dead",1034,"female",47.0143737166324
+"TCGA-AN-A0XV","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",24779,"Alive",NA,"female",67.8412046543463
+"TCGA-A7-A0D9","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",13836,"Alive",NA,"female",37.8809034907598
+"TCGA-A2-A1FX","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N2a","M0",22344,"Alive",NA,"female",61.1745379876797
+"TCGA-AR-A2LO","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",17080,"Alive",NA,"female",46.7624914442163
+"TCGA-D8-A27V","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22958,"Alive",NA,"female",62.8555783709788
+"TCGA-D8-A27M","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",21910,"Alive",NA,"female",59.9863107460643
+"TCGA-A2-A0YF","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1b","N0 (i+)","M0",24660,"Alive",NA,"female",67.5154004106776
+"TCGA-BH-A0H6","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1b","NX","M0",30125,"Alive",NA,"female",82.4777549623546
+"TCGA-OL-A66L","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","MX",26186,"Alive",NA,"female",71.6933607118412
+"TCGA-D8-A1JU","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",18733,"Alive",NA,"female",51.2881587953457
+"TCGA-A8-A0AD","Infiltrating duct and lobular carcinoma","Stage I",NA,"T1c","N0","M0",30407,"Alive",NA,"female",83.2498288843258
+"TCGA-EW-A2FR","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T1b","N3a","MX",21628,"Alive",NA,"female",59.2142368240931
+"TCGA-PE-A5DD","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",23686,"Alive",NA,"female",64.848733744011
+"TCGA-E2-A105","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",28855,"Alive",NA,"female",79.0006844626968
+"TCGA-A2-A0T4","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",22849,"Alive",NA,"female",62.5571526351814
+"TCGA-Z7-A8R6","Pleomorphic carcinoma","Stage I",NA,"T1c","N0","M0",16955,"Alive",NA,"female",46.4202600958248
+"TCGA-A8-A09A","Infiltrating duct carcinoma, NOS","Stage X",NA,"T2","NX","M0",14883,"Alive",NA,"female",40.7474332648871
+"TCGA-A2-A0YL","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N2a","M0",17702,"Alive",NA,"female",48.4654346338125
+"TCGA-C8-A1HE","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-E9-A1NH","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",26221,"Alive",NA,"female",71.7891854893908
+"TCGA-A7-A26I","Basal cell carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-E9-A5FK","Lobular carcinoma, NOS","Stage IIIC",NA,"T2","N3","M0",22199,"Alive",NA,"female",60.7775496235455
+"TCGA-BH-A203","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1b","M0",28609,"Dead",1174,"female",78.3271731690623
+"TCGA-GM-A2DD","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0 (i-)","M0",NA,"Alive",NA,"female",NA
+"TCGA-E9-A2JT","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",23318,"Alive",NA,"female",63.8412046543463
+"TCGA-A8-A07B","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",25475,"Alive",NA,"female",69.7467488021903
+"TCGA-A2-A04T","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",22707,"Alive",NA,"female",62.1683778234086
+"TCGA-E2-A1IL","Lobular carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",28495,"Alive",NA,"female",78.0150581793292
+"TCGA-A8-A07C","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",20820,"Alive",NA,"female",57.0020533880903
+"TCGA-AC-A2FM","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1mi","M0",31805,"Dead",792,"female",87.0773442847365
+"TCGA-B6-A1KF","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",24891,"Alive",NA,"female",68.1478439425051
+"TCGA-BH-A0HQ","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i+)","M0",20719,"Alive",NA,"female",56.72553045859
+"TCGA-AO-A0JF","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",24923,"Alive",NA,"female",68.2354551676934
+"TCGA-A2-A04R","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1","N0 (i-)","M0",13483,"Alive",NA,"female",36.9144421629021
+"TCGA-EW-A1PE","Invasive micropapillary carcinoma","Stage IIA",NA,"T1c","N1a","M0",20694,"Alive",NA,"female",56.6570841889117
+"TCGA-D8-A1XW","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19478,"Alive",NA,"female",53.3278576317591
+"TCGA-AN-A03X","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",27163,"Alive",NA,"female",74.3682409308693
+"TCGA-EW-A1PB","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1a","MX",25770,"Alive",NA,"female",70.5544147843943
+"TCGA-E2-A1AZ","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",23230,"Alive",NA,"female",63.6002737850787
+"TCGA-C8-A26V","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",17468,"Alive",NA,"female",47.8247775496235
+"TCGA-AO-A0J4","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",15052,"Alive",NA,"female",41.2101300479124
+"TCGA-D8-A1JL","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",26484,"Alive",NA,"female",72.5092402464066
+"TCGA-A2-A25A","Lobular carcinoma in situ, NOS","Stage 0",NA,"Tis (LCIS)","NX","M0",NA,"Alive",NA,"female",NA
+"TCGA-AR-A0TP","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",15812,"Alive",NA,"female",43.2908966461328
+"TCGA-EW-A6SA","Infiltrating duct carcinoma, NOS","Stage II",NA,"T2","N0 (i+)","MX",21623,"Alive",NA,"male",59.2005475701574
+"TCGA-EW-A2FV","Invasive micropapillary carcinoma","Stage IIIC",NA,"T3","N3a","MX",14316,"Alive",NA,"female",39.1950718685832
+"TCGA-A8-A090","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",27121,"Alive",NA,"female",74.2532511978097
+"TCGA-AN-A0XR","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",20381,"Alive",NA,"female",55.8001368925394
+"TCGA-A8-A08X","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T4d","N3a","M0",15705,"Alive",NA,"female",42.9979466119097
+"TCGA-EW-A1OW","Basal cell carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",21465,"Alive",NA,"female",58.7679671457906
+"TCGA-EW-A6SD","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",12006,"Alive",NA,"female",32.870636550308
+"TCGA-BH-A1FJ","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1b","M0",24262,"Dead",1927,"female",66.425735797399
+"TCGA-A7-A4SB","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N1mi","M0",20539,"Alive",NA,"female",56.2327173169062
+"TCGA-AC-A2FE","Lobular carcinoma, NOS",NA,NA,NA,NA,NA,25242,"Dead",2636,"female",69.1088295687885
+"TCGA-D8-A1XV","Mucinous adenocarcinoma","Stage IIA",NA,"T2","N0","M0",30830,"Alive",NA,"female",84.4079397672827
+"TCGA-E2-A1LI","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",21064,"Alive",NA,"female",57.6700889801506
+"TCGA-D8-A1XR","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",20488,"Alive",NA,"female",56.0930869267625
+"TCGA-A2-A0SV","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T2","N2a","M1",23126,"Dead",825,"female",63.315537303217
+"TCGA-LL-A5YM","Paget disease and infiltrating duct carcinoma of breast","Stage IIIB",NA,"T4b","NX","M0",32478,"Alive",NA,"female",88.9199178644764
+"TCGA-A8-A06Q","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",23164,"Alive",NA,"female",63.419575633128
+"TCGA-LL-A73Y","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","MX",24647,"Alive",NA,"female",67.4798083504449
+"TCGA-AO-A03N","Not Reported",NA,NA,NA,NA,NA,23461,"Alive",NA,"female",64.2327173169062
+"TCGA-E2-A14W","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",28664,"Alive",NA,"male",78.4777549623546
+"TCGA-E2-A15O","Not Reported","Stage IIA",NA,"T2","NX","M0",NA,"Alive",NA,"female",NA
+"TCGA-A2-A0CM","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",14969,"Dead",754,"female",40.9828884325804
+"TCGA-D8-A1X5","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3a","MX",29734,"Alive",NA,"female",81.4072553045859
+"TCGA-AN-A0AR","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",20152,"Alive",NA,"female",55.1731690622861
+"TCGA-AR-A1AM","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,19123,"Alive",NA,"female",52.3559206023272
+"TCGA-E2-A1IH","Lobular carcinoma, NOS","Stage I",NA,"T1c","N0","M0",29444,"Alive",NA,"female",80.6132785763176
+"TCGA-D8-A13Y","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",19028,"Alive",NA,"female",52.0958247775496
+"TCGA-A2-A3XV","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",16971,"Alive",NA,"female",46.4640657084189
+"TCGA-A2-A0SX","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",17774,"Alive",NA,"female",48.662559890486
+"TCGA-E2-A15F","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",23660,"Alive",NA,"female",64.7775496235455
+"TCGA-AN-A0XO","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",21640,"Alive",NA,"female",59.2470910335387
+"TCGA-AR-A1AR","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T1","N2","M0",18482,"Dead",524,"female",50.6009582477755
+"TCGA-B6-A0WS","Infiltrating duct carcinoma, NOS","Stage X",NA,"T1c","NX","MX",21230,"Dead",2965,"female",58.1245722108145
+"TCGA-B6-A0I5","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1b","M0",18038,"Alive",NA,"female",49.3853524982888
+"TCGA-A8-A07S","Infiltrating duct and lobular carcinoma","Stage IIA",NA,"T2","N0","M0",26998,"Alive",NA,"female",73.9164955509925
+"TCGA-E2-A1LG","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",18492,"Alive",NA,"female",50.6283367556468
+"TCGA-BH-A0HA","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0 (i-)","M0",11379,"Alive",NA,"female",31.1540041067762
+"TCGA-B6-A0WW","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,21926,"Dead",558,"female",60.0301163586585
+"TCGA-E2-A576","Lobular carcinoma, NOS","Stage IA",NA,"T1c","N0","MX",25350,"Alive",NA,"female",69.4045174537988
+"TCGA-A7-A56D","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",30783,"Alive",NA,"female",84.2792607802875
+"TCGA-BH-A1EU","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",30339,"Dead",1286,"female",83.0636550308008
+"TCGA-AR-A2LE","Lobular carcinoma, NOS","Stage I",NA,"T1","N0","M0",25499,"Alive",NA,"female",69.8124572210814
+"TCGA-E2-A15P","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",22524,"Alive",NA,"female",61.6673511293634
+"TCGA-C8-A27B","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",17763,"Alive",NA,"female",48.6324435318275
+"TCGA-AR-A24T","Lobular carcinoma, NOS","Stage IIIC",NA,"T3","N3","M0",17135,"Alive",NA,"female",46.9130732375086
+"TCGA-E9-A1NG","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22896,"Dead",786,"female",62.6858316221766
+"TCGA-EW-A1P5","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",28177,"Alive",NA,"female",77.1444216290212
+"TCGA-AN-A0FJ","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T2","N2","M1",21910,"Alive",NA,"female",59.9863107460643
+"TCGA-3C-AALI","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",18538,"Alive",NA,"female",50.7542778918549
+"TCGA-BH-A0DI","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",23327,"Alive",NA,"female",63.8658453114305
+"TCGA-BH-A18P","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",22222,"Dead",921,"female",60.8405201916496
+"TCGA-EW-A1P1","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,25937,"Alive",NA,"female",71.0116358658453
+"TCGA-D8-A1JK","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",32872,"Alive",NA,"female",89.9986310746064
+"TCGA-AC-A23G","Lobular carcinoma, NOS","Stage IIA",NA,"T1c","N1","MX",27934,"Alive",NA,"female",76.4791238877481
+"TCGA-C8-A130","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",19117,"Alive",NA,"female",52.3394934976044
+"TCGA-A2-A0EW","Lobular carcinoma, NOS",NA,NA,NA,NA,NA,20766,"Dead",1884,"female",56.8542094455852
+"TCGA-AC-A6NO","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",15996,"Alive",NA,"female",43.7946611909651
+"TCGA-A1-A0SN","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1","MX",18401,"Alive",NA,"female",50.3791923340178
+"TCGA-AN-A0XN","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",25029,"Alive",NA,"female",68.5256673511294
+"TCGA-AO-A0J2","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",15324,"Alive",NA,"female",41.9548254620123
+"TCGA-BH-A0E7","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",29115,"Alive",NA,"female",79.7125256673511
+"TCGA-A2-A4RX","Metaplastic carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24779,"Alive",NA,"female",67.8412046543463
+"TCGA-B6-A0IP","Lobular carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",27047,"Dead",3926,"female",74.0506502395619
+"TCGA-A1-A0SB","Adenoid cystic carcinoma","Stage I",NA,"T1c","N0","M0",25833,"Alive",NA,"female",70.7268993839836
+"TCGA-AC-A2FG","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",29211,"Alive",NA,"female",79.9753593429158
+"TCGA-AR-A0TR","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",25190,"Dead",160,"female",68.9664613278576
+"TCGA-D8-A27N","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",13243,"Alive",NA,"female",36.2573579739904
+"TCGA-AO-A03O","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",25362,"Dead",2483,"female",69.4373716632443
+"TCGA-AC-A8OS","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","MX",26248,"Alive",NA,"female",71.8631074606434
+"TCGA-D8-A1J9","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",17879,"Alive",NA,"female",48.9500342231348
+"TCGA-A7-A0CJ","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",21014,"Alive",NA,"female",57.533196440794
+"TCGA-BH-A0BJ","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",15027,"Alive",NA,"female",41.1416837782341
+"TCGA-AO-A124","Infiltrating duct mixed with other types of carcinoma","Stage IIA",NA,"T2","N0 (i-)","M0",14174,"Alive",NA,"female",38.8062970568104
+"TCGA-A8-A06R","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",25477,"Alive",NA,"female",69.7522245037646
+"TCGA-E2-A14Z","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,23870,"Dead",563,"female",65.3524982888433
+"TCGA-E9-A6HE","Lobular carcinoma, NOS","Stage IIIC",NA,"T3","N3","MX",16697,"Alive",NA,"female",45.7138945927447
+"TCGA-E2-A1LH","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",21628,"Alive",NA,"female",59.2142368240931
+"TCGA-AO-A0JD","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1a","M0",21831,"Alive",NA,"female",59.7700205338809
+"TCGA-C8-A3M8","Lobular carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",24877,"Alive",NA,"female",68.1095140314853
+"TCGA-EW-A3U0","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1a","M0",22520,"Alive",NA,"female",61.6563997262149
+"TCGA-GM-A2DF","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",19614,"Alive",NA,"female",53.700205338809
+"TCGA-B6-A0RH","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,20924,"Dead",6456,"female",57.2867898699521
+"TCGA-A2-A25B","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,15744,"Alive",NA,"female",43.1047227926078
+"TCGA-A7-A3J0","Mucinous adenocarcinoma","Stage IIA",NA,"T2","N0","M0",22672,"Alive",NA,"female",62.072553045859
+"TCGA-AR-A0TX","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1","N1","M0",23653,"Alive",NA,"female",64.7583846680356
+"TCGA-B6-A0RM","Infiltrating duct carcinoma, NOS","Stage X",NA,"TX","NX","MX",21047,"Dead",2373,"female",57.6235455167693
+"TCGA-OL-A5D6","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",26052,"Dead",1104,"female",71.3264887063655
+"TCGA-BH-A18Q","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1b","M0",20675,"Dead",1692,"female",56.6050650239562
+"TCGA-BH-A0BZ","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1a","M0",21856,"Alive",NA,"female",59.8384668035592
+"TCGA-BH-A1FE","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",11650,"Dead",2273,"female",31.895961670089
+"TCGA-E2-A1B4","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T1c","N2a","M0",27241,"Dead",1004,"female",74.5817932922656
+"TCGA-A2-A0SU","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i+)","M0",24219,"Alive",NA,"female",66.3080082135524
+"TCGA-A7-A6VV","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",18695,"Alive",NA,"female",51.1841204654346
+"TCGA-E9-A1RF","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",25119,"Alive",NA,"female",68.7720739219713
+"TCGA-BH-A0BW","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",25974,"Alive",NA,"female",71.1129363449692
+"TCGA-C8-A8HR","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N2","M0",17921,"Alive",NA,"female",49.0650239561944
+"TCGA-D8-A1JF","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T1c","N2a","M0",29199,"Alive",NA,"female",79.9425051334702
+"TCGA-A8-A097","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",23741,"Alive",NA,"female",64.9993155373032
+"TCGA-GM-A2DC","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",21122,"Alive",NA,"female",57.8288843258042
+"TCGA-B6-A0IA","Infiltrating duct mixed with other types of carcinoma","Stage IIA",NA,"T2","N0 (i-)","M0",18748,"Alive",NA,"female",51.3292265571526
+"TCGA-AO-A03T","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",15540,"Alive",NA,"female",42.5462012320329
+"TCGA-BH-A0EE","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0 (i-)","M0",24850,"Alive",NA,"female",68.0355920602327
+"TCGA-BH-A0DG","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",11204,"Alive",NA,"female",30.6748802190281
+"TCGA-E2-A15K","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",21514,"Alive",NA,"female",58.90212183436
+"TCGA-BH-A0HF","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",28233,"Alive",NA,"female",77.2977412731006
+"TCGA-A7-A4SC","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0","MX",23008,"Alive",NA,"female",62.9924709103354
+"TCGA-D8-A1JJ","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19966,"Alive",NA,"female",54.6639288158795
+"TCGA-BH-A0EB","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",25259,"Alive",NA,"female",69.1553730321697
+"TCGA-E2-A1IG","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1mi","M0",16757,"Alive",NA,"female",45.8781656399726
+"TCGA-D8-A1XB","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",22976,"Alive",NA,"female",62.9048596851472
+"TCGA-A2-A04N","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",24155,"Alive",NA,"female",66.1327857631759
+"TCGA-BH-A1FD","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",24940,"Dead",1009,"female",68.2819986310746
+"TCGA-E2-A1L8","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-S3-A6ZG","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",26141,"Alive",NA,"female",71.5701574264203
+"TCGA-C8-A134","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19010,"Alive",NA,"female",52.0465434633812
+"TCGA-E2-A107","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N2a","M0",20065,"Alive",NA,"female",54.9349760438056
+"TCGA-AR-A24Z","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",20900,"Alive",NA,"female",57.2210814510609
+"TCGA-AN-A0AK","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",27977,"Alive",NA,"female",76.5968514715948
+"TCGA-LD-A7W5","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",19169,"Alive",NA,"female",52.4818617385353
+"TCGA-B6-A0X5","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1b","M0",22380,"Dead",2097,"female",61.2731006160164
+"TCGA-E9-A1ND","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",27400,"Alive",NA,"female",75.0171115674196
+"TCGA-AR-A0TS","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",17141,"Alive",NA,"female",46.9295003422313
+"TCGA-E9-A22E","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",20574,"Alive",NA,"female",56.3285420944559
+"TCGA-A2-A04V","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",14250,"Dead",1920,"female",39.0143737166324
+"TCGA-A7-A0DB","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",20570,"Alive",NA,"female",56.3175906913073
+"TCGA-A8-A06P","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T1c","N2a","M0",23011,"Alive",NA,"female",63.0006844626968
+"TCGA-BH-A28Q","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",16882,"Alive",NA,"female",46.2203969883641
+"TCGA-AR-A252","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",18611,"Alive",NA,"female",50.9541409993155
+"TCGA-BH-A0DK","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",18237,"Alive",NA,"female",49.9301848049281
+"TCGA-E2-A15R","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",23570,"Alive",NA,"female",64.5311430527036
+"TCGA-E2-A15H","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1mi","M0",13985,"Alive",NA,"female",38.2888432580424
+"TCGA-E2-A158","Not Reported","Stage I",NA,"T1c","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-AC-A7VB","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","MX",18806,"Alive",NA,"female",51.4880219028063
+"TCGA-GM-A2DL","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0 (i-)","M0",18475,"Alive",NA,"female",50.5817932922656
+"TCGA-A8-A09T","Lobular carcinoma, NOS",NA,NA,"T1c","N0","MX",25110,"Alive",NA,"female",68.7474332648871
+"TCGA-E2-A152","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",20705,"Alive",NA,"female",56.6872005475702
+"TCGA-EW-A1PD","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",22536,"Alive",NA,"male",61.700205338809
+"TCGA-AR-A24P","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",17490,"Alive",NA,"female",47.8850102669405
+"TCGA-S3-AA11","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24813,"Alive",NA,"female",67.9342915811088
+"TCGA-AO-A03P","Not Reported",NA,NA,NA,NA,NA,21646,"Dead",2911,"female",59.2635181382615
+"TCGA-EW-A2FS","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1mi","MX",15302,"Alive",NA,"female",41.8945927446954
+"TCGA-AQ-A7U7","Lobular carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",20239,"Dead",584,"female",55.4113620807666
+"TCGA-BH-A0C1","Lobular carcinoma, NOS",NA,NA,NA,NA,NA,23500,"Dead",1411,"female",64.3394934976044
+"TCGA-D8-A1XL","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",12668,"Alive",NA,"female",34.6830937713895
+"TCGA-AR-A256","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,18282,"Dead",2854,"female",50.0533880903491
+"TCGA-A7-A426","Lobular carcinoma, NOS","Stage IIIC",NA,"T3","N3a","MX",18296,"Alive",NA,"female",50.0917180013689
+"TCGA-AC-A5EH","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1mi","MX",27964,"Alive",NA,"female",76.5612594113621
+"TCGA-A2-A0CR","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",20075,"Alive",NA,"female",54.9623545516769
+"TCGA-AQ-A1H2","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","MX",30958,"Alive",NA,"female",84.7583846680356
+"TCGA-AO-A0JL","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",21895,"Alive",NA,"female",59.9452429842574
+"TCGA-BH-A0EI","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",18741,"Alive",NA,"female",51.3100616016427
+"TCGA-E9-A3Q9","Lobular carcinoma, NOS","Stage IIIC",NA,"T3","N3","M0",28715,"Alive",NA,"female",78.6173853524983
+"TCGA-A8-A08B","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19114,"Alive",NA,"female",52.331279945243
+"TCGA-A2-A1G4","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1a","M0",25966,"Alive",NA,"female",71.0910335386721
+"TCGA-E2-A106","Infiltrating duct carcinoma, NOS","Stage IB",NA,"T1c","N1mi","M0",12528,"Alive",NA,"female",34.299794661191
+"TCGA-A8-A08Z","Infiltrating duct carcinoma, NOS",NA,NA,"T4b","N3a","M0",28003,"Alive",NA,"female",76.6680355920602
+"TCGA-A8-A096","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",26723,"Alive",NA,"female",73.1635865845311
+"TCGA-AC-A2FF","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1","MX",NA,"Alive",NA,"female",NA
+"TCGA-E2-A1BC","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-AC-A4ZE","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",23284,"Alive",NA,"female",63.7481177275838
+"TCGA-BH-A0B0","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",20776,"Alive",NA,"female",56.8815879534565
+"TCGA-EW-A1IZ","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","MX",19706,"Alive",NA,"female",53.9520876112252
+"TCGA-B6-A400","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",16022,"Alive",NA,"female",43.8658453114305
+"TCGA-AO-A1KO","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0 (i+)","M0",16817,"Alive",NA,"female",46.0424366872005
+"TCGA-AC-A2QJ","Metaplastic carcinoma, NOS",NA,NA,NA,NA,NA,17806,"Dead",446,"female",48.7501711156742
+"TCGA-AR-A0TY","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,20380,"Dead",1699,"female",55.7973990417522
+"TCGA-EW-A1PG","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",19464,"Alive",NA,"female",53.2895277207392
+"TCGA-AO-A128","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",22340,"Alive",NA,"female",61.1635865845311
+"TCGA-A1-A0SE","Infiltrating duct and lobular carcinoma","Stage I",NA,"T1c","N0 (i-)","M0",20717,"Alive",NA,"female",56.7200547570157
+"TCGA-OL-A6VR","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1b","N0","MX",17702,"Alive",NA,"female",48.4654346338125
+"TCGA-D8-A27P","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",23576,"Alive",NA,"female",64.5475701574264
+"TCGA-BH-A0DD","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",21386,"Alive",NA,"male",58.5516769336071
+"TCGA-BH-A0AW","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",20468,"Alive",NA,"female",56.0383299110199
+"TCGA-A8-A0A2","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24380,"Alive",NA,"female",66.7488021902806
+"TCGA-C8-A26Z","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-E2-A10E","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",23684,"Alive",NA,"female",64.8432580424367
+"TCGA-BH-A0HU","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",19216,"Alive",NA,"female",52.6105407255305
+"TCGA-A8-A07F","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",23742,"Alive",NA,"female",65.0020533880903
+"TCGA-E2-A15T","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24054,"Alive",NA,"female",65.8562628336756
+"TCGA-A2-A25F","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",24319,"Alive",NA,"female",66.5817932922656
+"TCGA-E2-A15D","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",17224,"Alive",NA,"female",47.1567419575633
+"TCGA-A2-A3XX","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",17981,"Dead",1439,"female",49.2292950034223
+"TCGA-BH-A1EN","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","NX","M0",28724,"Dead",2127,"female",78.6420260095825
+"TCGA-AN-A0FL","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22805,"Alive",NA,"female",62.4366872005476
+"TCGA-A7-A6VY","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",17640,"Alive",NA,"female",48.2956878850103
+"TCGA-E2-A14V","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",19643,"Alive",NA,"female",53.7796030116359
+"TCGA-C8-A1HG","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-A2-A3XW","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",15670,"Alive",NA,"female",42.90212183436
+"TCGA-D8-A27H","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",26588,"Alive",NA,"female",72.7939767282683
+"TCGA-E2-A1BD","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19627,"Alive",NA,"female",53.7357973990418
+"TCGA-A2-A3XT","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",16649,"Alive",NA,"female",45.5824777549624
+"TCGA-OL-A5D8","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0","MX",14853,"Alive",NA,"female",40.6652977412731
+"TCGA-BH-A1FN","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",12525,"Dead",2192,"female",34.2915811088296
+"TCGA-C8-A138","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",20053,"Alive",NA,"female",54.90212183436
+"TCGA-BH-A0BO","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1b","N0","M0",19767,"Alive",NA,"female",54.1190965092402
+"TCGA-A2-A0ET","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",21464,"Alive",NA,"female",58.7652292950034
+"TCGA-B6-A1KN","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4b","N1","M0",21183,"Alive",NA,"female",57.9958932238193
+"TCGA-D8-A1Y2","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",26021,"Alive",NA,"female",71.2416153319644
+"TCGA-A8-A09X","Lobular carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",22858,"Dead",426,"female",62.5817932922656
+"TCGA-E9-A5UP","Intraductal papillary adenocarcinoma with invasion","Stage IIA",NA,"T2","N0","M0",23371,"Alive",NA,"female",63.9863107460643
+"TCGA-D8-A1Y3","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","MX",22317,"Alive",NA,"female",61.1006160164271
+"TCGA-A2-A0YH","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",19596,"Alive",NA,"female",53.6509240246407
+"TCGA-E9-A1NF","Infiltrating duct and lobular carcinoma",NA,NA,NA,NA,NA,22071,"Dead",1072,"female",60.4271047227926
+"TCGA-D8-A1JB","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",19822,"Alive",NA,"female",54.2696783025325
+"TCGA-BH-A208","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1b","M0",17715,"Dead",1759,"female",48.5010266940452
+"TCGA-D8-A27G","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",27521,"Alive",NA,"female",75.3483915126626
+"TCGA-A2-A1G0","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",18002,"Alive",NA,"female",49.2867898699521
+"TCGA-AO-A03V","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0 (i-)","M0",15284,"Alive",NA,"female",41.845311430527
+"TCGA-AR-A1AH","Not Reported",NA,NA,NA,NA,NA,20127,"Alive",NA,"female",55.1047227926078
+"TCGA-BH-A0HL","Intraductal papillary adenocarcinoma with invasion","Stage IIB",NA,"T2","N1a","M0",20804,"Alive",NA,"female",56.9582477754962
+"TCGA-BH-A0DL","Metaplastic carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",23628,"Alive",NA,"female",64.6899383983573
+"TCGA-AR-A0U3","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",21755,"Alive",NA,"female",59.5619438740589
+"TCGA-A2-A25E","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,15590,"Alive",NA,"female",42.6830937713895
+"TCGA-BH-A2L8","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",16658,"Alive",NA,"female",45.6071184120465
+"TCGA-B6-A0WX","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N1b","M0",14784,"Dead",639,"female",40.476386036961
+"TCGA-EW-A1J3","Lobular carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",22332,"Alive",NA,"female",61.1416837782341
+"TCGA-GM-A3NY","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",26642,"Alive",NA,"female",72.9418206707734
+"TCGA-A2-A0CL","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N2a","M0",13556,"Alive",NA,"female",37.1143052703628
+"TCGA-E2-A1IK","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1mi","M0",26052,"Alive",NA,"female",71.3264887063655
+"TCGA-E2-A108","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",23530,"Alive",NA,"female",64.4216290212183
+"TCGA-E2-A10A","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0 (i-)","M0",15085,"Alive",NA,"female",41.3004791238877
+"TCGA-GM-A2DM","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",21160,"Alive",NA,"female",57.9329226557153
+"TCGA-A1-A0SP","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-B6-A402","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,18830,"Alive",NA,"female",51.5537303216975
+"TCGA-A8-A08I","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19389,"Alive",NA,"female",53.0841889117043
+"TCGA-JL-A3YX","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-BH-A0E9","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",19415,"Alive",NA,"female",53.1553730321697
+"TCGA-A8-A08P","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",25598,"Alive",NA,"female",70.0835044490075
+"TCGA-AC-A2BM","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",15212,"Alive",NA,"female",41.6481861738535
+"TCGA-A1-A0SM","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",28198,"Alive",NA,"male",77.201916495551
+"TCGA-A8-A075","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",15369,"Alive",NA,"female",42.0780287474333
+"TCGA-C8-A278","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",22598,"Alive",NA,"female",61.8699520876112
+"TCGA-A8-A08C","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24017,"Alive",NA,"female",65.7549623545517
+"TCGA-E9-A1QZ","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22397,"Alive",NA,"female",61.3196440793977
+"TCGA-A2-A0YJ","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,15007,"Alive",NA,"female",41.0869267624914
+"TCGA-D8-A27W","Mucinous adenocarcinoma","Stage IIIB",NA,"T4b","N0","M0",20173,"Alive",NA,"female",55.2306639288159
+"TCGA-BH-A1EX","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1b","M0",24544,"Dead",1508,"female",67.1978097193703
+"TCGA-E2-A1IN","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",22199,"Alive",NA,"female",60.7775496235455
+"TCGA-AN-A0AS","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",25658,"Alive",NA,"female",70.2477754962354
+"TCGA-B6-A0IE","Lobular carcinoma, NOS",NA,NA,NA,NA,NA,14816,"Dead",1993,"female",40.5639972621492
+"TCGA-AC-A23H","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","NX","M0",32872,"Dead",0,"female",89.9986310746064
+"TCGA-BH-A6R8","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",16829,"Alive",NA,"female",46.0752908966461
+"TCGA-BH-A1FM","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",16289,"Dead",1388,"female",44.5968514715948
+"TCGA-A2-A1FW","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N2a","M0",22779,"Alive",NA,"female",62.3655030800821
+"TCGA-BH-A0H0","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",25223,"Alive",NA,"female",69.056810403833
+"TCGA-D8-A141","Infiltrating duct carcinoma, NOS",NA,NA,"T1c","N1","M0",14626,"Alive",NA,"female",40.0438056125941
+"TCGA-AR-A2LN","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",23992,"Alive",NA,"female",65.6865160848734
+"TCGA-BH-A18S","Infiltrating duct mixed with other types of carcinoma","Stage I",NA,"T1c","N0","M0",28974,"Dead",2009,"female",79.3264887063655
+"TCGA-BH-A0HN","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",24731,"Alive",NA,"female",67.709787816564
+"TCGA-BH-A6R9","Metaplastic carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22325,"Alive",NA,"female",61.1225188227242
+"TCGA-AR-A24K","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",16961,"Alive",NA,"female",46.4366872005476
+"TCGA-C8-A12L","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",24710,"Alive",NA,"female",67.6522929500342
+"TCGA-BH-A18T","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",25674,"Dead",224,"female",70.2915811088296
+"TCGA-AO-A0JM","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",14653,"Alive",NA,"female",40.1177275838467
+"TCGA-UU-A93S","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T4d","N3b","M1",23278,"Dead",116,"female",63.7316906228611
+"TCGA-E2-A14S","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",23878,"Alive",NA,"female",65.3744010951403
+"TCGA-B6-A0RP","Infiltrating duct and lobular carcinoma",NA,NA,NA,NA,NA,29728,"Dead",3126,"female",81.3908281998631
+"TCGA-GM-A2DN","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",21288,"Alive",NA,"female",58.2833675564682
+"TCGA-D8-A27K","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",17426,"Alive",NA,"female",47.709787816564
+"TCGA-BH-A42V","Infiltrating duct carcinoma, NOS","Stage IB",NA,"T1c","N1mi","M0",15158,"Alive",NA,"female",41.5003422313484
+"TCGA-AR-A0U2","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,18999,"Dead",2551,"female",52.0164271047228
+"TCGA-AO-A0JG","Infiltrating duct mixed with other types of carcinoma","Stage IIIA",NA,"T2","N2a","M0",18021,"Alive",NA,"female",49.3388090349076
+"TCGA-AO-A12G","Pleomorphic carcinoma","Stage IIA",NA,"T2","N0 (i+)","M0",27705,"Alive",NA,"female",75.8521560574949
+"TCGA-AO-A1KS","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",25230,"Alive",NA,"female",69.0759753593429
+"TCGA-A7-A26G","Metaplastic carcinoma, NOS","Stage IIA",NA,"T2","N0 (i+)","M0",18362,"Alive",NA,"female",50.2724161533196
+"TCGA-B6-A0IH","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N1b","M0",29907,"Dead",2965,"female",81.8809034907597
+"TCGA-BH-A0B9","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",16310,"Alive",NA,"female",44.6543463381246
+"TCGA-A8-A09B","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4b","N1a","M0",21520,"Alive",NA,"female",58.9185489390828
+"TCGA-A2-A0CK","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N2a","M0",22094,"Alive",NA,"female",60.4900752908966
+"TCGA-B6-A0X7","Not Reported",NA,NA,NA,NA,NA,23827,"Dead",1781,"female",65.2347707049966
+"TCGA-W8-A86G","Lobular carcinoma, NOS","Stage IIA",NA,"T2a","N0 (i-)","MX",24125,"Alive",NA,"female",66.0506502395619
+"TCGA-E9-A1RC","Infiltrating duct and lobular carcinoma","Stage IIIC",NA,"T4b","N3","M0",20795,"Alive",NA,"female",56.933607118412
+"TCGA-A8-A081","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",29555,"Alive",NA,"female",80.9171800136892
+"TCGA-B6-A0I1","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,28022,"Dead",2361,"female",76.7200547570157
+"TCGA-AC-A62X","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",26627,"Alive",NA,"female",72.9007529089665
+"TCGA-A8-A082","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",21338,"Alive",NA,"female",58.4202600958248
+"TCGA-A1-A0SK","Large cell neuroendocrine carcinoma","Stage IIA",NA,"T2","N0 (i-)","M0",20048,"Dead",967,"female",54.8884325804244
+"TCGA-E2-A1L9","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1mi","M0",14868,"Alive",NA,"female",40.7063655030801
+"TCGA-A1-A0SG","Invasive micropapillary carcinoma","Stage IIB",NA,"T2","N1a","M0",22380,"Alive",NA,"female",61.2731006160164
+"TCGA-E2-A9RU","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3a","MX",32872,"Alive",NA,"female",89.9986310746064
+"TCGA-BH-A0B5","Lobular carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",14920,"Alive",NA,"female",40.8487337440109
+"TCGA-C8-A131","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",29966,"Alive",NA,"female",82.0424366872005
+"TCGA-D8-A1XF","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",16787,"Alive",NA,"female",45.9603011635866
+"TCGA-AR-A251","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",18771,"Alive",NA,"female",51.3921971252567
+"TCGA-A7-A13E","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,23246,"Dead",614,"female",63.6440793976728
+"TCGA-A8-A07P","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",24929,"Alive",NA,"female",68.2518822724162
+"TCGA-C8-A1HK","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",NA,"Alive",NA,"female",NA
+"TCGA-BH-A0B4","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",23980,"Alive",NA,"male",65.6536618754278
+"TCGA-A8-A09W","Lobular carcinoma, NOS","Stage IIIB",NA,"T2","N3","M0",25659,"Alive",NA,"female",70.2505133470226
+"TCGA-EW-A424","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N1","MX",18850,"Alive",NA,"female",51.6084873374401
+"TCGA-AN-A0XL","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22341,"Alive",NA,"female",61.1663244353183
+"TCGA-BH-A0DZ","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",15980,"Alive",NA,"female",43.750855578371
+"TCGA-C8-A12Q","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,NA,"Dead",385,"female",NA
+"TCGA-B6-A401","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",17438,"Alive",NA,"female",47.7426420260096
+"TCGA-BH-A0DH","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",23366,"Alive",NA,"female",63.9726214921287
+"TCGA-AC-A6IV","Infiltrating lobular mixed with other types of carcinoma","Stage IIB",NA,"T2","N1","MX",17521,"Alive",NA,"female",47.9698836413415
+"TCGA-E9-A1R3","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3","M0",25693,"Alive",NA,"female",70.3436002737851
+"TCGA-AR-A1AL","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",22023,"Alive",NA,"female",60.2956878850103
+"TCGA-AO-A12F","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",13409,"Alive",NA,"female",36.7118412046543
+"TCGA-A8-A06N","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4b","N0","M0",24288,"Alive",NA,"female",66.4969199178645
+"TCGA-D8-A142","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",27313,"Alive",NA,"female",74.7789185489391
+"TCGA-A2-A04P","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,13340,"Dead",548,"female",36.5229295003422
+"TCGA-A2-A0T2","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T3","N3","M1",24235,"Dead",255,"female",66.3518138261465
+"TCGA-B6-A0RV","Infiltrating duct and lobular carcinoma","Stage IIIA",NA,"T3","N2","M0",15507,"Alive",NA,"female",42.4558521560575
+"TCGA-EW-A6S9","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1","M0",12755,"Alive",NA,"female",34.92128678987
+"TCGA-D8-A1X6","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N2a","MX",29256,"Alive",NA,"female",80.0985626283368
+"TCGA-XX-A89A","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0","MX",25000,"Alive",NA,"female",68.4462696783025
+"TCGA-E2-A570","Infiltrating duct carcinoma, NOS","Stage IB",NA,"T1c","N1mi","M0",17456,"Alive",NA,"female",47.791923340178
+"TCGA-AN-A0XP","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",25305,"Alive",NA,"female",69.2813141683778
+"TCGA-E2-A1LA","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",21773,"Alive",NA,"female",59.6112251882272
+"TCGA-E9-A1NC","Infiltrating duct and lobular carcinoma","Stage IIB",NA,"T2","N1","M0",22355,"Alive",NA,"female",61.2046543463381
+"TCGA-D8-A1Y0","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T1c","N2a","MX",24083,"Alive",NA,"female",65.9356605065024
+"TCGA-E9-A22D","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",14115,"Alive",NA,"female",38.6447638603696
+"TCGA-AN-A046","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",25158,"Alive",NA,"female",68.8788501026694
+"TCGA-S3-AA0Z","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",23314,"Alive",NA,"female",63.8302532511978
+"TCGA-A2-A0CS","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T4b","N3a","M1",26817,"Dead",2348,"female",73.4209445585216
+"TCGA-E9-A1N6","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,19975,"Dead",678,"female",54.6885694729637
+"TCGA-BH-A0HI","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",28644,"Alive",NA,"female",78.4229979466119
+"TCGA-BH-A18G","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",29820,"Alive",NA,"female",81.6427104722793
+"TCGA-E2-A1B6","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",16370,"Alive",NA,"female",44.8186173853525
+"TCGA-E9-A1R5","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",23116,"Alive",NA,"female",63.2881587953457
+"TCGA-AN-A0FW","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",24692,"Alive",NA,"female",67.6030116358658
+"TCGA-B6-A0RO","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4","N1a","M0",26269,"Alive",NA,"female",71.9206023271732
+"TCGA-E2-A10F","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",17257,"Alive",NA,"female",47.2470910335387
+"TCGA-A2-A0YK","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",22625,"Alive",NA,"female",61.9438740588638
+"TCGA-E2-A15I","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",16163,"Alive",NA,"female",44.2518822724162
+"TCGA-B6-A0IC","Intraductal papillary adenocarcinoma with invasion","Stage X",NA,"T2","NX","MX",32872,"Dead",0,"female",89.9986310746064
+"TCGA-MS-A51U","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",16213,"Alive",NA,"female",44.3887748117728
+"TCGA-A2-A0SY","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N1","M0",22928,"Alive",NA,"female",62.7734428473648
+"TCGA-LL-A50Y","Lobular carcinoma in situ, NOS",NA,NA,"Tis (LCIS)",NA,NA,30950,"Alive",NA,"female",84.7364818617385
+"TCGA-D8-A1XM","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",21056,"Alive",NA,"female",57.6481861738535
+"TCGA-GM-A3XG","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N1a","M0",16948,"Alive",NA,"female",46.4010951403149
+"TCGA-S3-AA14","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0 (i+)","cM0 (i+)",17352,"Alive",NA,"female",47.5071868583162
+"TCGA-Z7-A8R5","Lobular carcinoma, NOS",NA,NA,NA,NA,NA,25567,"Alive",NA,"female",69.9986310746064
+"TCGA-BH-A0AY","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",22703,"Alive",NA,"female",62.1574264202601
+"TCGA-A8-A07J","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",12965,"Alive",NA,"female",35.4962354551677
+"TCGA-B6-A3ZX","Infiltrating duct and lobular carcinoma","Stage IV",NA,"T3","N1","M1",18434,"Dead",1152,"female",50.4695414099932
+"TCGA-A8-A0A9","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",29370,"Alive",NA,"female",80.4106776180698
+"TCGA-C8-A12X","Mucinous adenocarcinoma","Stage IIB",NA,"T2","N1","M0",22889,"Alive",NA,"female",62.6666666666667
+"TCGA-E9-A1RB","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",14755,"Dead",976,"female",40.3969883641342
+"TCGA-OL-A97C","Phyllodes tumor, malignant","Stage IIB",NA,"T3","N0","M0",24735,"Alive",NA,"female",67.7207392197125
+"TCGA-E9-A3X8","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",17588,"Alive",NA,"female",48.1533196440794
+"TCGA-A8-A06X","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",28338,"Dead",943,"female",77.5852156057495
+"TCGA-C8-A26X","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1","N1","M0",21463,"Alive",NA,"female",58.7624914442163
+"TCGA-AC-A3QQ","Lobular carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","MX",19723,"Alive",NA,"female",53.9986310746064
+"TCGA-AO-A12C","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",15469,"Alive",NA,"female",42.3518138261465
+"TCGA-AN-A0G0","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",20504,"Alive",NA,"female",56.1368925393566
+"TCGA-A8-A08G","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",14976,"Alive",NA,"female",41.0020533880903
+"TCGA-BH-A0DV","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",19781,"Alive",NA,"female",54.1574264202601
+"TCGA-E2-A1B5","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",17039,"Alive",NA,"female",46.6502395619439
+"TCGA-D8-A73U","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",32208,"Alive",NA,"female",88.1806981519507
+"TCGA-A2-A0YI","Infiltrating duct and lobular carcinoma","Stage I",NA,"T1c","N0 (i+)","M0",22961,"Alive",NA,"female",62.8637919233402
+"TCGA-D8-A1XK","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",20092,"Alive",NA,"female",55.0088980150582
+"TCGA-D8-A1XA","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",23387,"Alive",NA,"female",64.0301163586584
+"TCGA-A8-A09N","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",21002,"Alive",NA,"female",57.5003422313484
+"TCGA-C8-A135","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",23667,"Alive",NA,"female",64.7967145790554
+"TCGA-D8-A1X9","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",24417,"Alive",NA,"female",66.8501026694045
+"TCGA-AC-A6IX","Lobular carcinoma, NOS","Stage IIIC",NA,"T2","N3a","MX",17969,"Alive",NA,"female",49.1964407939767
+"TCGA-OL-A66I","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1mi","MX",13458,"Alive",NA,"female",36.8459958932238
+"TCGA-AQ-A54O","Clear cell carcinoma",NA,NA,NA,NA,NA,NA,"Alive",NA,"male",NA
+"TCGA-BH-A0AU","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",16688,"Alive",NA,"female",45.6892539356605
+"TCGA-E2-A1B0","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",18346,"Alive",NA,"female",50.2286105407255
+"TCGA-A8-A09D","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",17440,"Alive",NA,"female",47.7481177275838
+"TCGA-A2-A0T5","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",14503,"Alive",NA,"female",39.7070499657769
+"TCGA-E2-A10C","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",19849,"Alive",NA,"female",54.3436002737851
+"TCGA-B6-A0RG","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0 (i-)","M0",9840,"Alive",NA,"female",26.9404517453799
+"TCGA-A2-A0CT","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",25959,"Alive",NA,"female",71.0718685831622
+"TCGA-D8-A1XQ","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",25345,"Alive",NA,"female",69.3908281998631
+"TCGA-LD-A74U","Infiltrating lobular mixed with other types of carcinoma","Stage IIIC",NA,"T3","N3a","M0",28981,"Alive",NA,"female",79.3456536618754
+"TCGA-A2-A04Y","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1mi","M0",19533,"Alive",NA,"female",53.4784394250513
+"TCGA-A8-A092","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",17807,"Alive",NA,"female",48.7529089664613
+"TCGA-A2-A0EX","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0 (i+)","M0",16858,"Alive",NA,"female",46.154688569473
+"TCGA-OL-A6VO","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","MX",15780,"Alive",NA,"female",43.2032854209446
+"TCGA-A2-A4S2","Infiltrating lobular mixed with other types of carcinoma","Stage IIIA",NA,"T3","N2","M0",22936,"Alive",NA,"female",62.7953456536619
+"TCGA-AO-A1KP","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1","N1","M0",28247,"Alive",NA,"female",77.3360711841205
+"TCGA-E9-A24A","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1","M0",25370,"Alive",NA,"female",69.4592744695414
+"TCGA-AR-A1AY","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",23927,"Alive",NA,"female",65.5085557837098
+"TCGA-4H-AAAK","Lobular carcinoma, NOS","Stage IIIA",NA,"T2","N2a","M0",18371,"Alive",NA,"female",50.2970568104038
+"TCGA-EW-A1IY","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","MX",14122,"Alive",NA,"female",38.6639288158795
+"TCGA-BH-A18N","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N1b","M0",32404,"Dead",468,"female",88.7173169062286
+"TCGA-D8-A27L","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T1c","N2a","M0",18025,"Alive",NA,"female",49.3497604380561
+"TCGA-AC-A3TM","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N1mi","M0",18535,"Alive",NA,"female",50.7460643394935
+"TCGA-E2-A14X","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",20105,"Alive",NA,"female",55.0444900752909
+"TCGA-D8-A27E","Infiltrating duct mixed with other types of carcinoma","Stage IA",NA,"T1c","N0","M0",24315,"Alive",NA,"female",66.570841889117
+"TCGA-A8-A06O","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0","M0",22157,"Alive",NA,"female",60.662559890486
+"TCGA-A8-A09M","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",27455,"Alive",NA,"female",75.1676933607118
+"TCGA-B6-A0RU","Not Reported",NA,NA,NA,NA,NA,17996,"Alive",NA,"female",49.2703627652293
+"TCGA-E9-A1N4","Lobular carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",15055,"Alive",NA,"female",41.2183436002738
+"TCGA-A8-A08R","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",19298,"Alive",NA,"female",52.8350444900753
+"TCGA-D8-A1XO","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",20606,"Alive",NA,"female",56.4161533196441
+"TCGA-AR-A0TV","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24279,"Alive",NA,"female",66.4722792607803
+"TCGA-C8-A12W","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4","N1","M0",18140,"Alive",NA,"female",49.6646132785763
+"TCGA-A8-A0A1","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",30742,"Alive",NA,"female",84.1670088980151
+"TCGA-C8-A12K","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",29463,"Alive",NA,"female",80.6652977412731
+"TCGA-BH-A1EV","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1b","M0",16504,"Dead",365,"female",45.1854893908282
+"TCGA-A2-A4S3","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",21762,"Alive",NA,"female",59.5811088295688
+"TCGA-C8-A12Z","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",16508,"Alive",NA,"female",45.1964407939767
+"TCGA-A7-A13G","Not Reported",NA,NA,NA,NA,NA,29555,"Alive",NA,"female",80.9171800136892
+"TCGA-E9-A228","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",21294,"Alive",NA,"female",58.299794661191
+"TCGA-LL-A5YP","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",18041,"Alive",NA,"female",49.3935660506502
+"TCGA-C8-A12U","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",17045,"Alive",NA,"female",46.6666666666667
+"TCGA-AR-A1AI","Not Reported",NA,NA,NA,NA,NA,17817,"Alive",NA,"female",48.7802874743326
+"TCGA-B6-A2IU","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22905,"Alive",NA,"female",62.7104722792608
+"TCGA-AN-A0FS","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0","M0",20352,"Alive",NA,"female",55.7207392197125
+"TCGA-A7-A6VW","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",17539,"Alive",NA,"female",48.0191649555099
+"TCGA-D8-A1JE","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",22683,"Alive",NA,"female",62.1026694045175
+"TCGA-A8-A094","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",27729,"Alive",NA,"female",75.917864476386
+"TCGA-HN-A2NL","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",20483,"Alive",NA,"female",56.0793976728268
+"TCGA-E9-A1N9","Infiltrating duct and lobular carcinoma","Stage IIA",NA,"T2","N0","M0",21228,"Alive",NA,"female",58.1190965092402
+"TCGA-GM-A3XL","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",18171,"Alive",NA,"female",49.7494866529774
+"TCGA-E2-A1IU","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (mol+)","M0",22279,"Alive",NA,"female",60.9965776865161
+"TCGA-OL-A5RU","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1","MX",23108,"Alive",NA,"female",63.2662559890486
+"TCGA-AN-A0AM","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",20713,"Alive",NA,"female",56.7091033538672
+"TCGA-LL-A440","Intraductal carcinoma, noninfiltrating, NOS","Stage 0",NA,"Tis (DCIS)","N0","MX",22515,"Alive",NA,"female",61.6427104722793
+"TCGA-A7-A26E","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1a","N0","M0",NA,"Alive",NA,"female",NA
+"TCGA-A8-A07W","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T2","NX","M1",27942,"Alive",NA,"female",76.5010266940452
+"TCGA-AC-A6IW","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","MX",26896,"Alive",NA,"female",73.637234770705
+"TCGA-AC-A3TN","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0","MX",27421,"Alive",NA,"female",75.0746064339494
+"TCGA-EW-A1P0","Infiltrating duct mixed with other types of carcinoma",NA,NA,NA,NA,NA,21201,"Alive",NA,"female",58.0451745379877
+"TCGA-A8-A09Z","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",30590,"Alive",NA,"female",83.750855578371
+"TCGA-E2-A10B","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",24577,"Alive",NA,"female",67.2881587953457
+"TCGA-OL-A66P","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",27489,"Alive",NA,"female",75.2607802874743
+"TCGA-A2-A0T1","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T3","N3","M0",20227,"Alive",NA,"female",55.378507871321
+"TCGA-XX-A899","Lobular carcinoma, NOS","Stage IIIA",NA,"T1c","N2a","MX",17022,"Alive",NA,"female",46.6036960985626
+"TCGA-AO-A0JC","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",23404,"Alive",NA,"female",64.0766598220397
+"TCGA-A8-A086","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",21731,"Alive",NA,"female",59.4962354551677
+"TCGA-AC-A3EH","Pleomorphic carcinoma","Stage IIIC",NA,"T3","N3","M0",29014,"Dead",197,"female",79.4360027378508
+"TCGA-C8-A137","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",12729,"Alive",NA,"female",34.8501026694045
+"TCGA-E9-A249","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",16689,"Alive",NA,"female",45.6919917864476
+"TCGA-B6-A0I6","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1","M0",18014,"Dead",991,"female",49.3196440793977
+"TCGA-D8-A147","Infiltrating duct carcinoma, NOS",NA,NA,"T2","N0","M0",16736,"Alive",NA,"female",45.8206707734428
+"TCGA-B6-A0IO","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",24322,"Alive",NA,"female",66.590006844627
+"TCGA-B6-A40C","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0 (i-)","M0",18852,"Alive",NA,"female",51.6139630390144
+"TCGA-A8-A07Z","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",31351,"Alive",NA,"female",85.8343600273785
+"TCGA-PL-A8LX","Infiltrating duct carcinoma, NOS","Stage IV",NA,"T4","N1a","M1",12840,"Alive",NA,"female",35.1540041067762
+"TCGA-OL-A5RW","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1","MX",14638,"Alive",NA,"female",40.0766598220397
+"TCGA-E9-A295","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",25957,"Alive",NA,"female",71.066392881588
+"TCGA-C8-A1HJ","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19629,"Alive",NA,"female",53.741273100616
+"TCGA-AO-A0JJ","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",19758,"Alive",NA,"female",54.0944558521561
+"TCGA-BH-A5IZ","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","cM0 (i+)",18927,"Alive",NA,"female",51.8193018480493
+"TCGA-BH-A18F","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",18594,"Alive",NA,"female",50.9075975359343
+"TCGA-E9-A54X","Mucinous adenocarcinoma","Stage IA",NA,"T1b","N0 (i-)","M0",31173,"Alive",NA,"female",85.347022587269
+"TCGA-A2-A0EU","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",29144,"Alive",NA,"female",79.791923340178
+"TCGA-D8-A1JM","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",21602,"Alive",NA,"female",59.1430527036277
+"TCGA-AN-A0AL","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4","N0","M0",15286,"Alive",NA,"female",41.8507871321013
+"TCGA-AO-A0JB","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1a","M0",18561,"Alive",NA,"female",50.8172484599589
+"TCGA-BH-A0HO","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",17710,"Alive",NA,"female",48.4873374401095
+"TCGA-B6-A0I8","Adenocarcinoma, NOS","Stage II",NA,"T2","N0","M0",NA,"Dead",749,"female",NA
+"TCGA-AQ-A04H","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2a","MX",22539,"Alive",NA,"female",61.7084188911704
+"TCGA-A2-A0YC","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,22441,"Alive",NA,"female",61.4401095140315
+"TCGA-AN-A0XU","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",20052,"Alive",NA,"female",54.8993839835729
+"TCGA-JL-A3YW","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",NA,"Alive",NA,"female",NA
+"TCGA-A2-A0YE","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",17727,"Alive",NA,"female",48.5338809034908
+"TCGA-B6-A40B","Lobular carcinoma, NOS","Stage I",NA,"T1b","N0 (i-)","M0",27811,"Alive",NA,"female",76.1423682409309
+"TCGA-AO-A125","Papillary carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",26466,"Alive",NA,"female",72.4599589322382
+"TCGA-BH-A42U","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",29330,"Alive",NA,"female",80.3011635865845
+"TCGA-AN-A049","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22710,"Alive",NA,"female",62.17659137577
+"TCGA-AO-A03U","Not Reported",NA,NA,NA,NA,NA,12968,"Dead",1793,"female",35.5044490075291
+"TCGA-AN-A041","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",10812,"Alive",NA,"female",29.6016427104723
+"TCGA-AR-A5QN","Lobular carcinoma, NOS","Stage IIIC",NA,"T2","N3","M0",25089,"Alive",NA,"female",68.6899383983573
+"TCGA-A2-A0T6","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0 (i-)","M0",18334,"Alive",NA,"female",50.1957563312799
+"TCGA-A2-A0D1","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",28084,"Alive",NA,"female",76.8898015058179
+"TCGA-B6-A0WZ","Infiltrating duct carcinoma, NOS","Stage II",NA,"T2","N1b","M0",18584,"Alive",NA,"female",50.880219028063
+"TCGA-BH-A0BC","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3","M0",21949,"Alive",NA,"female",60.0930869267625
+"TCGA-B6-A0I2","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",16702,"Alive",NA,"female",45.7275838466804
+"TCGA-GM-A3XN","Lobular carcinoma, NOS","Stage IIIA",NA,"T1c","N2a","M0",16109,"Alive",NA,"female",44.104038329911
+"TCGA-A2-A0CW","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",24541,"Alive",NA,"female",67.1895961670089
+"TCGA-A8-A09Q","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4b","N2a","M0",30528,"Alive",NA,"female",83.5811088295688
+"TCGA-S3-AA17","Intraductal carcinoma, noninfiltrating, NOS","Stage 0",NA,"Tis","N0","cM0 (i+)",23675,"Alive",NA,"female",64.8186173853525
+"TCGA-E2-A15E","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",14894,"Alive",NA,"female",40.7775496235455
+"TCGA-E2-A1LL","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,28331,"Alive",NA,"female",77.5660506502396
+"TCGA-E9-A2JS","Lobular carcinoma, NOS",NA,NA,NA,NA,NA,26931,"Dead",904,"female",73.7330595482546
+"TCGA-S3-AA12","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1a","MX",30101,"Alive",NA,"female",82.4120465434634
+"TCGA-A8-A0A6","Lobular carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",23404,"Alive",NA,"female",64.0766598220397
+"TCGA-B6-A0IJ","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0 (i-)","M0",15625,"Alive",NA,"female",42.7789185489391
+"TCGA-D8-A1XZ","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T1c","N2a","MX",29916,"Alive",NA,"female",81.9055441478439
+"TCGA-AC-A3W5","Not Reported",NA,NA,NA,NA,NA,NA,"Alive",NA,"female",NA
+"TCGA-AO-A12E","Lobular carcinoma, NOS","Stage IIB",NA,"T3","N0 (i+)","M0",18721,"Alive",NA,"female",51.2553045859001
+"TCGA-A7-A13F","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1a","M0",16363,"Alive",NA,"female",44.7994524298426
+"TCGA-E2-A1IE","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",22510,"Alive",NA,"female",61.6290212183436
+"TCGA-C8-A1HM","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",27063,"Alive",NA,"female",74.0944558521561
+"TCGA-A2-A3KC","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",20401,"Alive",NA,"female",55.854893908282
+"TCGA-A7-A4SD","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19131,"Alive",NA,"female",52.3778234086242
+"TCGA-AO-A03R","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",20930,"Alive",NA,"female",57.3032169746749
+"TCGA-AR-A24L","Not Reported",NA,NA,NA,NA,NA,11120,"Dead",2866,"female",30.444900752909
+"TCGA-AN-A0FK","Infiltrating duct carcinoma, NOS","Stage IIIB",NA,"T4","N0","M0",32462,"Alive",NA,"female",88.8761122518823
+"TCGA-A2-A3XY","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,19131,"Dead",1093,"female",52.3778234086242
+"TCGA-A2-A0EM","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1","N0 (i-)","M0",26845,"Alive",NA,"female",73.4976043805613
+"TCGA-EW-A1P3","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",17637,"Alive",NA,"female",48.2874743326489
+"TCGA-AR-A24N","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",19989,"Alive",NA,"female",54.7268993839836
+"TCGA-E2-A14Q","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1mi","M0",18507,"Alive",NA,"female",50.6694045174538
+"TCGA-BH-A0E0","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T3","N3a","M0",14175,"Alive",NA,"female",38.8090349075975
+"TCGA-AR-A2LK","Lobular carcinoma, NOS",NA,NA,NA,NA,NA,24104,"Dead",1649,"female",65.9931553730322
+"TCGA-B6-A0RN","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1c","N0 (i-)","M0",22077,"Alive",NA,"female",60.4435318275154
+"TCGA-A2-A04U","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i+)","M0",17474,"Alive",NA,"female",47.8412046543463
+"TCGA-A8-A0AB","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19814,"Alive",NA,"female",54.2477754962355
+"TCGA-OL-A5DA","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0","MX",22411,"Alive",NA,"female",61.3579739904175
+"TCGA-LQ-A4E4","Lobular carcinoma, NOS","Stage IIIA",NA,"T3","N1a","MX",26883,"Alive",NA,"female",73.6016427104723
+"TCGA-A8-A06Z","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T3","N0","M0",30984,"Alive",NA,"female",84.829568788501
+"TCGA-AR-A24U","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1","N1","M0",17523,"Alive",NA,"female",47.9753593429158
+"TCGA-BH-A0HK","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",29751,"Alive",NA,"female",81.4537987679671
+"TCGA-A8-A076","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",24230,"Alive",NA,"female",66.3381245722108
+"TCGA-BH-A0H5","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0 (i-)","M0",16719,"Alive",NA,"female",45.7741273100616
+"TCGA-A8-A09R","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",30196,"Alive",NA,"female",82.6721423682409
+"TCGA-A1-A0SJ","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1a","M0",14383,"Alive",NA,"female",39.378507871321
+"TCGA-A7-A4SA","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",14906,"Alive",NA,"female",40.8104038329911
+"TCGA-D8-A1X8","Lobular carcinoma, NOS","Stage IIIA",NA,"T1c","N2a","M0",22995,"Alive",NA,"female",62.9568788501027
+"TCGA-OL-A66O","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",14272,"Alive",NA,"female",39.0746064339493
+"TCGA-5L-AAT0","Adenocarcinoma, NOS",NA,NA,NA,NA,NA,15432,"Alive",NA,"female",42.2505133470226
+"TCGA-E9-A244","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",19778,"Alive",NA,"female",54.1492128678987
+"TCGA-EW-A1J6","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1c","N0 (i-)","M0",25830,"Alive",NA,"female",70.7186858316222
+"TCGA-E9-A1RG","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T1c","N2","M0",22788,"Alive",NA,"female",62.3901437371663
+"TCGA-OL-A5RV","Infiltrating duct carcinoma, NOS","Stage IIIC",NA,"T2","N3","MX",15820,"Alive",NA,"female",43.3127994524298
+"TCGA-LL-A5YL","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1a","MX",23395,"Alive",NA,"female",64.0520191649555
+"TCGA-BH-A18H","Infiltrating duct carcinoma, NOS","Stage IA",NA,"T1b","N0","M0",23065,"Alive",NA,"female",63.1485284052019
+"TCGA-BH-A0EA","Clear cell carcinoma","Stage I",NA,"T1a","N0","M0",NA,"Dead",991,"female",NA
+"TCGA-AN-A04A","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",13445,"Alive",NA,"female",36.8104038329911
+"TCGA-E2-A14R","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",22686,"Alive",NA,"female",62.1108829568789
+"TCGA-BH-A18K","Infiltrating duct carcinoma, NOS","Stage I",NA,"T1","N0","M0",16824,"Dead",2763,"female",46.0616016427105
+"TCGA-BH-A0RX","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","M0",21857,"Alive",NA,"female",59.8412046543463
+"TCGA-BH-A0AZ","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T3","N1a","cM0 (i+)",17465,"Alive",NA,"female",47.8165639972622
+"TCGA-D8-A140","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",22900,"Alive",NA,"female",62.6967830253251
+"TCGA-A7-A5ZW","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",17529,"Alive",NA,"female",47.9917864476386
+"TCGA-BH-A0HX","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",19900,"Alive",NA,"female",54.4832306639288
+"TCGA-B6-A409","Infiltrating duct carcinoma, NOS",NA,NA,NA,NA,NA,16634,"Dead",573,"female",45.5414099931554
+"TCGA-A2-A25D","Lobular carcinoma, NOS","Stage IIIC",NA,"T2","N3a","M0",32872,"Alive",NA,"female",89.9986310746064
+"TCGA-A2-A0ST","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",22922,"Alive",NA,"female",62.757015742642
+"TCGA-LL-A6FR","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0 (i-)","MX",18520,"Alive",NA,"female",50.7049965776865
+"TCGA-AN-A0FX","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",19309,"Alive",NA,"female",52.8651608487337
+"TCGA-AR-A0TT","Infiltrating duct carcinoma, NOS","Stage IIIA",NA,"T2","N2","M0",19679,"Alive",NA,"female",53.8781656399726
+"TCGA-AR-A5QP","Lobular carcinoma, NOS","Stage IIB",NA,"T2","N1","M0",19805,"Alive",NA,"female",54.2231348391513
+"TCGA-BH-A0W3","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T1c","N1a","M0",21369,"Alive",NA,"female",58.5051334702259
+"TCGA-D8-A27F","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",14731,"Alive",NA,"female",40.331279945243
+"TCGA-E9-A1NE","Infiltrating duct and lobular carcinoma","Stage IIB",NA,"T2","N1","M0",10564,"Alive",NA,"female",28.9226557152635
+"TCGA-A7-A3IZ","Lobular carcinoma, NOS","Stage IIA",NA,"T2","N0 (i+)","M0",22997,"Alive",NA,"female",62.9623545516769
+"TCGA-AC-A23C","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1","MX",22751,"Alive",NA,"female",62.2888432580424
+"TCGA-A1-A0SI","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1a","M0",19250,"Alive",NA,"female",52.703627652293
+"TCGA-E9-A1N8","Infiltrating duct carcinoma, NOS","Stage IIA",NA,"T2","N0","M0",17652,"Alive",NA,"female",48.3285420944559
+"TCGA-B6-A0X1","Infiltrating duct carcinoma, NOS",NA,NA,"T2","N1","M1",17624,"Dead",7455,"female",48.2518822724162
+"TCGA-EW-A1OV","Infiltrating duct carcinoma, NOS","Stage IIB",NA,"T2","N1mi","MX",20764,"Alive",NA,"female",56.8487337440109
