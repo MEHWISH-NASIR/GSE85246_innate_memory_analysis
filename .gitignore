@@ -79,3 +79,45 @@ results/12_kinase_reevaluation/*
 !results/12_kinase_reevaluation/12m_FINAL_candidate_status.csv
 !results/12_kinase_reevaluation/12m_reproducibility_summary.csv
 !results/12_kinase_reevaluation/12_run_status.csv
+
+# ============================================================
+# Local / raw TCGA data — never commit
+# ============================================================
+GDCdata/
+TCGA_JAK3_pan_cancer/data/
+
+# Local backups
+local_backup/
+
+# Temporary / backup files
+*.bak
+*.tmp
+*.temp
+~*
+
+# R local state
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# TCGA JAK3 intermediate analysis material
+# Only curated release outputs are version-controlled
+# ============================================================
+TCGA_JAK3_pan_cancer/results/*
+!TCGA_JAK3_pan_cancer/results/release/
+!TCGA_JAK3_pan_cancer/results/release/**
+
+TCGA_JAK3_pan_cancer/scripts/
+
+# Local GDC download manifest
+MANIFEST.txt
+
+# Quarto local build/cache
+tcga_report/_site/
+tcga_report/.quarto/

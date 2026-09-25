@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - jak3.qmd
+    - methods.qmd
+
+website:
+  title: "TCGA Pan-Cancer Kinase Exploration"
+  page-navigation: true
+  search: true
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Overview
+      - href: jak3.qmd
+        text: JAK3
+      - href: methods.qmd
+        text: Methods
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    code-fold: true
+    code-tools: false
+    link-external-newwindow: true
+    css: styles.css
+
+execute:
+  echo: false
+  warning: false
+  message: false
+  freeze: auto

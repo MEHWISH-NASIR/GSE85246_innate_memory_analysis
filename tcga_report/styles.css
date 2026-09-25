@@ -1,0 +1,71 @@
+body {
+  line-height: 1.65;
+}
+
+.quarto-title-banner {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin: 1.4rem 0 2rem 0;
+}
+
+.metric-card {
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 1rem;
+  background: #fafafa;
+}
+
+.metric-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.metric-label {
+  font-size: 0.92rem;
+}
+
+.note-box {
+  border-left: 4px solid #777;
+  padding: 0.8rem 1rem;
+  background: #f6f6f6;
+  margin: 1rem 0;
+}
+
+table {
+  font-size: 0.88rem;
+}
+
+/* Wide TCGA tables */
+.table-responsive,
+.quarto-table-container {
+  overflow-x: auto;
+  width: 100%;
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+}
+
+table th,
+table td {
+  white-space: nowrap;
+}
+
+main.content {
+  max-width: 1250px;
+}
+
+/* Keep TCGA project names on one line */
+td:first-child,
+th:first-child {
+  white-space: nowrap;
+}

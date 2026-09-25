@@ -1,0 +1,166 @@
+---
+title: "TCGA Pan-Cancer Kinase Exploration"
+subtitle: "Integrated expression, clinical and immune-infiltration analyses"
+---
+
+```{r}
+availability <- read.csv(
+  "tables/JAK3_complete_33cancer_analysis_availability.csv",
+  check.names = FALSE
+)
+
+flags <- read.csv(
+  "tables/JAK3_master_key_flags_corrected.csv",
+  check.names = FALSE
+)
+
+surv <- read.csv(
+  "tables/JAK3_TCGA_CDR_survival_complete.csv",
+  check.names = FALSE
+)
+```
+
+## Scope
+
+This report provides a standardized TCGA pan-cancer framework for
+candidate kinase evaluation.
+
+For each TCGA cancer type, analyses are included where the required
+data are available:
+
+- tumor versus normal expression
+- matched tumor-normal expression
+- early-stage tumor versus normal expression
+- stage-wise expression trends
+- grade-wise expression trends
+- prevalence of high or aberrant expression
+- survival associations as secondary evidence
+- sample-size and data-availability limitations
+- immune/inflammatory infiltration controls
+
+The current completed module is **JAK3**. Additional candidate kinases
+will be incorporated using the same analytical framework.
+
+## JAK3 analysis coverage
+
+```{r}
+coverage <- data.frame(
+  Analysis = c(
+    "TCGA projects evaluated",
+    "Tumor versus normal",
+    "Matched tumor-normal",
+    "Stage-I tumor versus normal",
+    "Stage trend",
+    "Grade trend",
+    "Prevalence analysis",
+    "Survival analysis"
+  ),
+  Cancer_projects = c(
+    nrow(availability),
+    sum(availability$Tumor_vs_normal_available, na.rm = TRUE),
+    sum(availability$Matched_available, na.rm = TRUE),
+    sum(availability$Early_stage_vs_normal_available, na.rm = TRUE),
+    sum(availability$Stage_trend_available, na.rm = TRUE),
+    sum(availability$Grade_trend_available, na.rm = TRUE),
+    sum(availability$Prevalence_available, na.rm = TRUE),
+    sum(surv$Analysis_status == "Analysed", na.rm = TRUE)
+  )
+)
+
+knitr::kable(
+  coverage,
+  align = c("l", "r")
+)
+```
+
+## Current JAK3 summary
+
+```{r}
+summary_tab <- data.frame(
+  Result = c(
+    "Canonical tumor-normal significant UP",
+    "Canonical Stage-I-normal significant UP",
+    "Unadjusted OLS tumor-normal positive",
+    "Positive association persisting after PTPRC adjustment",
+    "Positive association persisting after 10-marker ImmuneScore adjustment",
+    "Unadjusted OLS Stage-I positive",
+    "Stage-I positive association persisting after PTPRC adjustment",
+    "Stage-I positive association persisting after 10-marker ImmuneScore adjustment"
+  ),
+  Cancer_projects = c(
+    sum(flags$Canonical_TN_significant_UP, na.rm = TRUE),
+    sum(flags$Canonical_StageI_significant_UP, na.rm = TRUE),
+    sum(flags$TN_OLS_unadjusted_positive, na.rm = TRUE),
+    sum(flags$TN_positive_persists_after_PTPRC, na.rm = TRUE),
+    sum(flags$TN_positive_persists_after_ImmuneScore, na.rm = TRUE),
+    sum(flags$StageI_OLS_unadjusted_positive, na.rm = TRUE),
+    sum(flags$StageI_positive_persists_after_PTPRC, na.rm = TRUE),
+    sum(flags$StageI_positive_persists_after_ImmuneScore, na.rm = TRUE)
+  )
+)
+
+knitr::kable(
+  summary_tab,
+  align = c("l", "r")
+)
+```
+
+## Data availability across 33 TCGA projects
+
+```{r}
+availability_display <- availability[
+  ,
+  c(
+    "project",
+    "Primary_malignant_patients",
+    "Normal_patients",
+    "Matched_pairs",
+    "Stage_I_patients",
+    "Patients_with_stage",
+    "Patients_with_grade",
+    "Tumor_vs_normal_available",
+    "Matched_available",
+    "Early_stage_vs_normal_available",
+    "Stage_trend_available",
+    "Grade_trend_available",
+    "Survival_available"
+  )
+]
+
+knitr::kable(
+  availability_display,
+  align = "l"
+)
+```
+
+## Interpretation
+
+TCGA RNA-seq represents bulk tissue. Observed kinase expression may
+therefore reflect both malignant-cell biology and differences in
+immune or stromal cell content.
+
+Associations that remain after adjustment for measured immune proxies
+are described as **immune-adjusted or residual associations**. They
+should not be interpreted as proof of malignant-cell-intrinsic
+expression.
+
+Early-stage elevation is considered evidence of an association with
+early disease and does not establish a causal role in tumor initiation.
+
+## Report sections
+
+The complete JAK3 analysis is provided on the **JAK3** page, including:
+
+- tumor-normal comparisons
+- matched-pair analysis
+- Stage-I analysis
+- stage and grade trends
+- high/aberrant-expression prevalence
+- survival
+- leukocyte-fraction analysis
+- CIBERSORT analysis
+- PTPRC/CD45 adjustment
+- multi-marker immune-score adjustment
+- integrated 33-cancer results
+
+Detailed analytical definitions are provided on the **Methods** page.

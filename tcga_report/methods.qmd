@@ -1,0 +1,213 @@
+---
+title: "Methods"
+subtitle: "TCGA pan-cancer analytical framework"
+---
+
+## Analysis design
+
+The TCGA exploration uses a standardized pan-cancer framework to
+evaluate candidate kinase expression across the 33 TCGA cancer
+projects.
+
+Analyses are performed only where the required molecular and clinical
+data are available.
+
+## Expression data
+
+Harmonized TCGA STAR gene-count files were used.
+
+Expression analyses use the `tpm_unstranded` field.
+
+For JAK3, expression was extracted across all available TCGA projects
+and linked with sample-level and clinical metadata.
+
+## Patient-level handling
+
+Where more than one expression aliquot represented the same patient
+and sample type, expression was collapsed to patient level using the
+standardized pan-cancer workflow.
+
+## Tumor versus normal
+
+Primary malignant samples were compared with Solid Tissue Normal
+samples where both groups were available.
+
+The canonical tumor-normal analysis used the Wilcoxon rank-sum test.
+
+Benjamini-Hochberg false-discovery-rate correction was applied across
+the tested cancer types.
+
+## Matched tumor-normal
+
+Where a patient had both tumor and normal samples, a paired
+tumor-normal analysis was performed.
+
+The paired Wilcoxon signed-rank test was used.
+
+## Early-stage tumor versus normal
+
+Early-stage tumors were defined using AJCC Stage I classifications,
+including Stage IA, IB and IC where applicable.
+
+Stage-I tumors were compared with Solid Tissue Normal samples.
+
+## Stage-wise analysis
+
+Stage analyses were performed only where sufficiently populated stage
+groups were available.
+
+Two complementary tests were retained:
+
+- categorical differences across stage groups
+- monotonic stage-expression trends
+
+Kruskal-Wallis testing was used for categorical stage differences.
+
+Spearman correlation was used to evaluate monotonic stage trends.
+
+## Grade-wise analysis
+
+Grade analyses were performed only where grade labels could be
+standardized into interpretable ordered groups with sufficient sample
+sizes.
+
+Categorical grade differences and monotonic grade-expression trends
+were both assessed.
+
+## High or aberrant expression
+
+Where normal tissue was available, the 95th percentile of the
+normal-tissue TPM distribution was used as the reference threshold.
+
+Tumors above this threshold were counted as showing high or aberrant
+expression relative to the corresponding normal-tissue distribution.
+
+## Survival analysis
+
+Survival was treated as secondary evidence.
+
+Curated TCGA Clinical Data Resource endpoints were used.
+
+Continuous log2(TPM + 1) expression was evaluated using Cox
+proportional-hazards models.
+
+The following information was retained:
+
+- sample size
+- number of events
+- hazard ratio
+- 95% confidence interval
+- false-discovery-rate-adjusted significance
+- proportional-hazards diagnostic
+- low-event-count flag
+
+## Immune and inflammatory infiltration controls
+
+TCGA RNA-seq represents bulk tissue, so observed expression may reflect
+both malignant-cell biology and differences in immune or stromal cell
+content.
+
+Several complementary controls were therefore used.
+
+### Leukocyte fraction
+
+PanImmune leukocyte-fraction estimates were matched to TCGA tumors.
+
+JAK3 expression was evaluated against leukocyte fraction using
+correlation and regression analyses.
+
+Stage and grade analyses were also repeated with measured leukocyte
+fraction included as a covariate where possible.
+
+### CIBERSORT
+
+CIBERSORT relative immune-cell fractions were evaluated for 22 immune
+cell types.
+
+The analysis included:
+
+- primary quality-filtered correlations
+- all-sample sensitivity analysis
+- leukocyte-fraction-adjusted cell-composition models
+- robustness checks across these analytical layers
+
+Because CIBERSORT relative fractions are compositional, cell types were
+not entered simultaneously into one 22-variable regression model.
+
+### Immune marker correlations
+
+Expression-based immune controls used the following markers:
+
+`PTPRC, CD3D, CD3E, MS4A1, CD79A, NKG7, LST1, TYROBP, FCER1G, CD68`
+
+Marker expression was transformed using log2(TPM + 1).
+
+### Multi-marker immune score
+
+Within each cancer cohort, the ten log-transformed immune markers were
+standardized separately.
+
+The immune score was calculated as the equal-weighted mean of the
+standardized marker values.
+
+JAK3 itself was not included in this score.
+
+### Immune-adjusted tumor-normal models
+
+Three prespecified linear models were evaluated for both:
+
+- all primary tumors versus normal tissue
+- Stage-I tumors versus normal tissue
+
+The models were:
+
+1. unadjusted group association
+2. group association adjusted for PTPRC/CD45
+3. group association adjusted for the multi-marker immune score
+
+Persistence after immune adjustment was evaluated within this same
+linear-model family.
+
+## Multiple testing
+
+Benjamini-Hochberg false-discovery-rate correction was used for
+prespecified analysis families.
+
+Both analysis-specific and broader pan-cancer adjusted results were
+retained where appropriate.
+
+## Sample sizes and limitations
+
+Each analysis retains the relevant sample sizes and low-sample-size
+flags.
+
+Not every analytical module can be performed for every TCGA cancer
+project because availability varies for:
+
+- normal tissue
+- matched tumor-normal samples
+- Stage-I tumors
+- stage annotation
+- grade annotation
+- survival events
+- immune-infiltration estimates
+
+## Interpretation
+
+This analysis is an observational bulk-RNA pan-cancer screen.
+
+A significant immune-adjusted association means that the expression
+association remains after adjustment for the measured immune proxy.
+
+It does not prove that expression originates from malignant cells.
+
+Similarly, expression elevation in Stage-I tumors is compatible with
+an early-disease association but does not establish a causal role in
+tumor initiation.
+
+## Reproducibility
+
+Canonical final result tables and the final analysis pipeline are
+retained in the repository.
+
+Raw TCGA STAR files are not stored in version control.
