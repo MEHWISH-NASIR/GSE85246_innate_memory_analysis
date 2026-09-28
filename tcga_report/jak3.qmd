@@ -101,6 +101,117 @@ knitr::kable(
   align = c("l", "r")
 )
 ```
+
+## JAK3 tumor prioritization
+
+To facilitate rapid identification of tumor types with the most compelling
+JAK3 signal, an integrated descriptive ranking was generated using three
+equally weighted criteria:
+
+1. strength of significant tumor-versus-normal upregulation,
+2. strength of significant Stage-I-versus-normal upregulation, and
+3. persistence of the positive association after immune-content adjustment.
+
+Immune robustness was assessed using both **PTPRC/CD45** and the
+**10-marker ImmuneScore** in the tumor-normal and Stage-I comparisons.
+The priority score is a descriptive prioritization metric rather than an
+additional statistical test.
+
+```{r}
+priority <- read.csv(
+  "tables/JAK3_tumor_priority_ranking.csv",
+  check.names = FALSE
+)
+
+priority_avail <- read.csv(
+  "tables/JAK3_complete_33cancer_analysis_availability.csv",
+  check.names = FALSE
+)
+
+priority_show <- merge(
+  priority,
+  priority_avail[
+    ,
+    c(
+      "project",
+      "Normal_patients",
+      "Stage_I_patients",
+      "Small_normal_n"
+    )
+  ],
+  by = "project",
+  all.x = TRUE,
+  sort = FALSE
+)
+
+priority_show <- priority_show[
+  order(priority_show$Priority_rank),
+]
+
+priority_show$Core <- ifelse(
+  priority_show$Core_candidate,
+  "Yes",
+  "No"
+)
+
+priority_show$Small_normal_warning <- ifelse(
+  priority_show$Small_normal_n,
+  "Yes",
+  "No"
+)
+
+priority_table <- priority_show[
+  seq_len(min(10, nrow(priority_show))),
+  c(
+    "Priority_rank",
+    "Cancer",
+    "Priority_score",
+    "TN_median_log2TPM1_difference",
+    "StageI_median_log2TPM1_difference",
+    "Immune_robustness",
+    "LF_Spearman_rho",
+    "Normal_patients",
+    "Stage_I_patients",
+    "Core",
+    "Small_normal_warning"
+  )
+]
+
+names(priority_table) <- c(
+  "Rank",
+  "Cancer",
+  "Priority score",
+  "Tumor-normal Δ",
+  "Stage-I-normal Δ",
+  "Immune robustness",
+  "Leukocyte rho",
+  "Normal n",
+  "Stage-I n",
+  "Core candidate",
+  "Small normal n"
+)
+
+knitr::kable(
+  priority_table,
+  digits = 2
+)
+```
+
+The heatmap below summarizes the same prioritization visually. Asterisks denote
+tumor types passing all conservative core criteria, while the dagger symbol
+marks small normal cohorts. Leukocyte-fraction correlation is shown as
+context and is not included in the priority score.
+
+![Integrated JAK3 TCGA tumor prioritization based on tumor upregulation, early-stage upregulation, persistence after immune adjustment, and leukocyte-fraction context.](figures/Figure_8_JAK3_priority_heatmap.png){#fig-jak3-priority width=100%}
+
+The ranking should be interpreted together with cohort size and data
+availability. Strong effects from small normal cohorts should be treated
+cautiously. Persistence after immune adjustment indicates that the association
+is not fully explained by the measured immune proxies; it does not establish
+malignant-cell-intrinsic expression.
+
+[Download the complete JAK3 tumor-priority ranking](tables/JAK3_tumor_priority_ranking.csv)
+
 ## Tumor versus normal expression
 
 Primary tumors were compared with Solid Tissue Normal samples where
