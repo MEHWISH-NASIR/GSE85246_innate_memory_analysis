@@ -1,3 +1,4 @@
+
 ---
 title: "JAK3"
 subtitle: "TCGA pan-cancer expression, clinical and immune-infiltration analysis"
@@ -542,6 +543,113 @@ knitr::kable(
   align = c("l", "r")
 )
 ```
+
+## Chromatin accessibility follow-up
+
+To examine whether the prioritized JAK3 tumor contexts also showed
+regulatory support at the chromatin level, TCGA ATAC-seq data from the
+pan-cancer chromatin-accessibility study were evaluated.
+
+ATAC-seq data were available for all nine tumor types that passed the
+conservative RNA-based prioritization criteria. Technical replicates were
+collapsed to tissue-fragment level before downstream analysis.
+
+```{r}
+atac_availability <- read.csv(
+  "tables/JAK3_priority_TCGA_ATAC_availability.csv",
+  stringsAsFactors = FALSE,
+  check.names = FALSE
+)
+
+knitr::kable(
+  atac_availability,
+  digits = 2
+)
+```
+
+### JAK3-linked regulatory elements
+
+The official TCGA Data S7 pan-cancer peak-to-gene links were used to
+identify regulatory elements linked to JAK3 rather than assuming that
+all accessible regions near the gene regulate JAK3.
+
+Three ATAC elements were linked to JAK3:
+
+```{r}
+jak3_links <- read.csv(
+  "tables/JAK3_DataS7_official_links.csv",
+  stringsAsFactors = FALSE,
+  check.names = FALSE
+)
+
+jak3_links_show <- jak3_links[
+  ,
+  c(
+    "Chromosome",
+    "Start",
+    "End",
+    "Enhancer_ID",
+    "Enhancer_Distance",
+    "Enhancer_Correlation",
+    "Enhancer_FDR"
+  )
+]
+
+knitr::kable(
+  jak3_links_show,
+  digits = 4
+)
+```
+
+The linked elements included JAK3_m1 approximately 2.6 kb from the
+JAK3 transcription start site, JAK3_p1 approximately 241.6 kb away,
+and the promoter-proximal JAK3_p2 element approximately 0.36 kb from
+the transcription start site.
+
+![JAK3 RNA prioritization and accessibility of the three official TCGA JAK3-linked ATAC elements. Values within the ATAC columns are median normalized accessibility values.](figures/Figure_9_JAK3_ATAC_linked_elements_heatmap.png){#fig-jak3-atac-linked width=100%}
+
+The chromatin-accessibility pattern was not identical to the RNA-based
+tumor ranking. HNSC showed comparatively high accessibility across all
+three linked elements, while CHOL and KIRC also showed substantial
+accessibility at the promoter-proximal JAK3_p2 element.
+
+### Patient-matched ATAC-RNA associations
+
+ATAC samples were matched to the canonical TCGA JAK3 RNA-seq dataset
+using TCGA patient identifiers. Of 176 unique patients represented in
+the nine prioritized ATAC cohorts, 171 had matched primary-tumor JAK3
+RNA measurements.
+
+Within each cancer, accessibility of the three JAK3-linked elements was
+correlated with JAK3 expression using Spearman correlation. Tests with
+at least 10 matched patients were considered primary analyses. Tests
+with 5-9 patients were treated as exploratory, while groups with fewer
+than 5 matched patients were not tested inferentially.
+Benjamini-Hochberg correction was applied globally across the 21
+primary cancer-element tests.
+
+Across the 21 primary tests, 19 associations were positive and eight
+remained significant after global FDR correction. The promoter-proximal
+JAK3_p2 element showed significant positive associations with JAK3
+expression in KIRC, KIRP, THCA, LUAD, COAD and LIHC. JAK3_m1 was also
+significant in LUAD and COAD.
+
+![Patient-matched within-cancer correlations between accessibility of official JAK3-linked ATAC elements and JAK3 RNA expression. Asterisks indicate global BH-FDR below 0.05 for primary analyses with at least 10 matched patients; daggers indicate exploratory analyses with 5-9 matched patients.](figures/Figure_10_JAK3_ATAC_RNA_correlation_heatmap.png){#fig-jak3-atac-rna width=100%}
+
+These results provide chromatin-level support for coordinated JAK3
+accessibility and expression in several prioritized tumor types.
+They do not establish that chromatin accessibility causes JAK3
+upregulation or that the observed signal is malignant-cell intrinsic,
+because the TCGA measurements represent bulk tumor tissue.
+
+[Download ATAC availability](tables/JAK3_priority_TCGA_ATAC_availability.csv)
+
+[Download official JAK3-linked elements](tables/JAK3_DataS7_official_links.csv)
+
+[Download JAK3-linked accessibility summary](tables/JAK3_linked_ATAC_summary_9cancers.csv)
+
+[Download patient-matched ATAC-RNA correlations](tables/JAK3_ATAC_RNA_within_cancer_correlations.csv)
+
 ## Integrated example: TCGA-KIRC
 
 ```{r}

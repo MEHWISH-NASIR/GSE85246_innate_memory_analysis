@@ -121,3 +121,6 @@ MANIFEST.txt
 # Quarto local build/cache
 tcga_report/_site/
 tcga_report/.quarto/
+TCGA_JAK3_pan_cancer/ATAC_followup/data/
+TCGA_JAK3_pan_cancer/ATAC_followup/results/*.rds
+tcga_report/jak3.qmd.backup_before_priority_fix

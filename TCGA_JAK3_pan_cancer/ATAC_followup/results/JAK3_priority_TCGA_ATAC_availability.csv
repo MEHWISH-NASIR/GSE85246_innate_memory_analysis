@@ -1,0 +1,10 @@
+"RNA_priority_rank","Cancer","ATAC_available","ATAC_donors_passed_QC","ATAC_tissue_samples_passed_QC","ATAC_donors_failed_QC","ATAC_tissue_samples_failed_QC"
+1,"CHOL","Yes",5,5,1,1
+2,"KIRC","Yes",16,16,0,0
+3,"KIRP","Yes",34,34,3,3
+4,"THCA","Yes",14,14,0,0
+5,"HNSC","Yes",9,9,11,11
+6,"STAD","Yes",21,21,6,6
+7,"LUAD","Yes",22,22,7,7
+8,"COAD","Yes",38,41,6,6
+9,"LIHC","Yes",17,17,0,0

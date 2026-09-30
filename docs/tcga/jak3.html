@@ -136,6 +136,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#ptprccd45-and-multi-marker-immune-adjustment" id="toc-ptprccd45-and-multi-marker-immune-adjustment" class="nav-link" data-scroll-target="#ptprccd45-and-multi-marker-immune-adjustment">PTPRC/CD45 and multi-marker immune adjustment</a></li>
   </ul></li>
   <li><a href="#persistence-after-immune-adjustment" id="toc-persistence-after-immune-adjustment" class="nav-link" data-scroll-target="#persistence-after-immune-adjustment">Persistence after immune adjustment</a></li>
+  <li><a href="#chromatin-accessibility-follow-up" id="toc-chromatin-accessibility-follow-up" class="nav-link" data-scroll-target="#chromatin-accessibility-follow-up">Chromatin accessibility follow-up</a>
+  <ul class="collapse">
+  <li><a href="#jak3-linked-regulatory-elements" id="toc-jak3-linked-regulatory-elements" class="nav-link" data-scroll-target="#jak3-linked-regulatory-elements">JAK3-linked regulatory elements</a></li>
+  <li><a href="#patient-matched-atac-rna-associations" id="toc-patient-matched-atac-rna-associations" class="nav-link" data-scroll-target="#patient-matched-atac-rna-associations">Patient-matched ATAC-RNA associations</a></li>
+  </ul></li>
   <li><a href="#integrated-example-tcga-kirc" id="toc-integrated-example-tcga-kirc" class="nav-link" data-scroll-target="#integrated-example-tcga-kirc">Integrated example: TCGA-KIRC</a></li>
   <li><a href="#integrated-33-cancer-summary" id="toc-integrated-33-cancer-summary" class="nav-link" data-scroll-target="#integrated-33-cancer-summary">Integrated 33-cancer summary</a></li>
   <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
@@ -4005,6 +4010,213 @@ Figure&nbsp;1: Integrated JAK3 TCGA tumor prioritization based on tumor upregula
 </table>
 </div>
 </div>
+</section>
+<section id="chromatin-accessibility-follow-up" class="level2">
+<h2 class="anchored" data-anchor-id="chromatin-accessibility-follow-up">Chromatin accessibility follow-up</h2>
+<p>To examine whether the prioritized JAK3 tumor contexts also showed regulatory support at the chromatin level, TCGA ATAC-seq data from the pan-cancer chromatin-accessibility study were evaluated.</p>
+<p>ATAC-seq data were available for all nine tumor types that passed the conservative RNA-based prioritization criteria. Technical replicates were collapsed to tissue-fragment level before downstream analysis.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 4%">
+<col style="width: 10%">
+<col style="width: 15%">
+<col style="width: 20%">
+<col style="width: 15%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">RNA_priority_rank</th>
+<th style="text-align: left;">Cancer</th>
+<th style="text-align: left;">ATAC_available</th>
+<th style="text-align: right;">ATAC_donors_passed_QC</th>
+<th style="text-align: right;">ATAC_tissue_samples_passed_QC</th>
+<th style="text-align: right;">ATAC_donors_failed_QC</th>
+<th style="text-align: right;">ATAC_tissue_samples_failed_QC</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">CHOL</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">KIRC</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">KIRP</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">THCA</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">HNSC</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">STAD</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">21</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">LUAD</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">COAD</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">41</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">LIHC</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<section id="jak3-linked-regulatory-elements" class="level3">
+<h3 class="anchored" data-anchor-id="jak3-linked-regulatory-elements">JAK3-linked regulatory elements</h3>
+<p>The official TCGA Data S7 pan-cancer peak-to-gene links were used to identify regulatory elements linked to JAK3 rather than assuming that all accessible regions near the gene regulate JAK3.</p>
+<p>Three ATAC elements were linked to JAK3:</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 12%">
+<col style="width: 19%">
+<col style="width: 22%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Chromosome</th>
+<th style="text-align: right;">Start</th>
+<th style="text-align: right;">End</th>
+<th style="text-align: left;">Enhancer_ID</th>
+<th style="text-align: right;">Enhancer_Distance</th>
+<th style="text-align: right;">Enhancer_Correlation</th>
+<th style="text-align: right;">Enhancer_FDR</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">chr19</td>
+<td style="text-align: right;">17850448</td>
+<td style="text-align: right;">17850949</td>
+<td style="text-align: left;">JAK3_m1</td>
+<td style="text-align: right;">-2628</td>
+<td style="text-align: right;">0.4576</td>
+<td style="text-align: right;">0.0083</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">chr19</td>
+<td style="text-align: right;">17606204</td>
+<td style="text-align: right;">17606705</td>
+<td style="text-align: left;">JAK3_p1</td>
+<td style="text-align: right;">241616</td>
+<td style="text-align: right;">0.4501</td>
+<td style="text-align: right;">0.0099</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">chr19</td>
+<td style="text-align: right;">17847462</td>
+<td style="text-align: right;">17847963</td>
+<td style="text-align: left;">JAK3_p2</td>
+<td style="text-align: right;">358</td>
+<td style="text-align: right;">0.5465</td>
+<td style="text-align: right;">0.0007</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>The linked elements included JAK3_m1 approximately 2.6 kb from the JAK3 transcription start site, JAK3_p1 approximately 241.6 kb away, and the promoter-proximal JAK3_p2 element approximately 0.36 kb from the transcription start site.</p>
+<div id="fig-jak3-atac-linked" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-jak3-atac-linked-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/Figure_9_JAK3_ATAC_linked_elements_heatmap.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-jak3-atac-linked-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: JAK3 RNA prioritization and accessibility of the three official TCGA JAK3-linked ATAC elements. Values within the ATAC columns are median normalized accessibility values.
+</figcaption>
+</figure>
+</div>
+<p>The chromatin-accessibility pattern was not identical to the RNA-based tumor ranking. HNSC showed comparatively high accessibility across all three linked elements, while CHOL and KIRC also showed substantial accessibility at the promoter-proximal JAK3_p2 element.</p>
+</section>
+<section id="patient-matched-atac-rna-associations" class="level3">
+<h3 class="anchored" data-anchor-id="patient-matched-atac-rna-associations">Patient-matched ATAC-RNA associations</h3>
+<p>ATAC samples were matched to the canonical TCGA JAK3 RNA-seq dataset using TCGA patient identifiers. Of 176 unique patients represented in the nine prioritized ATAC cohorts, 171 had matched primary-tumor JAK3 RNA measurements.</p>
+<p>Within each cancer, accessibility of the three JAK3-linked elements was correlated with JAK3 expression using Spearman correlation. Tests with at least 10 matched patients were considered primary analyses. Tests with 5-9 patients were treated as exploratory, while groups with fewer than 5 matched patients were not tested inferentially. Benjamini-Hochberg correction was applied globally across the 21 primary cancer-element tests.</p>
+<p>Across the 21 primary tests, 19 associations were positive and eight remained significant after global FDR correction. The promoter-proximal JAK3_p2 element showed significant positive associations with JAK3 expression in KIRC, KIRP, THCA, LUAD, COAD and LIHC. JAK3_m1 was also significant in LUAD and COAD.</p>
+<div id="fig-jak3-atac-rna" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-jak3-atac-rna-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/Figure_10_JAK3_ATAC_RNA_correlation_heatmap.png" class="img-fluid figure-img" style="width:100.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-jak3-atac-rna-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Patient-matched within-cancer correlations between accessibility of official JAK3-linked ATAC elements and JAK3 RNA expression. Asterisks indicate global BH-FDR below 0.05 for primary analyses with at least 10 matched patients; daggers indicate exploratory analyses with 5-9 matched patients.
+</figcaption>
+</figure>
+</div>
+<p>These results provide chromatin-level support for coordinated JAK3 accessibility and expression in several prioritized tumor types. They do not establish that chromatin accessibility causes JAK3 upregulation or that the observed signal is malignant-cell intrinsic, because the TCGA measurements represent bulk tumor tissue.</p>
+<p><a href="tables/JAK3_priority_TCGA_ATAC_availability.csv">Download ATAC availability</a></p>
+<p><a href="tables/JAK3_DataS7_official_links.csv">Download official JAK3-linked elements</a></p>
+<p><a href="tables/JAK3_linked_ATAC_summary_9cancers.csv">Download JAK3-linked accessibility summary</a></p>
+<p><a href="tables/JAK3_ATAC_RNA_within_cancer_correlations.csv">Download patient-matched ATAC-RNA correlations</a></p>
+</section>
 </section>
 <section id="integrated-example-tcga-kirc" class="level2">
 <h2 class="anchored" data-anchor-id="integrated-example-tcga-kirc">Integrated example: TCGA-KIRC</h2>

@@ -1,0 +1,10 @@
+"RNA_priority_rank","Abbreviation","Number of Donors Passed QC","Number of Donors Failed QC","Number of Tissue Samples Passed QC","Number of Tissue Samples Failed QC","Number of Passed QC Samples with 1 TechRep","Number of Passed QC Samples with 2 TechReps"
+1,"CHOL",5,1,5,1,0,5
+2,"KIRC",16,0,16,0,0,16
+3,"KIRP",34,3,34,3,0,34
+4,"THCA",14,0,14,0,0,14
+5,"HNSC",9,11,9,11,2,7
+6,"STAD",21,6,21,6,1,20
+7,"LUAD",22,7,22,7,0,22
+8,"COAD",38,6,41,6,1,40
+9,"LIHC",17,0,17,0,0,17

@@ -1,0 +1,2 @@
+"seqnames","start","end","name","score","annotation","percentGC","Overlap_promoter","Overlap_gene_body","Within_JAK3_50kb","JAK3_region","Peak_midpoint","Distance_to_TSS_bp","Abs_distance_to_TSS_bp"
+"chr19",17847462,17847963,"CESC_49522",11.65700117,"Intron",0.646706587,TRUE,TRUE,TRUE,"Promoter_TSS",17847712,-270,270
