@@ -211,3 +211,92 @@ Canonical final result tables and the final analysis pipeline are
 retained in the repository.
 
 Raw TCGA STAR files are not stored in version control.
+
+
+## Multikinase extension
+
+The completed JAK3 framework was extended to the candidate panel:
+
+`JAK3, MET, HCK, LYN, DDR1, IRAK2, FJX1, EPHB1, RPS6KA2, EPHB2`
+
+JAK3 was retained as the completed reference benchmark.
+
+The same patient-level RNA, tumor-normal, early-stage, progression,
+survival and immune-adjusted framework was applied across the panel.
+
+## TCGA ATAC regulatory analysis
+
+Official peak-to-gene regulatory links were obtained from the TCGA
+pan-cancer ATAC Data S7 dataset.
+
+Across the candidate panel, 51 official linked regulatory elements were
+identified.
+
+Some linked elements represented a single fixed-width ATAC peak, whereas
+broader enhancer units contained multiple constituent peaks.
+
+For broader units, the official `Summits` field was parsed and each summit
+was mapped to the normalized TCGA ATAC matrix peak containing that summit.
+
+All 74 constituent summits mapped successfully, retaining all 51 official
+regulatory elements.
+
+For regulatory units containing multiple constituent peaks, accessibility
+was summarized using the mean of the constituent log2-normalized ATAC
+values.
+
+Technical replicates belonging to the same tissue fragment were collapsed
+before patient-level analysis.
+
+## Patient-matched ATAC-RNA analysis
+
+Primary malignant RNA expression was summarized at patient level by
+averaging TPM across eligible aliquots followed by transformation as:
+
+`log2(TPM + 1)`
+
+ATAC accessibility and RNA expression were matched by gene, cancer type,
+patient and linked regulatory element.
+
+Spearman correlation was calculated separately for each
+gene-cancer-regulatory-element combination.
+
+Analyses were classified according to matched sample size:
+
+- at least 10 patients: primary analysis
+- 5-9 patients: exploratory low-sample-size analysis
+- fewer than 5 patients: not tested
+
+Benjamini-Hochberg adjustment was applied to primary analyses.
+
+A gene-specific global FDR was calculated across eligible tests for each
+gene, and a second multikinase-wide FDR was calculated across all eligible
+primary tests.
+
+Direction concordance with the official Data S7 regulatory correlation was
+also retained.
+
+## Final multi-omic integration
+
+Six normalized evidence domains were integrated:
+
+1. primary tumor RNA
+2. early-stage RNA
+3. stage/grade progression
+4. survival
+5. immune-adjusted progression
+6. ATAC-RNA regulatory coupling
+
+The final multi-omic evidence index is the mean support across these six
+domains.
+
+The ATAC component was normalized by eligible-test significance and
+cancer-level coverage so that genes with larger numbers of linked regulatory
+elements were not automatically favored.
+
+The integrated index and JAK3 benchmark-domain counts are descriptive
+prioritization tools. They are not probabilities, causal estimates or formal
+statistical rankings.
+
+The original innate-memory classification is retained separately from the
+TCGA validation score.

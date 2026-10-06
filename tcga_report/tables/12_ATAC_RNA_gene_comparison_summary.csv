@@ -1,0 +1,11 @@
+gene,Official_elements,Cancer_enhancer_tests,Primary_tests,Exploratory_tests,Primary_gene_FDR_sig,Primary_multikinase_FDR_sig,Positive_gene_FDR_sig,Negative_gene_FDR_sig,DataS7_direction_concordant_sig,Significant_cancers,Reference
+EPHB2,11,253,154,55,18,18,18,0,18,9,FALSE
+MET,8,184,112,40,15,15,15,0,15,8,FALSE
+EPHB1,10,230,140,50,15,16,13,2,13,6,FALSE
+RPS6KA2,4,92,56,20,11,10,11,0,11,9,FALSE
+JAK3,3,69,42,15,10,8,10,0,10,8,TRUE
+HCK,2,46,28,10,9,8,9,0,9,6,FALSE
+IRAK2,3,69,42,15,8,8,8,0,8,8,FALSE
+LYN,1,23,14,5,6,4,6,0,6,7,FALSE
+DDR1,1,23,14,5,3,2,3,0,3,4,FALSE
+FJX1,8,184,112,40,1,5,1,0,1,2,FALSE

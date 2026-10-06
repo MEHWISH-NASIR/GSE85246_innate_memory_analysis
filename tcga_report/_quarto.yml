@@ -4,6 +4,7 @@ project:
   render:
     - index.qmd
     - jak3.qmd
+    - multikinase.qmd
     - methods.qmd
 
 website:
@@ -17,6 +18,8 @@ website:
         text: Overview
       - href: jak3.qmd
         text: JAK3
+      - href: multikinase.qmd
+        text: Multikinase
       - href: methods.qmd
         text: Methods
 

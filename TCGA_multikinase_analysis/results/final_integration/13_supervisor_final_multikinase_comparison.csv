@@ -1,0 +1,11 @@
+gene,Discovery_support,Day6_log2FC,Day6_FDR,TN_sig,Matched_sig,StageI_sig,Stage_trend_sig,Grade_trend_sig,Survival_sig,LF_correlations,Immune_adjusted_stage_sig,Immune_adjusted_grade_sig,Official_ATAC_elements,Primary_ATAC_tests,ATAC_FDR_sig,ATAC_global_FDR_sig,ATAC_sig_cancers,ATAC_test_support,ATAC_cancer_support,ATAC_evidence_support,ATAC_DataS7_concordance,Median_abs_ATAC_RNA_rho,RNA_evidence_index,Final_multiomic_index,JAK3_domains_RNA,JAK3_domains_final,Final_evidence_tier,Final_scope_note
+JAK3,Reference persistent kinase,1.75434851315649,0.015974117530053,13,8,12,2,8,6,29,0,6,3,42,10,8,7,0.2381,0.5,0.3095,1,0.6574,0.3959,0.3815,5,6,REFERENCE,""
+HCK,Strict persistent,1.17737530714526,0.00814393594518473,16,9,13,0,6,3,30,0,7,2,28,9,8,5,0.3214,0.3571,0.3214,1,0.6883,0.3876,0.3766,3,4,STRONG,""
+FJX1,Strict persistent,2.06483122116501,0.0093617823248595,15,13,12,3,2,6,14,5,3,8,112,1,5,1,0.0089,0.0714,0.0417,1,0.5461,0.3819,0.3252,4,4,STRONG,Strong computational candidate retained from original panel; confirm kinase-family classification before presenting as a kinase-level mechanistic candidate.
+EPHB2,Washout emergent,,,18,14,13,0,8,5,19,4,6,11,154,18,18,8,0.1169,0.5714,0.2684,1,0.6471,0.4595,0.4276,3,3,SUPPORTED,""
+LYN,Strict persistent,1.28854814496357,0.0226183864654349,18,16,13,0,3,3,27,0,5,1,14,6,4,6,0.4286,0.4286,0.381,1,0.5989,0.3861,0.3852,2,3,SUPPORTED,""
+IRAK2,Strict persistent,1.12214849722821,0.0488650712873865,13,10,11,2,6,2,20,2,6,3,42,8,8,7,0.1905,0.5,0.2937,1,0.6925,0.3615,0.3502,2,2,SUPPORTED,""
+DDR1,Strict persistent,1.0646418897271,0.0242952338696793,17,9,13,3,4,1,26,3,4,1,14,3,2,3,0.2143,0.2143,0.1905,1,0.7206,0.3676,0.3381,2,2,SUPPORTED,""
+RPS6KA2,Strict persistent,-1.30111763632765,0.029398806054945,12,10,7,1,1,2,16,2,1,4,56,11,10,8,0.1964,0.5714,0.3155,1,0.6544,0.222,0.2376,1,2,SUPPORTED,""
+MET,Strict persistent,3.15691335105585,0.00220653264704346,19,14,11,0,3,3,14,1,1,8,112,15,15,7,0.1339,0.5,0.256,1,0.5909,0.3293,0.3171,1,1,EXPLORATORY,""
+EPHB1,Strict persistent,-1.4370776255206,0.0163664496454958,16,10,10,3,3,3,15,1,1,10,140,15,16,5,0.1071,0.3571,0.1929,0.8667,0.5157,0.3019,0.2837,1,1,EXPLORATORY,""

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Methods – TCGA Pan-Cancer Kinase Exploration</title>
+<title>Multikinase Analysis – TCGA Pan-Cancer Kinase Exploration</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -101,11 +101,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">JAK3</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./multikinase.html"> 
+    <a class="nav-link active" href="./multikinase.html" aria-current="page"> 
 <span class="menu-text">Multikinase</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./methods.html" aria-current="page"> 
+    <a class="nav-link" href="./methods.html"> 
 <span class="menu-text">Methods</span></a>
   </li>  
 </ul>
@@ -124,32 +124,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#analysis-design" id="toc-analysis-design" class="nav-link active" data-scroll-target="#analysis-design">Analysis design</a></li>
-  <li><a href="#expression-data" id="toc-expression-data" class="nav-link" data-scroll-target="#expression-data">Expression data</a></li>
-  <li><a href="#patient-level-handling" id="toc-patient-level-handling" class="nav-link" data-scroll-target="#patient-level-handling">Patient-level handling</a></li>
-  <li><a href="#tumor-versus-normal" id="toc-tumor-versus-normal" class="nav-link" data-scroll-target="#tumor-versus-normal">Tumor versus normal</a></li>
-  <li><a href="#matched-tumor-normal" id="toc-matched-tumor-normal" class="nav-link" data-scroll-target="#matched-tumor-normal">Matched tumor-normal</a></li>
-  <li><a href="#early-stage-tumor-versus-normal" id="toc-early-stage-tumor-versus-normal" class="nav-link" data-scroll-target="#early-stage-tumor-versus-normal">Early-stage tumor versus normal</a></li>
-  <li><a href="#stage-wise-analysis" id="toc-stage-wise-analysis" class="nav-link" data-scroll-target="#stage-wise-analysis">Stage-wise analysis</a></li>
-  <li><a href="#grade-wise-analysis" id="toc-grade-wise-analysis" class="nav-link" data-scroll-target="#grade-wise-analysis">Grade-wise analysis</a></li>
-  <li><a href="#high-or-aberrant-expression" id="toc-high-or-aberrant-expression" class="nav-link" data-scroll-target="#high-or-aberrant-expression">High or aberrant expression</a></li>
-  <li><a href="#survival-analysis" id="toc-survival-analysis" class="nav-link" data-scroll-target="#survival-analysis">Survival analysis</a></li>
-  <li><a href="#immune-and-inflammatory-infiltration-controls" id="toc-immune-and-inflammatory-infiltration-controls" class="nav-link" data-scroll-target="#immune-and-inflammatory-infiltration-controls">Immune and inflammatory infiltration controls</a>
-  <ul class="collapse">
-  <li><a href="#leukocyte-fraction" id="toc-leukocyte-fraction" class="nav-link" data-scroll-target="#leukocyte-fraction">Leukocyte fraction</a></li>
-  <li><a href="#cibersort" id="toc-cibersort" class="nav-link" data-scroll-target="#cibersort">CIBERSORT</a></li>
-  <li><a href="#immune-marker-correlations" id="toc-immune-marker-correlations" class="nav-link" data-scroll-target="#immune-marker-correlations">Immune marker correlations</a></li>
-  <li><a href="#multi-marker-immune-score" id="toc-multi-marker-immune-score" class="nav-link" data-scroll-target="#multi-marker-immune-score">Multi-marker immune score</a></li>
-  <li><a href="#immune-adjusted-tumor-normal-models" id="toc-immune-adjusted-tumor-normal-models" class="nav-link" data-scroll-target="#immune-adjusted-tumor-normal-models">Immune-adjusted tumor-normal models</a></li>
-  </ul></li>
-  <li><a href="#multiple-testing" id="toc-multiple-testing" class="nav-link" data-scroll-target="#multiple-testing">Multiple testing</a></li>
-  <li><a href="#sample-sizes-and-limitations" id="toc-sample-sizes-and-limitations" class="nav-link" data-scroll-target="#sample-sizes-and-limitations">Sample sizes and limitations</a></li>
-  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
-  <li><a href="#reproducibility" id="toc-reproducibility" class="nav-link" data-scroll-target="#reproducibility">Reproducibility</a></li>
-  <li><a href="#multikinase-extension" id="toc-multikinase-extension" class="nav-link" data-scroll-target="#multikinase-extension">Multikinase extension</a></li>
+  <li><a href="#analysis-objective" id="toc-analysis-objective" class="nav-link active" data-scroll-target="#analysis-objective">Analysis objective</a></li>
+  <li><a href="#final-biological-follow-up" id="toc-final-biological-follow-up" class="nav-link" data-scroll-target="#final-biological-follow-up">Final biological follow-up</a></li>
+  <li><a href="#six-domain-multi-omic-evidence" id="toc-six-domain-multi-omic-evidence" class="nav-link" data-scroll-target="#six-domain-multi-omic-evidence">Six-domain multi-omic evidence</a></li>
+  <li><a href="#integrated-multi-omic-evidence" id="toc-integrated-multi-omic-evidence" class="nav-link" data-scroll-target="#integrated-multi-omic-evidence">Integrated multi-omic evidence</a></li>
+  <li><a href="#candidate-profiles-relative-to-jak3" id="toc-candidate-profiles-relative-to-jak3" class="nav-link" data-scroll-target="#candidate-profiles-relative-to-jak3">Candidate profiles relative to JAK3</a></li>
   <li><a href="#tcga-atac-regulatory-analysis" id="toc-tcga-atac-regulatory-analysis" class="nav-link" data-scroll-target="#tcga-atac-regulatory-analysis">TCGA ATAC regulatory analysis</a></li>
   <li><a href="#patient-matched-atac-rna-analysis" id="toc-patient-matched-atac-rna-analysis" class="nav-link" data-scroll-target="#patient-matched-atac-rna-analysis">Patient-matched ATAC-RNA analysis</a></li>
-  <li><a href="#final-multi-omic-integration" id="toc-final-multi-omic-integration" class="nav-link" data-scroll-target="#final-multi-omic-integration">Final multi-omic integration</a></li>
+  <li><a href="#cancer-specific-atac-rna-coupling" id="toc-cancer-specific-atac-rna-coupling" class="nav-link" data-scroll-target="#cancer-specific-atac-rna-coupling">Cancer-specific ATAC-RNA coupling</a></li>
+  <li><a href="#rna-versus-atac-evidence-landscape" id="toc-rna-versus-atac-evidence-landscape" class="nav-link" data-scroll-target="#rna-versus-atac-evidence-landscape">RNA versus ATAC evidence landscape</a></li>
+  <li><a href="#primary-follow-up-candidates" id="toc-primary-follow-up-candidates" class="nav-link" data-scroll-target="#primary-follow-up-candidates">Primary follow-up candidates</a>
+  <ul class="collapse">
+  <li><a href="#ephb2" id="toc-ephb2" class="nav-link" data-scroll-target="#ephb2">EPHB2</a></li>
+  <li><a href="#hck" id="toc-hck" class="nav-link" data-scroll-target="#hck">HCK</a></li>
+  <li><a href="#lyn" id="toc-lyn" class="nav-link" data-scroll-target="#lyn">LYN</a></li>
+  <li><a href="#irak2" id="toc-irak2" class="nav-link" data-scroll-target="#irak2">IRAK2</a></li>
+  </ul></li>
+  <li><a href="#secondary-and-contextual-candidates" id="toc-secondary-and-contextual-candidates" class="nav-link" data-scroll-target="#secondary-and-contextual-candidates">Secondary and contextual candidates</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -158,8 +150,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Methods</h1>
-<p class="subtitle lead">TCGA pan-cancer analytical framework</p>
+<h1 class="title">Multikinase Analysis</h1>
+<p class="subtitle lead">Integrated TCGA RNA, clinical and regulatory-chromatin comparison</p>
 </div>
 
 
@@ -176,203 +168,179 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="analysis-design" class="level2">
-<h2 class="anchored" data-anchor-id="analysis-design">Analysis design</h2>
-<p>The TCGA exploration uses a standardized pan-cancer framework to evaluate candidate kinase expression across the 33 TCGA cancer projects.</p>
-<p>Analyses are performed only where the required molecular and clinical data are available.</p>
-</section>
-<section id="expression-data" class="level2">
-<h2 class="anchored" data-anchor-id="expression-data">Expression data</h2>
-<p>Harmonized TCGA STAR gene-count files were used.</p>
-<p>Expression analyses use the <code>tpm_unstranded</code> field.</p>
-<p>For JAK3, expression was extracted across all available TCGA projects and linked with sample-level and clinical metadata.</p>
-</section>
-<section id="patient-level-handling" class="level2">
-<h2 class="anchored" data-anchor-id="patient-level-handling">Patient-level handling</h2>
-<p>Where more than one expression aliquot represented the same patient and sample type, expression was collapsed to patient level using the standardized pan-cancer workflow.</p>
-</section>
-<section id="tumor-versus-normal" class="level2">
-<h2 class="anchored" data-anchor-id="tumor-versus-normal">Tumor versus normal</h2>
-<p>Primary malignant samples were compared with Solid Tissue Normal samples where both groups were available.</p>
-<p>The canonical tumor-normal analysis used the Wilcoxon rank-sum test.</p>
-<p>Benjamini-Hochberg false-discovery-rate correction was applied across the tested cancer types.</p>
-</section>
-<section id="matched-tumor-normal" class="level2">
-<h2 class="anchored" data-anchor-id="matched-tumor-normal">Matched tumor-normal</h2>
-<p>Where a patient had both tumor and normal samples, a paired tumor-normal analysis was performed.</p>
-<p>The paired Wilcoxon signed-rank test was used.</p>
-</section>
-<section id="early-stage-tumor-versus-normal" class="level2">
-<h2 class="anchored" data-anchor-id="early-stage-tumor-versus-normal">Early-stage tumor versus normal</h2>
-<p>Early-stage tumors were defined using AJCC Stage I classifications, including Stage IA, IB and IC where applicable.</p>
-<p>Stage-I tumors were compared with Solid Tissue Normal samples.</p>
-</section>
-<section id="stage-wise-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="stage-wise-analysis">Stage-wise analysis</h2>
-<p>Stage analyses were performed only where sufficiently populated stage groups were available.</p>
-<p>Two complementary tests were retained:</p>
-<ul>
-<li>categorical differences across stage groups</li>
-<li>monotonic stage-expression trends</li>
-</ul>
-<p>Kruskal-Wallis testing was used for categorical stage differences.</p>
-<p>Spearman correlation was used to evaluate monotonic stage trends.</p>
-</section>
-<section id="grade-wise-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="grade-wise-analysis">Grade-wise analysis</h2>
-<p>Grade analyses were performed only where grade labels could be standardized into interpretable ordered groups with sufficient sample sizes.</p>
-<p>Categorical grade differences and monotonic grade-expression trends were both assessed.</p>
-</section>
-<section id="high-or-aberrant-expression" class="level2">
-<h2 class="anchored" data-anchor-id="high-or-aberrant-expression">High or aberrant expression</h2>
-<p>Where normal tissue was available, the 95th percentile of the normal-tissue TPM distribution was used as the reference threshold.</p>
-<p>Tumors above this threshold were counted as showing high or aberrant expression relative to the corresponding normal-tissue distribution.</p>
-</section>
-<section id="survival-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="survival-analysis">Survival analysis</h2>
-<p>Survival was treated as secondary evidence.</p>
-<p>Curated TCGA Clinical Data Resource endpoints were used.</p>
-<p>Continuous log2(TPM + 1) expression was evaluated using Cox proportional-hazards models.</p>
-<p>The following information was retained:</p>
-<ul>
-<li>sample size</li>
-<li>number of events</li>
-<li>hazard ratio</li>
-<li>95% confidence interval</li>
-<li>false-discovery-rate-adjusted significance</li>
-<li>proportional-hazards diagnostic</li>
-<li>low-event-count flag</li>
-</ul>
-</section>
-<section id="immune-and-inflammatory-infiltration-controls" class="level2">
-<h2 class="anchored" data-anchor-id="immune-and-inflammatory-infiltration-controls">Immune and inflammatory infiltration controls</h2>
-<p>TCGA RNA-seq represents bulk tissue, so observed expression may reflect both malignant-cell biology and differences in immune or stromal cell content.</p>
-<p>Several complementary controls were therefore used.</p>
-<section id="leukocyte-fraction" class="level3">
-<h3 class="anchored" data-anchor-id="leukocyte-fraction">Leukocyte fraction</h3>
-<p>PanImmune leukocyte-fraction estimates were matched to TCGA tumors.</p>
-<p>JAK3 expression was evaluated against leukocyte fraction using correlation and regression analyses.</p>
-<p>Stage and grade analyses were also repeated with measured leukocyte fraction included as a covariate where possible.</p>
-</section>
-<section id="cibersort" class="level3">
-<h3 class="anchored" data-anchor-id="cibersort">CIBERSORT</h3>
-<p>CIBERSORT relative immune-cell fractions were evaluated for 22 immune cell types.</p>
-<p>The analysis included:</p>
-<ul>
-<li>primary quality-filtered correlations</li>
-<li>all-sample sensitivity analysis</li>
-<li>leukocyte-fraction-adjusted cell-composition models</li>
-<li>robustness checks across these analytical layers</li>
-</ul>
-<p>Because CIBERSORT relative fractions are compositional, cell types were not entered simultaneously into one 22-variable regression model.</p>
-</section>
-<section id="immune-marker-correlations" class="level3">
-<h3 class="anchored" data-anchor-id="immune-marker-correlations">Immune marker correlations</h3>
-<p>Expression-based immune controls used the following markers:</p>
-<p><code>PTPRC, CD3D, CD3E, MS4A1, CD79A, NKG7, LST1, TYROBP, FCER1G, CD68</code></p>
-<p>Marker expression was transformed using log2(TPM + 1).</p>
-</section>
-<section id="multi-marker-immune-score" class="level3">
-<h3 class="anchored" data-anchor-id="multi-marker-immune-score">Multi-marker immune score</h3>
-<p>Within each cancer cohort, the ten log-transformed immune markers were standardized separately.</p>
-<p>The immune score was calculated as the equal-weighted mean of the standardized marker values.</p>
-<p>JAK3 itself was not included in this score.</p>
-</section>
-<section id="immune-adjusted-tumor-normal-models" class="level3">
-<h3 class="anchored" data-anchor-id="immune-adjusted-tumor-normal-models">Immune-adjusted tumor-normal models</h3>
-<p>Three prespecified linear models were evaluated for both:</p>
-<ul>
-<li>all primary tumors versus normal tissue</li>
-<li>Stage-I tumors versus normal tissue</li>
-</ul>
-<p>The models were:</p>
-<ol type="1">
-<li>unadjusted group association</li>
-<li>group association adjusted for PTPRC/CD45</li>
-<li>group association adjusted for the multi-marker immune score</li>
-</ol>
-<p>Persistence after immune adjustment was evaluated within this same linear-model family.</p>
-</section>
-</section>
-<section id="multiple-testing" class="level2">
-<h2 class="anchored" data-anchor-id="multiple-testing">Multiple testing</h2>
-<p>Benjamini-Hochberg false-discovery-rate correction was used for prespecified analysis families.</p>
-<p>Both analysis-specific and broader pan-cancer adjusted results were retained where appropriate.</p>
-</section>
-<section id="sample-sizes-and-limitations" class="level2">
-<h2 class="anchored" data-anchor-id="sample-sizes-and-limitations">Sample sizes and limitations</h2>
-<p>Each analysis retains the relevant sample sizes and low-sample-size flags.</p>
-<p>Not every analytical module can be performed for every TCGA cancer project because availability varies for:</p>
-<ul>
-<li>normal tissue</li>
-<li>matched tumor-normal samples</li>
-<li>Stage-I tumors</li>
-<li>stage annotation</li>
-<li>grade annotation</li>
-<li>survival events</li>
-<li>immune-infiltration estimates</li>
-</ul>
-</section>
-<section id="interpretation" class="level2">
-<h2 class="anchored" data-anchor-id="interpretation">Interpretation</h2>
-<p>This analysis is an observational bulk-RNA pan-cancer screen.</p>
-<p>A significant immune-adjusted association means that the expression association remains after adjustment for the measured immune proxy.</p>
-<p>It does not prove that expression originates from malignant cells.</p>
-<p>Similarly, expression elevation in Stage-I tumors is compatible with an early-disease association but does not establish a causal role in tumor initiation.</p>
-</section>
-<section id="reproducibility" class="level2">
-<h2 class="anchored" data-anchor-id="reproducibility">Reproducibility</h2>
-<p>Canonical final result tables and the final analysis pipeline are retained in the repository.</p>
-<p>Raw TCGA STAR files are not stored in version control.</p>
-</section>
-<section id="multikinase-extension" class="level2">
-<h2 class="anchored" data-anchor-id="multikinase-extension">Multikinase extension</h2>
-<p>The completed JAK3 framework was extended to the candidate panel:</p>
+<section id="analysis-objective" class="level2">
+<h2 class="anchored" data-anchor-id="analysis-objective">Analysis objective</h2>
+<p>The completed <strong>JAK3</strong> analysis was used as the reference framework for an expanded panel:</p>
 <p><code>JAK3, MET, HCK, LYN, DDR1, IRAK2, FJX1, EPHB1, RPS6KA2, EPHB2</code></p>
-<p>JAK3 was retained as the completed reference benchmark.</p>
-<p>The same patient-level RNA, tumor-normal, early-stage, progression, survival and immune-adjusted framework was applied across the panel.</p>
+<p>The final comparison integrates six evidence domains:</p>
+<ol type="1">
+<li>Primary tumor RNA</li>
+<li>Early-stage tumor RNA</li>
+<li>Stage/grade progression</li>
+<li>Survival</li>
+<li>Immune-adjusted progression</li>
+<li>Patient-matched ATAC-RNA regulatory coupling</li>
+</ol>
+<p>The integrated scores are descriptive evidence summaries rather than formal probabilities or mechanistic rankings.</p>
+</section>
+<section id="final-biological-follow-up" class="level2">
+<h2 class="anchored" data-anchor-id="final-biological-follow-up">Final biological follow-up</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Group</th>
+<th>Genes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Reference</td>
+<td><strong>JAK3</strong></td>
+</tr>
+<tr class="even">
+<td>Primary follow-up</td>
+<td><strong>EPHB2, LYN, HCK, IRAK2</strong></td>
+</tr>
+<tr class="odd">
+<td>Secondary follow-up</td>
+<td><strong>DDR1, RPS6KA2</strong></td>
+</tr>
+<tr class="even">
+<td>Contextual / lower priority</td>
+<td><strong>MET, EPHB1</strong></td>
+</tr>
+<tr class="odd">
+<td>Separate scope check</td>
+<td><strong>FJX1</strong></td>
+</tr>
+</tbody>
+</table>
+<p><a href="tables/15_final_candidate_priority_table.csv">Download the complete candidate-priority table</a></p>
+</section>
+<section id="six-domain-multi-omic-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="six-domain-multi-omic-evidence">Six-domain multi-omic evidence</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/Figure_1_six_domain_support_heatmap_v2.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Normalized support across the six RNA, clinical and regulatory evidence domains.</figcaption>
+</figure>
+</div>
+<p>The candidate genes show distinct evidence profiles rather than one uniform pattern.</p>
+</section>
+<section id="integrated-multi-omic-evidence" class="level2">
+<h2 class="anchored" data-anchor-id="integrated-multi-omic-evidence">Integrated multi-omic evidence</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/Figure_2_final_multiomic_index_v2.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Integrated multi-omic evidence index across the candidate panel.</figcaption>
+</figure>
+</div>
+<p><strong>EPHB2</strong> showed the highest final multi-omic evidence index.</p>
+<p><strong>HCK</strong> showed one of the most JAK3-like balanced profiles.</p>
+<p><strong>LYN</strong> combined substantial RNA evidence with particularly strong normalized ATAC-RNA support.</p>
+<p><strong>IRAK2</strong> showed balanced RNA, immune-adjusted and regulatory evidence.</p>
+</section>
+<section id="candidate-profiles-relative-to-jak3" class="level2">
+<h2 class="anchored" data-anchor-id="candidate-profiles-relative-to-jak3">Candidate profiles relative to JAK3</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/Figure_3_JAK3_candidate_profiles_v2.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Six-domain profiles for JAK3 and the principal follow-up candidates.</figcaption>
+</figure>
+</div>
+<p>The principal candidates are supported by different combinations of evidence:</p>
+<ul>
+<li><strong>EPHB2:</strong> strongest overall integrated signal</li>
+<li><strong>HCK:</strong> balanced profile close to JAK3</li>
+<li><strong>LYN:</strong> strongest normalized ATAC-RNA evidence</li>
+<li><strong>IRAK2:</strong> balanced multi-layer support</li>
+</ul>
 </section>
 <section id="tcga-atac-regulatory-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="tcga-atac-regulatory-analysis">TCGA ATAC regulatory analysis</h2>
-<p>Official peak-to-gene regulatory links were obtained from the TCGA pan-cancer ATAC Data S7 dataset.</p>
-<p>Across the candidate panel, 51 official linked regulatory elements were identified.</p>
-<p>Some linked elements represented a single fixed-width ATAC peak, whereas broader enhancer units contained multiple constituent peaks.</p>
-<p>For broader units, the official <code>Summits</code> field was parsed and each summit was mapped to the normalized TCGA ATAC matrix peak containing that summit.</p>
-<p>All 74 constituent summits mapped successfully, retaining all 51 official regulatory elements.</p>
-<p>For regulatory units containing multiple constituent peaks, accessibility was summarized using the mean of the constituent log2-normalized ATAC values.</p>
-<p>Technical replicates belonging to the same tissue fragment were collapsed before patient-level analysis.</p>
+<p>Official TCGA pan-cancer ATAC Data S7 peak-to-gene links were used.</p>
+<p>Across the ten genes, <strong>51 official linked regulatory elements</strong> were identified.</p>
+<p>Some elements represented single fixed-width ATAC peaks, while broader enhancer units contained multiple constituent peaks.</p>
+<p>The official <code>Summits</code> field was therefore used to map the regulatory units to the normalized TCGA ATAC matrix.</p>
+<p>All <strong>74 constituent summits mapped successfully</strong>, preserving all <strong>51 official regulatory elements</strong>.</p>
+<p>JAK3 retained its original simple structure of three linked regulatory elements corresponding to three individual ATAC peaks.</p>
 </section>
 <section id="patient-matched-atac-rna-analysis" class="level2">
 <h2 class="anchored" data-anchor-id="patient-matched-atac-rna-analysis">Patient-matched ATAC-RNA analysis</h2>
-<p>Primary malignant RNA expression was summarized at patient level by averaging TPM across eligible aliquots followed by transformation as:</p>
-<p><code>log2(TPM + 1)</code></p>
-<p>ATAC accessibility and RNA expression were matched by gene, cancer type, patient and linked regulatory element.</p>
-<p>Spearman correlation was calculated separately for each gene-cancer-regulatory-element combination.</p>
-<p>Analyses were classified according to matched sample size:</p>
+<p>ATAC accessibility was matched to RNA expression from the same TCGA patients.</p>
+<p>RNA expression was summarized at patient level using mean TPM followed by <code>log2(TPM + 1)</code> transformation.</p>
+<p>Spearman correlations were calculated independently for each gene-cancer-regulatory-element combination.</p>
+<p>Analyses were classified as:</p>
 <ul>
-<li>at least 10 patients: primary analysis</li>
-<li>5-9 patients: exploratory low-sample-size analysis</li>
-<li>fewer than 5 patients: not tested</li>
+<li><strong>Primary:</strong> at least 10 matched patients</li>
+<li><strong>Exploratory low N:</strong> 5-9 matched patients</li>
+<li><strong>Not tested:</strong> fewer than 5 matched patients</li>
 </ul>
-<p>Benjamini-Hochberg adjustment was applied to primary analyses.</p>
-<p>A gene-specific global FDR was calculated across eligible tests for each gene, and a second multikinase-wide FDR was calculated across all eligible primary tests.</p>
-<p>Direction concordance with the official Data S7 regulatory correlation was also retained.</p>
+<p>Benjamini-Hochberg FDR correction was applied to primary tests.</p>
+<p>The expanded analysis reproduced the previously completed JAK3 ATAC-RNA pattern, providing an internal validation of the multikinase workflow.</p>
 </section>
-<section id="final-multi-omic-integration" class="level2">
-<h2 class="anchored" data-anchor-id="final-multi-omic-integration">Final multi-omic integration</h2>
-<p>Six normalized evidence domains were integrated:</p>
-<ol type="1">
-<li>primary tumor RNA</li>
-<li>early-stage RNA</li>
-<li>stage/grade progression</li>
-<li>survival</li>
-<li>immune-adjusted progression</li>
-<li>ATAC-RNA regulatory coupling</li>
-</ol>
-<p>The final multi-omic evidence index is the mean support across these six domains.</p>
-<p>The ATAC component was normalized by eligible-test significance and cancer-level coverage so that genes with larger numbers of linked regulatory elements were not automatically favored.</p>
-<p>The integrated index and JAK3 benchmark-domain counts are descriptive prioritization tools. They are not probabilities, causal estimates or formal statistical rankings.</p>
-<p>The original innate-memory classification is retained separately from the TCGA validation score.</p>
+<section id="cancer-specific-atac-rna-coupling" class="level2">
+<h2 class="anchored" data-anchor-id="cancer-specific-atac-rna-coupling">Cancer-specific ATAC-RNA coupling</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/Figure_4_cancer_specific_ATAC_RNA_coupling_v2.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Cancer-specific significant patient-matched ATAC-RNA associations. Color represents the strongest significant Spearman correlation and numbers indicate the number of significant linked elements. Blank cells indicate no FDR-significant association.</figcaption>
+</figure>
+</div>
+<p>Most significant associations were positive and directionally concordant with the official Data S7 regulatory links.</p>
+<p>A positive association means that higher accessibility at the linked element is associated with higher expression of the linked gene within that cancer cohort. It does not establish causal regulation.</p>
+<p><a href="tables/13_significant_ATAC_RNA_associations.csv">Download all significant ATAC-RNA associations</a></p>
+</section>
+<section id="rna-versus-atac-evidence-landscape" class="level2">
+<h2 class="anchored" data-anchor-id="rna-versus-atac-evidence-landscape">RNA versus ATAC evidence landscape</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="figures/Figure_5_RNA_vs_ATAC_landscape_v2.png" class="img-fluid figure-img" style="width:90.0%"></p>
+<figcaption>Integrated RNA evidence versus normalized ATAC-RNA evidence. Dashed lines indicate the JAK3 reference values.</figcaption>
+</figure>
+</div>
+<p>This comparison separates several important patterns:</p>
+<ul>
+<li><strong>EPHB2</strong> has the strongest integrated RNA evidence.</li>
+<li><strong>LYN</strong> has the strongest normalized ATAC-RNA support.</li>
+<li><strong>HCK</strong> lies close to JAK3 across both dimensions.</li>
+<li><strong>IRAK2</strong> shows balanced support.</li>
+<li><strong>FJX1</strong> has relatively strong RNA evidence but very limited normalized ATAC-RNA support.</li>
+</ul>
+</section>
+<section id="primary-follow-up-candidates" class="level2">
+<h2 class="anchored" data-anchor-id="primary-follow-up-candidates">Primary follow-up candidates</h2>
+<section id="ephb2" class="level3">
+<h3 class="anchored" data-anchor-id="ephb2">EPHB2</h3>
+<p>EPHB2 is <strong>washout-emergent</strong>, rather than strict persistent, in the original macrophage analysis. It nevertheless shows the strongest overall integrated TCGA evidence, including early-stage, progression, survival and broad regulatory support.</p>
+</section>
+<section id="hck" class="level3">
+<h3 class="anchored" data-anchor-id="hck">HCK</h3>
+<p>HCK is a <strong>strict persistent</strong> candidate with one of the most balanced multi-domain profiles relative to JAK3.</p>
+</section>
+<section id="lyn" class="level3">
+<h3 class="anchored" data-anchor-id="lyn">LYN</h3>
+<p>LYN is a <strong>strict persistent</strong> candidate with particularly strong normalized ATAC-RNA support across multiple cancer types.</p>
+</section>
+<section id="irak2" class="level3">
+<h3 class="anchored" data-anchor-id="irak2">IRAK2</h3>
+<p>IRAK2 is a <strong>strict persistent</strong> candidate with balanced RNA, immune-adjusted and chromatin evidence.</p>
+</section>
+</section>
+<section id="secondary-and-contextual-candidates" class="level2">
+<h2 class="anchored" data-anchor-id="secondary-and-contextual-candidates">Secondary and contextual candidates</h2>
+<p><strong>DDR1</strong> remains a secondary candidate because its individual ATAC-RNA associations can be strong but are less broadly distributed.</p>
+<p><strong>RPS6KA2</strong> shows substantial regulatory evidence but weaker overall RNA and clinical support.</p>
+<p><strong>MET</strong> retains substantial TCGA RNA and ATAC-RNA associations, but its original macrophage chromatin evidence did not survive corrected normalization and it remains RNA-only at the discovery chromatin layer.</p>
+<p><strong>EPHB1</strong> has several regulatory associations but weaker integrated RNA and clinical support.</p>
+<p><strong>FJX1</strong> has strong RNA-level evidence but limited normalized ATAC-RNA support. Its kinase-family classification should be confirmed before kinase-level mechanistic interpretation.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The strongest follow-up group is <strong>EPHB2, HCK, LYN and IRAK2</strong>.</p>
+<p>Their strengths arise from different evidence domains, supporting candidate-specific mechanistic follow-up rather than a single linear ranking.</p>
+<p>The completed <strong>JAK3</strong> analysis remains the reference module.</p>
+<p>Detailed analytical definitions are provided on the <strong>Methods</strong> page.</p>
 
 
 </section>

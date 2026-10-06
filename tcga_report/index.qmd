@@ -38,8 +38,14 @@ data are available:
 - sample-size and data-availability limitations
 - immune/inflammatory infiltration controls
 
-The current completed module is **JAK3**. Additional candidate kinases
-will be incorporated using the same analytical framework.
+The completed analysis now contains two linked modules:
+
+- **JAK3** — the reference pan-cancer kinase analysis
+- **Multikinase** — comparative RNA, clinical and ATAC-RNA analysis of the expanded candidate panel
+
+The multikinase module uses JAK3 as the completed benchmark and extends the
+framework to nine additional candidates emerging from the innate immune-memory
+analysis.
 
 ## JAK3 analysis coverage
 
@@ -164,3 +170,7 @@ The complete JAK3 analysis is provided on the **JAK3** page, including:
 - integrated 33-cancer results
 
 Detailed analytical definitions are provided on the **Methods** page.
+
+The **Multikinase** page provides the comparative extension, including
+patient-matched ATAC-RNA regulatory analysis and final multi-omic candidate
+comparison.

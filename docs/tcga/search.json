@@ -112,53 +112,32 @@
     "text": "Reproducibility\nCanonical final result tables and the final analysis pipeline are retained in the repository.\nRaw TCGA STAR files are not stored in version control."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "TCGA Pan-Cancer Kinase Exploration",
-    "section": "",
-    "text": "This report provides a standardized TCGA pan-cancer framework for candidate kinase evaluation.\nFor each TCGA cancer type, analyses are included where the required data are available:\n\ntumor versus normal expression\nmatched tumor-normal expression\nearly-stage tumor versus normal expression\nstage-wise expression trends\ngrade-wise expression trends\nprevalence of high or aberrant expression\nsurvival associations as secondary evidence\nsample-size and data-availability limitations\nimmune/inflammatory infiltration controls\n\nThe current completed module is JAK3. Additional candidate kinases will be incorporated using the same analytical framework."
+    "objectID": "methods.html#multikinase-extension",
+    "href": "methods.html#multikinase-extension",
+    "title": "Methods",
+    "section": "Multikinase extension",
+    "text": "Multikinase extension\nThe completed JAK3 framework was extended to the candidate panel:\nJAK3, MET, HCK, LYN, DDR1, IRAK2, FJX1, EPHB1, RPS6KA2, EPHB2\nJAK3 was retained as the completed reference benchmark.\nThe same patient-level RNA, tumor-normal, early-stage, progression, survival and immune-adjusted framework was applied across the panel."
   },
   {
-    "objectID": "index.html#scope",
-    "href": "index.html#scope",
-    "title": "TCGA Pan-Cancer Kinase Exploration",
-    "section": "",
-    "text": "This report provides a standardized TCGA pan-cancer framework for candidate kinase evaluation.\nFor each TCGA cancer type, analyses are included where the required data are available:\n\ntumor versus normal expression\nmatched tumor-normal expression\nearly-stage tumor versus normal expression\nstage-wise expression trends\ngrade-wise expression trends\nprevalence of high or aberrant expression\nsurvival associations as secondary evidence\nsample-size and data-availability limitations\nimmune/inflammatory infiltration controls\n\nThe current completed module is JAK3. Additional candidate kinases will be incorporated using the same analytical framework."
+    "objectID": "methods.html#tcga-atac-regulatory-analysis",
+    "href": "methods.html#tcga-atac-regulatory-analysis",
+    "title": "Methods",
+    "section": "TCGA ATAC regulatory analysis",
+    "text": "TCGA ATAC regulatory analysis\nOfficial peak-to-gene regulatory links were obtained from the TCGA pan-cancer ATAC Data S7 dataset.\nAcross the candidate panel, 51 official linked regulatory elements were identified.\nSome linked elements represented a single fixed-width ATAC peak, whereas broader enhancer units contained multiple constituent peaks.\nFor broader units, the official Summits field was parsed and each summit was mapped to the normalized TCGA ATAC matrix peak containing that summit.\nAll 74 constituent summits mapped successfully, retaining all 51 official regulatory elements.\nFor regulatory units containing multiple constituent peaks, accessibility was summarized using the mean of the constituent log2-normalized ATAC values.\nTechnical replicates belonging to the same tissue fragment were collapsed before patient-level analysis."
   },
   {
-    "objectID": "index.html#jak3-analysis-coverage",
-    "href": "index.html#jak3-analysis-coverage",
-    "title": "TCGA Pan-Cancer Kinase Exploration",
-    "section": "JAK3 analysis coverage",
-    "text": "JAK3 analysis coverage\n\n\n\n\n\nAnalysis\nCancer_projects\n\n\n\n\nTCGA projects evaluated\n33\n\n\nTumor versus normal\n24\n\n\nMatched tumor-normal\n22\n\n\nStage-I tumor versus normal\n17\n\n\nStage trend\n21\n\n\nGrade trend\n12\n\n\nPrevalence analysis\n24\n\n\nSurvival analysis\n32"
+    "objectID": "methods.html#patient-matched-atac-rna-analysis",
+    "href": "methods.html#patient-matched-atac-rna-analysis",
+    "title": "Methods",
+    "section": "Patient-matched ATAC-RNA analysis",
+    "text": "Patient-matched ATAC-RNA analysis\nPrimary malignant RNA expression was summarized at patient level by averaging TPM across eligible aliquots followed by transformation as:\nlog2(TPM + 1)\nATAC accessibility and RNA expression were matched by gene, cancer type, patient and linked regulatory element.\nSpearman correlation was calculated separately for each gene-cancer-regulatory-element combination.\nAnalyses were classified according to matched sample size:\n\nat least 10 patients: primary analysis\n5-9 patients: exploratory low-sample-size analysis\nfewer than 5 patients: not tested\n\nBenjamini-Hochberg adjustment was applied to primary analyses.\nA gene-specific global FDR was calculated across eligible tests for each gene, and a second multikinase-wide FDR was calculated across all eligible primary tests.\nDirection concordance with the official Data S7 regulatory correlation was also retained."
   },
   {
-    "objectID": "index.html#current-jak3-summary",
-    "href": "index.html#current-jak3-summary",
-    "title": "TCGA Pan-Cancer Kinase Exploration",
-    "section": "Current JAK3 summary",
-    "text": "Current JAK3 summary\n\n\n\n\n\n\n\n\n\nResult\nCancer_projects\n\n\n\n\nCanonical tumor-normal significant UP\n11\n\n\nCanonical Stage-I-normal significant UP\n10\n\n\nUnadjusted OLS tumor-normal positive\n12\n\n\nPositive association persisting after PTPRC adjustment\n12\n\n\nPositive association persisting after 10-marker ImmuneScore adjustment\n10\n\n\nUnadjusted OLS Stage-I positive\n10\n\n\nStage-I positive association persisting after PTPRC adjustment\n10\n\n\nStage-I positive association persisting after 10-marker ImmuneScore adjustment\n9"
-  },
-  {
-    "objectID": "index.html#data-availability-across-33-tcga-projects",
-    "href": "index.html#data-availability-across-33-tcga-projects",
-    "title": "TCGA Pan-Cancer Kinase Exploration",
-    "section": "Data availability across 33 TCGA projects",
-    "text": "Data availability across 33 TCGA projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nproject\nPrimary_malignant_patients\nNormal_patients\nMatched_pairs\nStage_I_patients\nPatients_with_stage\nPatients_with_grade\nTumor_vs_normal_available\nMatched_available\nEarly_stage_vs_normal_available\nStage_trend_available\nGrade_trend_available\nSurvival_available\n\n\n\n\nTCGA-ACC\n79\n0\n0\n0\n0\n0\nFALSE\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-BLCA\n406\n19\n19\n2\n404\n402\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-BRCA\n1095\n113\n113\n182\n1083\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-CESC\n304\n3\n3\n0\n2\n296\nTRUE\nTRUE\nFALSE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-CHOL\n35\n9\n8\n18\n35\n35\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-COAD\n458\n41\n41\n75\n445\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-DLBC\n48\n0\n0\n0\n0\n0\nFALSE\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-ESCA\n184\n13\n13\n18\n161\n184\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-GBM\n284\n5\n0\n0\n0\n0\nTRUE\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-HNSC\n520\n44\n43\n27\n445\n516\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-KICH\n66\n25\n25\n21\n66\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-KIRC\n533\n72\n72\n267\n530\n530\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-KIRP\n290\n32\n32\n172\n260\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-LAML\n151\n0\n0\n0\n0\n0\nFALSE\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-LGG\n516\n0\n0\n0\n0\n514\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\nTRUE\n\n\nTCGA-LIHC\n371\n50\n50\n171\n347\n366\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-LUAD\n517\n59\n58\n276\n509\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-LUSC\n501\n51\n51\n244\n497\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-MESO\n87\n0\n0\n10\n87\n0\nFALSE\nFALSE\nFALSE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-OV\n426\n0\n0\n0\n0\n424\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\nTRUE\n\n\nTCGA-PAAD\n178\n4\n4\n21\n175\n178\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-PCPG\n179\n3\n3\n0\n0\n0\nTRUE\nTRUE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-PRAD\n497\n52\n52\n0\n0\n0\nTRUE\nTRUE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-READ\n166\n10\n9\n30\n156\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-SARC\n259\n2\n2\n0\n0\n0\nTRUE\nTRUE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-SKCM\n103\n1\n0\n2\n98\n0\nTRUE\nFALSE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-STAD\n412\n36\n33\n58\n388\n412\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-TGCT\n150\n0\n0\n57\n130\n0\nFALSE\nFALSE\nFALSE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-THCA\n505\n59\n59\n284\n503\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-THYM\n120\n2\n2\n0\n0\n0\nTRUE\nTRUE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-UCEC\n545\n35\n23\n0\n0\n545\nTRUE\nTRUE\nFALSE\nFALSE\nTRUE\nTRUE\n\n\nTCGA-UCS\n57\n0\n0\n0\n0\n0\nFALSE\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-UVM\n80\n0\n0\n0\n79\n0\nFALSE\nFALSE\nFALSE\nTRUE\nFALSE\nTRUE"
-  },
-  {
-    "objectID": "index.html#interpretation",
-    "href": "index.html#interpretation",
-    "title": "TCGA Pan-Cancer Kinase Exploration",
-    "section": "Interpretation",
-    "text": "Interpretation\nTCGA RNA-seq represents bulk tissue. Observed kinase expression may therefore reflect both malignant-cell biology and differences in immune or stromal cell content.\nAssociations that remain after adjustment for measured immune proxies are described as immune-adjusted or residual associations. They should not be interpreted as proof of malignant-cell-intrinsic expression.\nEarly-stage elevation is considered evidence of an association with early disease and does not establish a causal role in tumor initiation."
-  },
-  {
-    "objectID": "index.html#report-sections",
-    "href": "index.html#report-sections",
-    "title": "TCGA Pan-Cancer Kinase Exploration",
-    "section": "Report sections",
-    "text": "Report sections\nThe complete JAK3 analysis is provided on the JAK3 page, including:\n\ntumor-normal comparisons\nmatched-pair analysis\nStage-I analysis\nstage and grade trends\nhigh/aberrant-expression prevalence\nsurvival\nleukocyte-fraction analysis\nCIBERSORT analysis\nPTPRC/CD45 adjustment\nmulti-marker immune-score adjustment\nintegrated 33-cancer results\n\nDetailed analytical definitions are provided on the Methods page."
+    "objectID": "methods.html#final-multi-omic-integration",
+    "href": "methods.html#final-multi-omic-integration",
+    "title": "Methods",
+    "section": "Final multi-omic integration",
+    "text": "Final multi-omic integration\nSix normalized evidence domains were integrated:\n\nprimary tumor RNA\nearly-stage RNA\nstage/grade progression\nsurvival\nimmune-adjusted progression\nATAC-RNA regulatory coupling\n\nThe final multi-omic evidence index is the mean support across these six domains.\nThe ATAC component was normalized by eligible-test significance and cancer-level coverage so that genes with larger numbers of linked regulatory elements were not automatically favored.\nThe integrated index and JAK3 benchmark-domain counts are descriptive prioritization tools. They are not probabilities, causal estimates or formal statistical rankings.\nThe original innate-memory classification is retained separately from the TCGA validation score."
   },
   {
     "objectID": "jak3.html",
@@ -278,5 +257,145 @@
     "title": "JAK3",
     "section": "Download canonical results",
     "text": "Download canonical results\n\nIntegrated 33-cancer master table\nCorrected statistical flags\nAnalysis availability\nTumor-normal results\nMatched tumor-normal results\nStage-I-normal results\nAberrant-expression prevalence\nStage statistics\nGrade statistics\nSurvival results\nLeukocyte-fraction results\nCIBERSORT robustness\nImmune-adjusted models\nIntegrity hashes"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "TCGA Pan-Cancer Kinase Exploration",
+    "section": "",
+    "text": "This report provides a standardized TCGA pan-cancer framework for candidate kinase evaluation.\nFor each TCGA cancer type, analyses are included where the required data are available:\n\ntumor versus normal expression\nmatched tumor-normal expression\nearly-stage tumor versus normal expression\nstage-wise expression trends\ngrade-wise expression trends\nprevalence of high or aberrant expression\nsurvival associations as secondary evidence\nsample-size and data-availability limitations\nimmune/inflammatory infiltration controls\n\nThe completed analysis now contains two linked modules:\n\nJAK3 — the reference pan-cancer kinase analysis\nMultikinase — comparative RNA, clinical and ATAC-RNA analysis of the expanded candidate panel\n\nThe multikinase module uses JAK3 as the completed benchmark and extends the framework to nine additional candidates emerging from the innate immune-memory analysis."
+  },
+  {
+    "objectID": "index.html#scope",
+    "href": "index.html#scope",
+    "title": "TCGA Pan-Cancer Kinase Exploration",
+    "section": "",
+    "text": "This report provides a standardized TCGA pan-cancer framework for candidate kinase evaluation.\nFor each TCGA cancer type, analyses are included where the required data are available:\n\ntumor versus normal expression\nmatched tumor-normal expression\nearly-stage tumor versus normal expression\nstage-wise expression trends\ngrade-wise expression trends\nprevalence of high or aberrant expression\nsurvival associations as secondary evidence\nsample-size and data-availability limitations\nimmune/inflammatory infiltration controls\n\nThe completed analysis now contains two linked modules:\n\nJAK3 — the reference pan-cancer kinase analysis\nMultikinase — comparative RNA, clinical and ATAC-RNA analysis of the expanded candidate panel\n\nThe multikinase module uses JAK3 as the completed benchmark and extends the framework to nine additional candidates emerging from the innate immune-memory analysis."
+  },
+  {
+    "objectID": "index.html#jak3-analysis-coverage",
+    "href": "index.html#jak3-analysis-coverage",
+    "title": "TCGA Pan-Cancer Kinase Exploration",
+    "section": "JAK3 analysis coverage",
+    "text": "JAK3 analysis coverage\n\n\n\n\n\nAnalysis\nCancer_projects\n\n\n\n\nTCGA projects evaluated\n33\n\n\nTumor versus normal\n24\n\n\nMatched tumor-normal\n22\n\n\nStage-I tumor versus normal\n17\n\n\nStage trend\n21\n\n\nGrade trend\n12\n\n\nPrevalence analysis\n24\n\n\nSurvival analysis\n32"
+  },
+  {
+    "objectID": "index.html#current-jak3-summary",
+    "href": "index.html#current-jak3-summary",
+    "title": "TCGA Pan-Cancer Kinase Exploration",
+    "section": "Current JAK3 summary",
+    "text": "Current JAK3 summary\n\n\n\n\n\n\n\n\n\nResult\nCancer_projects\n\n\n\n\nCanonical tumor-normal significant UP\n11\n\n\nCanonical Stage-I-normal significant UP\n10\n\n\nUnadjusted OLS tumor-normal positive\n12\n\n\nPositive association persisting after PTPRC adjustment\n12\n\n\nPositive association persisting after 10-marker ImmuneScore adjustment\n10\n\n\nUnadjusted OLS Stage-I positive\n10\n\n\nStage-I positive association persisting after PTPRC adjustment\n10\n\n\nStage-I positive association persisting after 10-marker ImmuneScore adjustment\n9"
+  },
+  {
+    "objectID": "index.html#data-availability-across-33-tcga-projects",
+    "href": "index.html#data-availability-across-33-tcga-projects",
+    "title": "TCGA Pan-Cancer Kinase Exploration",
+    "section": "Data availability across 33 TCGA projects",
+    "text": "Data availability across 33 TCGA projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nproject\nPrimary_malignant_patients\nNormal_patients\nMatched_pairs\nStage_I_patients\nPatients_with_stage\nPatients_with_grade\nTumor_vs_normal_available\nMatched_available\nEarly_stage_vs_normal_available\nStage_trend_available\nGrade_trend_available\nSurvival_available\n\n\n\n\nTCGA-ACC\n79\n0\n0\n0\n0\n0\nFALSE\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-BLCA\n406\n19\n19\n2\n404\n402\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-BRCA\n1095\n113\n113\n182\n1083\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-CESC\n304\n3\n3\n0\n2\n296\nTRUE\nTRUE\nFALSE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-CHOL\n35\n9\n8\n18\n35\n35\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-COAD\n458\n41\n41\n75\n445\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-DLBC\n48\n0\n0\n0\n0\n0\nFALSE\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-ESCA\n184\n13\n13\n18\n161\n184\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-GBM\n284\n5\n0\n0\n0\n0\nTRUE\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-HNSC\n520\n44\n43\n27\n445\n516\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-KICH\n66\n25\n25\n21\n66\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-KIRC\n533\n72\n72\n267\n530\n530\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-KIRP\n290\n32\n32\n172\n260\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-LAML\n151\n0\n0\n0\n0\n0\nFALSE\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-LGG\n516\n0\n0\n0\n0\n514\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\nTRUE\n\n\nTCGA-LIHC\n371\n50\n50\n171\n347\n366\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-LUAD\n517\n59\n58\n276\n509\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-LUSC\n501\n51\n51\n244\n497\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-MESO\n87\n0\n0\n10\n87\n0\nFALSE\nFALSE\nFALSE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-OV\n426\n0\n0\n0\n0\n424\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\nTRUE\n\n\nTCGA-PAAD\n178\n4\n4\n21\n175\n178\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-PCPG\n179\n3\n3\n0\n0\n0\nTRUE\nTRUE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-PRAD\n497\n52\n52\n0\n0\n0\nTRUE\nTRUE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-READ\n166\n10\n9\n30\n156\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-SARC\n259\n2\n2\n0\n0\n0\nTRUE\nTRUE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-SKCM\n103\n1\n0\n2\n98\n0\nTRUE\nFALSE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-STAD\n412\n36\n33\n58\n388\n412\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\nTRUE\n\n\nTCGA-TGCT\n150\n0\n0\n57\n130\n0\nFALSE\nFALSE\nFALSE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-THCA\n505\n59\n59\n284\n503\n0\nTRUE\nTRUE\nTRUE\nTRUE\nFALSE\nTRUE\n\n\nTCGA-THYM\n120\n2\n2\n0\n0\n0\nTRUE\nTRUE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-UCEC\n545\n35\n23\n0\n0\n545\nTRUE\nTRUE\nFALSE\nFALSE\nTRUE\nTRUE\n\n\nTCGA-UCS\n57\n0\n0\n0\n0\n0\nFALSE\nFALSE\nFALSE\nFALSE\nFALSE\nTRUE\n\n\nTCGA-UVM\n80\n0\n0\n0\n79\n0\nFALSE\nFALSE\nFALSE\nTRUE\nFALSE\nTRUE"
+  },
+  {
+    "objectID": "index.html#interpretation",
+    "href": "index.html#interpretation",
+    "title": "TCGA Pan-Cancer Kinase Exploration",
+    "section": "Interpretation",
+    "text": "Interpretation\nTCGA RNA-seq represents bulk tissue. Observed kinase expression may therefore reflect both malignant-cell biology and differences in immune or stromal cell content.\nAssociations that remain after adjustment for measured immune proxies are described as immune-adjusted or residual associations. They should not be interpreted as proof of malignant-cell-intrinsic expression.\nEarly-stage elevation is considered evidence of an association with early disease and does not establish a causal role in tumor initiation."
+  },
+  {
+    "objectID": "index.html#report-sections",
+    "href": "index.html#report-sections",
+    "title": "TCGA Pan-Cancer Kinase Exploration",
+    "section": "Report sections",
+    "text": "Report sections\nThe complete JAK3 analysis is provided on the JAK3 page, including:\n\ntumor-normal comparisons\nmatched-pair analysis\nStage-I analysis\nstage and grade trends\nhigh/aberrant-expression prevalence\nsurvival\nleukocyte-fraction analysis\nCIBERSORT analysis\nPTPRC/CD45 adjustment\nmulti-marker immune-score adjustment\nintegrated 33-cancer results\n\nDetailed analytical definitions are provided on the Methods page.\nThe Multikinase page provides the comparative extension, including patient-matched ATAC-RNA regulatory analysis and final multi-omic candidate comparison."
+  },
+  {
+    "objectID": "multikinase.html",
+    "href": "multikinase.html",
+    "title": "Multikinase Analysis",
+    "section": "",
+    "text": "The completed JAK3 analysis was used as the reference framework for an expanded panel:\nJAK3, MET, HCK, LYN, DDR1, IRAK2, FJX1, EPHB1, RPS6KA2, EPHB2\nThe final comparison integrates six evidence domains:\n\nPrimary tumor RNA\nEarly-stage tumor RNA\nStage/grade progression\nSurvival\nImmune-adjusted progression\nPatient-matched ATAC-RNA regulatory coupling\n\nThe integrated scores are descriptive evidence summaries rather than formal probabilities or mechanistic rankings."
+  },
+  {
+    "objectID": "multikinase.html#analysis-objective",
+    "href": "multikinase.html#analysis-objective",
+    "title": "Multikinase Analysis",
+    "section": "",
+    "text": "The completed JAK3 analysis was used as the reference framework for an expanded panel:\nJAK3, MET, HCK, LYN, DDR1, IRAK2, FJX1, EPHB1, RPS6KA2, EPHB2\nThe final comparison integrates six evidence domains:\n\nPrimary tumor RNA\nEarly-stage tumor RNA\nStage/grade progression\nSurvival\nImmune-adjusted progression\nPatient-matched ATAC-RNA regulatory coupling\n\nThe integrated scores are descriptive evidence summaries rather than formal probabilities or mechanistic rankings."
+  },
+  {
+    "objectID": "multikinase.html#final-biological-follow-up",
+    "href": "multikinase.html#final-biological-follow-up",
+    "title": "Multikinase Analysis",
+    "section": "Final biological follow-up",
+    "text": "Final biological follow-up\n\n\n\nGroup\nGenes\n\n\n\n\nReference\nJAK3\n\n\nPrimary follow-up\nEPHB2, LYN, HCK, IRAK2\n\n\nSecondary follow-up\nDDR1, RPS6KA2\n\n\nContextual / lower priority\nMET, EPHB1\n\n\nSeparate scope check\nFJX1\n\n\n\nDownload the complete candidate-priority table"
+  },
+  {
+    "objectID": "multikinase.html#six-domain-multi-omic-evidence",
+    "href": "multikinase.html#six-domain-multi-omic-evidence",
+    "title": "Multikinase Analysis",
+    "section": "Six-domain multi-omic evidence",
+    "text": "Six-domain multi-omic evidence\n\n\n\nNormalized support across the six RNA, clinical and regulatory evidence domains.\n\n\nThe candidate genes show distinct evidence profiles rather than one uniform pattern."
+  },
+  {
+    "objectID": "multikinase.html#integrated-multi-omic-evidence",
+    "href": "multikinase.html#integrated-multi-omic-evidence",
+    "title": "Multikinase Analysis",
+    "section": "Integrated multi-omic evidence",
+    "text": "Integrated multi-omic evidence\n\n\n\nIntegrated multi-omic evidence index across the candidate panel.\n\n\nEPHB2 showed the highest final multi-omic evidence index.\nHCK showed one of the most JAK3-like balanced profiles.\nLYN combined substantial RNA evidence with particularly strong normalized ATAC-RNA support.\nIRAK2 showed balanced RNA, immune-adjusted and regulatory evidence."
+  },
+  {
+    "objectID": "multikinase.html#candidate-profiles-relative-to-jak3",
+    "href": "multikinase.html#candidate-profiles-relative-to-jak3",
+    "title": "Multikinase Analysis",
+    "section": "Candidate profiles relative to JAK3",
+    "text": "Candidate profiles relative to JAK3\n\n\n\nSix-domain profiles for JAK3 and the principal follow-up candidates.\n\n\nThe principal candidates are supported by different combinations of evidence:\n\nEPHB2: strongest overall integrated signal\nHCK: balanced profile close to JAK3\nLYN: strongest normalized ATAC-RNA evidence\nIRAK2: balanced multi-layer support"
+  },
+  {
+    "objectID": "multikinase.html#tcga-atac-regulatory-analysis",
+    "href": "multikinase.html#tcga-atac-regulatory-analysis",
+    "title": "Multikinase Analysis",
+    "section": "TCGA ATAC regulatory analysis",
+    "text": "TCGA ATAC regulatory analysis\nOfficial TCGA pan-cancer ATAC Data S7 peak-to-gene links were used.\nAcross the ten genes, 51 official linked regulatory elements were identified.\nSome elements represented single fixed-width ATAC peaks, while broader enhancer units contained multiple constituent peaks.\nThe official Summits field was therefore used to map the regulatory units to the normalized TCGA ATAC matrix.\nAll 74 constituent summits mapped successfully, preserving all 51 official regulatory elements.\nJAK3 retained its original simple structure of three linked regulatory elements corresponding to three individual ATAC peaks."
+  },
+  {
+    "objectID": "multikinase.html#patient-matched-atac-rna-analysis",
+    "href": "multikinase.html#patient-matched-atac-rna-analysis",
+    "title": "Multikinase Analysis",
+    "section": "Patient-matched ATAC-RNA analysis",
+    "text": "Patient-matched ATAC-RNA analysis\nATAC accessibility was matched to RNA expression from the same TCGA patients.\nRNA expression was summarized at patient level using mean TPM followed by log2(TPM + 1) transformation.\nSpearman correlations were calculated independently for each gene-cancer-regulatory-element combination.\nAnalyses were classified as:\n\nPrimary: at least 10 matched patients\nExploratory low N: 5-9 matched patients\nNot tested: fewer than 5 matched patients\n\nBenjamini-Hochberg FDR correction was applied to primary tests.\nThe expanded analysis reproduced the previously completed JAK3 ATAC-RNA pattern, providing an internal validation of the multikinase workflow."
+  },
+  {
+    "objectID": "multikinase.html#cancer-specific-atac-rna-coupling",
+    "href": "multikinase.html#cancer-specific-atac-rna-coupling",
+    "title": "Multikinase Analysis",
+    "section": "Cancer-specific ATAC-RNA coupling",
+    "text": "Cancer-specific ATAC-RNA coupling\n\n\n\nCancer-specific significant patient-matched ATAC-RNA associations. Color represents the strongest significant Spearman correlation and numbers indicate the number of significant linked elements. Blank cells indicate no FDR-significant association.\n\n\nMost significant associations were positive and directionally concordant with the official Data S7 regulatory links.\nA positive association means that higher accessibility at the linked element is associated with higher expression of the linked gene within that cancer cohort. It does not establish causal regulation.\nDownload all significant ATAC-RNA associations"
+  },
+  {
+    "objectID": "multikinase.html#rna-versus-atac-evidence-landscape",
+    "href": "multikinase.html#rna-versus-atac-evidence-landscape",
+    "title": "Multikinase Analysis",
+    "section": "RNA versus ATAC evidence landscape",
+    "text": "RNA versus ATAC evidence landscape\n\n\n\nIntegrated RNA evidence versus normalized ATAC-RNA evidence. Dashed lines indicate the JAK3 reference values.\n\n\nThis comparison separates several important patterns:\n\nEPHB2 has the strongest integrated RNA evidence.\nLYN has the strongest normalized ATAC-RNA support.\nHCK lies close to JAK3 across both dimensions.\nIRAK2 shows balanced support.\nFJX1 has relatively strong RNA evidence but very limited normalized ATAC-RNA support."
+  },
+  {
+    "objectID": "multikinase.html#primary-follow-up-candidates",
+    "href": "multikinase.html#primary-follow-up-candidates",
+    "title": "Multikinase Analysis",
+    "section": "Primary follow-up candidates",
+    "text": "Primary follow-up candidates\n\nEPHB2\nEPHB2 is washout-emergent, rather than strict persistent, in the original macrophage analysis. It nevertheless shows the strongest overall integrated TCGA evidence, including early-stage, progression, survival and broad regulatory support.\n\n\nHCK\nHCK is a strict persistent candidate with one of the most balanced multi-domain profiles relative to JAK3.\n\n\nLYN\nLYN is a strict persistent candidate with particularly strong normalized ATAC-RNA support across multiple cancer types.\n\n\nIRAK2\nIRAK2 is a strict persistent candidate with balanced RNA, immune-adjusted and chromatin evidence."
+  },
+  {
+    "objectID": "multikinase.html#secondary-and-contextual-candidates",
+    "href": "multikinase.html#secondary-and-contextual-candidates",
+    "title": "Multikinase Analysis",
+    "section": "Secondary and contextual candidates",
+    "text": "Secondary and contextual candidates\nDDR1 remains a secondary candidate because its individual ATAC-RNA associations can be strong but are less broadly distributed.\nRPS6KA2 shows substantial regulatory evidence but weaker overall RNA and clinical support.\nMET retains substantial TCGA RNA and ATAC-RNA associations, but its original macrophage chromatin evidence did not survive corrected normalization and it remains RNA-only at the discovery chromatin layer.\nEPHB1 has several regulatory associations but weaker integrated RNA and clinical support.\nFJX1 has strong RNA-level evidence but limited normalized ATAC-RNA support. Its kinase-family classification should be confirmed before kinase-level mechanistic interpretation."
+  },
+  {
+    "objectID": "multikinase.html#conclusion",
+    "href": "multikinase.html#conclusion",
+    "title": "Multikinase Analysis",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe strongest follow-up group is EPHB2, HCK, LYN and IRAK2.\nTheir strengths arise from different evidence domains, supporting candidate-specific mechanistic follow-up rather than a single linear ranking.\nThe completed JAK3 analysis remains the reference module.\nDetailed analytical definitions are provided on the Methods page."
   }
 ]

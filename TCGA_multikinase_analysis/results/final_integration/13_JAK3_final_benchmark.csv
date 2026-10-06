@@ -1,0 +1,2 @@
+gene,Primary_RNA_support,Early_stage_support,Progression_support,Survival_support,Immune_adjusted_support,ATAC_evidence_support,RNA_evidence_index,Final_multiomic_evidence_index,Final_JAK3_benchmark_domains
+JAK3,0.452651515151515,0.705882352941177,0.383333333333333,0.1875,0.25,0.30952380952381,0.395873440285205,0.381481835158306,6
