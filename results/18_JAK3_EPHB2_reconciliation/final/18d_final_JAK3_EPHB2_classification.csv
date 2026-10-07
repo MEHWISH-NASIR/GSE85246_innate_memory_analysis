@@ -1,0 +1,3 @@
+"Gene","H3K27ac","H3K4me1","Final_classification"
+"JAK3","Persistent positive LPS-associated signal","Positive Day1 signal; weaker/uncertain Day6","Persistent H3K27ac response"
+"EPHB2","Upward post-washout shift, trajectory uncertain","Positive Day1 signal; absent/uncertain Day6","Candidate post-washout shift; not confirmed washout-emergent chromatin"

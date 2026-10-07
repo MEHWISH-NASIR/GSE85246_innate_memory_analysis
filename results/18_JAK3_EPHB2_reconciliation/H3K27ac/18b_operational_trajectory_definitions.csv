@@ -1,0 +1,5 @@
+"label","definition"
+"persistent_positive","Positive LPS-vs-RPMI effect at Day1 and Day6, with the Day6 effect supported by a 95% CI above zero. The trajectory contrast quantifies strengthening or weakening but persistence is not inferred from equality of p-values."
+"washout_emergent","Day6 LPS-vs-RPMI effect is positive and exceeds the Day1 effect, with a positive direct trajectory-change estimate; strong washout-emergent evidence requires the 95% CI for the trajectory contrast to exclude zero."
+"transient_positive","Positive Day1 LPS-vs-RPMI effect followed by substantial attenuation, loss or reversal at Day6, evaluated using the direct trajectory contrast and its uncertainty."
+"trajectory_unresolved","The estimated effects or trajectory CI are too uncertain to support a persistent, emergent or transient trajectory."
