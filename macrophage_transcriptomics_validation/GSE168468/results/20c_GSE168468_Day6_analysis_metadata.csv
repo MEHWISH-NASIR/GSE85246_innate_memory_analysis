@@ -1,0 +1,2 @@
+"dataset","species","cell_system","donors","timepoint","initial_exposure","recovery","expression_source","normalization","statistical_model","variance_moderation","primary_control"
+"GSE168468","Homo sapiens","Primary monocytes differentiated to macrophages",5,"Day 6","24 h","5 days after stimulus removal","MMSEQ gene-level log_mu","Official MMSEQ readmmseq multi-sample normalization","limma: normalized log expression ~ donor + condition","eBayes across genes; robust=TRUE","Day6 RPMI"

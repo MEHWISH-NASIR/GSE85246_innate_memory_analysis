@@ -1,0 +1,6 @@
+Dataset,Stimulus,Post_washout_timepoint,Effect,CI_low,CI_high,FDR,Donor_consistency,Classification
+GSE58310,LPS,Day6,0.718,-0.900,2.337,NA,2/4 positive,Heterogeneous / uncertain
+GSE58310,Beta-glucan,Day6,-0.700,-1.183,-0.216,NA,4/4 negative,Consistent negative post-washout shift
+GSE168468,LPS,Day6,1.724,0.936,2.513,0.0177,5/5 positive,Strong positive post-washout validation
+GSE168468,BCG Denmark,Day6,1.742,0.953,2.530,0.0089,5/5 positive,Strong positive post-washout validation
+GSE168468,BCG Bulgaria,Day6,1.836,1.048,2.625,0.0029,5/5 positive,Strong positive post-washout validation
