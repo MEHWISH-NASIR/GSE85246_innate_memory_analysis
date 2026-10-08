@@ -1,0 +1,13 @@
+"sample","donor","time","condition","JAK3_raw_count"
+"exp1_d1_RPMI","exp1","D1","RPMI",98
+"exp1_d1_BCG","exp1","D1","BCG",271
+"exp1_d6_RPMI","exp1","D6","RPMI",62
+"exp1_d6_BCG","exp1","D6","BCG",135
+"exp2_d1_RPMI","exp2","D1","RPMI",119
+"exp2_d1_BCG","exp2","D1","BCG",425
+"exp2_d6_RPMI","exp2","D6","RPMI",109
+"exp2_d6_BCG","exp2","D6","BCG",1173
+"exp3_d1_RPMI","exp3","D1","RPMI",146
+"exp3_d1_BCG","exp3","D1","BCG",452
+"exp3_d6_RPMI","exp3","D6","RPMI",77
+"exp3_d6_BCG","exp3","D6","BCG",286

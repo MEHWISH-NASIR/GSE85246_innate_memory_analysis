@@ -1,0 +1,2 @@
+"dataset","species","biological_units","biological_unit_label","assay","count_source","genome_annotation","primary_stimulus","initial_exposure","late_state","design","primary_tests","low_count_filter"
+"GSE262098","Homo sapiens",3,"exp1/exp2/exp3","RNA-seq","Deposited unnormalized HTSeq gene counts","Ensembl GRCh37v70 / hg19","BCG","24 h","Day6 post-washout","~ donor + time + condition + time:condition","Day1 BCG vs RPMI; Day6 BCG vs RPMI; Day6-vs-Day1 interaction",">=10 counts in >=3 of 12 samples"
