@@ -1,0 +1,2 @@
+"dataset","species","cell_system","stimulus_duration","stimuli","washout","late_timepoint","matched_control","biological_replicates","assay","processed_scale","primary_question"
+"GSE58310","Homo sapiens","Primary monocytes differentiated toward macrophage state","24 h","LPS 100 ng/mL; beta-glucan 5 ug/mL","Yes","Day 6","Day6 RPMI",4,"RNA-seq","natural-log RPKM","Does JAK3 remain deregulated at Day6 after stimulus removal?"
