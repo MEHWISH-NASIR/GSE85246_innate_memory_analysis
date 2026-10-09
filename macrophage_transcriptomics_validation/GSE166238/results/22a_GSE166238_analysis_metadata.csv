@@ -1,0 +1,2 @@
+"dataset","species","biological_donors","stimulus","initial_exposure","washout","recovery","late_state","expression_source","normalization","statistical_model","primary_tests","restimulation_samples_in_primary_model"
+"GSE166238","Homo sapiens",3,"oxLDL","24 h","Yes","5 days","Day6","Deposited gene-level MMSEQ files","MMSEQ readmmseq joint normalization","limma group-means model with donor fixed effect","Day1 oxLDL vs RPMI; Day6 oxLDL vs RPMI; Day6-vs-Day1 interaction",FALSE

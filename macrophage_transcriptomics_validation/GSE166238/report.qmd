@@ -1,0 +1,73 @@
+---
+title: "GSE166238 — JAK3 Validation After oxLDL Washout"
+subtitle: "Paired transcriptomic analysis in primary human monocytes/macrophages"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    embed-resources: true
+---
+
+## Study design
+
+GSE166238 profiled primary human monocytes from three independent donors.
+
+Cells were exposed to oxLDL or RPMI control for 24 hours. The stimulus was then removed, followed by five additional days of macrophage differentiation before the Day 6 measurement.
+
+Primary comparisons:
+
+- Day 1 oxLDL vs Day 1 RPMI
+- Day 6 oxLDL vs Day 6 RPMI
+- direct Day 6 vs Day 1 treatment-effect trajectory
+
+Day 6 LPS-restimulated samples were excluded from the primary persistence analysis.
+
+## Analysis
+
+Deposited MMSEQ gene-level expression estimates were jointly normalized using the MMSEQ `readmmseq()` workflow.
+
+JAK3 Ensembl ID:
+
+`ENSG00000105639`
+
+A donor-adjusted limma model was fitted across the retained gene universe.
+
+## JAK3 results
+
+| Contrast | Effect | 95% CI | P value | FDR |
+|---|---:|---:|---:|---:|
+| Day 1 oxLDL vs RPMI | -0.071 | -1.424 to 1.283 | 0.905 | 1.000 |
+| Day 6 oxLDL vs RPMI | -0.224 | -1.577 to 1.129 | 0.707 | 1.000 |
+| Day 6 vs Day 1 trajectory | -0.153 | -2.067 to 1.761 | 0.855 | 0.987 |
+
+## Donor consistency
+
+### Day 1
+
+- 2 donors positive
+- 1 donor negative
+
+### Day 6
+
+- 1 donor positive
+- 2 donors negative
+
+The response was therefore not directionally consistent across donors.
+
+## Interpretation
+
+GSE166238 does not provide evidence for persistent JAK3 transcriptional deregulation after oxLDL training.
+
+Neither the acute Day 1 comparison nor the Day 6 post-washout comparison showed a supported JAK3 effect.
+
+The direct Day 6 versus Day 1 trajectory contrast was also not supported.
+
+## Final classification
+
+**No convincing persistent JAK3 response after oxLDL training.**
+
+This result is retained as an important negative independent dataset in the cross-dataset validation framework.
+
+## Scope
+
+The absence of a consistent JAK3 response in this dataset suggests that persistent JAK3 deregulation is not a universal consequence of monocyte/macrophage training and may depend on stimulus or experimental context.
