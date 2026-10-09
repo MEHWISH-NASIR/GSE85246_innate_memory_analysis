@@ -1,0 +1,2 @@
+"dataset","species","cell_system","biological_replicates","training","training_duration","rest_period","primary_comparison","expression_source","normalization","formal_model","pairing_assumption","replicate_index_matching"
+"GSE235897","Homo sapiens","Human monocyte-derived macrophages",3,"Al(OH)3 + PHAD + Mannan (MMA)","24 h","5 days","Day6 MMA vs Day6 naive","Deposited gene-level MMSEQ output","MMSEQ readmmseq joint normalization","Unpaired two-group limma model","None for formal inference","Descriptive only; GEO does not explicitly provide matched donor IDs"
