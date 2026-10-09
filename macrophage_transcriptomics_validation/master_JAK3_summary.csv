@@ -7,3 +7,5 @@ GSE168468,BCG Bulgaria,Day6,1.836,1.048,2.625,0.0029,5/5 positive,Strong positiv
 GSE262098,BCG,Day6,2.365,NA,NA,0.00191,3/3 positive,Strong positive persistent validation
 GSE166238,oxLDL,Day6,-0.224,-1.577,1.129,0.99997,1/3 positive; 2/3 negative,No convincing persistent JAK3 response
 GSE235897,MMA,Day6,0.038,-1.744,1.820,0.99989,1/3 positive; 2/3 negative,No evidence of persistent JAK3 deregulation
+GSE121696,Aldosterone,Day6,-0.075,-0.573,0.423,0.99936,1/3 positive; 2/3 negative,No evidence of persistent JAK3 deregulation
+GSE141656,Beta-glucan,Day6,-0.105,-1.600,1.390,0.93980,2/3 positive; 1/3 negative,No evidence of persistent JAK3 deregulation

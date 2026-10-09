@@ -1,0 +1,2 @@
+"dataset","species","system","training","training_duration","rest_period","analysis_state","donors","expression_source","normalization","formal_model","inference"
+"GSE141656","Homo sapiens","Human monocyte-derived macrophages","Beta-glucan","24 h","5 days","Day6, no Mtb restimulation",3,"Deposited MMSEQ gene-level output","Joint MMSEQ readmmseq normalization","~ donor + condition","Paired limma moderated analysis"
