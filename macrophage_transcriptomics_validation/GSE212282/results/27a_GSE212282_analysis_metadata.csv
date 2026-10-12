@@ -1,0 +1,2 @@
+"dataset","species","system","donors","primary_timepoint","rest_period","conditions","expression","normalization","statistical_model","inference","multiple_testing"
+"GSE212282","Homo sapiens","Primary human monocytes differentiated to macrophages",3,"Day6","5 days after initial exposure","RPMI; BG; DMI; Itaconate; BG+DMI","Deposited MMSEQ gene-level output","Joint readmmseq normalization","~ donor + condition","Donor-adjusted limma moderated analysis","BH FDR separately within each genome-wide contrast"

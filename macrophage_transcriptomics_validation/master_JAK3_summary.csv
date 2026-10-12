@@ -9,3 +9,7 @@ GSE166238,oxLDL,Day6,-0.224,-1.577,1.129,0.99997,1/3 positive; 2/3 negative,No c
 GSE235897,MMA,Day6,0.038,-1.744,1.820,0.99989,1/3 positive; 2/3 negative,No evidence of persistent JAK3 deregulation
 GSE121696,Aldosterone,Day6,-0.075,-0.573,0.423,0.99936,1/3 positive; 2/3 negative,No evidence of persistent JAK3 deregulation
 GSE141656,Beta-glucan,Day6,-0.105,-1.600,1.390,0.93980,2/3 positive; 1/3 negative,No evidence of persistent JAK3 deregulation
+GSE212282,Beta-glucan,Day6,0.464,-0.245,1.172,0.52700,2/3 positive; 1/3 negative,Positive tendency but no supported persistent JAK3 deregulation
+GSE212282,DMI,Day6,0.036,-0.673,0.745,0.99737,2/3 positive; 1/3 negative,No evidence of persistent JAK3 deregulation
+GSE212282,Itaconate,Day6,0.550,-0.158,1.259,0.80478,3/3 positive,Consistent positive tendency but not statistically supported
+GSE212282,BG+DMI,Day6,0.113,-0.596,0.822,0.91509,2/3 positive; 1/3 negative,No evidence of persistent JAK3 deregulation
