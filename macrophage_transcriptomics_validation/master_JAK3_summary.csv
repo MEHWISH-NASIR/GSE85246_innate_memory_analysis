@@ -13,3 +13,8 @@ GSE212282,Beta-glucan,Day6,0.464,-0.245,1.172,0.52700,2/3 positive; 1/3 negative
 GSE212282,DMI,Day6,0.036,-0.673,0.745,0.99737,2/3 positive; 1/3 negative,No evidence of persistent JAK3 deregulation
 GSE212282,Itaconate,Day6,0.550,-0.158,1.259,0.80478,3/3 positive,Consistent positive tendency but not statistically supported
 GSE212282,BG+DMI,Day6,0.113,-0.596,0.822,0.91509,2/3 positive; 1/3 negative,No evidence of persistent JAK3 deregulation
+GSE242947,Zymosan,Day7_0h,2.582,NA,NA,0.00172,2/2 positive,Strong significant persistent JAK3 upregulation
+GSE242947,ETSU_beta-glucan,Day7_0h,1.278,NA,NA,0.99996,2/2 positive,Positive nominal tendency but not FDR-supported
+GSE242947,Depleted_zymosan,Day7_0h,1.202,NA,NA,0.42238,2/2 positive,Positive nominal tendency but not FDR-supported
+GSE110947,Heme,Day6,-0.505,-1.132,0.121,0.35900,0/5 positive; 5/5 negative,Consistent negative tendency but not statistically supported
+GSE110947,Beta-glucan,Day6,0.045,-0.582,0.671,0.96680,2/5 positive; 3/5 negative,No evidence of persistent JAK3 deregulation

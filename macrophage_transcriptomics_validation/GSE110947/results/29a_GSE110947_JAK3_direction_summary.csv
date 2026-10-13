@@ -1,0 +1,3 @@
+contrast,mean_effect,median_effect,positive_donors,negative_donors,direction_consistency
+Heme_vs_RPMI,-0.5054770024,-0.442125012,0,5,1
+BG_vs_RPMI,0.0447646133333334,-0.126730333333334,2,3,0.6

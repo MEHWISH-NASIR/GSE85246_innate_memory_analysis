@@ -1,0 +1,2 @@
+"dataset","species","system","donors","initial_conditions","initial_exposure","rest_period","analysis_state","expression","normalization","statistical_model","inference"
+"GSE110947","Homo sapiens","Primary human monocyte-derived macrophages",5,"RPMI; Heme; Beta-glucan","24 h","5 days","Day6 resting macrophages, before secondary LPS","Deposited MMSEQ gene-level output","Joint readmmseq normalization","~ donor + condition","Paired limma moderated analysis"
