@@ -1,0 +1,2 @@
+"dataset","species","system","training","training_duration","rest_period","analysis_state","untrained_samples","trained_samples","excluded_samples","expression_source","method"
+"GSE235094","Homo sapiens","Primary human monocytes","Inactivated SARS-CoV-2","24 h","5 days","Day6 before secondary LPS",5,6,"Sample5 unmapped; Sample8 metadata inconsistent","Deposited fractional gene-level estimated counts","TMM normalization + limma-voom"
