@@ -1,0 +1,2 @@
+dataset,gene,contrast_original,original_log2FC,standardized_contrast,standardized_log2FC,P_value,FDR
+E-MTAB-9214,JAK3,Control_vs_D7HDM,-1.700294815,D7HDM_vs_Control,1.700294815,9.96023e-10,6.4398e-07

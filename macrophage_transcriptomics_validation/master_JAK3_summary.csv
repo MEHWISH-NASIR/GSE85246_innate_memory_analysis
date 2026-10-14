@@ -19,3 +19,5 @@ GSE242947,Depleted_zymosan,Day7_0h,1.202,NA,NA,0.42238,2/2 positive,Positive nom
 GSE110947,Heme,Day6,-0.505,-1.132,0.121,0.35900,0/5 positive; 5/5 negative,Consistent negative tendency but not statistically supported
 GSE110947,Beta-glucan,Day6,0.045,-0.582,0.671,0.96680,2/5 positive; 3/5 negative,No evidence of persistent JAK3 deregulation
 GSE235094,iSARS-CoV-2,Day6,-1.709,-3.249,-0.169,0.14356,trained mean lower than untrained,Nominal persistent JAK3 downregulation but not FDR-supported; monocyte-only supportive dataset
+E-MTAB-9214,House_dust_mite,Day6,+1.700,NA,NA,0.000000644,3/3 higher,Strong significant persistent JAK3 upregulation after HDM training
+E-MTAB-9214,House_dust_mite,Day6,1.700,NA,NA,0.000000644,3/3 higher,Strong significant persistent JAK3 upregulation after HDM training

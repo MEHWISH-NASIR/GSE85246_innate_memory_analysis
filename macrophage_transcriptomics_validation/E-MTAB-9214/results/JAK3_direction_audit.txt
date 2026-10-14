@@ -1,0 +1,23 @@
+E-MTAB-9214 JAK3 direction audit
+
+Source table:
+set2_ctr-VS-D7HDM.txt
+
+Original DESeq2 table orientation:
+control vs D7HDM
+
+Original reported JAK3 log2FoldChange:
+-1.700294815
+
+Standardized biological direction used in master summary:
+D7HDM vs control = +1.700294815
+
+JAK3 normalized expression:
+D7HDM: 107.9161, 85.1073, 104.0234
+Control: 33.0236, 24.4396, 28.0450
+
+Original adjusted P value:
+6.4398e-07
+
+Interpretation:
+Strong persistent JAK3 upregulation after HDM training.
