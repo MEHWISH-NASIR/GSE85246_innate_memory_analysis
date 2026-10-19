@@ -90,6 +90,25 @@ show_table(x, "Direct BCG/LPS contrasts; converted to log2 units")
 
 All three training-versus-RPMI JAK3 contrasts are FDR-supported and positive. None of the direct BCG-versus-LPS JAK3 contrasts is FDR-significant. The result indicates **no difference detected at available precision**, not equivalence.
 
+## Direct zymosan-versus-beta-glucan comparisons
+
+GSE242947 provides Day 7, 0-hour resting-state RNA-seq measurements before secondary LPS stimulation. We used the existing DESeq2 condition-only design to estimate direct stimulus contrasts; each condition has two biological replicates. Donor matching was not established, so the analysis does not assume matched pairs.
+
+### Direct JAK3 contrasts
+
+```{r}
+zymo <- read.csv("GSE242947/results/33a_GSE242947_JAK3_direct_stimulus_comparisons.csv")
+stopifnot(nrow(zymo) == 3, all(c("Comparison", "log2FC", "CI_low", "CI_high", "P_value", "FDR") %in% names(zymo)))
+zymo_table <- zymo[, c("Comparison", "log2FC", "CI_low", "CI_high", "P_value", "FDR")]
+show_table(zymo_table, "Direct Day 7 JAK3 contrasts in GSE242947")
+```
+
+### Interpretation
+
+JAK3 had a larger estimated Day 7 response after zymosan than after ETSU beta-glucan (log2FC = +1.304; nominal P = 0.0141; genome-wide FDR = 0.256) or depleted zymosan (log2FC = +1.380; nominal P = 0.00966; FDR = 0.122). Depleted zymosan and ETSU beta-glucan had little estimated difference (log2FC = -0.076; P = 0.887; FDR = 0.9999). **None of the three direct comparisons passed genome-wide FDR correction.**
+
+The displayed 95% intervals are approximate unadjusted Wald confidence intervals. With only two replicates per condition and no verified donor-blocking information, the results are suggestive, not definitive evidence of stimulus-specific JAK3 regulation.
+
 ## Is the JAK3 pattern distinctive?
 
 ![Five-gene effect heatmap. Note: the original heatmap labels MMSEQ natural-log effects; numerical tables below use log2 units.](GSE168468/figures/32b_GSE168468_five_gene_effect_heatmap.png){width=100%}
