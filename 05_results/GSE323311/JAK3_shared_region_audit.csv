@@ -1,0 +1,10 @@
+condition,file,total_regions,JAK3_window_overlaps
+BG,bg_sig_two.bed,150,0
+BG,bg_sig_two_UP.bed,129,0
+BG,bg_sig_two_DOWN.bed,21,0
+MDP,mdp_sig_two.bed,418,0
+MDP,mdp_sig_two_UP.bed,330,0
+MDP,mdp_sig_two_DOWN.bed,88,0
+IFN,ifn_sig_two.bed,2575,0
+IFN,ifn_sig_two_UP.bed,1379,0
+IFN,ifn_sig_two_DOWN.bed,1194,0

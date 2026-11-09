@@ -1,0 +1,7 @@
+condition,day,candidate_peaks,FDR_significant,missing_padj,retained_overlaps
+BG,6,3,0,0,0
+BG,11,3,0,3,0
+IFN,6,3,0,0,0
+IFN,11,3,0,3,0
+MDP,6,3,0,1,0
+MDP,11,3,0,0,0
